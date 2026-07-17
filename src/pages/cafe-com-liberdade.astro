@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+import CafeComLiberdadeForm from '../components/forms/CafeComLiberdadeForm.astro';
+
+const pageTitle = 'Café com Liberdade | Instituto Recomeçar';
+const pageDescription =
+  'Confirme sua presença no Café com Liberdade — um café e uma conversa sobre segurança pública em 11/08.';
+const canonicalPath = '/cafe-com-liberdade';
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+  />
+
+  <div class="page">
+    <CafeComLiberdadeForm />
+  </div>
+</BaseLayout>
+
+<style>
+  .page {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+    padding: 3rem 0 5rem;
+  }
+</style>

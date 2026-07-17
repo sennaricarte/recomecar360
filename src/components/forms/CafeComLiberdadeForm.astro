@@ -1,0 +1,273 @@
+---
+import './form-styles.css';
+import {
+  FORMLY_BUCKET,
+  FORMLY_ENDPOINT,
+  FORMLY_SUPABASE_KEY,
+  FORMLY_SUPABASE_URL,
+} from '../../lib/formly-config';
+
+const FORM_ID = '02ad3c70-ddf2-410e-93ef-8f17bc5884f3';
+const ROOT_ID = `formly-${FORM_ID}`;
+
+const dietOptions = [
+  'Não possuo restrições',
+  'Vegetariano(a)',
+  'Vegano(a)',
+  'Alérgico a glúten (Celíaco)',
+  'Alérgico a lactose / Intolerante',
+  'Alérgico a amendoim / castanhas',
+  'Outras',
+];
+
+const visibleIfOutras = JSON.stringify({
+  value: 'Outras',
+  fieldId: 'dad04264-01b2-4582-9d94-e484b5a5fefa',
+  operator: 'equals',
+});
+---
+
+<div
+  class="formly-root"
+  id={ROOT_ID}
+  data-formly-root
+  data-form-id={FORM_ID}
+  data-endpoint={FORMLY_ENDPOINT}
+  data-supabase-url={FORMLY_SUPABASE_URL}
+  data-supabase-key={FORMLY_SUPABASE_KEY}
+  data-bucket={FORMLY_BUCKET}
+>
+  <noscript class="form-noscript">
+    Este formulário requer JavaScript para funcionar. Envie um e-mail para
+    <a href="mailto:atendimento@recomecar360.org">atendimento@recomecar360.org</a>
+    caso o JavaScript esteja desabilitado.
+  </noscript>
+
+  <header class="formly-root__header">
+    <h1 class="formly-root__title">Convite Café com Liberdade</h1>
+    <p class="formly-root__lead">Um café, uma conversa sobre segurança pública — 11/08</p>
+  </header>
+
+  <div class="form-success" data-formly-success hidden>
+    <p>Obrigado! Sua resposta foi enviada.</p>
+  </div>
+
+  <form class="form">
+    <p class="form-error" data-formly-error role="alert" hidden></p>
+
+    <div class="form__field" data-formly-field="8a2ca346-4393-4819-8376-2a3dc05ee785">
+      <label class="form__label" for="cafe-name">
+        Seu Nome <span class="form__required" aria-hidden="true">*</span>
+      </label>
+      <input
+        class="form__input"
+        type="text"
+        id="cafe-name"
+        name="8a2ca346-4393-4819-8376-2a3dc05ee785"
+        required
+        autocomplete="name"
+      />
+    </div>
+
+    <div class="form__field" data-formly-field="652499a5-bbd3-492b-8a3f-97fb226a4a4e">
+      <label class="form__label" for="cafe-email">
+        Email <span class="form__required" aria-hidden="true">*</span>
+      </label>
+      <input
+        class="form__input"
+        type="email"
+        id="cafe-email"
+        name="652499a5-bbd3-492b-8a3f-97fb226a4a4e"
+        required
+        autocomplete="email"
+      />
+    </div>
+
+    <div class="form__field" data-formly-field="7eaaed87-3dd9-40bd-8ed8-0fc18ef36f99">
+      <label class="form__label" for="cafe-whatsapp">
+        WhatsApp <span class="form__required" aria-hidden="true">*</span>
+      </label>
+      <input
+        class="form__input"
+        type="tel"
+        id="cafe-whatsapp"
+        name="7eaaed87-3dd9-40bd-8ed8-0fc18ef36f99"
+        required
+        autocomplete="tel"
+      />
+    </div>
+
+    <div class="form__field" data-formly-field="59c56392-bc4a-45e7-8c98-0c284de308ee">
+      <label class="form__label" for="cafe-company">
+        Empresa <span class="form__required" aria-hidden="true">*</span>
+      </label>
+      <input
+        class="form__input"
+        type="text"
+        id="cafe-company"
+        name="59c56392-bc4a-45e7-8c98-0c284de308ee"
+        required
+        autocomplete="organization"
+      />
+    </div>
+
+    <div class="form__field" data-formly-field="d498ce60-8647-4133-8944-2757e51cad9d">
+      <label class="form__label" for="cafe-role">
+        Qual seu cargo? <span class="form__required" aria-hidden="true">*</span>
+      </label>
+      <input
+        class="form__input"
+        type="text"
+        id="cafe-role"
+        name="d498ce60-8647-4133-8944-2757e51cad9d"
+        required
+        autocomplete="organization-title"
+      />
+    </div>
+
+    <fieldset class="form__fieldset" data-formly-field="dad04264-01b2-4582-9d94-e484b5a5fefa">
+      <legend class="form__legend">
+        Possui alguma restrição alimentar ou dieta específica?
+        <span class="form__required" aria-hidden="true">*</span>
+      </legend>
+      <div class="form__checkbox-group">
+        {
+          dietOptions.map((option) => (
+            <label class="form__checkbox">
+              <input type="checkbox" name="dad04264-01b2-4582-9d94-e484b5a5fefa" value={option} />
+              {option}
+            </label>
+          ))
+        }
+      </div>
+    </fieldset>
+
+    <div
+      class="form__field"
+      data-formly-field="74a542c0-0b4d-4c91-8ab0-e4b067d41e97"
+      data-formly-visibleif={visibleIfOutras}
+    >
+      <label class="form__label" for="cafe-diet-other">Quais?</label>
+      <input
+        class="form__input"
+        type="text"
+        id="cafe-diet-other"
+        name="74a542c0-0b4d-4c91-8ab0-e4b067d41e97"
+      />
+    </div>
+
+    <button class="form__submit form__submit--full" type="submit">Enviar</button>
+  </form>
+</div>
+
+<style>
+  .formly-root {
+    width: 100%;
+    max-width: 40rem;
+    margin-inline: auto;
+    padding: clamp(1.25rem, 4vw, 2.25rem);
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: 0 1px 2px rgb(63 62 64 / 4%), 0 8px 24px -12px rgb(63 62 64 / 8%);
+  }
+
+  .formly-root__header {
+    margin-bottom: 1.5rem;
+  }
+
+  .formly-root__title {
+    margin: 0 0 0.5rem;
+    font-size: clamp(1.25rem, 2.4vw, 1.625rem);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--color-primary);
+  }
+
+  .formly-root__lead {
+    margin: 0;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--color-muted-text);
+  }
+
+  .form-noscript {
+    display: block;
+    margin-bottom: 1.25rem;
+    padding: 0.875rem 1rem;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-muted);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .form-noscript a {
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+
+  .form-success {
+    margin-bottom: 1rem;
+    padding: 1rem 1.25rem;
+    background-color: color-mix(in srgb, #166534 10%, var(--color-bg));
+    border: 1px solid color-mix(in srgb, #166534 25%, var(--color-border));
+    border-radius: var(--radius-md);
+  }
+
+  .form-success p {
+    margin: 0;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #166534;
+  }
+
+  .form-error {
+    margin: 0 0 1rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--color-error);
+    background-color: color-mix(in srgb, var(--color-error) 8%, var(--color-bg));
+    border: 1px solid color-mix(in srgb, var(--color-error) 25%, var(--color-border));
+    border-radius: var(--radius-sm);
+  }
+
+  .form-success[hidden],
+  .form-error[hidden] {
+    display: none;
+  }
+
+  .form__checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .form__checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9375rem;
+    color: var(--color-text);
+    cursor: pointer;
+  }
+
+  .form__checkbox input {
+    width: 1rem;
+    height: 1rem;
+    accent-color: var(--color-primary);
+  }
+</style>
+
+<script>
+  import { initFormlyFormFromRoot } from '../../scripts/formly-engine.js';
+
+  document.querySelectorAll('[data-formly-root]').forEach((root) => {
+    if (root instanceof HTMLElement) {
+      initFormlyFormFromRoot(root);
+    }
+  });
+</script>
