@@ -1,0 +1,750 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+import logoImage from '../assets/quebrada-logo.png';
+import ledImage from '../assets/quebrada-led.jpg';
+import evolucaoImage from '../assets/quebrada-evolucao.jpg';
+import appImage from '../assets/quebrada-app.png';
+import equipeImage from '../assets/quebrada-equipe.jpg';
+
+const pageTitle = 'De Quebrada em Quebrada | Instituto Recomeçar';
+const pageDescription =
+  'Desenvolvendo profissionais e líderes sociais para atuarem na reinserção social de pessoas egressas do sistema prisional.';
+
+const maleStats = [
+  { label: 'Negros', value: '67.5%' },
+  { label: 'Entre 18 e 29 anos', value: '62.9%' },
+  { label: 'Ensino Fundamental Incompleto', value: '47.6%' },
+];
+
+const femaleStats = [
+  { label: 'Negras', value: '62%' },
+  { label: 'Entre 18 e 34 anos', value: '65.3%' },
+  { label: 'Ensino Fundamental Incompleto', value: '47.2%' },
+];
+
+const cards = [
+  {
+    title: 'Liberdade é Voltar pra Quebrada',
+    description:
+      'A maioria dos egressos do sistema prisional retorna à sua QUEBRADA de origem. Isso significa que o ciclo de relacionamentos tende a ser o mesmo.',
+  },
+  {
+    title: 'A Reincidência Criminal na Quebrada é Algo Comum',
+    description:
+      'A ausência de políticas públicas, a violação dos direitos civis, falta de educação profissional e renda são fatores que contribuem para a reincidência.',
+  },
+  {
+    title: 'Desenvolvendo Gente',
+    description:
+      'Criamos esse projeto com o objetivo de compartilhar conhecimento, informações e as boas práticas do Recomeçar e sua rede de apoio com lideranças sociais que estão em meio às quebradas.',
+  },
+];
+
+const platformItems = [
+  '20 horas de conteúdo distribuídas semanalmente',
+  'Conteúdos didáticos, visuais e práticos',
+  'Mentorias coletivas e individuais mensais',
+  'Grade de formação continuada da Falcons University',
+];
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath="/de-quebrada-em-quebrada/"
+  />
+
+  <div class="quebrada-page">
+    <section class="hero" aria-label="De Quebrada em Quebrada">
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <Image
+          src={logoImage}
+          alt="Logo De Quebrada em Quebrada"
+          class="hero__logo"
+          width={384}
+          height={192}
+          loading="lazy"
+          format="webp"
+          quality="mid"
+        />
+        <h1 class="hero__title">Desenvolvendo Gente</h1>
+        <p class="hero__text">
+          Desenvolvendo profissionais e líderes sociais para atuarem na reinserção social de pessoas
+          egressas do sistema prisional.
+        </p>
+        <p class="hero__highlight">Vamos juntos(as)?</p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Quem somos">
+      <div class="container about">
+        <div class="about__copy">
+          <p class="eyebrow">Educação · Cidadania · Geração de Renda</p>
+          <h2 class="section__title">Quem Somos</h2>
+          <div class="prose">
+            <p>
+              O Instituto Recomeçar é uma Organização Não Governamental que trabalha, desde 2015, na
+              reinserção social de pessoas egressas do sistema prisional. Essa reinserção é baseada
+              em 3 pilares de atuação: <strong>educacional</strong>, <strong>cidadania</strong> e
+              <strong>geração de renda</strong>.
+            </p>
+            <p>
+              O Instituto criou uma metodologia própria para trabalhar com a reinserção social de
+              pessoas egressas do sistema prisional.
+            </p>
+            <p>
+              Metodologia essa que foi premiada em 2022 como
+              <strong>Metodologia Inovadora</strong> pela Rede Gerando Falcões. Recentemente, o
+              Instituto também foi premiado como <strong>Organização Inovadora</strong> na
+              <strong>Categoria Educação</strong> no <strong>Prêmio Luz na Educação (LED)</strong>,
+              da Fundação Roberto Marinho.
+            </p>
+          </div>
+        </div>
+        <div class="about__media">
+          <Image
+            src={ledImage}
+            alt="Premiação LED — Luz na Educação"
+            class="about__image"
+            width={800}
+            height={600}
+            loading="lazy"
+            format="webp"
+            quality="mid"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark" aria-label="Sistema carcerário">
+      <div class="container">
+        <h2 class="section__title section__title--accent">Sistema Carcerário</h2>
+        <p class="section__lead section__lead--light">
+          O número total de custodiados no Brasil é de 644.794 em celas físicas e 190.080 em prisão
+          domiciliar, números referentes a junho de 2023.
+        </p>
+
+        <div class="stats-grid">
+          <div class="stats-panel">
+            <h3 class="stats-panel__title stats-panel__title--accent">
+              Perfil Carcerário — Masculino
+            </h3>
+            <ul class="stats-list">
+              {
+                maleStats.map((stat) => (
+                  <li class="stat-row">
+                    <div class="stat-row__meta">
+                      <span>{stat.label}</span>
+                      <strong>{stat.value}</strong>
+                    </div>
+                    <div class="stat-row__track" aria-hidden="true">
+                      <div class="stat-row__bar" style={`width: ${stat.value}`}></div>
+                    </div>
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+
+          <div class="stats-panel">
+            <h3 class="stats-panel__title stats-panel__title--primary">
+              Perfil Carcerário — Feminino
+            </h3>
+            <ul class="stats-list">
+              {
+                femaleStats.map((stat) => (
+                  <li class="stat-row">
+                    <div class="stat-row__meta">
+                      <span>{stat.label}</span>
+                      <strong>{stat.value}</strong>
+                    </div>
+                    <div class="stat-row__track" aria-hidden="true">
+                      <div
+                        class="stat-row__bar stat-row__bar--primary"
+                        style={`width: ${stat.value}`}
+                      ></div>
+                    </div>
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Liberdade é voltar pra quebrada">
+      <div class="container">
+        <ul class="cards">
+          {
+            cards.map((card) => (
+              <li class="info-card">
+                <span class="info-card__icon" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 3 4 8v8l8 5 8-5V8l-8-5Z"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 12v9M4 8l8 4 8-4"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <h3 class="info-card__title">{card.title}</h3>
+                <p class="info-card__text">{card.description}</p>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--dark" aria-label="Evolução social">
+      <div class="container evolution">
+        <div class="evolution__media">
+          <Image
+            src={evolucaoImage}
+            alt="Lideranças sociais em atividade comunitária"
+            class="evolution__image"
+            width={900}
+            height={700}
+            loading="lazy"
+            format="webp"
+            quality="mid"
+          />
+          <div class="evolution__overlay" aria-hidden="true"></div>
+          <h2 class="evolution__title">Evolução Social</h2>
+        </div>
+        <div class="evolution__copy">
+          <p>
+            Colaborar com a evolução social das pessoas egressas do sistema carcerário é essencial
+            para a quebra desse ciclo.
+          </p>
+          <p>
+            As lideranças sociais nas quebradas podem ser o principal instrumento de transformação.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Nossa plataforma">
+      <div class="container platform">
+        <div class="platform__copy">
+          <h2 class="section__title">Nossa Plataforma</h2>
+          <div class="prose">
+            <p>
+              Nossos conteúdos visam conversar com você sobre a importância do papel das ONGs na vida
+              das pessoas egressas do sistema carcerário.
+            </p>
+            <p>
+              Vamos utilizar a Academia Recomeçar, nossa Plataforma de Educação, como ferramenta de
+              comunicação.
+            </p>
+          </div>
+          <ul class="platform__list">
+            {
+              platformItems.map((item) => (
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path
+                      d="M5 12h14M13 6l6 6-6 6"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  {item}
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+        <div class="platform__media">
+          <Image
+            src={appImage}
+            alt="Aplicativo e plataforma Academia Recomeçar"
+            class="platform__image"
+            width={320}
+            height={640}
+            loading="lazy"
+            format="webp"
+            quality="mid"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--muted" aria-label="Vídeo do projeto">
+      <div class="container">
+        <h2 class="section__title section__title--center">Conheça o Projeto</h2>
+        <p class="section__lead section__lead--center">
+          Assista ao vídeo e saiba mais sobre o De Quebrada em Quebrada.
+        </p>
+        <div class="video">
+          <iframe
+            src="https://www.youtube.com/embed/B9EDB9F9Lvs"
+            title="De Quebrada em Quebrada"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Equipe">
+      <div class="container team">
+        <Image
+          src={equipeImage}
+          alt="Equipe do projeto De Quebrada em Quebrada"
+          class="team__image"
+          width={1200}
+          height={675}
+          loading="lazy"
+          format="webp"
+          quality="mid"
+        />
+      </div>
+    </section>
+
+    <section class="section section--cta" aria-label="Faça parte dessa transformação">
+      <div class="container section--cta__inner">
+        <h2 class="section__title section__title--cta">Faça parte dessa transformação</h2>
+        <div class="cta-actions">
+          <a href="/doe" class="btn btn--primary">Faça Valer a Pena</a>
+          <a href="/quero-ser-parceiro" class="btn btn--primary-outline">Quero Ser Parceiro</a>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .container {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+  }
+
+  .section {
+    padding: 5rem 0;
+    background-color: var(--color-bg);
+  }
+
+  .section--dark {
+    background-color: var(--color-foreground);
+  }
+
+  .section--muted {
+    background-color: var(--color-muted);
+  }
+
+  .section--cta {
+    background-color: var(--color-accent);
+  }
+
+  .section--cta__inner {
+    text-align: center;
+  }
+
+  .section__title {
+    margin-bottom: 1rem;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-primary);
+  }
+
+  .section__title--center {
+    text-align: center;
+  }
+
+  .section__title--accent {
+    color: var(--color-accent);
+  }
+
+  .section__title--cta {
+    color: var(--color-accent-text);
+  }
+
+  .section__lead {
+    max-width: 48rem;
+    margin-bottom: 2.5rem;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: var(--color-muted-text);
+  }
+
+  .section__lead--light {
+    color: rgb(255 255 255 / 88%);
+  }
+
+  .section__lead--center {
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .eyebrow {
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+  }
+
+  .prose {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .prose p {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: var(--color-text);
+  }
+
+  .prose strong {
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .hero {
+    position: relative;
+    padding: 5rem 0;
+    background-color: var(--color-foreground);
+    overflow: hidden;
+  }
+
+  .hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgb(0 0 0 / 35%) 0%, rgb(0 0 0 / 65%) 100%);
+  }
+
+  .hero__content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--color-bg);
+  }
+
+  .hero__logo {
+    width: min(100%, 18rem);
+    height: auto;
+    margin-bottom: 1.75rem;
+  }
+
+  .hero__title {
+    margin-bottom: 1rem;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    font-weight: 800;
+    line-height: 1.15;
+  }
+
+  .hero__text {
+    max-width: 40rem;
+    margin-bottom: 1rem;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: rgb(255 255 255 / 90%);
+  }
+
+  .hero__highlight {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-accent);
+  }
+
+  .about,
+  .evolution,
+  .platform {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  .about__image,
+  .team__image {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 12px 32px rgb(0 0 0 / 12%);
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .stats-panel__title {
+    margin-bottom: 1.25rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+  }
+
+  .stats-panel__title--accent {
+    color: var(--color-accent);
+  }
+
+  .stats-panel__title--primary {
+    color: var(--color-primary);
+  }
+
+  .stats-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .stat-row__meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9375rem;
+    color: rgb(255 255 255 / 90%);
+  }
+
+  .stat-row__meta strong {
+    color: var(--color-bg);
+  }
+
+  .stat-row__track {
+    height: 0.5rem;
+    overflow: hidden;
+    background-color: rgb(255 255 255 / 14%);
+    border-radius: 9999px;
+  }
+
+  .stat-row__bar {
+    height: 100%;
+    background-color: var(--color-accent);
+    border-radius: 9999px;
+  }
+
+  .stat-row__bar--primary {
+    background-color: var(--color-primary);
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .info-card {
+    padding: 1.5rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .info-card__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+    background-color: var(--color-muted);
+    border-radius: var(--radius-sm);
+  }
+
+  .info-card__title {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .info-card__text {
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    color: var(--color-muted-text);
+  }
+
+  .evolution__media {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+  }
+
+  .evolution__image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .evolution__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 35%, rgb(0 0 0 / 78%) 100%);
+  }
+
+  .evolution__title {
+    position: absolute;
+    left: 1.25rem;
+    bottom: 1.25rem;
+    margin: 0;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 700;
+    color: var(--color-bg);
+  }
+
+  .evolution__copy {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: rgb(255 255 255 / 90%);
+  }
+
+  .platform__list {
+    list-style: none;
+    padding: 0;
+    margin: 1.75rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+  }
+
+  .platform__list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--color-text);
+  }
+
+  .platform__list svg {
+    flex-shrink: 0;
+    margin-top: 0.15rem;
+    color: var(--color-primary);
+  }
+
+  .platform__media {
+    display: flex;
+    justify-content: center;
+  }
+
+  .platform__image {
+    width: min(100%, 16rem);
+    height: auto;
+  }
+
+  .video {
+    position: relative;
+    width: min(100%, 56rem);
+    margin-inline: auto;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 1rem;
+    background-color: var(--color-border);
+  }
+
+  .video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  .team {
+    display: flex;
+    justify-content: center;
+  }
+
+  .team__image {
+    max-width: 56rem;
+  }
+
+  .cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    transition: filter 0.15s ease;
+  }
+
+  .btn--primary {
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+  }
+
+  .btn--primary-outline {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    background-color: transparent;
+  }
+
+  .btn:hover {
+    filter: brightness(0.97);
+  }
+
+  .btn:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  @media (min-width: 768px) {
+    .hero__logo {
+      width: min(100%, 24rem);
+    }
+
+    .about,
+    .evolution,
+    .platform,
+    .stats-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .cards {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .platform__image {
+      width: min(100%, 20rem);
+    }
+  }
+</style>

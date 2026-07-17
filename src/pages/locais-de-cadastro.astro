@@ -1,0 +1,310 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+
+interface LocalCadastro {
+  name: string;
+  address: string;
+  city: string;
+  phone: string;
+}
+
+function phoneDigits(phone: string): string {
+  return phone.replace(/\D/g, '');
+}
+
+function whatsappUrl(phone: string): string {
+  return `https://api.whatsapp.com/send?phone=55${phoneDigits(phone)}`;
+}
+
+const locaisSP: LocalCadastro[] = [
+  {
+    name: 'IBRASAC – Instituto Brasileiro de Alianças Sócio Ambiental Cultural',
+    address: 'Rua Francisco Augusto Lopes, 234 – Vila Diva Limão',
+    city: 'São Paulo – SP',
+    phone: '(11) 9 7535-4573',
+  },
+  {
+    name: 'Instituto Recomeçar – São Paulo',
+    address: 'Av. Vital Brasil, 478 – Vila Açoreana',
+    city: 'São Paulo – SP',
+    phone: '(11) 94704-4773',
+  },
+  {
+    name: 'Defensoria Pública do Estado de São Paulo',
+    address: 'Av. Dr. Abraão Ribeiro, 313 – Várzea da Barra Funda',
+    city: 'São Paulo – SP',
+    phone: '(11) 94704-4773',
+  },
+  {
+    name: 'Identidade Periférica',
+    address: 'Rua Sara Kubitscheck – Conjunto Habitacional Castro Alves',
+    city: 'São Paulo – SP',
+    phone: '(11) 93284-7381',
+  },
+  {
+    name: 'Instituto Vó Tutu',
+    address: 'Rua Virajuba, 1099 – Vila Itaberaba',
+    city: 'São Paulo – SP',
+    phone: '(11) 93203-6116',
+  },
+  {
+    name: 'Rede Acessibilidade',
+    address: 'Estr. Da Cumbica, 479 – Cidade Ipava',
+    city: 'São Paulo – SP',
+    phone: '(11) 93003-0803',
+  },
+];
+
+const locaisOutros: LocalCadastro[] = [
+  {
+    name: 'Instituto Sonhar Alto',
+    address: 'Rua Igarapava, 22 – Parque Uirapuru',
+    city: 'Guarulhos – SP',
+    phone: '(11) 9 1638-6452',
+  },
+  {
+    name: 'Instituto Irepo Araketu',
+    address: 'Rua Tupiniquins, 126 – Chácara Fischer',
+    city: 'Itapecerica da Serra – SP',
+    phone: '(13) 99732-0388',
+  },
+];
+
+const pageTitle = 'Locais de Cadastro — Instituto Recomeçar';
+const pageDescription =
+  'Encontre os locais de cadastro do Instituto Recomeçar em São Paulo e região.';
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath="/locais-de-cadastro/"
+  />
+
+  <section class="hero" aria-label="Locais de cadastro">
+    <div class="container hero__content">
+      <h1 class="hero__title">Locais de Cadastro</h1>
+      <p class="hero__text">
+        Encontre o ponto de atendimento mais próximo de você para realizar seu cadastro.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-label="Locais em São Paulo">
+    <div class="container">
+      <h2 class="section__title">São Paulo</h2>
+      <ul class="locations-grid">
+        {
+          locaisSP.map((local) => (
+            <li class="location-card">
+              <span class="location-card__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 21s7-5.4 7-11a7 7 0 1 0-14 0c0 5.6 7 11 7 11Z"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linejoin="round"
+                  />
+                  <circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.8" />
+                </svg>
+              </span>
+              <h3 class="location-card__name">{local.name}</h3>
+              <p class="location-card__address">{local.address}</p>
+              <p class="location-card__city">{local.city}</p>
+              <a
+                href={whatsappUrl(local.phone)}
+                class="location-card__phone"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1l-2.2 2.2Z"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                {local.phone}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--muted" aria-label="Locais em outras cidades">
+    <div class="container">
+      <h2 class="section__title">Outras Cidades</h2>
+      <ul class="locations-grid">
+        {
+          locaisOutros.map((local) => (
+            <li class="location-card">
+              <span class="location-card__icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 21s7-5.4 7-11a7 7 0 1 0-14 0c0 5.6 7 11 7 11Z"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linejoin="round"
+                  />
+                  <circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.8" />
+                </svg>
+              </span>
+              <h3 class="location-card__name">{local.name}</h3>
+              <p class="location-card__address">{local.address}</p>
+              <p class="location-card__city">{local.city}</p>
+              <a
+                href={whatsappUrl(local.phone)}
+                class="location-card__phone"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1l-2.2 2.2Z"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                {local.phone}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .container {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+  }
+
+  .hero {
+    padding: 4rem 0 3rem;
+    background: linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--color-primary) 5%, var(--color-bg)) 0%,
+      var(--color-bg) 100%
+    );
+  }
+
+  .hero__content {
+    max-width: 40rem;
+  }
+
+  .hero__title {
+    margin-bottom: 0.75rem;
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .hero__text {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted-text);
+  }
+
+  .section {
+    padding: 0 0 4rem;
+    background-color: var(--color-bg);
+  }
+
+  .section--muted {
+    padding: 4rem 0;
+    background-color: var(--color-muted);
+  }
+
+  .section__title {
+    margin-bottom: 1.5rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .locations-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .location-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1.25rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .location-card__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-bottom: 0.35rem;
+    color: var(--color-primary);
+    background-color: var(--color-muted);
+    border-radius: var(--radius-sm);
+  }
+
+  .location-card__name {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--color-primary);
+  }
+
+  .location-card__address,
+  .location-card__city {
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--color-muted-text);
+  }
+
+  .location-card__phone {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    width: fit-content;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.85rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    text-decoration: none;
+    background-color: var(--color-muted);
+    border-radius: 9999px;
+  }
+
+  .location-card__phone:hover,
+  .location-card__phone:focus-visible {
+    background-color: color-mix(in srgb, var(--color-primary) 12%, var(--color-bg));
+    outline: none;
+  }
+
+  .location-card__phone:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  @media (min-width: 768px) {
+    .locations-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>

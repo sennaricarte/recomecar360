@@ -1,0 +1,265 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+import { SITE_URL } from '../lib/jsonld';
+
+const pageTitle = 'Política de Privacidade | Instituto Recomeçar';
+const pageDescription =
+  'Saiba como o Instituto Recomeçar coleta, usa e protege seus dados pessoais ao navegar em nosso portal.';
+const canonicalPath = '/politica-de-privacidade/';
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Início',
+      item: SITE_URL,
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Política de Privacidade',
+      item: new URL(canonicalPath, SITE_URL).href,
+    },
+  ],
+};
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+    jsonLd={[breadcrumbJsonLd]}
+  />
+
+  <article class="legal">
+    <p class="legal__eyebrow">Legal</p>
+    <h1 class="legal__title">Política de Privacidade</h1>
+    <p class="legal__updated">Última atualização: 7 de março de 2026</p>
+
+    <p>
+      A sua privacidade é muito importante para nós. O Instituto Recomeçar ("nós", "nosso" ou
+      "Instituto") está comprometido em proteger os dados pessoais dos nossos visitantes,
+      beneficiários, parceiros e apoiadores. Esta Política de Privacidade explica de forma clara e
+      transparente quais informações coletamos, como as utilizamos e quais são os seus direitos.
+    </p>
+
+    <h2>1. Quem Somos</h2>
+    <p>
+      O Instituto Recomeçar é uma organização dedicada à ressocialização de egressos do sistema
+      prisional através da educação, empregabilidade e apoio socioemocional. Nossa missão é
+      transformar o ciclo da criminalidade em ciclo de produtividade, oferecendo programas,
+      conteúdos e iniciativas que promovem a reintegração social.
+    </p>
+
+    <h2>2. Quais Informações Coletamos</h2>
+    <p>Coletamos informações de duas formas:</p>
+
+    <h3>2.1. Informações fornecidas por você</h3>
+    <ul>
+      <li>
+        Formulário de contato: nome, endereço de e-mail e o conteúdo da mensagem que você envia.
+      </li>
+      <li>
+        Newsletter: endereço de e-mail, caso você opte por se inscrever para receber nossas
+        atualizações.
+      </li>
+      <li>
+        Cadastro de estudantes: nome, e-mail, telefone, universidade, curso e demais informações
+        necessárias para participação nos programas.
+      </li>
+    </ul>
+
+    <h3>2.2. Informações coletadas automaticamente</h3>
+    <ul>
+      <li>
+        Dados de navegação: endereço IP, tipo de navegador, sistema operacional, páginas visitadas,
+        tempo de permanência e data/hora de acesso.
+      </li>
+      <li>
+        Cookies: pequenos arquivos armazenados no seu dispositivo que nos ajudam a melhorar sua
+        experiência de navegação e a analisar o tráfego do site.
+      </li>
+    </ul>
+
+    <h2>3. Como Utilizamos Suas Informações</h2>
+    <p>Utilizamos as informações coletadas para os seguintes fins:</p>
+    <ul>
+      <li>Fornecer, manter e melhorar os serviços e conteúdos do Instituto.</li>
+      <li>Responder às mensagens enviadas pelo formulário de contato.</li>
+      <li>Enviar newsletters com informações sobre nossos projetos, eventos e resultados.</li>
+      <li>Gerenciar a participação em nossos programas de ressocialização e educação.</li>
+      <li>
+        Analisar o comportamento dos visitantes para aprimorar a navegação e o desempenho do site.
+      </li>
+      <li>Prevenir fraudes e garantir a segurança do portal.</li>
+      <li>Cumprir obrigações legais e regulatórias.</li>
+    </ul>
+
+    <h2>4. Cookies e Tecnologias Semelhantes</h2>
+    <p>O Instituto Recomeçar utiliza cookies para:</p>
+    <ul>
+      <li>Cookies essenciais: necessários para o funcionamento básico do site.</li>
+      <li>
+        Cookies analíticos: utilizados para entender como os visitantes interagem com o portal.
+      </li>
+      <li>Cookies de preferência: armazenam suas preferências de navegação, como tema.</li>
+    </ul>
+    <p>
+      Você pode gerenciar ou desativar cookies nas configurações do seu navegador. Note que a
+      desativação de alguns cookies pode afetar sua experiência de navegação.
+    </p>
+
+    <h2>5. Compartilhamento de Dados</h2>
+    <p>
+      O Instituto Recomeçar não vende, aluga ou comercializa suas informações pessoais. Podemos
+      compartilhar dados apenas nas seguintes situações:
+    </p>
+    <ul>
+      <li>
+        Prestadores de serviço: empresas que nos auxiliam na operação do portal e envio de
+        comunicações.
+      </li>
+      <li>
+        Obrigações legais: quando exigido por lei, ordem judicial ou processo legal aplicável.
+      </li>
+      <li>
+        Proteção de direitos: quando necessário para proteger nossos direitos, propriedade ou
+        segurança.
+      </li>
+    </ul>
+
+    <h2>6. Segurança das Informações</h2>
+    <p>
+      Adotamos medidas técnicas e organizacionais apropriadas para proteger suas informações
+      pessoais contra acesso não autorizado, alteração, divulgação ou destruição acidental.
+    </p>
+
+    <h2>7. Seus Direitos (LGPD)</h2>
+    <p>
+      Em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), você possui os
+      seguintes direitos:
+    </p>
+    <ul>
+      <li>Confirmar se realizamos o tratamento dos seus dados pessoais.</li>
+      <li>Acessar, corrigir ou solicitar a exclusão dos seus dados.</li>
+      <li>Solicitar a portabilidade dos seus dados para outro fornecedor de serviço.</li>
+      <li>
+        Revogar o consentimento a qualquer momento, inclusive para o recebimento de newsletters.
+      </li>
+      <li>
+        Apresentar reclamação junto à Autoridade Nacional de Proteção de Dados (ANPD).
+      </li>
+    </ul>
+    <p>
+      Para exercer qualquer um desses direitos, entre em contato conosco pelo e-mail:
+      contato@recomecar360.org.
+    </p>
+
+    <h2>8. Retenção de Dados</h2>
+    <p>
+      Mantemos suas informações pessoais apenas pelo tempo necessário para cumprir as finalidades
+      para as quais foram coletadas, ou conforme exigido pela legislação vigente.
+    </p>
+
+    <h2>9. Links para Sites de Terceiros</h2>
+    <p>
+      Nosso portal pode conter links para sites de terceiros. Não nos responsabilizamos pelas
+      práticas de privacidade ou pelo conteúdo desses sites externos.
+    </p>
+
+    <h2>10. Menores de Idade</h2>
+    <p>
+      O Instituto Recomeçar não coleta intencionalmente informações pessoais de menores de 13 anos.
+    </p>
+
+    <h2>11. Alterações nesta Política</h2>
+    <p>
+      Reservamo-nos o direito de atualizar esta Política de Privacidade periodicamente. Quaisquer
+      alterações serão publicadas nesta página com a data de atualização revisada.
+    </p>
+
+    <h2>12. Contato</h2>
+    <p>
+      Se você tiver dúvidas, preocupações ou solicitações relacionadas a esta Política de
+      Privacidade, entre em contato conosco:
+    </p>
+    <ul>
+      <li>E-mail: contato@recomecar360.org</li>
+      <li>Site: recomecar360.org</li>
+    </ul>
+  </article>
+</BaseLayout>
+
+<style>
+  .legal {
+    width: min(100% - 3rem, 48rem);
+    margin: 3rem auto 5rem;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-text);
+  }
+
+  .legal__eyebrow {
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+  }
+
+  .legal__title {
+    margin-bottom: 0.5rem;
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-primary);
+  }
+
+  .legal__updated {
+    margin-bottom: 2rem;
+    font-size: 0.9375rem;
+    color: var(--color-muted-text);
+  }
+
+  .legal p {
+    margin-bottom: 1.25rem;
+  }
+
+  .legal h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--color-primary);
+  }
+
+  .legal h3 {
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.1875rem;
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--color-primary);
+  }
+
+  .legal ul {
+    margin: 0 0 1.25rem;
+    padding-left: 1.5rem;
+  }
+
+  .legal li {
+    margin-bottom: 0.65rem;
+  }
+
+  .legal li:last-child {
+    margin-bottom: 0;
+  }
+</style>

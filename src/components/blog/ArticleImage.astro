@@ -1,0 +1,36 @@
+---
+import { resolveArticleImageWithFallback } from '../../lib/blog-image';
+
+interface Props {
+  imagePath: string;
+  alt: string;
+  width?: number;
+  height?: number;
+  class?: string;
+  loading?: 'lazy' | 'eager';
+  fetchpriority?: 'high' | 'low' | 'auto';
+}
+
+const {
+  imagePath,
+  alt,
+  width = 640,
+  height = 360,
+  class: className,
+  loading = 'lazy',
+  fetchpriority,
+} = Astro.props;
+
+const image = await resolveArticleImageWithFallback(imagePath, alt, width, height);
+---
+
+<img
+  src={image.src}
+  alt={image.alt}
+  width={image.width}
+  height={image.height}
+  class={className}
+  loading={loading}
+  fetchpriority={fetchpriority}
+  decoding="async"
+/>

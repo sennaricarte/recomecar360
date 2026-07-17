@@ -1,0 +1,715 @@
+{
+  "2021": {
+    "year": "2021",
+    "pdfUrl": "/docs/relatorio-atividades-2021.pdf",
+    "intro": "Após o desafiador 2020, chegamos em 2021 mais resistentes, resilientes e com mais vontade de impactar vidas. Expandimos para Recife, Brasília e São José do Rio Preto, gerando renda para 102 pessoas nas novas unidades.",
+    "highlights": [
+      {
+        "icon": "Users",
+        "value": "2.436",
+        "label": "Egressos cadastrados",
+        "color": "bg-accent/10 text-accent-text"
+      },
+      {
+        "icon": "Briefcase",
+        "value": "237",
+        "label": "Geraram renda",
+        "color": "bg-primary/10 text-primary"
+      },
+      {
+        "icon": "BarChart3",
+        "value": "10.067",
+        "label": "Atendimentos totais",
+        "color": "bg-emerald-500/10 text-emerald-600"
+      },
+      {
+        "icon": "Heart",
+        "value": "1.603",
+        "label": "Doações realizadas",
+        "color": "bg-rose-500/10 text-rose-600"
+      }
+    ],
+    "reincidencia": {
+      "nacional": "42,5%",
+      "recomecar": "5%",
+      "queda": "88%",
+      "parceira": "Em parceria com a Juíza Dra. Orleide Rosélia Nascimento da Silva, foi possível medir o percentual de egressos que reincidiram ao cárcere após concluírem a oficina de Desenvolvimento Pessoal."
+    },
+    "trilha": [
+      {
+        "icon": "ClipboardList",
+        "title": "Cadastramento",
+        "value": "2.436",
+        "desc": "O egresso entra em contato com o Instituto e faz seu cadastro, focando em entender o perfil do atendido referente a cor, gênero, classe, etc."
+      },
+      {
+        "icon": "Users",
+        "title": "Socialização",
+        "value": "1.662",
+        "desc": "Palestra feita por mediadores que passaram pela experiência do cárcere. É o momento de acolhimento onde o egresso se identifica e se compromete."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Desenvolvimento Pessoal",
+        "value": "965",
+        "desc": "Os participantes são orientados a elaborar um plano de vida, reconhecer habilidades, simular entrevistas e preparar currículos."
+      },
+      {
+        "icon": "Target",
+        "title": "Entrevista de Perfil",
+        "value": "741",
+        "desc": "Entrevista para mapear habilidades, potências e interesses para qualificação profissional e indicação a vagas."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Qualificação Profissional",
+        "value": "195",
+        "desc": "Promoção de conhecimento técnico-profissionalizante e empreendedorismo com responsabilidade social."
+      },
+      {
+        "icon": "MessageSquare",
+        "title": "Papo Reto",
+        "value": "699",
+        "desc": "Conversa de caráter explicativo e avaliativo sobre comprometimento, responsabilidade social e próximos passos."
+      }
+    ],
+    "acompanhamento": [
+      {
+        "icon": "Users",
+        "title": "Egressos Aptos",
+        "value": "2.032",
+        "desc": "Contato periódico com cadastrados para informar cursos disponíveis e verificar situação de vulnerabilidade."
+      },
+      {
+        "icon": "Briefcase",
+        "title": "Egressos Empregados",
+        "value": "1.337",
+        "desc": "Contato mensal com egressos no mercado de trabalho, auxiliando em seu desenvolvimento pessoal e profissional."
+      },
+      {
+        "icon": "Building2",
+        "title": "Empresas Parceiras",
+        "value": "338",
+        "desc": "Contato mensal com RH das empresas parceiras e visitas locais para dar suporte aos trabalhadores indicados."
+      }
+    ],
+    "unidades": [
+      {
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "tipo": "Sede principal"
+      },
+      {
+        "cidade": "Recife",
+        "estado": "PE",
+        "tipo": "Expansão regional"
+      },
+      {
+        "cidade": "Brasília",
+        "estado": "DF",
+        "tipo": "Nova unidade 2021"
+      },
+      {
+        "cidade": "São José do Rio Preto",
+        "estado": "SP",
+        "tipo": "Nova unidade 2021"
+      }
+    ],
+    "depoimentos": [
+      {
+        "nome": "Thiago Gonçalves",
+        "texto": "Terminei meu desenvolvimento do Recomeçar e participei de um curso pouco tempo depois. Me ligaram para participar de um curso de Limpeza Para Restaurantes, no final do curso fomos entrevistados e fui contratado para trabalhar em um dos restaurantes."
+      },
+      {
+        "nome": "Diogo Pedroso",
+        "texto": "Desde o primeiro contato, fui muito bem atendido por todos do Recomeçar. Após algum tempo fui encaminhado para entrevistas, uma delas na Mania de Churrasco, onde fui contratado e treinado para ser churrasqueiro. Muita gratidão ao Recomeçar."
+      },
+      {
+        "nome": "Ana Paula",
+        "texto": "Hoje no mercado de trabalho, consegui comprar meu primeiro apartamento, fui promovida para outro setor dentro da empresa. Sou extremamente grata por tudo que tem acontecido na minha vida depois que participei da socialização no Instituto Recomeçar."
+      }
+    ],
+    "destaques": [
+      {
+        "tag": "Destaque 2021",
+        "tagIcon": "Award",
+        "title": "Recomeçar Itinerante",
+        "desc": "Em 2021, criamos em São Paulo um projeto piloto que nasceu da detecção de inúmeras pessoas que tinham vontade de desenvolver-se conosco, mas não tinham dinheiro para custear sua ida até nossa sede.",
+        "desc2": "A partir de uma parceria com o poder público do Estado de São Paulo, levamos nossa operação aos Centros de Integração da Cidadania (CICs). O projeto foi um sucesso e passamos a atuar de forma itinerante também nas demais unidades."
+      },
+      {
+        "tag": "Empreendedorismo Social",
+        "tagIcon": "Handshake",
+        "title": "Pizzaria Social Opportunità",
+        "desc": "Inaugurada em 25 de outubro de 2021 em Poá, fruto de uma parceria entre o Instituto Recomeçar, Pizza Prime, Gerando Falcões e outros parceiros. Além de empregar egressos do sistema carcerário, reverte o lucro do empreendimento para ações sociais promovidas pelo Recomeçar."
+      }
+    ]
+  },
+  "2022": {
+    "year": "2022",
+    "pdfUrl": "/docs/relatorio-atividades-2022.pdf",
+    "intro": "Em 2022 ampliamos o nosso número de atendimentos ao público egresso e chegamos a um total de 11.685 atendimentos. Uma pesquisa realizada com a Juíza Ilana Kabacznik Luongo Kapah constatou que 99% do público que concluiu o curso de Desenvolvimento Pessoal não voltou ao cárcere.",
+    "highlights": [
+      {
+        "icon": "Users",
+        "value": "2.578",
+        "label": "Egressos cadastrados",
+        "color": "bg-accent/10 text-accent-text"
+      },
+      {
+        "icon": "Briefcase",
+        "value": "135",
+        "label": "Geraram renda (direta)",
+        "color": "bg-primary/10 text-primary"
+      },
+      {
+        "icon": "BarChart3",
+        "value": "11.685",
+        "label": "Atendimentos totais",
+        "color": "bg-emerald-500/10 text-emerald-600"
+      },
+      {
+        "icon": "Heart",
+        "value": "1.233",
+        "label": "Doações realizadas",
+        "color": "bg-rose-500/10 text-rose-600"
+      }
+    ],
+    "reincidencia": {
+      "nacional": "42,5%",
+      "recomecar": "1%",
+      "queda": "97,65%",
+      "parceira": "Por meio de uma parceria com a Juíza Dra. Ilana Kabacznik Luongo Kapah da Silva, foi possível medir o percentual de egressos que reincidiram ao cárcere após concluírem a oficina de Desenvolvimento Pessoal nos anos de 2021 e 2022."
+    },
+    "trilha": [
+      {
+        "icon": "ClipboardList",
+        "title": "Cadastramento",
+        "value": "2.578",
+        "desc": "A pessoa egressa entra em contato com o Instituto e faz seu cadastro, focando em entender o perfil do atendido referente a cor, gênero, renda, etc."
+      },
+      {
+        "icon": "Users",
+        "title": "Socialização",
+        "value": "1.517",
+        "desc": "Palestra feita por mentores sociais que passaram pela experiência do cárcere. Momento de acolhimento onde o egresso se identifica e se compromete."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Desenvolvimento Pessoal",
+        "value": "954",
+        "desc": "Os participantes são orientados a elaborar um plano de vida, reconhecer habilidades, simular entrevistas e preparar currículos."
+      },
+      {
+        "icon": "Target",
+        "title": "Entrevista de Perfil",
+        "value": "989",
+        "desc": "Atendimento com psicólogo(a) e assistente social para mapear habilidades, potências e interesses para qualificação profissional."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Qualificação Profissional",
+        "value": "254",
+        "desc": "Promoção de conhecimento técnico-profissionalizante e empreendedorismo com responsabilidade ambiental e social."
+      },
+      {
+        "icon": "MessageSquare",
+        "title": "Papo Reto",
+        "value": "649",
+        "desc": "Conversa de caráter explicativo e avaliativo sobre comprometimento, responsabilidade social e próximos passos."
+      }
+    ],
+    "acompanhamento": [
+      {
+        "icon": "Users",
+        "title": "Egressos Aptos",
+        "value": "2.295",
+        "desc": "Contato periódico com cadastrados para informar cursos de qualificação disponíveis e verificar situação de vulnerabilidade."
+      },
+      {
+        "icon": "Briefcase",
+        "title": "Egressos Empregados",
+        "value": "1.290",
+        "desc": "Contato quinzenal com egressos no mercado de trabalho, auxiliando em seu desenvolvimento pessoal e profissional."
+      },
+      {
+        "icon": "Building2",
+        "title": "Renda Indireta",
+        "value": "98",
+        "desc": "Egressos que conquistaram vagas por conta própria, demonstrando autonomia para garantir sustentabilidade financeira."
+      }
+    ],
+    "unidades": [
+      {
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "tipo": "Sede principal"
+      },
+      {
+        "cidade": "Recife",
+        "estado": "PE",
+        "tipo": "Expansão regional"
+      },
+      {
+        "cidade": "Brasília",
+        "estado": "DF",
+        "tipo": "Unidade"
+      },
+      {
+        "cidade": "São José do Rio Preto",
+        "estado": "SP",
+        "tipo": "Unidade"
+      }
+    ],
+    "depoimentos": [
+      {
+        "nome": "Gilberto",
+        "texto": "Sou extremamente grato a esse programa maravilhoso que vem nos dando muitas oportunidades. Venho aqui compartilhar com vocês, uma grande alegria, missão concluída graças a Deus formado faculdade de Logística."
+      },
+      {
+        "nome": "Luanda",
+        "texto": "Graças ao Recomeçar eu me senti capaz de enfrentar as barreiras do preconceito, até mesmo das pessoas mais próximas. Hoje estou trabalhando em uma grande rede hospitalar e pronta para os novos desafios, quero estudar, crescer pessoalmente e profissionalmente, o que eu fiz de errado, ficou no passado, eu RECOMECEI."
+      }
+    ],
+    "destaques": [
+      {
+        "tag": "Destaque 2022",
+        "tagIcon": "Award",
+        "title": "Bazar Recomeçar",
+        "desc": "Negócio de impacto social lançado em julho de 2022, que estimula a economia circular e aumenta o poder de compra de pessoas de baixa renda. O valor das vendas é revertido em programas de transformação social."
+      },
+      {
+        "tag": "Empreendedorismo Social",
+        "tagIcon": "Handshake",
+        "title": "Pizzaria Social Opportunità",
+        "desc": "Iniciou operações em outubro de 2021 em Poá. Parceria entre Instituto Recomeçar, Pizza Prime, Gerando Falcões e outros. Além de empregar egressos, reverte o lucro para ações sociais."
+      },
+      {
+        "tag": "Economia ao Estado",
+        "tagIcon": "TrendingUp",
+        "title": "R$ 20.400.336,00",
+        "desc": "Economia estimada para o Estado com base nos 954 egressos desenvolvidos em 2022, considerando que 99% não voltaram ao cárcere e o custo médio mensal do preso de R$ 1.800,00 (CNJ)."
+      }
+    ]
+  },
+  "2023": {
+    "year": "2023",
+    "pdfUrl": "/docs/relatorio-atividades-2023.pdf",
+    "intro": "Em 2023 alcançamos 11.874 atendimentos totais, com 3.135 novos cadastros. Nosso público médio foi de homens até 35 anos, negros ou pardos, com baixa escolaridade e renda — pais de família que encontram no Recomeçar suporte, preparo e oportunidades para uma nova trajetória de vida.",
+    "highlights": [
+      {
+        "icon": "Users",
+        "value": "3.135",
+        "label": "Cadastros realizados",
+        "color": "bg-accent/10 text-accent-text"
+      },
+      {
+        "icon": "Briefcase",
+        "value": "274",
+        "label": "Geração de renda direta",
+        "color": "bg-primary/10 text-primary"
+      },
+      {
+        "icon": "BarChart3",
+        "value": "11.874",
+        "label": "Atendimentos totais",
+        "color": "bg-emerald-500/10 text-emerald-600"
+      },
+      {
+        "icon": "GraduationCap",
+        "value": "1.045",
+        "label": "Qualificação profissional",
+        "color": "bg-rose-500/10 text-rose-600"
+      }
+    ],
+    "reincidencia": {
+      "nacional": "42,5%",
+      "recomecar": "50,5%",
+      "queda": "—",
+      "parceira": "Em 2023, o perfil de reincidência do público atendido mostrou-se dividido: 50,5% já eram reincidentes ao chegar ao Instituto, reforçando a importância do trabalho de ressocialização para quebrar o ciclo do encarceramento."
+    },
+    "trilha": [
+      {
+        "icon": "ClipboardList",
+        "title": "Cadastramento",
+        "value": "3.135",
+        "desc": "A pessoa egressa entra em contato com o Instituto e faz seu cadastro, mapeando perfil de cor, gênero, renda e escolaridade."
+      },
+      {
+        "icon": "Users",
+        "title": "Socialização",
+        "value": "1.442",
+        "desc": "Palestra feita por mentores sociais que passaram pela experiência do cárcere. Momento de acolhimento e compromisso."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Desenvolvimento Pessoal",
+        "value": "1.086",
+        "desc": "Os participantes elaboram plano de vida, reconhecem habilidades, simulam entrevistas e preparam currículos."
+      },
+      {
+        "icon": "Target",
+        "title": "Atendimentos Psicossocial",
+        "value": "883",
+        "desc": "Atendimento com psicólogo(a) e assistente social para mapear habilidades e interesses para qualificação profissional."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Qualificação Profissional",
+        "value": "1.045",
+        "desc": "Promoção de conhecimento técnico-profissionalizante. 321 egressos geraram renda através da qualificação."
+      },
+      {
+        "icon": "MessageSquare",
+        "title": "Papo Reto",
+        "value": "640",
+        "desc": "Conversa de caráter explicativo e avaliativo sobre comprometimento, responsabilidade social e próximos passos."
+      }
+    ],
+    "acompanhamento": [
+      {
+        "icon": "Users",
+        "title": "Acompanhamento",
+        "value": "3.322",
+        "desc": "Contato periódico com egressos cadastrados para acompanhar evolução, informar cursos e verificar situação de vulnerabilidade."
+      },
+      {
+        "icon": "Briefcase",
+        "title": "Renda Direta",
+        "value": "274",
+        "desc": "Egressos encaminhados pelo Instituto que conquistaram oportunidades de geração de renda."
+      },
+      {
+        "icon": "Building2",
+        "title": "Renda Indireta",
+        "value": "262",
+        "desc": "Egressos que conquistaram vagas por conta própria, demonstrando autonomia para garantir sustentabilidade financeira."
+      }
+    ],
+    "unidades": [
+      {
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "tipo": "Sede principal"
+      },
+      {
+        "cidade": "Recife",
+        "estado": "PE",
+        "tipo": "Expansão regional"
+      },
+      {
+        "cidade": "Brasília",
+        "estado": "DF",
+        "tipo": "Unidade"
+      },
+      {
+        "cidade": "São José do Rio Preto",
+        "estado": "SP",
+        "tipo": "Unidade"
+      }
+    ],
+    "depoimentos": [],
+    "destaques": [
+      {
+        "tag": "Perfil 2023",
+        "tagIcon": "Award",
+        "title": "Público Atendido",
+        "desc": "82% homens, 81% pretos e pardos, 63% são pais. 90% possuem renda familiar inferior a R$ 1.500. 76% não possuem escolaridade completa, evidenciando a necessidade do trabalho do Instituto."
+      },
+      {
+        "tag": "Geração de Renda",
+        "tagIcon": "TrendingUp",
+        "title": "536 egressos gerando renda",
+        "desc": "Total de 536 egressos gerando renda em 2023, sendo 274 por encaminhamento direto do Instituto e 262 de forma indireta, demonstrando o impacto sustentável do programa."
+      },
+      {
+        "tag": "Divulgação",
+        "tagIcon": "Handshake",
+        "title": "20 aparições na imprensa",
+        "desc": "O Instituto alcançou 274 divulgações e 20 aparições em veículos de imprensa, ampliando a visibilidade da causa da ressocialização."
+      }
+    ]
+  },
+  "2024": {
+    "year": "2024",
+    "pdfUrl": "/docs/relatorio-atividades-2024.pdf",
+    "intro": "Em 2024 registramos 10.585 atendimentos totais, somando 11.425 horas de atendimento — o equivalente a 476 dias contínuos. Atuamos em São Paulo, Brasília, Recife e São José do Rio Preto, com novos projetos como o 'Elas na Cor' e 'De Quebrada em Quebrada'.",
+    "highlights": [
+      {
+        "icon": "Users",
+        "value": "2.129",
+        "label": "Pessoas cadastradas",
+        "color": "bg-accent/10 text-accent-text"
+      },
+      {
+        "icon": "Briefcase",
+        "value": "327",
+        "label": "Geração de renda",
+        "color": "bg-primary/10 text-primary"
+      },
+      {
+        "icon": "BarChart3",
+        "value": "10.585",
+        "label": "Atendimentos totais",
+        "color": "bg-emerald-500/10 text-emerald-600"
+      },
+      {
+        "icon": "GraduationCap",
+        "value": "686",
+        "label": "Formados em qualificação",
+        "color": "bg-rose-500/10 text-rose-600"
+      }
+    ],
+    "reincidencia": {
+      "nacional": "42,5%",
+      "recomecar": "—",
+      "queda": "—",
+      "parceira": "Em 2024, o Instituto manteve seu compromisso com a redução da reincidência, investindo na trilha formativa completa e no acompanhamento contínuo dos egressos atendidos."
+    },
+    "trilha": [
+      {
+        "icon": "ClipboardList",
+        "title": "Cadastramento",
+        "value": "2.129",
+        "desc": "A pessoa egressa entra em contato com o Instituto e faz seu cadastro, mapeando perfil de cor, gênero, renda e escolaridade."
+      },
+      {
+        "icon": "Users",
+        "title": "Socialização",
+        "value": "1.187",
+        "desc": "Palestra feita por mentores sociais que passaram pela experiência do cárcere. Momento de acolhimento e compromisso."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Desenvolvimento Pessoal",
+        "value": "1.025",
+        "desc": "Os participantes elaboram plano de vida, reconhecem habilidades, simulam entrevistas e preparam currículos."
+      },
+      {
+        "icon": "Target",
+        "title": "Atendimento Psicossocial",
+        "value": "1.087",
+        "desc": "Atendimento com psicólogo(a) e assistente social para mapear habilidades e interesses para qualificação profissional."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Qualificação Profissional",
+        "value": "974",
+        "desc": "Matriculados em qualificação profissional, dos quais 686 concluíram a formação técnico-profissionalizante."
+      },
+      {
+        "icon": "MessageSquare",
+        "title": "Papo Reto",
+        "value": "577",
+        "desc": "Conversa de caráter explicativo e avaliativo sobre comprometimento, responsabilidade social e próximos passos."
+      }
+    ],
+    "acompanhamento": [
+      {
+        "icon": "Users",
+        "title": "Acompanhamento",
+        "value": "2.921",
+        "desc": "Contato periódico com egressos cadastrados para acompanhar evolução, informar cursos e verificar situação de vulnerabilidade."
+      },
+      {
+        "icon": "Briefcase",
+        "title": "Geração de Renda",
+        "value": "327",
+        "desc": "Egressos que conquistaram oportunidades de geração de renda por encaminhamento do Instituto."
+      },
+      {
+        "icon": "Building2",
+        "title": "Encaminhamentos",
+        "value": "670",
+        "desc": "Egressos encaminhados para entrevistas de emprego em empresas parceiras."
+      }
+    ],
+    "unidades": [
+      {
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "tipo": "Sede principal"
+      },
+      {
+        "cidade": "Recife",
+        "estado": "PE",
+        "tipo": "Expansão regional"
+      },
+      {
+        "cidade": "Brasília",
+        "estado": "DF",
+        "tipo": "Unidade"
+      },
+      {
+        "cidade": "São José do Rio Preto",
+        "estado": "SP",
+        "tipo": "Unidade"
+      }
+    ],
+    "depoimentos": [],
+    "destaques": [
+      {
+        "tag": "Destaque 2024",
+        "tagIcon": "Award",
+        "title": "11.425 horas de atendimento",
+        "desc": "Equivalente a 476 dias contínuos de atendimento, demonstrando o alcance e a intensidade do trabalho realizado em todas as unidades."
+      },
+      {
+        "tag": "Novos Projetos",
+        "tagIcon": "Handshake",
+        "title": "Elas na Cor & De Quebrada em Quebrada",
+        "desc": "O projeto 'Elas na Cor' oferece capacitação em pintura automotiva para mulheres egressas. 'De Quebrada em Quebrada' forma líderes sociais para atender egressos em suas comunidades."
+      },
+      {
+        "tag": "Imprensa",
+        "tagIcon": "TrendingUp",
+        "title": "816 conteúdos e 13 aparições",
+        "desc": "O Instituto produziu 816 conteúdos para sites e mídias sociais e teve 13 aparições na imprensa em 2024, incluindo a participação no Plano Municipal para Egressos."
+      }
+    ]
+  },
+  "2025": {
+    "year": "2025",
+    "pdfUrl": "/docs/relatorio-atividades-2025.pdf",
+    "intro": "Em 2025 alcançamos 9.240 atendimentos totais, somando 9.428 horas de atendimento — equivalente a 392 dias contínuos. Atuamos em quatro unidades, fortalecemos o acolhimento socioemocional, ampliamos a Formação de Líderes e seguimos investindo em dignidade no cárcere.",
+    "highlights": [
+      {
+        "icon": "Users",
+        "value": "1.829",
+        "label": "Pessoas cadastradas",
+        "color": "bg-accent/10 text-accent-text"
+      },
+      {
+        "icon": "Briefcase",
+        "value": "125",
+        "label": "Geração de renda",
+        "color": "bg-primary/10 text-primary"
+      },
+      {
+        "icon": "BarChart3",
+        "value": "9.240",
+        "label": "Atendimentos totais",
+        "color": "bg-emerald-500/10 text-emerald-600"
+      },
+      {
+        "icon": "GraduationCap",
+        "value": "819",
+        "label": "Formados em qualificação",
+        "color": "bg-rose-500/10 text-rose-600"
+      }
+    ],
+    "reincidencia": {
+      "nacional": "42,5%",
+      "recomecar": "—",
+      "queda": "—",
+      "parceira": "Em 2025, o Instituto manteve seu compromisso com a redução da reincidência por meio da trilha formativa completa, atendimento socioemocional contínuo e ações de dignidade dentro e fora do cárcere."
+    },
+    "trilha": [
+      {
+        "icon": "ClipboardList",
+        "title": "Cadastramento",
+        "value": "1.829",
+        "desc": "A pessoa egressa entra em contato com o Instituto e faz seu cadastro, mapeando perfil de cor, gênero, renda e escolaridade."
+      },
+      {
+        "icon": "Users",
+        "title": "Socialização",
+        "value": "1.025",
+        "desc": "Palestra feita por mentores sociais que passaram pela experiência do cárcere. Momento de acolhimento e compromisso."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Desenvolvimento Pessoal",
+        "value": "852",
+        "desc": "Os participantes elaboram plano de vida, reconhecem habilidades, simulam entrevistas e preparam currículos."
+      },
+      {
+        "icon": "Target",
+        "title": "Atendimento Socioemocional",
+        "value": "1.053",
+        "desc": "Atendimento com psicólogo(a) e assistente social para acolhimento e orientação para qualificação profissional."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Qualificação Profissional",
+        "value": "1.269",
+        "desc": "Matriculados em qualificação profissional, dos quais 819 concluíram a formação técnico-profissionalizante."
+      },
+      {
+        "icon": "MessageSquare",
+        "title": "Papo Reto",
+        "value": "493",
+        "desc": "Conversa de caráter explicativo e avaliativo sobre comprometimento, responsabilidade social e próximos passos."
+      }
+    ],
+    "acompanhamento": [
+      {
+        "icon": "Users",
+        "title": "Acompanhamentos",
+        "value": "1.684",
+        "desc": "Contato periódico com egressos cadastrados para acompanhar evolução, informar cursos e verificar situação de vulnerabilidade."
+      },
+      {
+        "icon": "Briefcase",
+        "title": "Geração de Renda",
+        "value": "125",
+        "desc": "Egressos que conquistaram oportunidades de geração de renda por encaminhamento do Instituto."
+      },
+      {
+        "icon": "Building2",
+        "title": "Encaminhamentos",
+        "value": "216",
+        "desc": "Egressos encaminhados para entrevistas de emprego em empresas parceiras."
+      }
+    ],
+    "unidades": [
+      {
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "tipo": "Sede principal"
+      },
+      {
+        "cidade": "Recife",
+        "estado": "PE",
+        "tipo": "Expansão regional"
+      },
+      {
+        "cidade": "Brasília",
+        "estado": "DF",
+        "tipo": "Unidade"
+      },
+      {
+        "cidade": "São José do Rio Preto",
+        "estado": "SP",
+        "tipo": "Unidade"
+      }
+    ],
+    "depoimentos": [],
+    "destaques": [
+      {
+        "tag": "Destaque 2025",
+        "tagIcon": "Award",
+        "title": "9.428 horas de atendimento",
+        "desc": "Total de 9.240 atendimentos somando 9.428 horas — equivalente a 392 dias contínuos de trabalho dedicado às pessoas egressas e suas famílias."
+      },
+      {
+        "tag": "Demais Frentes",
+        "tagIcon": "Handshake",
+        "title": "Liderança, Famílias e Dignidade",
+        "desc": "9 lideranças formadas pelo De Quebrada em Quebrada, 200 famílias cadastradas no Programa Decolagem e 5 ações de dignidade no cárcere, com 55 armários instalados e 1.760 espaços de armazenamento entregues a pessoas privadas de liberdade."
+      },
+      {
+        "tag": "Sustentabilidade Financeira",
+        "tagIcon": "TrendingUp",
+        "title": "R$ 1.563.921 captados em 2025",
+        "desc": "Entradas de R$ 1,56 milhão e investimento realizado de R$ 1,68 milhão. 65,3% destinado a despesas com gente, 16,3% despesas, 8% custo operacional e 6,8% investido diretamente no sistema prisional. Principais investidores: Instituto Ação Pela Paz (36,3%), Porticus (23,5%), Negócios Sociais (16,5%) e Gerando Falcões (11,8%)."
+      },
+      {
+        "tag": "Imprensa",
+        "tagIcon": "BarChart3",
+        "title": "12 aparições na imprensa",
+        "desc": "O Instituto teve 12 aparições em veículos de imprensa em 2025, incluindo Valor Econômico, VC S/A e TV Aparecida, ampliando o debate público sobre ressocialização e reinserção profissional."
+      }
+    ]
+  }
+}

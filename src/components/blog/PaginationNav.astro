@@ -1,0 +1,91 @@
+---
+import type { Page } from 'astro';
+
+interface Props {
+  page: Page<unknown>;
+}
+
+const { page } = Astro.props;
+---
+
+{
+  page.lastPage > 1 && (
+    <nav class="pagination" aria-label="Paginação do blog">
+      <ul class="pagination__list">
+        <li>
+          {page.url.prev ? (
+            <a href={page.url.prev} class="pagination__link" rel="prev">
+              ← Anterior
+            </a>
+          ) : (
+            <span class="pagination__link is-disabled" aria-hidden="true">
+              ← Anterior
+            </span>
+          )}
+        </li>
+        <li class="pagination__status" aria-current="page">
+          Página {page.currentPage} de {page.lastPage}
+        </li>
+        <li>
+          {page.url.next ? (
+            <a href={page.url.next} class="pagination__link" rel="next">
+              Próxima →
+            </a>
+          ) : (
+            <span class="pagination__link is-disabled" aria-hidden="true">
+              Próxima →
+            </span>
+          )}
+        </li>
+      </ul>
+    </nav>
+  )
+}
+
+<style>
+  .pagination {
+    margin-top: 2.5rem;
+  }
+
+  .pagination__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .pagination__link {
+    display: inline-flex;
+    padding: 0.625rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    text-decoration: none;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background-color: var(--color-bg);
+  }
+
+  .pagination__link:hover,
+  .pagination__link:focus-visible {
+    background-color: var(--color-muted);
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  .pagination__link.is-disabled {
+    color: var(--color-muted-text);
+    background-color: var(--color-muted);
+    border-color: var(--color-border);
+    opacity: 0.6;
+  }
+
+  .pagination__status {
+    font-size: 0.875rem;
+    color: var(--color-muted-text);
+  }
+</style>

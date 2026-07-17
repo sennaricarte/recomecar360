@@ -1,0 +1,1072 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+import ArticleCard from '../components/blog/ArticleCard.astro';
+import NewsletterForm from '../components/forms/NewsletterForm.astro';
+import ROIBanner from '../components/sections/ROIBanner.astro';
+import {
+  nonprofitJsonLd,
+  websiteJsonLd,
+  faqPageJsonLd,
+  SITE_URL,
+} from '../lib/jsonld';
+import { getPublishedArticles } from '../lib/blog';
+import relatorioData from '../data/relatorio-atividades.json';
+import heroImage from '../assets/hero-home.webp';
+import appImage from '../assets/app-recomecar.png';
+
+const pageTitle = 'Instituto Recomeçar — Segurança pública com ROI comprovado: R$16 para cada R$1 investido';
+const pageDescription =
+  'O Instituto Recomeçar reduz a reincidência criminal e gera segurança pública com ROI comprovado: R$16 para cada R$1 investido.';
+
+const faqItems = [
+  {
+    question: 'O que é o Instituto Recomeçar?',
+    answer:
+      'O Instituto Recomeçar é uma organização social brasileira fundada em 2015 que atua na ressocialização de egressos do sistema prisional por meio da educação, qualificação profissional, apoio socioemocional e geração de emprego e renda.',
+  },
+  {
+    question: 'Quem pode participar dos programas do Instituto?',
+    answer:
+      'Pessoas em processo de reintegração social, egressos do sistema prisional e comunidades em situação de vulnerabilidade podem participar dos programas, conforme critérios de cada projeto e disponibilidade de vagas nas unidades parceiras.',
+  },
+  {
+    question: 'Como minha empresa pode se tornar parceira?',
+    answer:
+      'Empresas interessadas em apoiar a ressocialização podem firmar parcerias de empregabilidade, capacitação, doação direcionada ou projetos de ESG. Acesse a página Quero ser Parceiro ou entre em contato com nossa equipe institucional.',
+  },
+  {
+    question: 'O que é o aplicativo Recomeçar 360?',
+    answer:
+      'O Recomeçar 360 é o aplicativo do Instituto que conecta egressos, familiares, voluntários e parceiros a conteúdos, serviços, oportunidades de qualificação e acompanhamento socioemocional em um único ecossistema digital.',
+  },
+  {
+    question: 'Como posso apoiar financeiramente o Instituto?',
+    answer:
+      'Você pode doar pelo site na página Doe, tornar-se investidor social ou apoiar projetos específicos. Cada contribuição financia educação, empregabilidade e apoio psicossocial que reduzem a reincidência criminal.',
+  },
+];
+
+const jsonLd = [
+  nonprofitJsonLd(SITE_URL),
+  websiteJsonLd(SITE_URL),
+  faqPageJsonLd(faqItems),
+];
+
+const stats = [
+  { value: '+13.000', label: 'pessoas cadastradas' },
+  { value: '1.241', label: 'inseridos no mercado de trabalho' },
+  { value: 'R$ 4 mi', label: 'economizados ao Estado' },
+  { value: '2.400', label: 'qualificados profissionalmente' },
+];
+
+const journeySteps = [
+  {
+    title: 'Mapeamento de Perfil',
+    description:
+      'Avaliação individual de competências, histórico e objetivos para construir um plano de reintegração personalizado.',
+  },
+  {
+    title: 'Preparação para o Mercado',
+    description:
+      'Cursos técnicos, formação digital e desenvolvimento de habilidades profissionais alinhadas à demanda do mercado.',
+  },
+  {
+    title: 'Apoio Socioemocional',
+    description:
+      'Acompanhamento psicológico, fortalecimento de vínculos familiares e suporte para reconstrução da identidade.',
+  },
+  {
+    title: 'Mentoria e Empregabilidade',
+    description:
+      'Conexão com empresas parceiras, mentoria de carreira e inserção em vagas de trabalho formal ou empreendedorismo.',
+  },
+];
+
+const projects = [
+  {
+    title: 'Academia Recomeçar',
+    tag: 'Digital',
+    description:
+      'Formação em tecnologia e competências digitais para abrir portas no mercado de trabalho da economia digital.',
+  },
+  {
+    title: 'Rec Tech',
+    tag: 'Tecnologia na quebrada',
+    description:
+      'Iniciativa que leva inovação e capacitação tecnológica para comunidades periféricas e territórios vulneráveis.',
+  },
+  {
+    title: 'Escola da Pizza',
+    tag: 'Negócio Social',
+    description:
+      'Modelo de negócio social que forma empreendedores na gastronomia e gera renda sustentável para egressos.',
+  },
+  {
+    title: 'Recomeçar para Liderar',
+    tag: 'Liderança',
+    description:
+      'Programa de desenvolvimento de lideranças comunitárias e protagonismo social de egressos reintegrados.',
+  },
+];
+
+const appBenefits = [
+  'Acesso a conteúdos educacionais e trilhas de qualificação',
+  'Acompanhamento socioemocional e rede de apoio',
+  'Oportunidades de emprego e parcerias com empresas',
+  'Comunidade de egressos, mentores e voluntários',
+  'Informações sobre direitos, serviços e programas do Instituto',
+];
+
+const b2bBenefits = [
+  'Contribuição direta para metas de ESG e ODS da sua empresa',
+  'Redução de riscos sociais e fortalecimento da cadeia de valor',
+  'Acesso a talentos qualificados e diversificação de equipes',
+  'Reconhecimento como empresa parceira da ressocialização',
+];
+
+const b2bCards = [
+  { title: 'ESG', description: 'Impacto social mensurável alinhado a relatórios de sustentabilidade.' },
+  { title: 'Compliance', description: 'Parcerias estruturadas com transparência e governança.' },
+  { title: 'Capacitação', description: 'Programas de formação customizados para demandas do setor.' },
+  { title: 'Parceria', description: 'Relacionamento de longo prazo com acompanhamento institucional.' },
+];
+
+const homeReportYear = '2025';
+const homeReport = relatorioData[homeReportYear];
+const reportStats = [
+  { value: homeReport.highlights[2]?.value ?? '0', label: 'atendimentos' },
+  { value: homeReport.highlights[1]?.value ?? '0', label: 'gerando renda' },
+  { value: homeReport.highlights[0]?.value ?? '0', label: 'cadastrados' },
+  { value: homeReport.highlights[3]?.value ?? '0', label: 'formados' },
+];
+
+const governanceCards = [
+  {
+    title: 'Conselho Administrativo e Fiscal',
+    description:
+      'Governança compartilhada com conselheiros independentes que fiscalizam a gestão e orientam a estratégia institucional.',
+  },
+  {
+    title: 'Prestação de Contas Mensal',
+    description:
+      'Relatórios periódicos de resultados, indicadores de impacto e uso de recursos disponíveis para consulta pública.',
+  },
+  {
+    title: 'Manual de Conduta',
+    description:
+      'Código de ética e conduta que orienta colaboradores, parceiros e voluntários em todas as atividades do Instituto.',
+  },
+];
+
+const publishedArticles = await getPublishedArticles();
+const recentArticles = publishedArticles.slice(0, 3);
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath="/"
+    jsonLd={jsonLd}
+  />
+
+  <section id="hero" class="hero" aria-label="Apresentação institucional">
+    <Image
+      src={heroImage}
+      alt="Participantes do Instituto Recomeçar em atividade de capacitação profissional"
+      class="hero__bg"
+      width={1920}
+      height={1080}
+      loading="eager"
+      fetchpriority="high"
+      format="webp"
+      quality="mid"
+    />
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Instituto Recomeçar</p>
+      <h1 class="hero__title">
+        Enquanto um egresso volta ao crime, <span class="hero__title-accent">212 milhões de brasileiros</span> continuam presos no medo.
+      </h1>
+      <p class="hero__statement">Nós quebramos esse ciclo.</p>
+      <div class="hero__actions">
+        <a href="/doe" class="btn btn--accent">Seja um Investidor</a>
+        <a href="#dados" class="btn btn--ghost">Saiba mais</a>
+      </div>
+    </div>
+  </section>
+
+  <ROIBanner />
+
+  <section id="dados" class="impact" aria-label="Dados de impacto">
+    <div class="container">
+      <h2 class="section-title">Dados de Impacto</h2>
+      <p class="section-lead">
+        Resultados que comprovam o potencial da ressocialização como política pública e investimento social.
+      </p>
+      <ul class="impact__grid">
+        {
+          stats.map((stat) => (
+            <li class="stat-card">
+              <strong class="stat-card__value">{stat.value}</strong>
+              <span class="stat-card__label">{stat.label}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section id="jornada" class="journey" aria-label="Jornada do egresso">
+    <div class="container">
+      <h2 class="section-title">Jornada do Egresso</h2>
+      <p class="section-lead">
+        Um caminho estruturado da reintegração social à inserção sustentável no mercado de trabalho.
+      </p>
+      <ol class="journey__timeline">
+        {
+          journeySteps.map((step, index) => (
+            <li class="journey__step">
+              <span class="journey__number" aria-hidden="true">
+                {index + 1}
+              </span>
+              <h3 class="journey__step-title">{step.title}</h3>
+              <p class="journey__step-text">{step.description}</p>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
+
+  <section id="projetos" class="projects" aria-label="Nossos projetos">
+    <div class="container">
+      <h2 class="section-title section-title--light">Nossos Projetos</h2>
+      <p class="section-lead section-lead--light">
+        Iniciativas que combinam educação, tecnologia, empreendedorismo e liderança comunitária.
+      </p>
+      <ul class="projects__grid">
+        {
+          projects.map((project) => (
+            <li class="project-card">
+              <span class="project-card__tag">{project.tag}</span>
+              <h3 class="project-card__title">{project.title}</h3>
+              <p class="project-card__text">{project.description}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="app" aria-label="Aplicativo Recomeçar 360">
+    <div class="container app__grid">
+      <div class="app__mockup">
+        <div class="app__frame">
+          <Image
+            src={appImage}
+            alt="Tela do aplicativo Recomeçar 360 em um smartphone"
+            width={390}
+            height={868}
+            format="webp"
+            quality="mid"
+          />
+        </div>
+      </div>
+      <div class="app__content">
+        <h2 class="section-title">App Recomeçar 360</h2>
+        <p class="section-lead">
+          Tecnologia a serviço da reintegração: acompanhe, aprenda e conecte-se em um só lugar.
+        </p>
+        <ul class="check-list">
+          {
+            appBenefits.map((benefit) => (
+              <li class="check-list__item">
+                <svg class="check-list__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <path
+                    d="M4 10.5 8 14.5 16 6.5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                {benefit}
+              </li>
+            ))
+          }
+        </ul>
+        <a href="/aplicativo" class="btn btn--primary">Saiba mais sobre o app</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="b2b" aria-label="Para empresas">
+    <div class="container b2b__grid">
+      <div class="b2b__content">
+        <h2 class="section-title">Para Empresas</h2>
+        <p class="section-lead">
+          Integre sua estratégia de ESG e ODS a um modelo comprovado de impacto social e retorno para a sociedade.
+        </p>
+        <ul class="check-list">
+          {
+            b2bBenefits.map((benefit) => (
+              <li class="check-list__item">
+                <svg class="check-list__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <path
+                    d="M4 10.5 8 14.5 16 6.5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                {benefit}
+              </li>
+            ))
+          }
+        </ul>
+        <a href="/quero-ser-parceiro" class="btn btn--primary">Quero ser parceiro</a>
+      </div>
+      <ul class="b2b__cards">
+        {
+          b2bCards.map((card) => (
+            <li class="mini-card">
+              <h3 class="mini-card__title">{card.title}</h3>
+              <p class="mini-card__text">{card.description}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="report" aria-label="Relatório de atividades">
+    <div class="report__glow" aria-hidden="true"></div>
+    <div class="container report__inner">
+      <div class="report__copy">
+        <h2 class="section-title section-title--light">Relatório de Atividades {homeReport.year}</h2>
+        <p class="section-lead section-lead--light">
+          Transparência e prestação de contas: conheça os números, histórias e resultados do último ano de atuação.
+        </p>
+        <div class="report__actions">
+          <a href="/relatorio-de-atividades" class="btn btn--accent">Ver relatório completo</a>
+          <a href={homeReport.pdfUrl} class="btn btn--ghost-light" download>
+            Baixar PDF
+          </a>
+        </div>
+      </div>
+      <ul class="report__stats">
+        {
+          reportStats.map((stat) => (
+            <li class="report-stat">
+              <strong class="report-stat__value">{stat.value}</strong>
+              <span class="report-stat__label">{stat.label}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section id="governanca" class="governance" aria-label="Governança e transparência">
+    <div class="container">
+      <h2 class="section-title">Governança e Transparência</h2>
+      <p class="section-lead">
+        Compromisso com ética, accountability e gestão responsável dos recursos públicos e privados.
+      </p>
+      <ul class="governance__grid">
+        {
+          governanceCards.map((card) => (
+            <li class="governance-card">
+              <h3 class="governance-card__title">{card.title}</h3>
+              <p class="governance-card__text">{card.description}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="articles" aria-label="Artigos recentes">
+    <div class="container">
+      <h2 class="section-title">Artigos Recentes</h2>
+      <p class="section-lead">Notícias, reflexões e conteúdos do ecossistema Recomeçar.</p>
+      {
+        recentArticles.length > 0 ? (
+          <ul class="articles__grid">
+            {recentArticles.map((article) => (
+              <li>
+                <ArticleCard article={article} headingLevel="h3" />
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p class="articles__empty">Em breve publicaremos novos artigos.</p>
+        )
+      }
+    </div>
+  </section>
+
+  <section class="newsletter" aria-label="Newsletter">
+    <div class="container newsletter__inner">
+      <NewsletterForm />
+    </div>
+  </section>
+
+  <section class="faq" aria-label="Perguntas frequentes">
+    <div class="container">
+      <h2 class="section-title">Perguntas Frequentes</h2>
+      <div class="faq__list">
+        {
+          faqItems.map((item) => (
+            <details class="faq__item">
+              <summary class="faq__question">
+                <span>{item.question}</span>
+                <svg class="faq__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <path
+                    d="M8 5l4 5-4 5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </summary>
+              <p class="faq__answer">{item.answer}</p>
+            </details>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  :global(html) {
+    scroll-behavior: smooth;
+  }
+
+  .container {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+  }
+
+  .section-title {
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 0.75rem;
+  }
+
+  .section-title--light {
+    color: var(--color-bg);
+  }
+
+  .section-lead {
+    max-width: 42rem;
+    font-size: 1.0625rem;
+    color: var(--color-muted-text);
+    margin-bottom: 2.5rem;
+    line-height: 1.7;
+  }
+
+  .section-lead--light {
+    color: rgb(255 255 255 / 88%);
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    transition: filter 0.15s ease, background-color 0.15s ease;
+  }
+
+  .btn--accent {
+    color: var(--color-accent-text);
+    background-color: var(--color-accent);
+  }
+
+  .btn--primary {
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+  }
+
+  .btn--primary:hover {
+    background-color: var(--color-primary-hover);
+  }
+
+  .btn--ghost {
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+    background-color: transparent;
+  }
+
+  .btn--ghost-light {
+    color: var(--color-bg);
+    border-color: rgb(255 255 255 / 60%);
+    background-color: transparent;
+  }
+
+  .btn:hover {
+    filter: brightness(0.97);
+  }
+
+  .btn:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  .hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: clamp(28rem, 85vh, 40rem);
+    overflow: hidden;
+  }
+
+  .hero__bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .hero__overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--color-primary) 92%, transparent) 0%,
+      color-mix(in srgb, var(--color-primary) 70%, transparent) 55%,
+      color-mix(in srgb, var(--color-primary) 50%, transparent) 100%
+    );
+  }
+
+  .hero__content {
+    position: relative;
+    z-index: 2;
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+    padding: 4rem 0;
+    color: var(--color-bg);
+  }
+
+  .hero__eyebrow {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+
+  .hero__title {
+    max-width: 16ch;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 1.25rem;
+  }
+
+  .hero__title-accent {
+    color: var(--color-accent);
+  }
+
+  .hero__statement {
+    max-width: 38rem;
+    font-size: clamp(1.375rem, 3.5vw, 1.9rem);
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--color-bg);
+    margin-bottom: 2rem;
+  }
+
+  .hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .impact {
+    padding: 5rem 0;
+    background-color: var(--color-bg);
+  }
+
+  .impact__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .stat-card {
+    padding: 1.5rem;
+    background-color: var(--color-muted);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    text-align: center;
+  }
+
+  .stat-card__value {
+    display: block;
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-card__label {
+    font-size: 0.9375rem;
+    color: var(--color-muted-text);
+  }
+
+  .journey {
+    padding: 5rem 0;
+    background-color: var(--color-muted);
+  }
+
+  .journey__timeline {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .journey__step {
+    position: relative;
+    padding: 1.5rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .journey__number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+    border-radius: 9999px;
+  }
+
+  .journey__step-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+  }
+
+  .journey__step-text {
+    font-size: 0.9375rem;
+    color: var(--color-muted-text);
+    line-height: 1.6;
+  }
+
+  .projects {
+    padding: 5rem 0;
+    background-color: var(--color-primary);
+  }
+
+  .projects__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .project-card {
+    padding: 1.5rem;
+    background-color: color-mix(in srgb, var(--color-bg) 8%, transparent);
+    border: 1px solid rgb(255 255 255 / 14%);
+    border-radius: var(--radius-md);
+  }
+
+  .project-card__tag {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    padding: 0.25rem 0.625rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+    background-color: var(--color-accent);
+    border-radius: var(--radius-sm);
+  }
+
+  .project-card__title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-bg);
+    margin-bottom: 0.5rem;
+  }
+
+  .project-card__text {
+    font-size: 0.9375rem;
+    color: rgb(255 255 255 / 85%);
+    line-height: 1.6;
+  }
+
+  .app {
+    padding: 5rem 0;
+    background-color: var(--color-bg);
+  }
+
+  .app__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  .app__frame {
+    max-width: 16rem;
+    margin-inline: auto;
+    padding: 0.75rem;
+    background-color: var(--color-muted);
+    border: 4px solid var(--color-primary);
+    border-radius: 2rem;
+    overflow: hidden;
+  }
+
+  .app__frame :global(img) {
+    border-radius: 1.25rem;
+  }
+
+  .check-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .check-list__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.9375rem;
+    color: var(--color-text);
+    line-height: 1.5;
+  }
+
+  .check-list__icon {
+    flex-shrink: 0;
+    margin-top: 0.125rem;
+    color: var(--color-primary);
+  }
+
+  .b2b {
+    padding: 5rem 0;
+    background-color: var(--color-muted);
+  }
+
+  .b2b__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .b2b__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mini-card {
+    padding: 1.25rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .mini-card__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 0.375rem;
+  }
+
+  .mini-card__text {
+    font-size: 0.875rem;
+    color: var(--color-muted-text);
+    line-height: 1.5;
+  }
+
+  .report {
+    position: relative;
+    padding: 5rem 0;
+    background-color: var(--color-primary);
+    overflow: hidden;
+  }
+
+  .report__glow {
+    position: absolute;
+    top: -30%;
+    right: -10%;
+    width: 28rem;
+    height: 28rem;
+    background: radial-gradient(circle, var(--color-accent) 0%, transparent 70%);
+    opacity: 0.25;
+    filter: blur(40px);
+    pointer-events: none;
+  }
+
+  .report__inner {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  .report__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .report__stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .report-stat {
+    padding: 1.25rem;
+    text-align: center;
+    background-color: color-mix(in srgb, var(--color-bg) 10%, transparent);
+    border: 1px solid rgb(255 255 255 / 14%);
+    border-radius: var(--radius-md);
+  }
+
+  .report-stat__value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    margin-bottom: 0.25rem;
+  }
+
+  .report-stat__label {
+    font-size: 0.8125rem;
+    color: rgb(255 255 255 / 85%);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .governance {
+    padding: 5rem 0;
+    background-color: var(--color-bg);
+  }
+
+  .governance__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .governance-card {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: var(--color-muted);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .governance-card__title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 0.75rem;
+  }
+
+  .governance-card__text {
+    font-size: 0.9375rem;
+    color: var(--color-muted-text);
+    line-height: 1.6;
+  }
+
+  .articles {
+    padding: 5rem 0;
+    background-color: var(--color-muted);
+  }
+
+  .articles__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .articles__empty {
+    font-size: 0.9375rem;
+    color: var(--color-muted-text);
+    font-style: italic;
+  }
+
+  .newsletter {
+    padding: 4rem 0;
+    background-color: var(--color-muted);
+  }
+
+  .newsletter__inner {
+    max-width: 40rem;
+    padding: 1.75rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .faq {
+    padding: 5rem 0 6rem;
+    background-color: var(--color-bg);
+  }
+
+  .faq__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .faq__item {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background-color: var(--color-muted);
+    overflow: hidden;
+  }
+
+  .faq__question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.125rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .faq__question::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq__chevron {
+    flex-shrink: 0;
+    color: var(--color-primary);
+    transition: transform 0.2s ease;
+  }
+
+  .faq__item[open] .faq__chevron {
+    transform: rotate(90deg);
+  }
+
+  .faq__answer {
+    padding: 0 1.25rem 1.25rem;
+    font-size: 0.9375rem;
+    color: var(--color-muted-text);
+    line-height: 1.7;
+  }
+
+  @media (min-width: 768px) {
+    .impact__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .journey__timeline {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      padding-top: 1.5rem;
+    }
+
+    .journey__timeline::before {
+      content: '';
+      position: absolute;
+      top: 2.6rem;
+      left: 12.5%;
+      right: 12.5%;
+      height: 0;
+      border-top: 2px solid var(--color-border);
+      z-index: 0;
+    }
+
+    .journey__step {
+      z-index: 1;
+    }
+
+    .projects__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .app__grid {
+      grid-template-columns: 1fr 1.2fr;
+    }
+
+    .b2b__grid {
+      grid-template-columns: 1.1fr 1fr;
+    }
+
+    .b2b__cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .report__inner {
+      grid-template-columns: 1.2fr 1fr;
+    }
+
+    .governance__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .articles__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .impact__grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+</style>

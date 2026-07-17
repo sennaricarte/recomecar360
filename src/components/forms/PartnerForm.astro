@@ -1,0 +1,92 @@
+---
+import { SITE_URL } from '../../lib/jsonld';
+import './form-styles.css';
+
+const redirectUrl = new URL('/obrigado/?form=parceiro', SITE_URL).href;
+---
+
+<form class="form" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="SEU_ACCESS_KEY_AQUI" />
+  <input type="hidden" name="subject" value="Nova proposta de parceria — Instituto Recomeçar" />
+  <input type="hidden" name="redirect" value={redirectUrl} />
+  <input
+    type="checkbox"
+    name="botcheck"
+    class="hidden"
+    style="display:none"
+    tabindex="-1"
+    autocomplete="off"
+  />
+
+  <fieldset class="form__fieldset">
+    <legend class="form__legend">Proposta de parceria</legend>
+
+    <div class="form__grid form__grid--2">
+      <div class="form__field">
+        <label class="form__label" for="partner-company">Empresa</label>
+        <input
+          class="form__input"
+          type="text"
+          id="partner-company"
+          name="empresa"
+          required
+          maxlength="255"
+          autocomplete="organization"
+        />
+      </div>
+
+      <div class="form__field">
+        <label class="form__label" for="partner-name">Nome</label>
+        <input
+          class="form__input"
+          type="text"
+          id="partner-name"
+          name="nome"
+          required
+          maxlength="255"
+          autocomplete="name"
+        />
+      </div>
+
+      <div class="form__field">
+        <label class="form__label" for="partner-email">E-mail</label>
+        <input
+          class="form__input"
+          type="email"
+          id="partner-email"
+          name="email"
+          required
+          maxlength="255"
+          autocomplete="email"
+        />
+      </div>
+
+      <div class="form__field">
+        <label class="form__label" for="partner-phone">Telefone <span class="form__hint">(opcional)</span></label>
+        <input
+          class="form__input"
+          type="tel"
+          id="partner-phone"
+          name="telefone"
+          maxlength="20"
+          placeholder="(11) 99999-9999"
+          autocomplete="tel"
+        />
+      </div>
+
+      <div class="form__field" style="grid-column: 1 / -1">
+        <label class="form__label" for="partner-message">Mensagem <span class="form__hint">(opcional)</span></label>
+        <textarea
+          class="form__textarea"
+          id="partner-message"
+          name="mensagem"
+          maxlength="2000"
+          rows="5"
+          placeholder="Conte um pouco sobre a parceria que deseja estabelecer"
+        ></textarea>
+      </div>
+    </div>
+  </fieldset>
+
+  <button class="form__submit" type="submit">Enviar proposta</button>
+</form>

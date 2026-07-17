@@ -1,0 +1,398 @@
+---
+import { Image } from 'astro:assets';
+import logoImage from '../../assets/logo-recomecar.png';
+
+const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
+
+function isCurrentPage(href: string): boolean {
+  const normalized = href.replace(/\/$/, '') || '/';
+  if (normalized === '/') return pathname === '/';
+  return pathname === normalized || pathname.startsWith(`${normalized}/`);
+}
+
+const institutionalLinks = [
+  { href: '/quem-somos', label: 'Quem Somos' },
+  { href: '/seguranca-publica', label: 'Segurança Pública' },
+  { href: '/conselho', label: 'Conselho Construtivo' },
+  { href: '/diretoria', label: 'Diretoria Executiva' },
+  { href: '/embaixadores', label: 'Embaixadores' },
+  { href: '/relatorio-de-atividades', label: 'Relatório de Atividades' },
+];
+
+const projectLinks = [
+  { href: '/eureka-coworking', label: 'Eureka Coworking' },
+  { href: '/escola-da-pizza', label: 'Escola da Pizza' },
+  { href: '/de-quebrada-em-quebrada', label: 'De Quebrada em Quebrada' },
+  { href: '/projeto-integrado', label: 'Projeto Integrado de Comunicação' },
+];
+
+const isInstitutionalActive = institutionalLinks.some((link) => isCurrentPage(link.href));
+const isProjectsActive = projectLinks.some((link) => isCurrentPage(link.href));
+---
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo-link" aria-label="Instituto Recomeçar — página inicial">
+      <Image
+        src={logoImage}
+        alt="Instituto Recomeçar"
+        width={512}
+        height={484}
+        format="webp"
+        quality="mid"
+        class="site-logo"
+      />
+    </a>
+
+    <input
+      type="checkbox"
+      id="mobile-menu-toggle"
+      class="sr-only"
+      aria-label="Abrir ou fechar menu de navegação"
+    />
+
+    <a href="/doe" class="cta-doe">Faça Valer a Pena</a>
+
+    <label for="mobile-menu-toggle" class="menu-toggle" aria-label="Abrir ou fechar menu de navegação">
+      <span class="icon-open" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 7h16M4 12h16M4 17h16" />
+        </svg>
+      </span>
+      <span class="icon-close" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 6l12 12M18 6L6 18" />
+        </svg>
+      </span>
+    </label>
+
+    <nav class="main-nav" aria-label="Navegação principal">
+      <ul class="nav-list">
+        <li>
+          <a href="/" aria-current={isCurrentPage('/') ? 'page' : undefined}>Início</a>
+        </li>
+        <li>
+          <a href="/blog" aria-current={isCurrentPage('/blog') ? 'page' : undefined}>Blog</a>
+        </li>
+
+        <li class="nav-dropdown">
+          <details class="dropdown" open={isInstitutionalActive ? true : undefined}>
+            <summary aria-current={isInstitutionalActive ? 'page' : undefined}>
+              Institucional
+            </summary>
+            <ul class="dropdown-menu">
+              {
+                institutionalLinks.map((link) => (
+                  <li>
+                    <a
+                      href={link.href}
+                      aria-current={isCurrentPage(link.href) ? 'page' : undefined}
+                    >
+                      {link.label}
+                    </a>
+                  </li>
+                ))
+              }
+            </ul>
+          </details>
+        </li>
+
+        <li class="nav-dropdown">
+          <details class="dropdown" open={isProjectsActive ? true : undefined}>
+            <summary aria-current={isProjectsActive ? 'page' : undefined}>Projetos</summary>
+            <ul class="dropdown-menu">
+              {
+                projectLinks.map((link) => (
+                  <li>
+                    <a
+                      href={link.href}
+                      aria-current={isCurrentPage(link.href) ? 'page' : undefined}
+                    >
+                      {link.label}
+                    </a>
+                  </li>
+                ))
+              }
+            </ul>
+          </details>
+        </li>
+
+        <li>
+          <a href="/para-estudantes" aria-current={isCurrentPage('/para-estudantes') ? 'page' : undefined}>
+            Para Estudantes
+          </a>
+        </li>
+        <li>
+          <a href="/contato" aria-current={isCurrentPage('/contato') ? 'page' : undefined}>Contato</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    isolation: isolate;
+    background-color: color-mix(in srgb, var(--color-bg) 92%, transparent);
+    border-bottom: 1px solid var(--color-border);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 1px 3px rgb(63 62 64 / 6%);
+  }
+
+  .header-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    max-width: var(--container-max);
+    margin-inline: auto;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .logo-link {
+    flex-shrink: 0;
+    line-height: 0;
+  }
+
+  .logo-link .site-logo {
+    height: 2.75rem;
+    width: auto;
+  }
+
+  .cta-doe {
+    margin-left: auto;
+  }
+
+  .menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    color: var(--color-text);
+    cursor: pointer;
+    border-radius: var(--radius-sm);
+  }
+
+  .menu-toggle:hover,
+  .menu-toggle:focus-visible {
+    background-color: var(--color-muted);
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  .icon-close {
+    display: none;
+  }
+
+  #mobile-menu-toggle:checked ~ .menu-toggle .icon-open {
+    display: none;
+  }
+
+  #mobile-menu-toggle:checked ~ .menu-toggle .icon-close {
+    display: block;
+  }
+
+  .cta-doe {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-accent-text);
+    text-decoration: none;
+    background-color: var(--color-accent);
+    border-radius: 9999px;
+    transition: filter 0.15s ease;
+  }
+
+  .cta-doe:hover {
+    filter: brightness(0.95);
+  }
+
+  .cta-doe:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  .main-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: calc(100dvh - 4rem);
+    overflow-y: auto;
+    background-color: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: 0 8px 24px rgb(63 62 64 / 10%);
+  }
+
+  #mobile-menu-toggle:checked ~ .main-nav {
+    display: block;
+  }
+
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem 1rem 1rem;
+  }
+
+  .nav-list > li > a,
+  .dropdown > summary {
+    display: block;
+    padding: 0.75rem 0.5rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--color-text);
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+  }
+
+  .nav-list > li > a:hover,
+  .nav-list > li > a:focus-visible,
+  .dropdown > summary:hover,
+  .dropdown > summary:focus-visible,
+  .dropdown-menu a:hover,
+  .dropdown-menu a:focus-visible {
+    background-color: var(--color-muted);
+    outline: none;
+  }
+
+  .nav-list > li > a[aria-current='page'],
+  .dropdown > summary[aria-current='page'],
+  .dropdown-menu a[aria-current='page'] {
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+
+  .dropdown > summary {
+    list-style: none;
+    cursor: pointer;
+  }
+
+  .dropdown > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .dropdown > summary::after {
+    content: '';
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-left: 0.5rem;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg) translateY(-2px);
+    transition: transform 0.15s ease;
+  }
+
+  .dropdown[open] > summary::after {
+    transform: rotate(-135deg) translateY(2px);
+  }
+
+  .dropdown-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0.25rem 0.75rem;
+  }
+
+  .dropdown-menu a {
+    display: block;
+    padding: 0.625rem 0.5rem;
+    font-size: 0.875rem;
+    color: var(--color-muted-text);
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+  }
+
+  @media (min-width: 768px) {
+    .header-inner {
+      flex-wrap: nowrap;
+      gap: 1.5rem;
+    }
+
+    .menu-toggle {
+      display: none;
+    }
+
+    .cta-doe {
+      order: 3;
+      margin-left: 0;
+    }
+
+    .main-nav {
+      display: block;
+      position: static;
+      flex: 1;
+      order: 2;
+      max-height: none;
+      overflow: visible;
+      background: transparent;
+      border: none;
+      box-shadow: none;
+    }
+
+    .nav-list {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      padding: 0;
+    }
+
+    .nav-list > li > a,
+    .dropdown > summary {
+      padding: 0.5rem 0.75rem;
+      white-space: nowrap;
+    }
+
+    .nav-dropdown {
+      position: relative;
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      top: calc(100% + 0.25rem);
+      left: 0;
+      z-index: 50;
+      min-width: 15rem;
+      padding: 0.5rem;
+      background-color: var(--color-bg);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      box-shadow: 0 8px 24px rgb(63 62 64 / 12%);
+    }
+
+    .nav-dropdown .dropdown:not([open]) .dropdown-menu {
+      display: none;
+    }
+
+    .nav-dropdown .dropdown:hover .dropdown-menu,
+    .nav-dropdown .dropdown:focus-within .dropdown-menu {
+      display: block;
+    }
+
+    .dropdown > summary::after {
+      margin-left: 0.35rem;
+    }
+
+    .dropdown-menu {
+      padding-left: 0;
+    }
+  }
+</style>

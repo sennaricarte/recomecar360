@@ -1,0 +1,152 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+import BlogBreadcrumb from '../components/blog/BlogBreadcrumb.astro';
+import ContactForm from '../components/forms/ContactForm.astro';
+
+const pageTitle = 'Contato | Instituto Recomeçar';
+const pageDescription =
+  'Fale com o Instituto Recomeçar. Envie sua mensagem, tire dúvidas ou conheça formas de apoiar nossos projetos.';
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath="/contato/"
+  />
+
+  <div class="page">
+    <BlogBreadcrumb
+      items={[
+        { label: 'Início', href: '/' },
+        { label: 'Contato', current: true },
+      ]}
+    />
+
+    <header class="page__header">
+      <p class="page__eyebrow">Fale conosco</p>
+      <h1 class="page__title">Contato</h1>
+      <p class="page__lead">
+        Estamos abertos para dúvidas, parcerias, imprensa e apoio aos nossos projetos. Preencha o
+        formulário ou escreva diretamente para nossa equipe.
+      </p>
+    </header>
+
+    <div class="page__grid">
+      <aside class="info">
+        <h2 class="info__title">Informações</h2>
+        <dl class="info__list">
+          <div>
+            <dt>E-mail</dt>
+            <dd>
+              <a href="mailto:atendimento@recomecar360.org">atendimento@recomecar360.org</a>
+            </dd>
+          </div>
+          <div>
+            <dt>Institucional</dt>
+            <dd>Instituto Recomeçar</dd>
+          </div>
+        </dl>
+      </aside>
+
+      <div class="form-panel">
+        <ContactForm />
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .page {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+    padding: 3rem 0 5rem;
+  }
+
+  .page__header {
+    max-width: 42rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .page__eyebrow {
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+  }
+
+  .page__title {
+    margin-bottom: 0.75rem;
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .page__lead {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted-text);
+  }
+
+  .page__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .info,
+  .form-panel {
+    padding: 1.5rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .info__title {
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .info__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .info__list dt {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-muted-text);
+  }
+
+  .info__list dd {
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    color: var(--color-text);
+  }
+
+  .info__list a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .info__list a:hover,
+  .info__list a:focus-visible {
+    text-decoration: underline;
+  }
+
+  @media (min-width: 900px) {
+    .page__grid {
+      grid-template-columns: 0.8fr 1.4fr;
+    }
+  }
+</style>

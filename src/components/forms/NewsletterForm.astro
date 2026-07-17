@@ -1,0 +1,45 @@
+---
+import { SITE_URL } from '../../lib/jsonld';
+import './form-styles.css';
+
+const redirectUrl = new URL('/obrigado/?form=newsletter', SITE_URL).href;
+---
+
+<form class="form" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="SEU_ACCESS_KEY_AQUI" />
+  <input type="hidden" name="subject" value="Nova inscrição na newsletter — Instituto Recomeçar" />
+  <input type="hidden" name="redirect" value={redirectUrl} />
+  <input
+    type="checkbox"
+    name="botcheck"
+    class="hidden"
+    style="display:none"
+    tabindex="-1"
+    autocomplete="off"
+  />
+
+  <fieldset class="form__fieldset">
+    <legend class="form__legend">Newsletter</legend>
+    <p class="form__support">
+      Receba novidades sobre nossos projetos, histórias de transformação e oportunidades de apoio
+      diretamente no seu email. Sem spam.
+    </p>
+
+    <div class="form--inline" style="margin-top: 1rem">
+      <div class="form__field">
+        <label class="form__label" for="newsletter-email">E-mail</label>
+        <input
+          class="form__input"
+          type="email"
+          id="newsletter-email"
+          name="email"
+          required
+          maxlength="255"
+          placeholder="seu@email.com"
+          autocomplete="email"
+        />
+      </div>
+      <button class="form__submit" type="submit">Inscrever-se</button>
+    </div>
+  </fieldset>
+</form>

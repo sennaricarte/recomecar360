@@ -1,0 +1,124 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SEO from '../../components/seo/SEO.astro';
+import ArticleCard from '../../components/blog/ArticleCard.astro';
+import BlogBreadcrumb from '../../components/blog/BlogBreadcrumb.astro';
+import CategoryNav from '../../components/blog/CategoryNav.astro';
+import PaginationNav from '../../components/blog/PaginationNav.astro';
+import { getPublishedArticles } from '../../lib/blog';
+import { getBlogPagePath } from '../../lib/categories';
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const articles = await getPublishedArticles();
+  return paginate(articles, { pageSize: 12 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+
+const pageTitle = 'Blog | Instituto Recomeçar';
+const pageDescription =
+  'Artigos, notícias e conteúdos sobre ressocialização, empregabilidade, educação e impacto social do Instituto Recomeçar.';
+const canonicalPath = getBlogPagePath(page.currentPage);
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+  />
+
+  <div class="blog-page">
+    <BlogBreadcrumb
+      items={[
+        { label: 'Início', href: '/' },
+        { label: 'Blog', current: true },
+      ]}
+    />
+
+    <header class="blog-page__header">
+      <p class="blog-page__eyebrow">Conteúdos</p>
+      <h1 class="blog-page__title">Blog Recomeçar</h1>
+      <p class="blog-page__lead">{pageDescription}</p>
+      <p class="blog-page__count">{page.total} artigos publicados</p>
+    </header>
+
+    <CategoryNav />
+
+    <ul class="blog-page__grid">
+      {
+        page.data.map((article) => (
+          <li>
+            <ArticleCard article={article} />
+          </li>
+        ))
+      }
+    </ul>
+
+    <PaginationNav page={page} />
+  </div>
+</BaseLayout>
+
+<style>
+  .blog-page {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+    padding: 3rem 0 5rem;
+  }
+
+  .blog-page__header {
+    max-width: 42rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .blog-page__eyebrow {
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+  }
+
+  .blog-page__title {
+    margin-bottom: 0.75rem;
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .blog-page__lead {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted-text);
+  }
+
+  .blog-page__count {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: var(--color-muted-text);
+  }
+
+  .blog-page__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media (min-width: 768px) {
+    .blog-page__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .blog-page__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>

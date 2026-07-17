@@ -1,0 +1,230 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+import { SITE_URL } from '../lib/jsonld';
+
+const pageTitle = 'Termos de Uso | Instituto Recomeçar';
+const pageDescription =
+  'Leia os Termos de Uso do Instituto Recomeçar e entenda as condições para utilizar nosso portal.';
+const canonicalPath = '/termos-de-uso/';
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Início',
+      item: SITE_URL,
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Termos de Uso',
+      item: new URL(canonicalPath, SITE_URL).href,
+    },
+  ],
+};
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+    jsonLd={[breadcrumbJsonLd]}
+  />
+
+  <article class="legal">
+    <p class="legal__eyebrow">Legal</p>
+    <h1 class="legal__title">Termos de Uso</h1>
+    <p class="legal__updated">Última atualização: 7 de março de 2026</p>
+
+    <p>
+      Seja bem-vindo ao Instituto Recomeçar! Ao acessar, navegar ou utilizar qualquer funcionalidade
+      deste portal, você declara que leu, compreendeu e concorda integralmente com os Termos de Uso
+      descritos abaixo.
+    </p>
+
+    <h2>1. Sobre o Instituto Recomeçar</h2>
+    <p>
+      O Instituto Recomeçar é uma organização dedicada à ressocialização de egressos do sistema
+      prisional através da educação, empregabilidade e apoio socioemocional. Nossa missão é
+      transformar o ciclo da criminalidade em ciclo de produtividade, promovendo a reintegração
+      social e a dignidade humana.
+    </p>
+
+    <h2>2. Aceitação dos Termos</h2>
+    <p>
+      Ao utilizar o portal do Instituto Recomeçar, você aceita e concorda em cumprir estes Termos de
+      Uso, bem como nossa Política de Privacidade. Reservamo-nos o direito de modificar estes termos
+      a qualquer momento, com publicação da versão atualizada nesta página.
+    </p>
+
+    <h2>3. Uso Permitido do Conteúdo</h2>
+    <p>
+      Todo o conteúdo publicado no portal do Instituto Recomeçar é protegido por direitos autorais.
+      Você está autorizado a:
+    </p>
+    <ul>
+      <li>Ler, acessar e utilizar o conteúdo para fins pessoais, educacionais e de pesquisa.</li>
+      <li>
+        Compartilhar links dos artigos em redes sociais, blogs pessoais ou mensagens, com atribuição
+        ao Instituto Recomeçar.
+      </li>
+      <li>
+        Citar trechos curtos do conteúdo para fins de comentário, crítica ou discussão acadêmica.
+      </li>
+    </ul>
+
+    <h2>4. Restrições de Uso</h2>
+    <p>Você não está autorizado a:</p>
+    <ul>
+      <li>
+        Reproduzir, copiar, republicar ou redistribuir o conteúdo integral sem autorização prévia.
+      </li>
+      <li>
+        Utilizar qualquer conteúdo do portal para fins comerciais sem nossa permissão expressa.
+      </li>
+      <li>Modificar, adaptar, traduzir ou criar obras derivadas sem consentimento.</li>
+      <li>
+        Utilizar técnicas de scraping ou mineração de dados para coletar conteúdo do portal.
+      </li>
+      <li>Remover ou alterar avisos de direitos autorais ou marcas registradas.</li>
+      <li>
+        Utilizar o nome ou marca do Instituto Recomeçar para promover atividades não autorizadas.
+      </li>
+    </ul>
+
+    <h2>5. Natureza do Conteúdo e Isenção de Responsabilidade</h2>
+    <p>
+      O conteúdo publicado no portal do Instituto Recomeçar possui caráter informativo, educacional e
+      institucional. Embora nos esforcemos para manter as informações precisas e atualizadas:
+    </p>
+    <ul>
+      <li>Não garantimos a exatidão, completude ou atualidade de todas as informações.</li>
+      <li>
+        Opiniões expressas nos artigos representam a visão dos respectivos autores ou colaboradores.
+      </li>
+      <li>
+        Informações sobre programas, benefícios e legislação podem sofrer alterações sem aviso
+        prévio.
+      </li>
+    </ul>
+
+    <h2>6. Links para Sites de Terceiros</h2>
+    <p>
+      O portal do Instituto Recomeçar pode conter links para sites de terceiros. Não temos controle
+      sobre o conteúdo, políticas de privacidade ou práticas desses sites.
+    </p>
+
+    <h2>7. Propriedade Intelectual</h2>
+    <p>
+      Todos os textos, imagens, logotipos e demais elementos do portal do Instituto Recomeçar são de
+      propriedade exclusiva do Instituto ou de seus licenciadores, protegidos pela legislação
+      brasileira de propriedade intelectual.
+    </p>
+
+    <h2>8. Disponibilidade do Site</h2>
+    <p>
+      Nos esforçamos para manter o portal acessível e funcionando de forma contínua, porém não
+      garantimos disponibilidade ininterrupta.
+    </p>
+
+    <h2>9. Limitação de Responsabilidade</h2>
+    <p>
+      Na extensão máxima permitida pela legislação aplicável, o Instituto Recomeçar não será
+      responsável por quaisquer danos diretos, indiretos, incidentais, consequenciais ou punitivos
+      decorrentes do uso do portal.
+    </p>
+
+    <h2>10. Alterações nos Termos</h2>
+    <p>
+      Reservamo-nos o direito de modificar estes Termos de Uso a qualquer momento. O uso continuado
+      do portal após alterações constitui aceitação dos novos termos.
+    </p>
+
+    <h2>11. Legislação Aplicável e Foro</h2>
+    <p>
+      Estes Termos são regidos pelas leis da República Federativa do Brasil. Fica eleito o foro da
+      Comarca de São Paulo, Estado de São Paulo.
+    </p>
+
+    <h2>12. Contato</h2>
+    <p>Se você tiver dúvidas sobre estes Termos de Uso, entre em contato:</p>
+    <ul>
+      <li>E-mail: contato@recomecar360.org</li>
+      <li>Site: recomecar360.org</li>
+    </ul>
+  </article>
+</BaseLayout>
+
+<style>
+  .legal {
+    width: min(100% - 3rem, 48rem);
+    margin: 3rem auto 5rem;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-text);
+  }
+
+  .legal__eyebrow {
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+  }
+
+  .legal__title {
+    margin-bottom: 0.5rem;
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-primary);
+  }
+
+  .legal__updated {
+    margin-bottom: 2rem;
+    font-size: 0.9375rem;
+    color: var(--color-muted-text);
+  }
+
+  .legal p {
+    margin-bottom: 1.25rem;
+  }
+
+  .legal h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--color-primary);
+  }
+
+  .legal h3 {
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.1875rem;
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--color-primary);
+  }
+
+  .legal ul {
+    margin: 0 0 1.25rem;
+    padding-left: 1.5rem;
+  }
+
+  .legal li {
+    margin-bottom: 0.65rem;
+  }
+
+  .legal li:last-child {
+    margin-bottom: 0;
+  }
+</style>

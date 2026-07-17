@@ -1,0 +1,514 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+import { SITE_URL } from '../lib/jsonld';
+
+const pageTitle = 'Escola da Pizza | Instituto Recomeçar';
+const pageDescription =
+  'Programa de capacitação em gastronomia que gera renda e autonomia através da formação profissional em pizza artesanal.';
+const canonicalPath = '/escola-da-pizza/';
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Início',
+      item: SITE_URL,
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Escola da Pizza',
+      item: new URL(canonicalPath, SITE_URL).href,
+    },
+  ],
+};
+
+const pillars = [
+  {
+    title: 'Formação Profissional',
+    description:
+      'Capacitação completa na arte da pizza, desde a preparação da massa até técnicas avançadas de forno.',
+  },
+  {
+    title: 'Inclusão Social',
+    description:
+      'Oportunidade de recomeço para pessoas em situação de vulnerabilidade através da gastronomia.',
+  },
+  {
+    title: 'Certificação',
+    description:
+      'Certificado reconhecido pelo mercado, abrindo portas para empregabilidade imediata.',
+  },
+  {
+    title: 'Empregabilidade',
+    description:
+      'Conexão direta com pizzarias e restaurantes parceiros para inserção no mercado de trabalho.',
+  },
+];
+
+const stats = [
+  { value: '500+', label: 'Alunos formados' },
+  { value: '85%', label: 'Empregabilidade' },
+  { value: '50+', label: 'Empresas parceiras' },
+  { value: '12', label: 'Turmas por ano' },
+];
+
+const steps = [
+  {
+    number: '01',
+    title: 'Inscrição',
+    description:
+      'O candidato se inscreve gratuitamente e passa por uma entrevista de acolhimento.',
+  },
+  {
+    number: '02',
+    title: 'Formação',
+    description:
+      'Curso intensivo com aulas práticas e teóricas, incluindo higiene alimentar, técnicas de massa e gestão.',
+  },
+  {
+    number: '03',
+    title: 'Inserção',
+    description:
+      'Ao concluir, o aluno é conectado a empresas parceiras para oportunidades de emprego.',
+  },
+];
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+    jsonLd={[breadcrumbJsonLd]}
+  />
+
+  <div class="pizza-page">
+    <section class="hero" aria-label="Escola da Pizza">
+      <div class="hero__blob hero__blob--one" aria-hidden="true"></div>
+      <div class="hero__blob hero__blob--two" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <span class="hero__badge">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path
+              d="M12 3c-1.5 2-4 3.5-4 7a4 4 0 0 0 8 0c0-3.5-2.5-5-4-7Z"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8 14h8M9 17h6M10 20h4"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+            />
+          </svg>
+          Projeto Social
+        </span>
+        <h1 class="hero__title">Escola da Pizza</h1>
+        <p class="hero__text">
+          Transformamos vidas através da gastronomia. A Escola da Pizza do Instituto Recomeçar
+          oferece formação profissional gratuita para pessoas em situação de vulnerabilidade,
+          abrindo caminhos para um novo começo.
+        </p>
+        <div class="hero__actions">
+          <a href="/contato" class="btn btn--light">Quero me inscrever</a>
+          <a href="#sobre" class="btn btn--outline">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section" aria-label="Sobre o projeto">
+      <div class="container">
+        <p class="eyebrow">Sobre o Projeto</p>
+        <h2 class="section__title">Uma fatia de esperança</h2>
+        <p class="section__lead">
+          A Escola da Pizza nasceu da parceria entre o Instituto Recomeçar e a Pizza Prime, com o
+          objetivo de capacitar pessoas em situação de vulnerabilidade social — incluindo egressos
+          do sistema prisional — na arte da produção de pizzas artesanais e industriais. Mais do que
+          ensinar uma profissão, oferecemos dignidade e uma nova perspectiva de vida.
+        </p>
+
+        <ul class="pillars">
+          {
+            pillars.map((pillar) => (
+              <li class="pillar-card">
+                <span class="pillar-card__icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 3 3 8l9 5 9-5-9-5Zm0 10v8M6 11.5v5.2L12 21l6-4.3v-5.2"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <h3 class="pillar-card__title">{pillar.title}</h3>
+                <p class="pillar-card__text">{pillar.description}</p>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--cream" aria-label="Nosso impacto">
+      <div class="container">
+        <p class="eyebrow">Nosso Impacto</p>
+        <h2 class="section__title">Números que transformam</h2>
+        <ul class="stats">
+          {
+            stats.map((stat) => (
+              <li class="stat-card">
+                <strong class="stat-card__value">{stat.value}</strong>
+                <span class="stat-card__label">{stat.label}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Como funciona">
+      <div class="container">
+        <p class="eyebrow">Como Funciona</p>
+        <h2 class="section__title">Do aprendizado ao mercado</h2>
+        <ol class="steps">
+          {
+            steps.map((step) => (
+              <li class="step-card">
+                <span class="step-card__number" aria-hidden="true">
+                  {step.number}
+                </span>
+                <h3 class="step-card__title">{step.title}</h3>
+                <p class="step-card__text">{step.description}</p>
+              </li>
+            ))
+          }
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section--cta" aria-label="Apoie a Escola da Pizza">
+      <div class="container section--cta__inner">
+        <span class="cta-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 21s-6.7-4.3-9.3-8.1C1 10.4 1.4 7 4.2 5.5 6.3 4.4 8.7 5 12 8c3.3-3 5.7-3.6 7.8-2.5 2.8 1.5 3.2 4.9 1.5 7.4C18.7 16.7 12 21 12 21Z"
+            />
+          </svg>
+        </span>
+        <h2 class="section__title section__title--light">Apoie a Escola da Pizza</h2>
+        <p class="section__lead section__lead--light">
+          Sua contribuição ajuda a transformar vidas. Seja doador, voluntário ou empresa parceira —
+          cada gesto faz a diferença na vida de quem busca um recomeço.
+        </p>
+        <div class="hero__actions">
+          <a href="/doe" class="btn btn--light">Faça Valer a Pena</a>
+          <a href="/contato" class="btn btn--outline">Fale conosco</a>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .pizza-page {
+    --pizza-orange: #e85d26;
+    --pizza-orange-dark: #b8411a;
+    --pizza-cream: #faf5f0;
+  }
+
+  :global(html) {
+    scroll-behavior: smooth;
+  }
+
+  .container {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+  }
+
+  .hero {
+    position: relative;
+    overflow: hidden;
+    padding: 5rem 0;
+    color: #ffffff;
+    background: linear-gradient(135deg, var(--pizza-orange) 0%, var(--pizza-orange-dark) 100%);
+  }
+
+  .hero__blob {
+    position: absolute;
+    border-radius: 9999px;
+    background: rgb(255 255 255 / 12%);
+    filter: blur(40px);
+    pointer-events: none;
+  }
+
+  .hero__blob--one {
+    top: -4rem;
+    right: -3rem;
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .hero__blob--two {
+    bottom: -6rem;
+    left: -4rem;
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .hero__content {
+    position: relative;
+    z-index: 1;
+    max-width: 44rem;
+  }
+
+  .hero__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+    padding: 0.4rem 0.85rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--pizza-orange-dark);
+    background-color: #ffffff;
+    border-radius: 9999px;
+  }
+
+  .hero__title {
+    margin-bottom: 1rem;
+    font-size: clamp(2.25rem, 6vw, 3.75rem);
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  .hero__text {
+    margin-bottom: 2rem;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: rgb(255 255 255 / 94%);
+  }
+
+  .hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.875rem;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    transition: filter 0.15s ease;
+  }
+
+  .btn--light {
+    color: var(--pizza-orange);
+    background-color: #ffffff;
+  }
+
+  .btn--outline {
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: transparent;
+  }
+
+  .btn:hover {
+    filter: brightness(0.97);
+  }
+
+  .btn:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 3px;
+  }
+
+  .section {
+    padding: 5rem 0;
+    background-color: #ffffff;
+  }
+
+  .section--cream {
+    background-color: var(--pizza-cream);
+  }
+
+  .section--cta {
+    background: linear-gradient(135deg, var(--pizza-orange) 0%, var(--pizza-orange-dark) 100%);
+  }
+
+  .section--cta__inner {
+    max-width: 42rem;
+    text-align: center;
+  }
+
+  .eyebrow {
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--pizza-orange);
+  }
+
+  .section__title {
+    margin-bottom: 1rem;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: #2a211c;
+  }
+
+  .section__title--light {
+    color: #ffffff;
+  }
+
+  .section__lead {
+    max-width: 48rem;
+    margin-bottom: 2.5rem;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: #5c524c;
+  }
+
+  .section__lead--light {
+    margin-inline: auto;
+    color: rgb(255 255 255 / 92%);
+  }
+
+  .pillars,
+  .stats,
+  .steps {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .pillar-card,
+  .stat-card,
+  .step-card {
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border: 1px solid #efe4db;
+    border-radius: 0.75rem;
+  }
+
+  .section--cream .stat-card {
+    background-color: #ffffff;
+  }
+
+  .pillar-card__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    color: var(--pizza-orange);
+    background-color: color-mix(in srgb, var(--pizza-orange) 14%, #ffffff);
+    border-radius: 9999px;
+  }
+
+  .pillar-card__title,
+  .step-card__title {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #2a211c;
+  }
+
+  .pillar-card__text,
+  .step-card__text {
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    color: #5c524c;
+  }
+
+  .stat-card {
+    text-align: center;
+  }
+
+  .stat-card__value {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    font-weight: 800;
+    line-height: 1;
+    color: var(--pizza-orange);
+  }
+
+  .stat-card__label {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #5c524c;
+  }
+
+  .step-card {
+    text-align: center;
+  }
+
+  .step-card__number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.25rem;
+    height: 3.25rem;
+    margin-bottom: 1rem;
+    font-size: 0.9375rem;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: var(--pizza-orange);
+    border-radius: 9999px;
+  }
+
+  .cta-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+    color: var(--pizza-orange);
+    background-color: #ffffff;
+    border-radius: 9999px;
+  }
+
+  .section--cta .hero__actions {
+    justify-content: center;
+  }
+
+  @media (min-width: 768px) {
+    .pillars,
+    .stats {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .steps {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .pillars,
+    .stats {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+</style>

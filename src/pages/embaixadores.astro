@@ -1,0 +1,119 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+import BlogBreadcrumb from '../components/blog/BlogBreadcrumb.astro';
+import TeamCard from '../components/blog/TeamCard.astro';
+import { sortByOrder } from '../lib/team';
+
+const members = sortByOrder(await getCollection('embaixadores'));
+
+const pageTitle = 'Embaixadores | Instituto Recomeçar';
+const pageDescription =
+  'Conheça os embaixadores do Instituto Recomeçar, personalidades que amplificam a causa da ressocialização e da inclusão social.';
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath="/embaixadores/"
+  />
+
+  <div class="team-page">
+    <BlogBreadcrumb
+      items={[
+        { label: 'Início', href: '/' },
+        { label: 'Embaixadores', current: true },
+      ]}
+    />
+
+    <header class="team-page__header">
+      <p class="team-page__eyebrow">Rede de apoio</p>
+      <h1 class="team-page__title">Embaixadores</h1>
+      <p class="team-page__lead">
+        Nossos embaixadores são aliados que dão visibilidade à missão do Instituto Recomeçar e
+        inspiram mais pessoas e organizações a apoiar a reintegração social.
+      </p>
+    </header>
+
+    <ul class="team-page__grid team-page__grid--ambassadors">
+      {
+        members.map((member) => (
+          <li>
+            <TeamCard member={member} variant="compact" photoShape="rounded" />
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</BaseLayout>
+
+<style>
+  .team-page {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+    padding: 3rem 0 5rem;
+  }
+
+  .team-page__header {
+    max-width: 42rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .team-page__eyebrow {
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+  }
+
+  .team-page__title {
+    margin-bottom: 0.75rem;
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .team-page__lead {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted-text);
+  }
+
+  .team-page__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  @media (min-width: 640px) {
+    .team-page__grid--ambassadors {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .team-page__grid--ambassadors {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .team-page__grid--ambassadors {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .team-page__grid--ambassadors {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+</style>

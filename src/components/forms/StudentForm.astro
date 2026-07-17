@@ -1,0 +1,329 @@
+---
+import './form-styles.css';
+import {
+  FORMLY_BUCKET,
+  FORMLY_ENDPOINT,
+  FORMLY_SUPABASE_KEY,
+  FORMLY_SUPABASE_URL,
+} from '../../lib/formly-config';
+
+const FORM_ID = 'c09c8298-d8b3-4f32-af2b-06e7fce4a652';
+const ROOT_ID = `formly-${FORM_ID}`;
+
+const units = ['São Paulo - SP', 'Recife - PE', 'Brasília - DF'];
+
+const discoveryOptions = [
+  'Redes Sociais',
+  'Indicação do Professor',
+  'Site do Instituto',
+  'Evento / Palestra',
+  'Televisão',
+  'Youtube',
+  'Outros',
+];
+---
+
+<div
+  class="formly-root"
+  id={ROOT_ID}
+  data-formly-root
+  data-form-id={FORM_ID}
+  data-endpoint={FORMLY_ENDPOINT}
+  data-supabase-url={FORMLY_SUPABASE_URL}
+  data-supabase-key={FORMLY_SUPABASE_KEY}
+  data-bucket={FORMLY_BUCKET}
+>
+  <noscript class="form-noscript">
+    Este formulário requer JavaScript para funcionar. Envie um e-mail para
+    <a href="mailto:atendimento@recomecar360.org">atendimento@recomecar360.org</a>
+    caso o JavaScript esteja desabilitado.
+  </noscript>
+
+  <header class="formly-root__header">
+    <h2 class="formly-root__title">Para Estudantes - Recomeçar 360</h2>
+    <p class="formly-root__lead">
+      Preencha o formulário abaixo com os dados do seu projeto de estudo. Nossa equipe avaliará a
+      solicitação e retornará o contato.
+    </p>
+  </header>
+
+  <div class="form-success" data-formly-success hidden>
+    <p>Obrigado! Sua resposta foi enviada. Entraremos em contato o mais breve possível.</p>
+  </div>
+
+  <form class="form">
+    <p class="form-error" data-formly-error role="alert" hidden></p>
+
+    <div class="form__field" data-formly-field="ae947e1d-dac8-470b-bdba-c97ecc8c7c8d">
+      <label class="form__label" for="student-name">
+        Nome <span class="form__required" aria-hidden="true">*</span>
+      </label>
+      <input
+        class="form__input"
+        type="text"
+        id="student-name"
+        name="ae947e1d-dac8-470b-bdba-c97ecc8c7c8d"
+        required
+        autocomplete="name"
+      />
+    </div>
+
+    <div class="form__field" data-formly-field="c7bf4be7-cf6b-4a36-adbc-7735dd50c82b">
+      <label class="form__label" for="student-email">
+        E-mail <span class="form__required" aria-hidden="true">*</span>
+      </label>
+      <input
+        class="form__input"
+        type="email"
+        id="student-email"
+        name="c7bf4be7-cf6b-4a36-adbc-7735dd50c82b"
+        required
+        autocomplete="email"
+      />
+    </div>
+
+    <div class="form__field" data-formly-field="180220f8-bea1-456d-82a9-7a105b07b19b">
+      <label class="form__label" for="student-phone">
+        Telefone <span class="form__required" aria-hidden="true">*</span>
+      </label>
+      <input
+        class="form__input"
+        type="tel"
+        id="student-phone"
+        name="180220f8-bea1-456d-82a9-7a105b07b19b"
+        required
+        autocomplete="tel"
+      />
+    </div>
+
+    <div class="form__field" data-formly-field="2d4ec996-6e61-4f97-a0cf-5e69a1f1ebee">
+      <label class="form__label" for="student-university">
+        Universidade <span class="form__required" aria-hidden="true">*</span>
+      </label>
+      <input
+        class="form__input"
+        type="text"
+        id="student-university"
+        name="2d4ec996-6e61-4f97-a0cf-5e69a1f1ebee"
+        required
+      />
+    </div>
+
+    <div class="form__field" data-formly-field="97982438-e0b9-400f-b0b9-676a1feea719">
+      <label class="form__label" for="student-course">
+        Curso <span class="form__required" aria-hidden="true">*</span>
+      </label>
+      <input
+        class="form__input"
+        type="text"
+        id="student-course"
+        name="97982438-e0b9-400f-b0b9-676a1feea719"
+        required
+      />
+    </div>
+
+    <div class="form__field" data-formly-field="d499d250-c233-4328-858a-95db7dd66211">
+      <label class="form__label" for="student-unit">
+        Unidade <span class="form__required" aria-hidden="true">*</span>
+      </label>
+      <select
+        class="form__select"
+        id="student-unit"
+        name="d499d250-c233-4328-858a-95db7dd66211"
+        required
+      >
+        {
+          units.map((unit) => (
+            <option value={unit}>{unit}</option>
+          ))
+        }
+      </select>
+    </div>
+
+    <div class="form__field" data-formly-field="34daf1f5-87a4-4679-9c20-082a16a9877c">
+      <label class="form__label" for="student-count">
+        Número de estudantes que participará do estudo
+        <span class="form__required" aria-hidden="true">*</span>
+      </label>
+      <input
+        class="form__input"
+        type="number"
+        id="student-count"
+        name="34daf1f5-87a4-4679-9c20-082a16a9877c"
+        required
+        min="1"
+      />
+    </div>
+
+    <div class="form__grid form__grid--2">
+      <div class="form__field" data-formly-field="56df730a-132e-418f-85ee-51f230776df4">
+        <label class="form__label" for="student-start-date">
+          Data de início do trabalho <span class="form__required" aria-hidden="true">*</span>
+        </label>
+        <input
+          class="form__input"
+          type="date"
+          id="student-start-date"
+          name="56df730a-132e-418f-85ee-51f230776df4"
+          required
+        />
+      </div>
+
+      <div class="form__field" data-formly-field="4bc55214-8ed2-45e4-9eb0-eefc1e912009">
+        <label class="form__label" for="student-end-date">
+          Data de entrega do trabalho <span class="form__required" aria-hidden="true">*</span>
+        </label>
+        <input
+          class="form__input"
+          type="date"
+          id="student-end-date"
+          name="4bc55214-8ed2-45e4-9eb0-eefc1e912009"
+          required
+        />
+      </div>
+    </div>
+
+    <div class="form__field" data-formly-field="aa4451f9-6780-498b-a7b3-404141a402fd">
+      <label class="form__label" for="student-theme">
+        Qual será o tema abordado? <span class="form__required" aria-hidden="true">*</span>
+      </label>
+      <input
+        class="form__input"
+        type="text"
+        id="student-theme"
+        name="aa4451f9-6780-498b-a7b3-404141a402fd"
+        required
+      />
+    </div>
+
+    <div class="form__field" data-formly-field="6b9885d4-3a13-4af7-ad23-ff8a8e2d6933">
+      <label class="form__label" for="student-proposal">
+        Qual a proposta de trabalho do seu projeto? (opcional)
+      </label>
+      <textarea
+        class="form__textarea"
+        id="student-proposal"
+        name="6b9885d4-3a13-4af7-ad23-ff8a8e2d6933"
+        rows="5"
+      ></textarea>
+    </div>
+
+    <fieldset class="form__fieldset" data-formly-field="92ac97e7-c033-4fdb-b5b5-72157c093bfe">
+      <legend class="form__legend">
+        Como descobriu o Instituto? <span class="form__required" aria-hidden="true">*</span>
+      </legend>
+      <div class="form__radio-group" role="radiogroup" aria-required="true">
+        {
+          discoveryOptions.map((option, index) => (
+            <label class="form__radio">
+              <input
+                type="radio"
+                name="92ac97e7-c033-4fdb-b5b5-72157c093bfe"
+                value={option}
+                required={index === 0}
+              />
+              {option}
+            </label>
+          ))
+        }
+      </div>
+    </fieldset>
+
+    <button class="form__submit form__submit--full" type="submit">Enviar</button>
+  </form>
+</div>
+
+<style>
+  .formly-root {
+    width: 100%;
+    max-width: 40rem;
+    margin-inline: auto;
+    padding: clamp(1.25rem, 4vw, 2.25rem);
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: 0 1px 2px rgb(63 62 64 / 4%), 0 8px 24px -12px rgb(63 62 64 / 8%);
+  }
+
+  .formly-root__header {
+    margin-bottom: 1.5rem;
+  }
+
+  .formly-root__title {
+    margin: 0 0 0.5rem;
+    font-size: clamp(1.25rem, 2.4vw, 1.625rem);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--color-primary);
+  }
+
+  .formly-root__lead {
+    margin: 0;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--color-muted-text);
+  }
+
+  .form-noscript {
+    display: block;
+    margin-bottom: 1.25rem;
+    padding: 0.875rem 1rem;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-muted);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .form-noscript a {
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+
+  .form-success {
+    margin-bottom: 1rem;
+    padding: 1rem 1.25rem;
+    background-color: color-mix(in srgb, #166534 10%, var(--color-bg));
+    border: 1px solid color-mix(in srgb, #166534 25%, var(--color-border));
+    border-radius: var(--radius-md);
+  }
+
+  .form-success p {
+    margin: 0;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #166534;
+  }
+
+  .form-error {
+    margin: 0 0 1rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--color-error);
+    background-color: color-mix(in srgb, var(--color-error) 8%, var(--color-bg));
+    border: 1px solid color-mix(in srgb, var(--color-error) 25%, var(--color-border));
+    border-radius: var(--radius-sm);
+  }
+
+  .form-success[hidden],
+  .form-error[hidden] {
+    display: none;
+  }
+
+  :global(.formly-star--active) {
+    color: var(--color-accent);
+  }
+</style>
+
+<script>
+  import { initFormlyFormFromRoot } from '../../scripts/formly-engine.js';
+
+  document.querySelectorAll('[data-formly-root]').forEach((root) => {
+    if (root instanceof HTMLElement) {
+      initFormlyFormFromRoot(root);
+    }
+  });
+</script>

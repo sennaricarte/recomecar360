@@ -1,0 +1,52 @@
+---
+import '../styles/global.css';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <slot name="head" />
+    <meta name="google-adsense-account" content="ca-pub-3189732658559572" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3189732658559572"
+      crossorigin="anonymous"
+      is:inline
+    ></script>
+  </head>
+  <body class="font-body text-text bg-bg antialiased">
+    <a
+      href="#main-content"
+      class="absolute left-4 top-4 z-50 -translate-y-16 rounded-sm bg-primary px-4 py-2 text-sm font-medium text-white transition focus:translate-y-0 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2"
+    >
+      Pular para o conteúdo principal
+    </a>
+    <div class="layout-shell">
+      <Header />
+      <main id="main-content" class="layout-main">
+        <slot />
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>
+
+<style>
+  .layout-shell {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+  }
+
+  .layout-main {
+    flex: 1;
+  }
+</style>

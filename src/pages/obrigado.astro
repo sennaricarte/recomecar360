@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+
+const formType = Astro.url.searchParams.get('form');
+
+const messages: Record<string, { title: string; text: string }> = {
+  contato: {
+    title: 'Mensagem enviada!',
+    text: 'Recebemos seu contato e retornaremos o mais breve possível. Obrigado por falar com o Instituto Recomeçar.',
+  },
+  newsletter: {
+    title: 'Inscrição confirmada!',
+    text: 'Você passará a receber novidades sobre nossos projetos, histórias de transformação e oportunidades de apoio.',
+  },
+  estudantes: {
+    title: 'Cadastro recebido!',
+    text: 'Recebemos sua solicitação de estudo. Nossa equipe entrará em contato para os próximos passos.',
+  },
+  parceiro: {
+    title: 'Proposta enviada!',
+    text: 'Obrigado pelo interesse em ser parceiro do Instituto Recomeçar. Em breve entraremos em contato.',
+  },
+};
+
+const content = messages[formType ?? ''] ?? {
+  title: 'Obrigado!',
+  text: 'Recebemos suas informações com sucesso. Em breve entraremos em contato, se necessário.',
+};
+
+const pageTitle = `${content.title} | Instituto Recomeçar`;
+const pageDescription = content.text;
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath="/obrigado/"
+  />
+
+  <div class="thanks">
+    <span class="thanks__icon" aria-hidden="true">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+        <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8" />
+        <path
+          d="M8 12.5 10.5 15 16 9.5"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </span>
+    <h1 class="thanks__title">{content.title}</h1>
+    <p class="thanks__text">{content.text}</p>
+    <a href="/" class="thanks__button">Voltar ao início</a>
+  </div>
+</BaseLayout>
+
+<style>
+  .thanks {
+    width: min(100% - 3rem, 36rem);
+    margin: 4rem auto 5rem;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+  }
+
+  .thanks__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-bottom: 1.25rem;
+    color: var(--color-primary);
+    background-color: var(--color-muted);
+    border-radius: 9999px;
+  }
+
+  .thanks__title {
+    margin-bottom: 0.75rem;
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .thanks__text {
+    margin-bottom: 2rem;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted-text);
+  }
+
+  .thanks__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-bg);
+    text-decoration: none;
+    background-color: var(--color-primary);
+    border-radius: 9999px;
+  }
+
+  .thanks__button:hover {
+    background-color: var(--color-primary-hover);
+  }
+
+  .thanks__button:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+</style>

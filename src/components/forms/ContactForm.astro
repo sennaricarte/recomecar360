@@ -1,0 +1,156 @@
+---
+import './form-styles.css';
+import {
+  FORMLY_BUCKET,
+  FORMLY_ENDPOINT,
+  FORMLY_SUPABASE_KEY,
+  FORMLY_SUPABASE_URL,
+} from '../../lib/formly-config';
+
+const FORM_ID = '473f3e5f-8208-4380-81b4-9259a20c625d';
+const ROOT_ID = `formly-${FORM_ID}`;
+---
+
+<div
+  class="formly-root"
+  id={ROOT_ID}
+  data-formly-root
+  data-form-id={FORM_ID}
+  data-endpoint={FORMLY_ENDPOINT}
+  data-supabase-url={FORMLY_SUPABASE_URL}
+  data-supabase-key={FORMLY_SUPABASE_KEY}
+  data-bucket={FORMLY_BUCKET}
+>
+  <noscript class="form-noscript">
+    Este formulário requer JavaScript para funcionar. Envie um e-mail para
+    <a href="mailto:atendimento@recomecar360.org">atendimento@recomecar360.org</a>
+    caso o JavaScript esteja desabilitado.
+  </noscript>
+
+  <div class="form-success" data-formly-success hidden>
+    <p>Obrigado! Sua mensagem foi enviada.</p>
+  </div>
+
+  <form class="form">
+    <fieldset class="form__fieldset">
+      <legend class="form__legend">Envie sua mensagem</legend>
+
+      <p class="form-error" data-formly-error role="alert" hidden></p>
+
+      <div class="form__grid form__grid--2">
+        <div class="form__field" data-formly-field="84ebcb3f-ad04-40e2-8b57-be433cb4c8b4">
+          <label class="form__label" for="contact-name">
+            Nome <span class="form__required" aria-hidden="true">*</span>
+          </label>
+          <input
+            class="form__input"
+            type="text"
+            id="contact-name"
+            name="84ebcb3f-ad04-40e2-8b57-be433cb4c8b4"
+            required
+            maxlength="100"
+            placeholder="Seu nome"
+            autocomplete="name"
+          />
+        </div>
+
+        <div class="form__field" data-formly-field="b05df866-aa12-4a14-9e11-2613969dab46">
+          <label class="form__label" for="contact-email">
+            Email <span class="form__required" aria-hidden="true">*</span>
+          </label>
+          <input
+            class="form__input"
+            type="email"
+            id="contact-email"
+            name="b05df866-aa12-4a14-9e11-2613969dab46"
+            required
+            maxlength="255"
+            placeholder="seu@email.com"
+            autocomplete="email"
+          />
+        </div>
+      </div>
+
+      <div class="form__field form__field--spaced" data-formly-field="bc14b8c3-cf01-4bee-85e0-94463cd49008">
+        <label class="form__label" for="contact-message">
+          Mensagem <span class="form__required" aria-hidden="true">*</span>
+        </label>
+        <textarea
+          class="form__textarea"
+          id="contact-message"
+          name="bc14b8c3-cf01-4bee-85e0-94463cd49008"
+          required
+          maxlength="2000"
+          rows="4"
+          placeholder="Escreva sua mensagem"
+        ></textarea>
+      </div>
+    </fieldset>
+
+    <button class="form__submit" type="submit">Enviar mensagem</button>
+  </form>
+</div>
+
+<style>
+  .form-noscript {
+    display: block;
+    margin-bottom: 1.25rem;
+    padding: 0.875rem 1rem;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-muted);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .form-noscript a {
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+
+  .form-success {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: var(--color-muted);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .form-success p {
+    margin: 0;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+
+  .form-error {
+    margin: 0 0 1rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--color-error);
+    background-color: color-mix(in srgb, var(--color-error) 8%, var(--color-bg));
+    border: 1px solid color-mix(in srgb, var(--color-error) 25%, var(--color-border));
+    border-radius: var(--radius-sm);
+  }
+
+  .form__field--spaced {
+    margin-top: 1.25rem;
+  }
+
+  .form-success[hidden],
+  .form-error[hidden] {
+    display: none;
+  }
+</style>
+
+<script>
+  import { initFormlyFormFromRoot } from '../../scripts/formly-engine.js';
+
+  document.querySelectorAll('[data-formly-root]').forEach((root) => {
+    if (root instanceof HTMLElement) {
+      initFormlyFormFromRoot(root);
+    }
+  });
+</script>

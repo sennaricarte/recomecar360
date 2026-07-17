@@ -1,0 +1,97 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+
+const pageTitle = 'Página não encontrada | Instituto Recomeçar';
+const pageDescription = 'A página que você procura não existe ou foi movida.';
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath="/404/"
+  />
+
+  <div class="not-found">
+    <p class="not-found__code" aria-hidden="true">404</p>
+    <h1 class="not-found__title">Página não encontrada</h1>
+    <p class="not-found__text">A página que você procura não existe ou foi movida.</p>
+    <div class="not-found__actions">
+      <a href="/" class="btn btn--primary">Voltar ao início</a>
+      <a href="/blog/" class="btn btn--outline">Ver o blog</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .not-found {
+    width: min(100% - 3rem, 36rem);
+    margin: 5rem auto;
+    text-align: center;
+  }
+
+  .not-found__code {
+    margin-bottom: 0.5rem;
+    font-size: clamp(4rem, 12vw, 7rem);
+    font-weight: 800;
+    line-height: 1;
+    color: var(--color-primary);
+    opacity: 0.18;
+  }
+
+  .not-found__title {
+    margin-bottom: 0.75rem;
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .not-found__text {
+    margin-bottom: 2rem;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted-text);
+  }
+
+  .not-found__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.875rem;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    transition: filter 0.15s ease;
+  }
+
+  .btn--primary {
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+  }
+
+  .btn--outline {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    background-color: transparent;
+  }
+
+  .btn:hover {
+    filter: brightness(0.97);
+  }
+
+  .btn:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+</style>

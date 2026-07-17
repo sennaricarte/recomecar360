@@ -1,0 +1,133 @@
+---
+import type { ArticleEntry } from '../../lib/blog';
+import { formatArticleDate } from '../../lib/blog';
+import { categoryToSlug, getCategoryLabel } from '../../lib/categories';
+import ArticleImage from './ArticleImage.astro';
+
+interface Props {
+  article: ArticleEntry;
+  headingLevel?: 'h2' | 'h3';
+}
+
+const { article, headingLevel = 'h2' } = Astro.props;
+const TitleTag = headingLevel;
+const description = article.data.excerpt.trim() || article.data.metaDescription.trim();
+const categorySlug = categoryToSlug(article.data.category);
+const categoryLabel = getCategoryLabel(categorySlug);
+---
+
+<article class="article-card">
+  <a
+    href={`/blog/${article.data.slug}/`}
+    class="article-card__media"
+    aria-hidden="true"
+    tabindex="-1"
+  >
+    <ArticleImage
+      imagePath={article.data.image}
+      alt=""
+      width={640}
+      height={360}
+      class="article-card__image"
+    />
+  </a>
+  <div class="article-card__body">
+    <a href={`/blog/categoria/${categorySlug}/`} class="article-card__category">
+      {categoryLabel}
+    </a>
+    <TitleTag class="article-card__title">
+      <a href={`/blog/${article.data.slug}/`}>{article.data.title}</a>
+    </TitleTag>
+    {description && <p class="article-card__excerpt">{description}</p>}
+    <time class="article-card__date" datetime={article.data.pubDate.toISOString()}>
+      {formatArticleDate(article.data.pubDate)}
+    </time>
+  </div>
+</article>
+
+<style>
+  .article-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+  }
+
+  .article-card__media {
+    display: block;
+    line-height: 0;
+    text-decoration: none;
+  }
+
+  .article-card__media:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: -2px;
+  }
+
+  .article-card__image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  .article-card__body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.5rem;
+    padding: 1.25rem;
+  }
+
+  .article-card__category {
+    display: inline-block;
+    width: fit-content;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+    text-decoration: none;
+  }
+
+  .article-card__category:hover,
+  .article-card__category:focus-visible {
+    text-decoration: underline;
+  }
+
+  .article-card__title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  .article-card__title a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color 0.15s ease;
+  }
+
+  .article-card__title a:hover,
+  .article-card__title a:focus-visible {
+    color: var(--color-primary-hover);
+    text-decoration: underline;
+  }
+
+  .article-card__excerpt {
+    flex: 1;
+    font-size: 0.875rem;
+    line-height: 1.55;
+    color: var(--color-muted-text);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+
+  .article-card__date {
+    font-size: 0.8125rem;
+    color: var(--color-muted-text);
+  }
+</style>

@@ -1,0 +1,142 @@
+---
+import { Image, type ImageMetadata } from 'astro:assets';
+import { formatRole, getLinkedIn, type TeamMemberEntry } from '../../lib/team';
+
+interface Props {
+  member: TeamMemberEntry;
+  variant?: 'default' | 'compact';
+  photoShape?: 'circle' | 'rounded';
+}
+
+const { member, variant = 'default', photoShape = 'circle' } = Astro.props;
+
+const role = formatRole(member);
+const linkedin = getLinkedIn(member);
+const photo = member.data.photo as ImageMetadata;
+const imageSize = variant === 'compact' ? 240 : 320;
+---
+
+<article class:list={['team-card', `team-card--${variant}`]}>
+  <div class:list={['team-card__photo-wrap', `team-card__photo-wrap--${photoShape}`]}>
+    <Image
+      src={photo}
+      alt={`Foto de ${member.data.name}`}
+      width={imageSize}
+      height={imageSize}
+      loading="lazy"
+      format="webp"
+      quality="mid"
+      class="team-card__photo"
+    />
+  </div>
+
+  <div class="team-card__body">
+    <h2 class="team-card__name">{member.data.name}</h2>
+    {role && <p class="team-card__role">{role}</p>}
+
+    {
+      linkedin && (
+        <a
+          href={linkedin}
+          class="team-card__linkedin"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`LinkedIn de ${member.data.name}`}
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.1c.5-1 1.8-2.2 3.8-2.2 4 0 4.7 2.6 4.7 6.1V24h-4v-7.1c0-1.7 0-3.8-2.3-3.8-2.3 0-2.7 1.8-2.7 3.7V24h-4V8z"
+            />
+          </svg>
+        </a>
+      )
+    }
+  </div>
+</article>
+
+<style>
+  .team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .team-card--compact {
+    padding: 1rem 0.75rem;
+  }
+
+  .team-card__photo-wrap {
+    width: 100%;
+    max-width: 12.5rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+  }
+
+  .team-card--compact .team-card__photo-wrap {
+    max-width: 9.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .team-card__photo-wrap--circle {
+    border-radius: 9999px;
+  }
+
+  .team-card__photo-wrap--rounded {
+    border-radius: 1rem;
+  }
+
+  .team-card__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .team-card__name {
+    margin-bottom: 0.375rem;
+    font-size: 1.0625rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--color-primary);
+  }
+
+  .team-card--compact .team-card__name {
+    font-size: 0.9375rem;
+  }
+
+  .team-card__role {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--color-muted-text);
+  }
+
+  .team-card--compact .team-card__role {
+    font-size: 0.8125rem;
+  }
+
+  .team-card__linkedin {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-top: 0.75rem;
+    color: var(--color-primary);
+    background-color: var(--color-muted);
+    border-radius: var(--radius-sm);
+    transition: background-color 0.15s ease;
+  }
+
+  .team-card__linkedin:hover,
+  .team-card__linkedin:focus-visible {
+    background-color: var(--color-border);
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+</style>

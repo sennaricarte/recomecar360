@@ -1,0 +1,511 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+import { SITE_URL } from '../lib/jsonld';
+
+const pageTitle = 'Doe | Instituto Recomeçar';
+const pageDescription =
+  'Faça sua doação e ajude o Instituto Recomeçar a transformar vidas através da educação, empregabilidade e apoio socioemocional.';
+const canonicalPath = '/doe/';
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Início',
+      item: SITE_URL,
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Doe',
+      item: new URL(canonicalPath, SITE_URL).href,
+    },
+  ],
+};
+
+const donationOptions = [
+  {
+    value: 'R$ 20/mês',
+    detail: 'Só R$ 0,66 por dia',
+    href: 'https://mpago.la/33bo2rS',
+    featured: false,
+  },
+  {
+    value: 'R$ 50/mês',
+    detail: 'Só R$ 1,66 por dia',
+    href: 'https://mpago.la/22ryiPG',
+    featured: true,
+  },
+  {
+    value: 'Outro Valor',
+    detail: 'Escolha qualquer valor para doar.',
+    href: 'https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c9380847b629336017be6a7df3069e4',
+    featured: false,
+    ctaLabel: 'Faça Valer a Pena',
+  },
+];
+
+const impacts = [
+  {
+    emoji: '📚',
+    title: 'Qualificação Profissional',
+    description:
+      'Cursos técnicos e treinamentos que preparam egressos para o mercado de trabalho.',
+  },
+  {
+    emoji: '🤝',
+    title: 'Apoio Socioemocional',
+    description:
+      'Acompanhamento psicológico e mentoria para uma reintegração completa e duradoura.',
+  },
+  {
+    emoji: '💼',
+    title: 'Empregabilidade',
+    description:
+      'Conexão com empresas parceiras que acreditam no poder da segunda chance.',
+  },
+];
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+    jsonLd={[breadcrumbJsonLd]}
+  />
+
+  <section class="hero" aria-label="Doe">
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="container hero__content">
+      <p class="hero__eyebrow">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path
+            d="M12 21s-6.7-4.3-9.3-8.1C1 10.4 1.4 7 4.2 5.5 6.3 4.4 8.7 5 12 8c3.3-3 5.7-3.6 7.8-2.5 2.8 1.5 3.2 4.9 1.5 7.4C18.7 16.7 12 21 12 21Z"
+          />
+        </svg>
+        Faça a diferença
+      </p>
+      <h1 class="hero__title">
+        Sua doação transforma <span class="text-accent">vidas</span>.
+      </h1>
+      <p class="hero__text">
+        Cada contribuição ajuda egressos do sistema prisional a recomeçarem com dignidade, educação e
+        oportunidades reais de trabalho.
+      </p>
+    </div>
+  </section>
+
+  <section class="investment-thesis" aria-label="Tese de investimento">
+    <div class="container investment-thesis__inner">
+      <h2 class="investment-thesis__title">
+        Isso não é doação. É investimento com retorno social.
+      </h2>
+      <p class="investment-thesis__text">
+        A cada R$1 investido no Instituto Recomeçar, R$16 retornam para a sociedade em forma de
+        redução de criminalidade e economia para o Estado — só em 2024, geramos R$4 milhões de
+        economia pública. Sua contribuição tem retorno mensurável.
+      </p>
+      <p class="investment-thesis__source">Fonte: Planejamento Estratégico Accenture, 2026</p>
+    </div>
+  </section>
+
+  <section class="section" aria-label="Opções de doação">
+    <div class="container">
+      <ul class="donation-grid">
+        {
+          donationOptions.map((option) => (
+            <li class:list={['donation-card', { 'donation-card--featured': option.featured }]}>
+              {option.featured && <span class="donation-card__badge">Mais popular</span>}
+              <span class="donation-card__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 21s-6.7-4.3-9.3-8.1C1 10.4 1.4 7 4.2 5.5 6.3 4.4 8.7 5 12 8c3.3-3 5.7-3.6 7.8-2.5 2.8 1.5 3.2 4.9 1.5 7.4C18.7 16.7 12 21 12 21Z"
+                  />
+                </svg>
+              </span>
+              <strong class="donation-card__value">{option.value}</strong>
+              <p class="donation-card__detail">{option.detail}</p>
+              <a
+                href={option.href}
+                class="btn btn--primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {option.ctaLabel ?? 'Doar agora'}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M14 5h5v5M19 5 10 14M12 7H7a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-5"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="donation-note">
+        Pagamento seguro via Mercado Pago. Você pode cancelar sua assinatura a qualquer momento.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--muted" aria-label="O que sua doação possibilita">
+    <div class="container">
+      <header class="section__header">
+        <p class="eyebrow">Impacto</p>
+        <h2 class="section__title">
+          O que sua doação <span class="text-accent">possibilita</span>
+        </h2>
+      </header>
+      <ul class="impact-grid">
+        {
+          impacts.map((item) => (
+            <li class="impact-card">
+              <span class="impact-card__emoji" aria-hidden="true">
+                {item.emoji}
+              </span>
+              <h3 class="impact-card__title">{item.title}</h3>
+              <p class="impact-card__text">{item.description}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--primary" aria-label="Cada recomeço começa com você">
+    <div class="container cta">
+      <span class="cta__icon" aria-hidden="true">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12 21s-6.7-4.3-9.3-8.1C1 10.4 1.4 7 4.2 5.5 6.3 4.4 8.7 5 12 8c3.3-3 5.7-3.6 7.8-2.5 2.8 1.5 3.2 4.9 1.5 7.4C18.7 16.7 12 21 12 21Z"
+          />
+        </svg>
+      </span>
+      <h2 class="section__title section__title--light">
+        Cada recomeço começa com <span class="text-accent">você</span>.
+      </h2>
+      <p class="section__lead section__lead--light">
+        Junte-se a centenas de doadores que já transformaram a vida de mais de 13.000 pessoas no
+        Brasil.
+      </p>
+      <a
+        href="https://mpago.la/22ryiPG"
+        class="btn btn--accent"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Faça Valer a Pena
+      </a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .container {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+  }
+
+  .text-accent {
+    color: var(--color-accent);
+  }
+
+  .section {
+    padding: 5rem 0;
+    background-color: var(--color-bg);
+  }
+
+  .section--muted {
+    background-color: var(--color-muted);
+  }
+
+  .section--primary {
+    background-color: var(--color-primary);
+  }
+
+  .section__header {
+    max-width: 40rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .eyebrow {
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+  }
+
+  .section__title {
+    margin-bottom: 0.75rem;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-primary);
+  }
+
+  .section__title--light {
+    color: var(--color-bg);
+  }
+
+  .section__lead {
+    max-width: 40rem;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted-text);
+  }
+
+  .section__lead--light {
+    margin-inline: auto;
+    margin-bottom: 2rem;
+    color: rgb(255 255 255 / 88%);
+  }
+
+  .hero {
+    position: relative;
+    padding: 5rem 0;
+    background-color: var(--color-primary);
+    overflow: hidden;
+  }
+
+  .hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+      circle at top right,
+      color-mix(in srgb, var(--color-accent) 22%, transparent),
+      transparent 55%
+    );
+  }
+
+  .hero__content {
+    position: relative;
+    z-index: 1;
+    max-width: 42rem;
+    margin-inline: auto;
+    text-align: center;
+    color: var(--color-bg);
+  }
+
+  .hero__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+
+  .hero__title {
+    margin-bottom: 1rem;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    font-weight: 800;
+    line-height: 1.15;
+  }
+
+  .hero__text {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: rgb(255 255 255 / 90%);
+  }
+
+  .investment-thesis {
+    padding: 3rem 0 2.5rem;
+    background-color: var(--color-muted);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .investment-thesis__inner {
+    max-width: 42rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .investment-thesis__title {
+    margin: 0 0 1rem;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--color-primary);
+  }
+
+  .investment-thesis__text {
+    margin: 0 0 1rem;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-text);
+  }
+
+  .investment-thesis__source {
+    margin: 0;
+    font-size: 0.75rem;
+    color: var(--color-muted-text);
+  }
+
+  .donation-grid,
+  .impact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .donation-card,
+  .impact-card {
+    padding: 1.75rem 1.5rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .donation-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .donation-card--featured {
+    border-color: var(--color-accent);
+    border-width: 2px;
+    box-shadow: 0 16px 32px rgb(63 62 64 / 10%);
+    transform: scale(1.02);
+  }
+
+  .donation-card__badge {
+    position: absolute;
+    top: -0.75rem;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-accent-text);
+    background-color: var(--color-accent);
+    border-radius: 9999px;
+  }
+
+  .donation-card__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+    background-color: var(--color-muted);
+    border-radius: 9999px;
+  }
+
+  .donation-card__value {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 800;
+    color: var(--color-primary);
+  }
+
+  .donation-card__detail {
+    margin-bottom: 1.5rem;
+    font-size: 0.9375rem;
+    color: var(--color-muted-text);
+  }
+
+  .donation-note {
+    margin-top: 1.75rem;
+    font-size: 0.8125rem;
+    text-align: center;
+    color: var(--color-muted-text);
+  }
+
+  .impact-card__emoji {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 1.75rem;
+  }
+
+  .impact-card__title {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .impact-card__text {
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    color: var(--color-muted-text);
+  }
+
+  .cta {
+    text-align: center;
+  }
+
+  .cta__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+    background-color: var(--color-bg);
+    border-radius: 9999px;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 9999px;
+    border: 0;
+    transition: filter 0.15s ease;
+  }
+
+  .btn--primary {
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+  }
+
+  .btn--accent {
+    color: var(--color-accent-text);
+    background-color: var(--color-accent);
+  }
+
+  .btn:hover {
+    filter: brightness(0.97);
+  }
+
+  .btn:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  @media (min-width: 768px) {
+    .donation-grid,
+    .impact-grid {
+      grid-template-columns: repeat(3, 1fr);
+      align-items: stretch;
+    }
+  }
+</style>

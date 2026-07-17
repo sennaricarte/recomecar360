@@ -1,0 +1,921 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+import { SITE_URL } from '../lib/jsonld';
+import heroImage from '../assets/hero-quemsomos.jpg';
+import founderImage from '../assets/founder-placeholder.jpg';
+
+const pageTitle = 'Quem Somos | Instituto Recomeçar';
+const pageDescription =
+  'Conheça o Instituto Recomeçar: organização de impacto social que reduz a reincidência criminal e gera segurança pública com retorno mensurável.';
+const canonicalPath = '/quem-somos/';
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Início',
+      item: SITE_URL,
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Quem Somos',
+      item: new URL(canonicalPath, SITE_URL).href,
+    },
+  ],
+};
+
+const timeline = [
+  'Uma trajetória que começou dentro do sistema prisional e se transformou em uma missão de vida premiada.',
+  'Após sentir na pele a falta de oportunidades, Leonardo fundou o Instituto para oferecer a trilha que ele mesmo teve que desbravar.',
+  'Com origem na rede <strong>Gerando Falcões</strong>, o Instituto Recomeçar se consolidou como referência em impacto social e redução da reincidência no Brasil.',
+];
+
+const values = [
+  'Dignidade Humana',
+  'Transparência',
+  'Eficiência',
+  'Resiliência',
+  'Foco em Resultados',
+];
+
+const trailSteps = [
+  {
+    number: '01',
+    title: 'Mapeamento',
+    description:
+      'Identificação completa do perfil do egresso, suas habilidades, necessidades básicas e potencialidades para traçar um plano individualizado com foco em inserção produtiva e redução da reincidência.',
+  },
+  {
+    number: '02',
+    title: 'Preparação',
+    description:
+      'Jornada de autoconhecimento aliada à qualificação profissional — cursos técnicos e soft skills que convertem preparo em emprego e retorno social do investimento.',
+  },
+  {
+    number: '03',
+    title: 'Empregabilidade',
+    description:
+      'Conexão direta com as 28 empresas parceiras do Instituto, com processo seletivo humanizado e acompanhamento na adaptação ao ambiente corporativo.',
+  },
+  {
+    number: '04',
+    title: 'Acompanhamento',
+    description:
+      'Mentoria contínua e apoio socioemocional para garantir a permanência no emprego, fortalecer vínculos familiares e consolidar o retorno social do investimento em cada egresso.',
+  },
+];
+
+const governanceCards = [
+  'Conselho Administrativo e Fiscal',
+  'Prestação de Contas Mensal',
+  'Manual de Conduta e Auditoria',
+];
+
+const locations = [
+  {
+    city: 'São Paulo',
+    state: 'SP',
+    description: 'Sede principal — 3 penitenciárias parceiras',
+  },
+  {
+    city: 'Brasília',
+    state: 'DF',
+    description: 'Escritório institucional — 1 penitenciária parceira',
+  },
+  {
+    city: 'Recife',
+    state: 'PE',
+    description: 'Polo regional Nordeste — 1 penitenciária parceira',
+  },
+];
+
+const investmentThesisCards = [
+  {
+    title: 'Governança Sólida',
+    description:
+      'Conselho administrativo e fiscal ativo, prestação de contas mensal, auditoria externa.',
+  },
+  {
+    title: 'Metodologia Comprovada',
+    description:
+      'Trilha do Egresso validada em mais de 10 anos de atuação, com dados públicos de resultado.',
+  },
+  {
+    title: 'Escala Nacional',
+    description:
+      'Presença em São Paulo, Brasília e Recife, com capacidade de expansão para novos estados.',
+  },
+];
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+    jsonLd={[breadcrumbJsonLd]}
+  />
+
+  <section class="hero" aria-label="Quem somos">
+    <Image
+      src={heroImage}
+      alt="Equipe e beneficiários do Instituto Recomeçar"
+      class="hero__bg"
+      width={1920}
+      height={1080}
+      loading="eager"
+      fetchpriority="high"
+      format="webp"
+      quality="mid"
+    />
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="container hero__content reveal">
+      <p class="hero__eyebrow">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path
+            d="M4 21V5a2 2 0 0 1 2-2h7v18H6a2 2 0 0 1-2-2Z"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M13 3h5a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linejoin="round"
+          />
+          <path d="M16 12h.01" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+        </svg>
+        Quem Somos
+      </p>
+      <h1 class="hero__title">
+        Acreditamos no poder do <span class="text-accent">recomeço</span>.
+      </h1>
+      <p class="hero__text">
+        Fundado em 2015, o Instituto Recomeçar nasceu para quebrar o ciclo da criminalidade no
+        Brasil — gerando segurança pública mensurável ao transformar egressos do sistema prisional em
+        cidadãos produtivos e líderes sociais.
+      </p>
+    </div>
+  </section>
+
+  <section class="manifesto" aria-label="Manifesto">
+    <div class="container manifesto__inner">
+      <blockquote class="manifesto__quote">
+        O verdadeiro cumprimento de uma pena começa quando a liberdade chega.
+      </blockquote>
+      <p class="manifesto__support">
+        Enquanto um egresso volta ao crime, milhões de brasileiros continuam presos no medo. O
+        Instituto Recomeçar existe para quebrar esse ciclo — não como caridade, mas como investimento
+        com retorno mensurável em segurança pública.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" aria-label="Nossa história">
+    <div class="container history">
+      <div class="history__media reveal">
+        <Image
+          src={founderImage}
+          alt="Leonardo Precioso, fundador do Instituto Recomeçar"
+          class="history__image"
+          width={640}
+          height={800}
+          loading="lazy"
+          format="webp"
+          quality="mid"
+        />
+        <span class="history__badge">2015 — Ano de fundação</span>
+      </div>
+
+      <div class="history__copy reveal">
+        <p class="eyebrow">Nossa História</p>
+        <h2 class="section__title">
+          A trajetória de <span class="text-accent">Leonardo Precioso</span>
+        </h2>
+
+        <ol class="timeline">
+          {
+            timeline.map((item) => (
+              <li class="timeline__item" set:html={item} />
+            ))
+          }
+        </ol>
+
+        <blockquote class="quote">
+          <span class="quote__icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M7.2 18c-1.8 0-3.2-.5-4.2-1.6C2 15.3 1.5 13.8 1.5 12c0-2.2.8-4.1 2.4-5.7C5.5 4.7 7.5 3.8 10 3.5v3.2c-1.3.3-2.3.9-3 1.8-.7.9-1 1.9-1 3.1h3.2V18H7.2Zm10.5 0c-1.8 0-3.2-.5-4.2-1.6-1-1.1-1.5-2.6-1.5-4.4 0-2.2.8-4.1 2.4-5.7 1.6-1.6 3.6-2.5 6.1-2.8v3.2c-1.3.3-2.3.9-3 1.8-.7.9-1 1.9-1 3.1h3.2V18h-2Z"
+              />
+            </svg>
+          </span>
+          <p>
+            “Ninguém nasce criminoso. As pessoas merecem uma segunda chance para reescrever suas
+            histórias.”
+          </p>
+          <footer>— Leonardo Precioso, Fundador</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--muted" aria-label="Missão, visão e valores">
+    <div class="container">
+      <header class="section__header reveal">
+        <p class="eyebrow">Propósito</p>
+        <h2 class="section__title">Missão, Visão e Valores</h2>
+      </header>
+
+      <ul class="purpose-grid">
+        <li class="purpose-card reveal">
+          <h3 class="purpose-card__title">Missão</h3>
+          <p class="purpose-card__text">
+            Reduzir a reincidência criminal e fortalecer a segurança pública, reintegrando egressos
+            ao mercado de trabalho e à sociedade por meio de educação, empregabilidade e apoio
+            socioemocional — com retorno social e financeiro mensurável.
+          </p>
+        </li>
+        <li class="purpose-card reveal">
+          <h3 class="purpose-card__title">Visão</h3>
+          <p class="purpose-card__text">
+            Ser a principal referência em impacto social no sistema prisional brasileiro até 2026,
+            com metodologia própria e ROI comprovado, expandindo a atuação para todos os estados.
+          </p>
+        </li>
+      </ul>
+
+      <ul class="values-grid">
+        {
+          values.map((value) => (
+            <li class="value-card reveal">
+              <span class="value-card__icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 3 4 8v8l8 5 8-5V8l-8-5Z"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <span class="value-card__name">{value}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" aria-label="A trilha do egresso">
+    <div class="container">
+      <header class="section__header reveal">
+        <p class="eyebrow">Metodologia</p>
+        <h2 class="section__title">A Trilha do Egresso</h2>
+        <p class="section__lead">
+          Um processo estruturado que converte preparo em inserção produtiva — com impacto direto na
+          segurança pública e no retorno social do investimento.
+        </p>
+      </header>
+
+      <ul class="trail-grid">
+        {
+          trailSteps.map((step) => (
+            <li class="trail-card reveal">
+              <span class="trail-card__number" aria-hidden="true">
+                {step.number}
+              </span>
+              <span class="trail-card__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 12h16M14 6l6 6-6 6"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <h3 class="trail-card__title">{step.title}</h3>
+              <p class="trail-card__text">{step.description}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--primary" aria-label="Governança e transparência">
+    <div class="container">
+      <header class="section__header reveal">
+        <p class="eyebrow eyebrow--light">Governança</p>
+        <h2 class="section__title section__title--light">Governança e Transparência</h2>
+        <p class="section__lead section__lead--light">
+          Operamos com governança ativa, conselho fiscal mensal, auditoria e relatórios anuais de
+          atividades. Geramos eficiência para o Estado e segurança para os nossos investidores.
+        </p>
+      </header>
+
+      <ul class="gov-grid">
+        {
+          governanceCards.map((card) => (
+            <li class="gov-card reveal">
+              <h3 class="gov-card__title">{card}</h3>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" aria-label="Presença geográfica">
+    <div class="container">
+      <header class="section__header reveal">
+        <p class="eyebrow">Onde Estamos</p>
+        <h2 class="section__title">Presença Geográfica</h2>
+        <p class="section__lead">
+          Atuação em 3 estados brasileiros com parcerias em 5 penitenciárias.
+        </p>
+      </header>
+
+      <ul class="location-grid">
+        {
+          locations.map((location) => (
+            <li class="location-card reveal">
+              <h3 class="location-card__title">
+                {location.city} — {location.state}
+              </h3>
+              <p class="location-card__text">{location.description}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" aria-label="Por que Investir no Instituto Recomeçar">
+    <div class="container">
+      <header class="section__header reveal">
+        <p class="eyebrow">Tese de Investimento</p>
+        <h2 class="section__title">Impacto social com retorno financeiro mensurável</h2>
+        <p class="section__lead">
+          O Instituto Recomeçar não pede caridade — oferece retorno. Nossa metodologia própria já
+          provou capacidade de execução: presença em 3 estados, parcerias com 5 penitenciárias, e um
+          modelo de reintegração que gera R$16 de retorno social para cada R$1 investido.
+        </p>
+      </header>
+
+      <ul class="thesis-grid">
+        {
+          investmentThesisCards.map((card) => (
+            <li class="thesis-card reveal">
+              <h3 class="thesis-card__title">{card.title}</h3>
+              <p class="thesis-card__text">{card.description}</p>
+            </li>
+          ))
+        }
+      </ul>
+
+      <div class="thesis-cta reveal">
+        <a href="/seguranca-publica" class="btn btn--primary">
+          Conheça o impacto em segurança pública
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--muted" aria-label="Faça parte desta transformação">
+    <div class="container cta reveal">
+      <span class="cta__icon" aria-hidden="true">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+          <path
+            d="M4 21V5a2 2 0 0 1 2-2h7v18H6a2 2 0 0 1-2-2Z"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M13 3h5a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linejoin="round"
+          />
+          <path d="M16 12h.01" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+        </svg>
+      </span>
+      <h2 class="section__title">
+        Faça parte desta <span class="text-accent">transformação</span>.
+      </h2>
+      <p class="section__lead">
+        Junte-se ao Instituto Recomeçar e invista em um Brasil com menos reincidência, mais
+        segurança pública e retorno social comprovado.
+      </p>
+      <div class="cta__actions">
+        <a href="/quero-ser-parceiro" class="btn btn--primary">Quero ser um Parceiro Corporativo</a>
+        <a href="/#projetos" class="btn btn--outline">Conheça nossos Projetos</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .container {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+  }
+
+  .text-accent {
+    color: var(--color-accent);
+  }
+
+  .section {
+    padding: 5rem 0;
+    background-color: var(--color-bg);
+  }
+
+  .section--muted {
+    background-color: var(--color-muted);
+  }
+
+  .section--primary {
+    background-color: var(--color-primary);
+  }
+
+  .section__header {
+    max-width: 42rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+  }
+
+  .eyebrow--light {
+    color: var(--color-accent);
+  }
+
+  .section__title {
+    margin-bottom: 0.75rem;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-primary);
+  }
+
+  .section__title--light {
+    color: var(--color-bg);
+  }
+
+  .section__lead {
+    max-width: 40rem;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted-text);
+  }
+
+  .section__lead--light {
+    color: rgb(255 255 255 / 88%);
+  }
+
+  .hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: clamp(28rem, 80vh, 40rem);
+    overflow: hidden;
+  }
+
+  .hero__bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .hero__overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--color-primary) 92%, transparent) 0%,
+      color-mix(in srgb, var(--color-primary) 70%, transparent) 55%,
+      color-mix(in srgb, var(--color-primary) 50%, transparent) 100%
+    );
+  }
+
+  .hero__content {
+    position: relative;
+    z-index: 2;
+    padding: 4rem 0;
+    color: var(--color-bg);
+  }
+
+  .hero__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+
+  .hero__title {
+    max-width: 16ch;
+    margin-bottom: 1.25rem;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  .hero__text {
+    max-width: 40rem;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: rgb(255 255 255 / 90%);
+  }
+
+  .manifesto {
+    padding: 4.5rem 0;
+    background-color: var(--color-foreground);
+    color: var(--color-bg);
+  }
+
+  .manifesto__inner {
+    max-width: 48rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .manifesto__quote {
+    margin: 0 0 1.5rem;
+    padding: 0;
+    border: 0;
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--color-bg);
+  }
+
+  .manifesto__support {
+    margin: 0;
+    font-size: clamp(1rem, 2.5vw, 1.125rem);
+    line-height: 1.7;
+    color: rgb(255 255 255 / 82%);
+  }
+
+  .history {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  .history__media {
+    position: relative;
+    max-width: 28rem;
+  }
+
+  .history__image {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    box-shadow: 0 24px 48px rgb(0 0 0 / 16%);
+  }
+
+  .history__badge {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    padding: 0.6rem 0.9rem;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: var(--color-accent-text);
+    background-color: var(--color-accent);
+    border-radius: var(--radius-sm);
+    box-shadow: 0 8px 20px rgb(0 0 0 / 16%);
+  }
+
+  .timeline {
+    list-style: none;
+    margin: 0 0 2rem;
+    padding: 0 0 0 1.25rem;
+    border-left: 3px solid var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .timeline__item {
+    position: relative;
+    padding-left: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text);
+  }
+
+  .timeline__item::before {
+    content: '';
+    position: absolute;
+    left: -1.55rem;
+    top: 0.45rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: var(--color-accent);
+    border: 2px solid var(--color-primary);
+    border-radius: 9999px;
+  }
+
+  .timeline__item :global(strong) {
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .quote {
+    padding: 1.25rem 1.5rem;
+    background-color: var(--color-muted);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .quote__icon {
+    display: inline-flex;
+    margin-bottom: 0.75rem;
+    color: var(--color-primary);
+  }
+
+  .quote p {
+    margin-bottom: 0.75rem;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-text);
+  }
+
+  .quote footer {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-muted-text);
+  }
+
+  .purpose-grid,
+  .values-grid,
+  .trail-grid,
+  .gov-grid,
+  .location-grid,
+  .thesis-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .purpose-grid {
+    margin-bottom: 1.25rem;
+  }
+
+  .purpose-card,
+  .value-card,
+  .trail-card,
+  .gov-card,
+  .location-card,
+  .thesis-card {
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+  }
+
+  .purpose-card,
+  .trail-card,
+  .location-card,
+  .thesis-card {
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+  }
+
+  .purpose-card__title,
+  .trail-card__title,
+  .location-card__title,
+  .thesis-card__title {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .purpose-card__text,
+  .trail-card__text,
+  .location-card__text,
+  .thesis-card__text {
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    color: var(--color-muted-text);
+  }
+
+  .value-card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+  }
+
+  .value-card__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    color: var(--color-primary);
+    background-color: color-mix(in srgb, var(--color-primary) 10%, var(--color-bg));
+    border-radius: 9999px;
+  }
+
+  .value-card__name {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .trail-card {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .trail-card__number {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: clamp(2.5rem, 5vw, 3.25rem);
+    font-weight: 800;
+    line-height: 1;
+    color: var(--color-primary);
+    opacity: 0.16;
+  }
+
+  .trail-card__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--color-primary);
+    background-color: var(--color-muted);
+    border-radius: var(--radius-sm);
+  }
+
+  .gov-card {
+    text-align: center;
+    background-color: color-mix(in srgb, var(--color-bg) 10%, transparent);
+    border: 1px solid rgb(255 255 255 / 14%);
+  }
+
+  .gov-card__title {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: var(--color-bg);
+  }
+
+  .thesis-cta {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .cta {
+    text-align: center;
+  }
+
+  .cta .section__lead {
+    margin-inline: auto;
+    margin-bottom: 2rem;
+  }
+
+  .cta__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+    background-color: var(--color-bg);
+    border-radius: 9999px;
+  }
+
+  .cta__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    transition: filter 0.15s ease;
+  }
+
+  .btn--primary {
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+  }
+
+  .btn--outline {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    background-color: transparent;
+  }
+
+  .btn:hover {
+    filter: brightness(0.97);
+  }
+
+  .btn:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  .reveal {
+    /* Visível por padrão */
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(1.25rem);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: fadeUp 0.7s ease both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 30%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .history {
+      grid-template-columns: 0.9fr 1.1fr;
+    }
+
+    .history__badge {
+      display: inline-block;
+    }
+
+    .purpose-grid,
+    .trail-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .values-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gov-grid,
+    .location-grid,
+    .thesis-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .values-grid {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+</style>

@@ -1,0 +1,667 @@
+---
+import { Image, type ImageMetadata } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+
+const assetModules = import.meta.glob<{ default: ImageMetadata }>('../assets/*.{png,jpg,jpeg,webp}', {
+  eager: true,
+});
+
+function getAsset(filename: string): ImageMetadata | null {
+  return assetModules[`../assets/${filename}`]?.default ?? null;
+}
+
+const heroImage = getAsset('eureka-coworking-hero.png');
+const loungeImage = getAsset('eureka-coworking-lounge.png');
+const logoImage = getAsset('logo-eureka-recomecar.png');
+const impactOportunidades = getAsset('impact-oportunidades.png');
+const impactInclusao = getAsset('impact-inclusao.png');
+const impactJustica = getAsset('impact-justica.png');
+
+const pageTitle = 'Recomeçar na Paulista | Eureka Coworking';
+const pageDescription =
+  'Parceria entre Eureka Coworking e Instituto Recomeçar para promover transformação social através de educação, empregabilidade e inclusão.';
+
+const partnershipItems = [
+  {
+    number: '01',
+    title: 'Sala de Reuniões',
+    description: 'Uso de sala para reuniões presenciais e virtuais.',
+  },
+  {
+    number: '02',
+    title: 'Espaço para Eventos',
+    description: 'Espaço para eventos, palestras e workshops.',
+  },
+  {
+    number: '03',
+    title: 'Produtos Opportunità',
+    description: 'Parceria comercial para comercialização dos produtos Opportunità.',
+  },
+];
+
+const impactCards = [
+  {
+    image: impactOportunidades,
+    title: 'Oportunidades',
+    description:
+      'Aumento da oferta de oportunidades de desenvolvimento profissional e pessoal para familiares de egressos do sistema prisional. A parceria permitirá que o Instituto Recomeçar amplie suas atividades e alcance um número maior de pessoas.',
+  },
+  {
+    image: impactInclusao,
+    title: 'Inclusão Social',
+    description:
+      'Contribuição para a inclusão social e econômica de egressos: Os cursos de qualificação profissional e as oportunidades de educação profissional e apoio socioemocional oferecidas pelo Instituto Recomeçar contribuirão para que os egressos desenvolvam suas habilidades e competências.',
+  },
+  {
+    image: impactJustica,
+    title: 'Justiça Social',
+    description:
+      'Construção de uma sociedade mais justa e inclusiva: A parceria é um exemplo de como o setor privado e a sociedade civil podem trabalhar juntos para promover a justiça social.',
+  },
+];
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath="/eureka-coworking/"
+  />
+
+  <section class="hero" aria-label="Recomeçar na Paulista">
+    {
+      heroImage ? (
+        <Image
+          src={heroImage}
+          alt="Espaço Eureka Coworking na Avenida Paulista"
+          class="hero__bg"
+          width={1920}
+          height={1080}
+          loading="eager"
+          fetchpriority="high"
+          format="webp"
+          quality="mid"
+        />
+      ) : (
+        <div class="hero__bg hero__bg--fallback" aria-hidden="true" />
+      )
+    }
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="hero__content reveal">
+      <h1 class="hero__title">
+        Recomeçar na <span class="hero__accent">Paulista</span>
+      </h1>
+      <p class="hero__text">
+        A Eureka Coworking e o Instituto Recomeçar firmaram uma parceria para promover{' '}
+        <strong>TRANSFORMAÇÃO SOCIAL</strong>.
+      </p>
+      {
+        logoImage ? (
+          <Image
+            src={logoImage}
+            alt="Logos da parceria Eureka Coworking e Instituto Recomeçar"
+            class="hero__logo"
+            width={320}
+            height={120}
+            loading="lazy"
+            format="webp"
+            quality="mid"
+          />
+        ) : (
+          <div class="hero__logo hero__logo--fallback" aria-hidden="true" />
+        )
+      }
+      <a href="#sobre" class="btn btn--accent">Saiba Mais</a>
+    </div>
+  </section>
+
+  <section id="sobre" class="section section--primary" aria-label="Sobre a Eureka Coworking">
+    <div class="container reveal">
+      <h2 class="section__title section__title--center section__title--light">Eureka Coworking</h2>
+      <div class="prose prose--light prose--narrow">
+        <p>
+          A Eureka Coworking se destaca com locais estratégicos em três cidades emblemáticas — São
+          Paulo, Campinas e Lisboa. O coração da operação está situado na icônica Avenida Paulista em
+          São Paulo.
+        </p>
+        <p>
+          Cada espaço da Eureka é feito para oferecer um excelente lugar para trabalhar, combinando
+          alto padrão e fácil acesso nas áreas mais movimentadas da cidade.
+        </p>
+        <p>
+          O espaço é inclusivo e acolhe profissionais de todos os setores, desde empreendedores até
+          startups. Disponibiliza escritórios privativos, áreas de coworking, salas de reunião
+          multifuncionais, espaços para eventos e serviços de escritório virtual.
+        </p>
+        <p>
+          Está localizado em um edifício moderno e bem localizado, com fácil acesso a várias formas
+          de transporte público, facilitando o deslocamento de nossos membros e visitantes.
+        </p>
+        <p>
+          Com o objetivo de promover a inovação social e o trabalho colaborativo, o espaço é
+          projetado com áreas de trabalho compartilhadas, salas de reunião equipadas com tecnologia
+          de ponta e espaços dedicados para eventos comunitários e de networking.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--lounge" aria-label="Impulsionando transformação social">
+    {
+      loungeImage ? (
+        <Image
+          src={loungeImage}
+          alt=""
+          class="lounge__bg"
+          width={1920}
+          height={1080}
+          loading="lazy"
+          format="webp"
+          quality="mid"
+        />
+      ) : (
+        <div class="lounge__bg lounge__bg--fallback" aria-hidden="true" />
+      )
+    }
+    <div class="lounge__overlay" aria-hidden="true"></div>
+    <div class="container lounge__content reveal">
+      <h2 class="section__title section__title--light">Impulsionando Transformação Social</h2>
+      <div class="prose prose--light prose--narrow prose--left">
+        <p>
+          A Eureka Coworking Paulista e o Instituto Recomeçar firmaram uma parceria para promover e
+          impulsionar a transformação social.
+        </p>
+        <p>
+          A Eureka Coworking disponibilizará seu espaço físico e sua equipe de apoio para que o
+          Instituto Recomeçar possa realizar atividades como cursos de qualificação profissional,
+          palestras e workshops, além de fornecer espaço para reuniões tanto presenciais quanto
+          virtuais.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--primary" aria-label="Parceria">
+    <div class="container">
+      <h2 class="section__title section__title--center section__title--light reveal">Parceria</h2>
+      <ul class="partnership-grid">
+        {
+          partnershipItems.map((item) => (
+            <li class="partnership-card reveal">
+              <span class="partnership-card__number" aria-hidden="true">
+                {item.number}
+              </span>
+              <h3 class="partnership-card__title">{item.title}</h3>
+              <p class="partnership-card__text">{item.description}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--primary" aria-label="Impacto social">
+    <div class="container reveal">
+      <p class="section__eyebrow">Exemplo de</p>
+      <h2 class="section__title section__title--center section__title--light">Impacto Social</h2>
+      <div class="prose prose--light prose--narrow prose--center">
+        <p>
+          A parceria é um exemplo de como o setor privado e a sociedade civil podem trabalhar juntos
+          para promover a justiça social.
+        </p>
+        <p>
+          O objetivo é contribuir para a construção de uma sociedade mais justa e inclusiva, onde
+          todos tenham oportunidades de sucesso, independentemente de seu passado.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--primary" aria-label="Impactos esperados da parceria">
+    <div class="container">
+      <h2 class="section__title section__title--center section__title--light reveal">
+        Impactos Esperados da Parceria
+      </h2>
+      <ul class="impact-grid">
+        {
+          impactCards.map((card) => (
+            <li class="impact-card reveal">
+              {card.image ? (
+                <Image
+                  src={card.image}
+                  alt=""
+                  class="impact-card__image"
+                  width={640}
+                  height={448}
+                  loading="lazy"
+                  format="webp"
+                  quality="mid"
+                />
+              ) : (
+                <div class="impact-card__image impact-card__image--fallback" aria-hidden="true" />
+              )}
+              <div class="impact-card__body">
+                <h3 class="impact-card__title">{card.title}</h3>
+                <p class="impact-card__text">{card.description}</p>
+              </div>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--primary" aria-label="Vídeo do projeto">
+    <div class="container reveal">
+      <h2 class="section__title section__title--center section__title--light">Conheça o Projeto</h2>
+      <p class="section__subtitle">Veja como a parceria transforma vidas na prática.</p>
+      <div class="video">
+        <iframe
+          src="https://www.youtube.com/embed/4AKhLqCEg4I"
+          title="Recomeçar na Paulista"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--cta" aria-label="Faça parte dessa transformação">
+    <div class="container reveal">
+      <h2 class="section__title section__title--center section__title--cta">
+        Faça parte dessa transformação
+      </h2>
+      <p class="section__lead">
+        Conheça o Instituto Recomeçar e descubra como sua empresa pode contribuir para a reintegração
+        social de egressos do sistema prisional.
+      </p>
+      <div class="section__actions">
+        <a href="/contato" class="btn btn--primary">Entre em contato</a>
+        <a href="/quem-somos" class="btn btn--primary-outline">Conheça o Instituto</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  :global(html) {
+    scroll-behavior: smooth;
+  }
+
+  .container {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+  }
+
+  .section {
+    position: relative;
+    padding: 5rem 0;
+  }
+
+  .section--primary {
+    background-color: var(--color-primary);
+  }
+
+  .section--cta {
+    background-color: var(--color-accent);
+  }
+
+  .section__title {
+    margin-bottom: 1.5rem;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-primary);
+  }
+
+  .section__title--center {
+    text-align: center;
+  }
+
+  .section__title--light {
+    color: var(--color-bg);
+  }
+
+  .section__title--cta {
+    color: var(--color-accent-text);
+  }
+
+  .section__eyebrow {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+
+  .section__subtitle,
+  .section__lead {
+    max-width: 40rem;
+    margin: 0 auto 2rem;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+
+  .section__subtitle {
+    color: rgb(255 255 255 / 88%);
+  }
+
+  .section__lead {
+    color: var(--color-accent-text);
+  }
+
+  .section__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    transition: filter 0.15s ease, background-color 0.15s ease;
+  }
+
+  .btn--accent {
+    color: var(--color-accent-text);
+    background-color: var(--color-accent);
+  }
+
+  .btn--primary {
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+  }
+
+  .btn--primary-outline {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+    background-color: transparent;
+  }
+
+  .btn:hover {
+    filter: brightness(0.97);
+  }
+
+  .btn:focus-visible {
+    outline: 2px solid var(--color-bg);
+    outline-offset: 2px;
+  }
+
+  .prose {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .prose--narrow {
+    max-width: 56rem;
+    margin-inline: auto;
+  }
+
+  .prose--light {
+    color: rgb(255 255 255 / 90%);
+  }
+
+  .prose--center {
+    text-align: center;
+  }
+
+  .prose--left {
+    text-align: left;
+  }
+
+  .prose p {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+  }
+
+  .hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: clamp(28rem, 85vh, 42rem);
+    overflow: hidden;
+  }
+
+  .hero__bg,
+  .lounge__bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .hero__bg--fallback,
+  .lounge__bg--fallback,
+  .hero__logo--fallback,
+  .impact-card__image--fallback {
+    background-color: var(--color-primary);
+  }
+
+  .hero__overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(
+      160deg,
+      rgb(0 0 0 / 78%) 0%,
+      rgb(0 0 0 / 55%) 50%,
+      rgb(0 0 0 / 70%) 100%
+    );
+  }
+
+  .hero__content {
+    position: relative;
+    z-index: 2;
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+    padding: 4rem 0;
+    color: var(--color-bg);
+  }
+
+  .hero__title {
+    max-width: 14ch;
+    margin-bottom: 1.25rem;
+    font-size: clamp(2.25rem, 6vw, 4rem);
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  .hero__accent {
+    color: var(--color-accent);
+  }
+
+  .hero__text {
+    max-width: 36rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: rgb(255 255 255 / 92%);
+  }
+
+  .hero__text strong {
+    font-weight: 700;
+    color: var(--color-bg);
+  }
+
+  .hero__logo {
+    width: min(100%, 16rem);
+    height: auto;
+    margin-bottom: 1.75rem;
+  }
+
+  .hero__logo--fallback {
+    width: min(100%, 16rem);
+    height: 4rem;
+    margin-bottom: 1.75rem;
+    border-radius: var(--radius-sm);
+    opacity: 0.35;
+  }
+
+  .section--lounge {
+    position: relative;
+    overflow: hidden;
+    min-height: 28rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .lounge__overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: rgb(0 0 0 / 72%);
+  }
+
+  .lounge__content {
+    position: relative;
+    z-index: 2;
+  }
+
+  .partnership-grid,
+  .impact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .partnership-card {
+    padding: 1.75rem 1.5rem;
+    background-color: color-mix(in srgb, var(--color-bg) 8%, transparent);
+    border: 1px solid rgb(255 255 255 / 14%);
+    border-radius: var(--radius-md);
+  }
+
+  .partnership-card__number {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 800;
+    line-height: 1;
+    color: var(--color-accent);
+    opacity: 0.9;
+  }
+
+  .partnership-card__title {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-bg);
+  }
+
+  .partnership-card__text {
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: rgb(255 255 255 / 85%);
+  }
+
+  .impact-card {
+    overflow: hidden;
+    background-color: color-mix(in srgb, var(--color-bg) 8%, transparent);
+    border: 1px solid rgb(255 255 255 / 14%);
+    border-radius: var(--radius-md);
+  }
+
+  .impact-card__image {
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+  }
+
+  .impact-card__image--fallback {
+    height: 14rem;
+  }
+
+  .impact-card__body {
+    padding: 1.25rem 1.5rem 1.5rem;
+  }
+
+  .impact-card__title {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-bg);
+  }
+
+  .impact-card__text {
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    color: rgb(255 255 255 / 85%);
+  }
+
+  .video {
+    position: relative;
+    width: min(100%, 56rem);
+    margin-inline: auto;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: var(--radius-md);
+    background-color: color-mix(in srgb, var(--color-bg) 8%, transparent);
+  }
+
+  .video iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  .reveal {
+    /* Visível por padrão — sem animation-timeline, permanece estático */
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(1.5rem);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: fadeUp 0.7s ease both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 30%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .partnership-grid,
+    .impact-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 767px) {
+    .lounge__bg {
+      /* Evita jank de background-attachment: fixed em mobile */
+      position: absolute;
+    }
+  }
+</style>

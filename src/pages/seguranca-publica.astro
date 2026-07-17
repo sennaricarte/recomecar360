@@ -1,0 +1,463 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+import ROIBanner from '../components/sections/ROIBanner.astro';
+import { SITE_URL } from '../lib/jsonld';
+import relatorioData from '../data/relatorio-atividades.json';
+
+const pageTitle = 'Segurança Pública e ROI Social | Instituto Recomeçar';
+const pageDescription =
+  'O Instituto Recomeçar reduz a reincidência criminal e gera segurança pública com ROI comprovado: R$16 para cada R$1 investido.';
+const canonicalPath = '/seguranca-publica';
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Início',
+      item: SITE_URL,
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Segurança Pública',
+      item: new URL(canonicalPath, SITE_URL).href,
+    },
+  ],
+};
+
+const reportYears = ['2021', '2022', '2023', '2024', '2025'] as const;
+
+const reincidenceRows = reportYears
+  .map((year) => {
+    const entry = relatorioData[year];
+    if (!entry?.reincidencia) return null;
+
+    const { nacional, recomecar, queda } = entry.reincidencia;
+    const hasCompleteData =
+      nacional && recomecar && queda && nacional !== '—' && recomecar !== '—' && queda !== '—';
+
+    if (!hasCompleteData) return null;
+
+    return { year, nacional, recomecar, queda };
+  })
+  .filter((row): row is NonNullable<typeof row> => row !== null);
+
+const impactCards = [
+  {
+    title: 'Menos Reincidência',
+    description:
+      'Cada egresso que não volta ao crime é uma vítima a menos e uma família reconstruída.',
+    icon: 'shield',
+  },
+  {
+    title: 'Menor Custo ao Estado',
+    description:
+      'Manter uma pessoa presa custa ao Estado muito mais do que investir em sua reintegração.',
+    icon: 'coins',
+  },
+  {
+    title: 'Cidades Mais Seguras',
+    description:
+      'A reintegração bem-sucedida reduz criminalidade nas regiões onde o Instituto atua: São Paulo, Brasília e Recife.',
+    icon: 'city',
+  },
+];
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+    jsonLd={[breadcrumbJsonLd]}
+  />
+
+  <section class="hero" aria-label="Segurança pública">
+    <div class="container hero__content">
+      <p class="hero__eyebrow">Segurança Pública</p>
+      <h1 class="hero__title">
+        Ressocialização é política de <span class="text-accent">segurança pública</span>.
+      </h1>
+      <p class="hero__text">
+        Quando um egresso não volta ao crime, o Brasil inteiro fica mais seguro. O Instituto
+        Recomeçar existe para quebrar o ciclo da reincidência — com metodologia própria e resultado
+        mensurável.
+      </p>
+    </div>
+  </section>
+
+  <ROIBanner />
+
+  <section class="section" aria-label="Os números da reincidência">
+    <div class="container">
+      <header class="section__header">
+        <p class="eyebrow">Os Números da Reincidência</p>
+        <h2 class="section__title">Uma trajetória de resultados</h2>
+      </header>
+
+      {
+        reincidenceRows.length > 0 ? (
+          <div class="reincidence-table" role="region" aria-label="Comparativo de reincidência por ano">
+            <div class="reincidence-table__head" aria-hidden="true">
+              <span>Ano</span>
+              <span>Índice nacional</span>
+              <span>Instituto Recomeçar</span>
+              <span>Queda</span>
+            </div>
+            <ul class="reincidence-table__body">
+              {reincidenceRows.map((row) => (
+                <li class="reincidence-row">
+                  <span class="reincidence-row__year">{row.year}</span>
+                  <span class="reincidence-row__value reincidence-row__value--national">
+                    <span class="reincidence-row__label">Índice nacional</span>
+                    {row.nacional}
+                  </span>
+                  <span class="reincidence-row__value reincidence-row__value--institute">
+                    <span class="reincidence-row__label">Instituto Recomeçar</span>
+                    {row.recomecar}
+                  </span>
+                  <span class="reincidence-row__value reincidence-row__value--drop">
+                    <span class="reincidence-row__label">Queda</span>
+                    {row.queda}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : (
+          <p class="section__lead">Dados comparativos disponíveis em breve nos relatórios anuais.</p>
+        )
+      }
+    </div>
+  </section>
+
+  <section class="section section--muted" aria-label="Por que isso importa para o Brasil">
+    <div class="container">
+      <header class="section__header">
+        <h2 class="section__title">Por que isso importa para o Brasil</h2>
+      </header>
+
+      <ul class="impact-grid">
+        {
+          impactCards.map((card) => (
+            <li class="impact-card">
+              <span class="impact-card__icon" aria-hidden="true">
+                {card.icon === 'shield' && (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 3 4 7v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10V7l-8-4Z"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                )}
+                {card.icon === 'coins' && (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <ellipse cx="12" cy="7" rx="7" ry="3" stroke="currentColor" stroke-width="1.8" />
+                    <path
+                      d="M5 7v5c0 1.7 3.1 3 7 3s7-1.3 7-3V7M5 12v5c0 1.7 3.1 3 7 3s7-1.3 7-3v-5"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                    />
+                  </svg>
+                )}
+                {card.icon === 'city' && (
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M4 21V9l8-4 8 4v12M9 21v-6h6v6"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linejoin="round"
+                    />
+                    <path d="M9 11h1M14 11h1M9 15h1M14 15h1" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                  </svg>
+                )}
+              </span>
+              <h3 class="impact-card__title">{card.title}</h3>
+              <p class="impact-card__text">{card.description}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="cta-band" aria-label="Faça valer a pena">
+    <div class="container cta-band__inner">
+      <h2 class="cta-band__title">Faça valer a pena.</h2>
+      <p class="cta-band__text">
+        Invista em segurança pública real — invista no Instituto Recomeçar.
+      </p>
+      <a href="/doe" class="btn btn--primary">Faça Valer a Pena</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .container {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+  }
+
+  .text-accent {
+    color: var(--color-accent);
+  }
+
+  .section {
+    padding: 5rem 0;
+    background-color: var(--color-bg);
+  }
+
+  .section--muted {
+    background-color: var(--color-muted);
+  }
+
+  .section__header {
+    max-width: 42rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .eyebrow {
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+  }
+
+  .section__title {
+    margin-bottom: 0.75rem;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-primary);
+  }
+
+  .section__lead {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted-text);
+  }
+
+  .hero {
+    padding: 5rem 0;
+    background-color: var(--color-foreground);
+    color: var(--color-bg);
+  }
+
+  .hero__content {
+    max-width: 48rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .hero__eyebrow {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+
+  .hero__title {
+    margin: 0 0 1.25rem;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    font-weight: 800;
+    line-height: 1.15;
+  }
+
+  .hero__text {
+    margin: 0;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: rgb(255 255 255 / 88%);
+  }
+
+  .reincidence-table__head {
+    display: none;
+  }
+
+  .reincidence-table__body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .reincidence-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    padding: 1.25rem;
+    background-color: var(--color-muted);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .reincidence-row__year {
+    font-size: 1.125rem;
+    font-weight: 800;
+    color: var(--color-primary);
+  }
+
+  .reincidence-row__label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-muted-text);
+  }
+
+  .reincidence-row__value {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  .reincidence-row__value--national {
+    color: #b42318;
+  }
+
+  .reincidence-row__value--institute {
+    color: #15803d;
+  }
+
+  .reincidence-row__value--drop {
+    color: var(--color-primary);
+  }
+
+  .impact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .impact-card {
+    padding: 1.5rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .impact-card__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+    background-color: color-mix(in srgb, var(--color-primary) 10%, var(--color-bg));
+    border-radius: 9999px;
+  }
+
+  .impact-card__title {
+    margin: 0 0 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .impact-card__text {
+    margin: 0;
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    color: var(--color-muted-text);
+  }
+
+  .cta-band {
+    padding: 5rem 0;
+    background-color: var(--color-accent);
+  }
+
+  .cta-band__inner {
+    max-width: 40rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  .cta-band__title {
+    margin: 0 0 1rem;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--color-primary);
+  }
+
+  .cta-band__text {
+    margin: 0 0 2rem;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: color-mix(in srgb, var(--color-primary) 88%, black);
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    transition: filter 0.15s ease;
+  }
+
+  .btn--primary {
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+  }
+
+  .btn:hover {
+    filter: brightness(0.97);
+  }
+
+  .btn:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  @media (min-width: 768px) {
+    .impact-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .reincidence-table__head {
+      display: grid;
+      grid-template-columns: 6rem 1fr 1fr 8rem;
+      gap: 1rem;
+      padding: 0 1.25rem 0.75rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--color-muted-text);
+    }
+
+    .reincidence-row {
+      grid-template-columns: 6rem 1fr 1fr 8rem;
+      align-items: center;
+      gap: 1rem;
+      background-color: var(--color-bg);
+    }
+
+    .reincidence-row__label {
+      display: none;
+    }
+  }
+</style>

@@ -1,0 +1,85 @@
+<section class="roi-band" aria-label="Retorno social e econômico">
+  <div class="container">
+    <ul class="roi-band__grid">
+      <li class="roi-band__item">
+        <strong class="roi-band__value">R$ 16</strong>
+        <span class="roi-band__label">retornam para a sociedade a cada R$ 1 investido</span>
+      </li>
+      <li class="roi-band__item">
+        <strong class="roi-band__value">R$ 4 mi</strong>
+        <span class="roi-band__label">economizados ao Estado em 2024</span>
+      </li>
+    </ul>
+    <p class="roi-band__source">Fonte: Planejamento Estratégico Accenture, 2026</p>
+  </div>
+</section>
+
+<style>
+  .container {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+  }
+
+  .roi-band {
+    width: 100%;
+    padding: 2.5rem 0;
+    background-color: var(--color-accent);
+  }
+
+  .roi-band__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    margin: 0 0 1rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .roi-band__item {
+    padding: 0.5rem 0;
+  }
+
+  .roi-band__value {
+    display: block;
+    font-size: clamp(2.35rem, 8vw, 4rem);
+    font-weight: 800;
+    line-height: 1;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+  }
+
+  .roi-band__label {
+    display: block;
+    max-width: 28ch;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.45;
+    color: color-mix(in srgb, var(--color-primary) 88%, black);
+  }
+
+  .roi-band__source {
+    margin: 0;
+    font-size: 0.75rem;
+    text-align: center;
+    color: color-mix(in srgb, var(--color-primary) 68%, black);
+  }
+
+  @media (min-width: 768px) {
+    .roi-band__grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+
+    .roi-band {
+      padding: 4rem 0;
+    }
+
+    .roi-band__item {
+      padding: 0.5rem 1.75rem;
+    }
+
+    .roi-band__item + .roi-band__item {
+      border-left: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+    }
+  }
+</style>

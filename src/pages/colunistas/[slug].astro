@@ -1,0 +1,111 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SEO from '../../components/seo/SEO.astro';
+import BlogBreadcrumb from '../../components/blog/BlogBreadcrumb.astro';
+import type { ColunistaEntry } from '../../lib/team';
+
+export async function getStaticPaths() {
+  const colunistas = await getCollection('colunistas');
+
+  return colunistas.map((colunista) => ({
+    params: { slug: colunista.data.slug },
+    props: { colunista },
+  }));
+}
+
+interface Props {
+  colunista: ColunistaEntry;
+}
+
+const { colunista } = Astro.props;
+
+const pageTitle = `${colunista.data.name} | Colunistas | Instituto Recomeçar`;
+const pageDescription = colunista.data.bio;
+const canonicalPath = `/colunistas/${colunista.data.slug}/`;
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+  />
+
+  <article class="columnist-profile">
+    <BlogBreadcrumb
+      items={[
+        { label: 'Início', href: '/' },
+        { label: 'Colunistas', href: '/colunistas/' },
+        { label: colunista.data.name, current: true },
+      ]}
+    />
+
+    <header class="columnist-profile__header">
+      <p class="columnist-profile__eyebrow">{colunista.data.columnName}</p>
+      <h1 class="columnist-profile__title">{colunista.data.name}</h1>
+    </header>
+
+    <div class="columnist-profile__bio">
+      <p>{colunista.data.bio}</p>
+    </div>
+
+    <footer class="columnist-profile__footer">
+      <a href="/colunistas/" class="columnist-profile__back">← Voltar para colunistas</a>
+    </footer>
+  </article>
+</BaseLayout>
+
+<style>
+  .columnist-profile {
+    width: min(100% - 3rem, 42rem);
+    margin-inline: auto;
+    padding: 3rem 0 5rem;
+  }
+
+  .columnist-profile__header {
+    margin-bottom: 1.5rem;
+  }
+
+  .columnist-profile__eyebrow {
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+  }
+
+  .columnist-profile__title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-primary);
+  }
+
+  .columnist-profile__bio {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: var(--color-text);
+  }
+
+  .columnist-profile__footer {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .columnist-profile__back {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .columnist-profile__back:hover,
+  .columnist-profile__back:focus-visible {
+    color: var(--color-primary-hover);
+    text-decoration: underline;
+  }
+</style>

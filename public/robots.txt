@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /obrigado/
+Sitemap: https://www.institutorecomecar.org.br/sitemap-index.xml

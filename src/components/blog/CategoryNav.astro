@@ -1,0 +1,72 @@
+---
+import { ARTICLE_CATEGORIES, getBlogPagePath } from '../../lib/categories';
+
+interface Props {
+  activeCategorySlug?: string | null;
+}
+
+const { activeCategorySlug = null } = Astro.props;
+---
+
+<nav class="category-nav" aria-label="Filtrar por categoria">
+  <ul class="category-nav__list">
+    <li>
+      <a href={getBlogPagePath()} class:list={['category-nav__link', { 'is-active': !activeCategorySlug }]}>
+        Todos
+      </a>
+    </li>
+    {
+      ARTICLE_CATEGORIES.map((category) => (
+        <li>
+          <a
+            href={`/blog/categoria/${category.slug}/`}
+            class:list={[
+              'category-nav__link',
+              { 'is-active': activeCategorySlug === category.slug },
+            ]}
+          >
+            {category.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<style>
+  .category-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem;
+  }
+
+  .category-nav__link {
+    display: inline-flex;
+    padding: 0.5rem 0.875rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text);
+    text-decoration: none;
+    background-color: var(--color-muted);
+    border: 1px solid var(--color-border);
+    border-radius: 9999px;
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+
+  .category-nav__link:hover,
+  .category-nav__link:focus-visible {
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  .category-nav__link.is-active {
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+</style>

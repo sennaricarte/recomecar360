@@ -1,0 +1,652 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+import ReportIcon from '../components/ui/ReportIcon.astro';
+import relatorioData from '../data/relatorio-atividades.json';
+
+const pageTitle = 'Relatório de Atividades | Instituto Recomeçar';
+const pageDescription =
+  'Transparência e prestação de contas do Instituto Recomeçar: resultados, impacto e dados de 2021 a 2025.';
+const canonicalPath = '/relatorio-de-atividades/';
+
+const years = Object.values(relatorioData).sort(
+  (a, b) => Number(a.year) - Number(b.year),
+);
+const defaultYear = '2025';
+
+function highlightIconClass(color: string): string {
+  if (color.includes('accent')) return 'highlight-card__icon--accent';
+  if (color.includes('emerald')) return 'highlight-card__icon--emerald';
+  if (color.includes('rose')) return 'highlight-card__icon--rose';
+  return 'highlight-card__icon--primary';
+}
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+  />
+
+  <div class="relatorio">
+    {
+      years.map((item) => (
+        <input
+          type="radio"
+          name="ano-relatorio"
+          id={`ano-${item.year}`}
+          class="sr-only"
+          checked={item.year === defaultYear}
+        />
+      ))
+    }
+
+    <header class="hero">
+      <div class="container hero__content">
+        <p class="hero__badge">
+          <ReportIcon name="BarChart3" size={16} />
+          Transparência e Prestação de Contas
+        </p>
+        <h1 class="hero__title">
+          Relatório de <span class="text-accent">Atividades</span>
+        </h1>
+
+        <div class="tabs" role="tablist" aria-label="Selecionar ano do relatório">
+          {
+            years.map((item) => (
+              <label class="tabs__pill" for={`ano-${item.year}`}>
+                {item.year}
+              </label>
+            ))
+          }
+        </div>
+      </div>
+    </header>
+
+    <div class="paineis">
+      {
+        years.map((data) => (
+          <section
+            class="painel-ano"
+            id={`painel-${data.year}`}
+            aria-labelledby={`ano-${data.year}`}
+          >
+            <div class="container">
+              <div class="intro">
+                <p class="intro__text">{data.intro}</p>
+                <a href={data.pdfUrl} class="btn btn--primary" download>
+                  Baixar Relatório {data.year} (PDF)
+                </a>
+              </div>
+
+              <section class="block" aria-label={`Números em destaque ${data.year}`}>
+                <ul class="highlights">
+                  {data.highlights.map((item) => (
+                    <li class="highlight-card">
+                      <span class:list={['highlight-card__icon', highlightIconClass(item.color)]}>
+                        <ReportIcon name={item.icon} />
+                      </span>
+                      <strong class="highlight-card__value">{item.value}</strong>
+                      <span class="highlight-card__label">{item.label}</span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+
+              <section class="block block--primary" aria-label={`Índice de reincidência ${data.year}`}>
+                <h2 class="block__title block__title--light">Índice de Reincidência</h2>
+                <p class="block__lead block__lead--light">{data.reincidencia.parceira}</p>
+                <div class="reincidencia">
+                  <div class="reincidencia__card reincidencia__card--nacional">
+                    <span class="reincidencia__label">Nacional</span>
+                    <strong class="reincidencia__value">{data.reincidencia.nacional}</strong>
+                  </div>
+                  <div class="reincidencia__card reincidencia__card--recomecar">
+                    <span class="reincidencia__label">Recomeçar</span>
+                    <strong class="reincidencia__value">{data.reincidencia.recomecar}</strong>
+                  </div>
+                </div>
+                <p class="reincidencia__queda">
+                  Queda de {data.reincidencia.queda} na expectativa de reincidência carcerária
+                </p>
+              </section>
+
+              <section class="block" aria-label={`Trilha do Egresso ${data.year}`}>
+                <h2 class="block__title">Trilha do Egresso</h2>
+                <p class="block__lead">
+                  As etapas que cada egresso percorre no Instituto Recomeçar rumo à reintegração
+                  social.
+                </p>
+                <ul class="grid-3">
+                  {data.trilha.map((item) => (
+                    <li class="metric-card">
+                      <span class="metric-card__icon">
+                        <ReportIcon name={item.icon} />
+                      </span>
+                      <strong class="metric-card__value">{item.value}</strong>
+                      <h3 class="metric-card__title">{item.title}</h3>
+                      <p class="metric-card__desc">{item.desc}</p>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+
+              <section class="block" aria-label={`Acompanhamento contínuo ${data.year}`}>
+                <h2 class="block__title">Acompanhamento Contínuo</h2>
+                <ul class="grid-3">
+                  {data.acompanhamento.map((item) => (
+                    <li class="metric-card">
+                      <span class="metric-card__icon">
+                        <ReportIcon name={item.icon} />
+                      </span>
+                      <strong class="metric-card__value">{item.value}</strong>
+                      <h3 class="metric-card__title">{item.title}</h3>
+                      <p class="metric-card__desc">{item.desc}</p>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+
+              <section class="block" aria-label={`Onde estamos ${data.year}`}>
+                <h2 class="block__title">Onde Estamos</h2>
+                <p class="block__lead">
+                  {data.unidades.length} unidades em {data.year}
+                </p>
+                <ul class="grid-4">
+                  {data.unidades.map((unidade) => (
+                    <li class="unit-card">
+                      <h3 class="unit-card__city">
+                        {unidade.cidade} — {unidade.estado}
+                      </h3>
+                      <p class="unit-card__tipo">{unidade.tipo}</p>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+
+              {data.depoimentos.length > 0 && (
+                <section class="block" aria-label={`Depoimentos ${data.year}`}>
+                  <h2 class="block__title">Depoimentos</h2>
+                  <p class="block__lead">Histórias reais de transformação</p>
+                  <ul class:list={['depoimentos', { 'depoimentos--2': data.depoimentos.length === 2, 'depoimentos--3': data.depoimentos.length >= 3 }]}>
+                    {data.depoimentos.map((item) => (
+                      <li class="depoimento-card">
+                        <span class="depoimento-card__icon" aria-hidden="true">
+                          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M7.2 18c-1.8 0-3.2-.5-4.2-1.6C2 15.3 1.5 13.8 1.5 12c0-2.2.8-4.1 2.4-5.7C5.5 4.7 7.5 3.8 10 3.5v3.2c-1.3.3-2.3.9-3 1.8-.7.9-1 1.9-1 3.1h3.2V18H7.2Zm10.5 0c-1.8 0-3.2-.5-4.2-1.6-1-1.1-1.5-2.6-1.5-4.4 0-2.2.8-4.1 2.4-5.7 1.6-1.6 3.6-2.5 6.1-2.8v3.2c-1.3.3-2.3.9-3 1.8-.7.9-1 1.9-1 3.1h3.2V18h-2Z" />
+                          </svg>
+                        </span>
+                        <blockquote class="depoimento-card__texto">“{item.texto}”</blockquote>
+                        <p class="depoimento-card__nome">{item.nome}</p>
+                        <p class="depoimento-card__role">Egresso do Instituto Recomeçar</p>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              )}
+
+              <section class="block" aria-label={`Destaques ${data.year}`}>
+                <h2 class="block__title">Destaques</h2>
+                <ul class="destaques">
+                  {data.destaques.map((item) => (
+                    <li class="destaque-card">
+                      <span class="destaque-card__tag">
+                        <ReportIcon name={item.tagIcon} size={16} />
+                        {item.tag}
+                      </span>
+                      <h3 class="destaque-card__title">{item.title}</h3>
+                      <p class="destaque-card__desc">{item.desc}</p>
+                      {'desc2' in item && item.desc2 && (
+                        <p class="destaque-card__desc">{item.desc2}</p>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            </div>
+          </section>
+        ))
+      }
+    </div>
+
+    <section class="cta" aria-label="Baixe os relatórios completos">
+      <div class="container cta__inner">
+        <h2 class="cta__title">Baixe os relatórios completos</h2>
+        <p class="cta__lead">
+          Acesse os PDFs anuais de transparência e prestação de contas do Instituto Recomeçar.
+        </p>
+        <div class="cta__actions">
+          {
+            years.map((item) => (
+              <a href={item.pdfUrl} class="btn btn--accent" download>
+                {item.year}
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .container {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+  }
+
+  .text-accent {
+    color: var(--color-accent);
+  }
+
+  .hero {
+    padding: 4rem 0 2rem;
+    background-color: var(--color-bg);
+  }
+
+  .hero__content {
+    max-width: 48rem;
+  }
+
+  .hero__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem 0.85rem;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+    background-color: var(--color-accent);
+    border-radius: 9999px;
+  }
+
+  .hero__title {
+    margin-bottom: 1.75rem;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    line-height: 1.15;
+    color: var(--color-primary);
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tabs__pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 4.5rem;
+    padding: 0.55rem 1rem;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: var(--color-text);
+    background-color: var(--color-muted);
+    border: 1px solid var(--color-border);
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .tabs__pill:hover,
+  .tabs__pill:focus-visible {
+    border-color: var(--color-primary);
+    outline: none;
+  }
+
+  .tabs__pill:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  #ano-2021:checked ~ .hero .tabs label[for='ano-2021'],
+  #ano-2022:checked ~ .hero .tabs label[for='ano-2022'],
+  #ano-2023:checked ~ .hero .tabs label[for='ano-2023'],
+  #ano-2024:checked ~ .hero .tabs label[for='ano-2024'],
+  #ano-2025:checked ~ .hero .tabs label[for='ano-2025'] {
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+
+  .painel-ano {
+    display: none;
+    padding-bottom: 3rem;
+  }
+
+  #ano-2021:checked ~ .paineis #painel-2021,
+  #ano-2022:checked ~ .paineis #painel-2022,
+  #ano-2023:checked ~ .paineis #painel-2023,
+  #ano-2024:checked ~ .paineis #painel-2024,
+  #ano-2025:checked ~ .paineis #painel-2025 {
+    display: block;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: flex-start;
+    margin-bottom: 2.5rem;
+  }
+
+  .intro__text {
+    max-width: 48rem;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: var(--color-muted-text);
+  }
+
+  .block {
+    margin-bottom: 3rem;
+  }
+
+  .block--primary {
+    padding: 2rem 1.5rem;
+    background-color: var(--color-primary);
+    border-radius: var(--radius-md);
+  }
+
+  .block__title {
+    margin-bottom: 0.75rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .block__title--light {
+    color: var(--color-bg);
+  }
+
+  .block__lead {
+    max-width: 42rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-muted-text);
+  }
+
+  .block__lead--light {
+    color: rgb(255 255 255 / 88%);
+  }
+
+  .highlights,
+  .grid-3,
+  .grid-4,
+  .depoimentos,
+  .destaques {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .highlight-card,
+  .metric-card,
+  .unit-card,
+  .depoimento-card,
+  .destaque-card {
+    padding: 1.25rem;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+  }
+
+  .highlight-card {
+    text-align: center;
+  }
+
+  .highlight-card__icon,
+  .metric-card__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 9999px;
+  }
+
+  .highlight-card__icon--primary {
+    color: var(--color-primary);
+    background-color: color-mix(in srgb, var(--color-primary) 12%, transparent);
+  }
+
+  .highlight-card__icon--accent {
+    color: var(--color-accent-text);
+    background-color: color-mix(in srgb, var(--color-accent) 22%, transparent);
+  }
+
+  .highlight-card__icon--emerald {
+    color: #059669;
+    background-color: color-mix(in srgb, #10b981 14%, transparent);
+  }
+
+  .highlight-card__icon--rose {
+    color: #e11d48;
+    background-color: color-mix(in srgb, #f43f5e 14%, transparent);
+  }
+
+  .metric-card__icon {
+    color: var(--color-primary);
+    background-color: var(--color-muted);
+  }
+
+  .highlight-card__value,
+  .metric-card__value {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 800;
+    color: var(--color-primary);
+  }
+
+  .highlight-card__label,
+  .metric-card__desc,
+  .unit-card__tipo,
+  .depoimento-card__role,
+  .destaque-card__desc {
+    font-size: 0.9375rem;
+    line-height: 1.55;
+    color: var(--color-muted-text);
+  }
+
+  .metric-card__title,
+  .unit-card__city,
+  .depoimento-card__nome,
+  .destaque-card__title {
+    margin-bottom: 0.35rem;
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+
+  .reincidencia {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .reincidencia__card {
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: var(--radius-md);
+    background-color: color-mix(in srgb, var(--color-bg) 10%, transparent);
+    border: 1px solid rgb(255 255 255 / 14%);
+  }
+
+  .reincidencia__label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: rgb(255 255 255 / 85%);
+  }
+
+  .reincidencia__value {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    line-height: 1;
+  }
+
+  .reincidencia__card--nacional .reincidencia__value {
+    color: #ff8a80;
+  }
+
+  .reincidencia__card--recomecar .reincidencia__value {
+    color: #81c784;
+  }
+
+  .reincidencia__queda {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-accent);
+  }
+
+  .depoimento-card__icon {
+    display: inline-flex;
+    margin-bottom: 0.75rem;
+    color: var(--color-primary);
+  }
+
+  .depoimento-card__texto {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text);
+  }
+
+  .destaque-card__tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-bottom: 0.75rem;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-accent-text);
+    background-color: var(--color-accent);
+    border-radius: 9999px;
+  }
+
+  .destaque-card__desc + .destaque-card__desc {
+    margin-top: 0.75rem;
+  }
+
+  .cta {
+    padding: 4rem 0;
+    background-color: var(--color-primary);
+  }
+
+  .cta__inner {
+    text-align: center;
+  }
+
+  .cta__title {
+    margin-bottom: 0.75rem;
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    font-weight: 700;
+    color: var(--color-bg);
+  }
+
+  .cta__lead {
+    max-width: 36rem;
+    margin: 0 auto 1.75rem;
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: rgb(255 255 255 / 88%);
+  }
+
+  .cta__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 9999px;
+    transition: filter 0.15s ease;
+  }
+
+  .btn--primary {
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+  }
+
+  .btn--accent {
+    color: var(--color-accent-text);
+    background-color: var(--color-accent);
+  }
+
+  .btn:hover {
+    filter: brightness(0.97);
+  }
+
+  .btn:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  @media (min-width: 768px) {
+    .highlights,
+    .grid-3,
+    .depoimentos--3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .depoimentos--2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-4 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .reincidencia {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .block--primary {
+      padding: 2.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .highlights {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+</style>
