@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
-import logoImage from '../../assets/logo-recomecar.png';
+import logoImage from '../../assets/logo-recomecar-footer.jpg';
+import seloMapaOsc from '../../assets/selo-mapa-osc.png';
 
 const currentYear = new Date().getFullYear();
 
@@ -44,12 +45,12 @@ const socialLinks = [
   <div class="footer-inner">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="/" aria-label="Instituto Recomeçar — página inicial">
+        <a href="/" class="footer-logo-link" aria-label="Instituto Recomeçar — página inicial">
           <Image
             src={logoImage}
             alt="Instituto Recomeçar"
-            width={512}
-            height={484}
+            width={1024}
+            height={969}
             format="webp"
             quality="mid"
             class="footer-logo"
@@ -160,10 +161,10 @@ const socialLinks = [
         aria-label="Selo OSC no Mapa das Organizações da Sociedade Civil — IPEA"
       >
         <Image
-          src="https://mapaosc.ipea.gov.br/img/logo.png"
+          src={seloMapaOsc}
           alt="Selo OSC — Mapa das Organizações da Sociedade Civil (IPEA)"
-          width={140}
-          height={48}
+          width={361}
+          height={100}
           format="webp"
           quality="mid"
           loading="lazy"
@@ -183,7 +184,7 @@ const socialLinks = [
   .footer-inner {
     max-width: var(--container-max);
     margin-inline: auto;
-    padding: 3rem 1.5rem 1.5rem;
+    padding: 3rem 1.5rem 2.5rem;
   }
 
   .footer-grid {
@@ -197,9 +198,17 @@ const socialLinks = [
     gap: 1rem;
   }
 
+  .footer-logo-link {
+    display: inline-flex;
+    line-height: 0;
+    width: fit-content;
+  }
+
   .footer-logo {
-    height: 3rem;
     width: auto;
+    height: 5.5rem;
+    max-width: 100%;
+    object-fit: contain;
   }
 
   .footer-text {
@@ -290,10 +299,12 @@ const socialLinks = [
 
   .footer-selo {
     display: inline-flex;
+    flex-shrink: 0;
     line-height: 0;
+    overflow: visible;
     border-radius: var(--radius-sm);
     background-color: #ffffff;
-    padding: 0.5rem 0.75rem;
+    padding: 0.625rem 0.875rem;
     transition: opacity 0.15s ease;
   }
 
@@ -305,9 +316,10 @@ const socialLinks = [
   }
 
   .footer-selo__img {
-    width: auto;
-    height: 2.5rem;
-    object-fit: contain;
+    display: block;
+    width: min(100%, 14rem);
+    max-width: 14rem;
+    height: auto;
   }
 
   @media (min-width: 768px) {
