@@ -8,7 +8,7 @@ export default defineConfig({
   site: 'https://www.institutorecomecar.org.br',
   output: 'static',
   image: {
-    domains: ['images.unsplash.com'],
+    domains: ['images.unsplash.com', 'mapaosc.ipea.gov.br'],
   },
   markdown: {
     syntaxHighlight: false,

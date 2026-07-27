@@ -148,9 +148,29 @@ const socialLinks = [
       </nav>
     </div>
 
-    <p class="footer-copy">
-      &copy; {currentYear} Instituto Recomeçar. Todos os direitos reservados.
-    </p>
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        &copy; {currentYear} Instituto Recomeçar. Todos os direitos reservados.
+      </p>
+      <a
+        class="footer-selo"
+        href="https://mapaosc.ipea.gov.br/selo-osc/1324775"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Selo OSC no Mapa das Organizações da Sociedade Civil — IPEA"
+      >
+        <Image
+          src="https://mapaosc.ipea.gov.br/img/logo.png"
+          alt="Selo OSC — Mapa das Organizações da Sociedade Civil (IPEA)"
+          width={140}
+          height={48}
+          format="webp"
+          quality="mid"
+          loading="lazy"
+          class="footer-selo__img"
+        />
+      </a>
+    </div>
   </div>
 </footer>
 
@@ -251,13 +271,43 @@ const socialLinks = [
     outline: none;
   }
 
-  .footer-copy {
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
     margin-top: 2.5rem;
     padding-top: 1.5rem;
     border-top: 1px solid rgb(255 255 255 / 18%);
+  }
+
+  .footer-copy {
+    margin: 0;
     font-size: 0.8125rem;
     color: rgb(255 255 255 / 72%);
     text-align: center;
+  }
+
+  .footer-selo {
+    display: inline-flex;
+    line-height: 0;
+    border-radius: var(--radius-sm);
+    background-color: #ffffff;
+    padding: 0.5rem 0.75rem;
+    transition: opacity 0.15s ease;
+  }
+
+  .footer-selo:hover,
+  .footer-selo:focus-visible {
+    opacity: 0.92;
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  .footer-selo__img {
+    width: auto;
+    height: 2.5rem;
+    object-fit: contain;
   }
 
   @media (min-width: 768px) {
@@ -268,6 +318,12 @@ const socialLinks = [
 
     .footer-brand {
       grid-column: span 2;
+    }
+
+    .footer-bottom {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
     }
 
     .footer-copy {
