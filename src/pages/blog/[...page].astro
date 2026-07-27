@@ -108,6 +108,16 @@ const canonicalPath = getBlogPagePath(page.currentPage);
     list-style: none;
     padding: 0;
     margin: 0;
+    align-items: stretch;
+  }
+
+  .blog-page__grid > li {
+    display: flex;
+    height: 100%;
+  }
+
+  .blog-page__grid > li > :global(*) {
+    width: 100%;
   }
 
   @media (min-width: 768px) {

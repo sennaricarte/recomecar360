@@ -936,6 +936,16 @@ const recentArticles = publishedArticles.slice(0, 3);
     list-style: none;
     padding: 0;
     margin: 0;
+    align-items: stretch;
+  }
+
+  .articles__grid > li {
+    display: flex;
+    height: 100%;
+  }
+
+  .articles__grid > li > :global(*) {
+    width: 100%;
   }
 
   .articles__empty {

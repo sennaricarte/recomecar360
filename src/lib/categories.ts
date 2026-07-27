@@ -2,7 +2,7 @@ export const ARTICLE_CATEGORIES = [
   {
     value: 'Blog - Recomeçar 360',
     slug: 'blog-recomecar-360',
-    label: 'Blog - Recomeçar 360',
+    label: 'Blog',
   },
   {
     value: 'Guest Post',
