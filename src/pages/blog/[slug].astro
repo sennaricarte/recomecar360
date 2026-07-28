@@ -361,6 +361,57 @@ const articleJsonLd = {
     border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   }
 
+  .post__content :global(figure.wp-block-table),
+  .post__content :global(.table-wrap) {
+    margin: 1.75rem 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .post__content :global(table) {
+    width: 100%;
+    min-width: 36rem;
+    margin: 1.75rem 0;
+    border-collapse: collapse;
+    border: 1px solid var(--color-border);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    text-align: left;
+    background-color: var(--color-bg);
+  }
+
+  .post__content :global(figure.wp-block-table table) {
+    margin: 0;
+  }
+
+  .post__content :global(caption) {
+    margin-bottom: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-muted-text);
+    text-align: left;
+  }
+
+  .post__content :global(th),
+  .post__content :global(td) {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--color-border);
+    vertical-align: top;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  .post__content :global(th) {
+    font-weight: 700;
+    color: var(--color-foreground);
+    background-color: var(--color-muted);
+    white-space: nowrap;
+  }
+
+  .post__content :global(tbody tr:nth-child(even) td) {
+    background-color: color-mix(in srgb, var(--color-muted) 55%, transparent);
+  }
+
   .post__related {
     max-width: var(--container-max);
     margin: 4rem auto 0;
