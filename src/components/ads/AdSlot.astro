@@ -1,0 +1,31 @@
+---
+interface Props {
+  code: string;
+  lazyload?: boolean;
+  refresh?: boolean;
+  sizes?: Array<string | number | Record<string, unknown>>;
+  /** Mapeia para o atributo HTML `slot` do JoinAds (evita conflito com slot do Astro). */
+  adSlot?: string;
+}
+
+const { code, lazyload = true, refresh = false, sizes, adSlot } = Astro.props;
+
+const attrs: Record<string, string> = {
+  joinadscode: code,
+};
+
+if (lazyload) attrs.lazyload = 'true';
+if (refresh) attrs.refresh = 'true';
+if (sizes) attrs.sizes = JSON.stringify(sizes);
+if (adSlot) attrs.slot = adSlot;
+---
+
+<div class="ad-slot" {...attrs}></div>
+
+<style>
+  .ad-slot {
+    display: block;
+    width: 100%;
+    min-height: 1px;
+  }
+</style>

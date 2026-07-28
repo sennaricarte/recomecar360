@@ -5,6 +5,8 @@ import SEO from '../components/seo/SEO.astro';
 import ArticleCard from '../components/blog/ArticleCard.astro';
 import NewsletterForm from '../components/forms/NewsletterForm.astro';
 import ROIBanner from '../components/sections/ROIBanner.astro';
+import AdSlot from '../components/ads/AdSlot.astro';
+import JoinAdsScript from '../components/ads/JoinAdsScript.astro';
 import {
   nonprofitJsonLd,
   websiteJsonLd,
@@ -172,6 +174,7 @@ const recentArticles = publishedArticles.slice(0, 3);
     canonicalPath="/"
     jsonLd={jsonLd}
   />
+  <JoinAdsScript slot="head" />
 
   <section id="hero" class="hero" aria-label="Apresentação institucional">
     <Image
@@ -200,6 +203,12 @@ const recentArticles = publishedArticles.slice(0, 3);
   </section>
 
   <ROIBanner />
+
+  <aside class="home-ad" aria-label="Publicidade">
+    <div class="container">
+      <AdSlot code="Content1" lazyload={true} />
+    </div>
+  </aside>
 
   <section id="dados" class="impact" aria-label="Dados de impacto">
     <div class="container">
@@ -602,6 +611,11 @@ const recentArticles = publishedArticles.slice(0, 3);
 
   .impact {
     padding: 5rem 0;
+    background-color: var(--color-bg);
+  }
+
+  .home-ad {
+    padding: 1.5rem 0;
     background-color: var(--color-bg);
   }
 

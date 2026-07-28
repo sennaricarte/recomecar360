@@ -1,0 +1,21 @@
+---
+/**
+ * Script JoinAds — usar apenas em páginas com AdSlot (via slot="head").
+ * Carregamento adiado (idle/load) para não competir com First Paint / TBT.
+ */
+---
+
+<script is:inline>
+  function loadJoinAds() {
+    var s = document.createElement('script');
+    s.type = 'module';
+    s.src = 'https://script.joinads.me/myad23766.js';
+    s.crossOrigin = 'anonymous';
+    document.head.appendChild(s);
+  }
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(loadJoinAds, { timeout: 3000 });
+  } else {
+    window.addEventListener('load', loadJoinAds);
+  }
+</script>
