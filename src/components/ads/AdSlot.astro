@@ -20,12 +20,5 @@ if (sizes) attrs.sizes = JSON.stringify(sizes);
 if (adSlot) attrs.slot = adSlot;
 ---
 
-<div class="ad-slot" {...attrs}></div>
-
-<style>
-  .ad-slot {
-    display: block;
-    width: 100%;
-    min-height: 1px;
-  }
-</style>
+{/* JoinAds substitui este nó via replaceWith — manter só os atributos oficiais. */}
+<div {...attrs}></div>
