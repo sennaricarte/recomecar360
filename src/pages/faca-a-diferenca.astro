@@ -3,6 +3,12 @@ import '@fontsource/oswald/500.css';
 import '@fontsource/oswald/600.css';
 import '@fontsource/oswald/700.css';
 import '@fontsource-variable/inter/wght.css';
+
+const whatsappHref =
+  'https://wa.me/5511953054694?text=' +
+  encodeURIComponent(
+    'Olá! Estive no Café da Liberdade e quero continuar a conversa sobre parceria com o Instituto Recomeçar.',
+  );
 ---
 
 <!DOCTYPE html>
@@ -40,6 +46,25 @@ import '@fontsource-variable/inter/wght.css';
         <p>Não é caridade. É infraestrutura social — e tem retorno mensurável.</p>
       </section>
 
+      <section class="bridge" aria-label="Continuação do Café da Liberdade">
+        <span class="bridge__tag">Continuação do Café da Liberdade · 11/08/2026</span>
+        <h2>Você já viu o dado. Agora falta o próximo passo.</h2>
+        <p>
+          Quem esteve na mesa hoje viu o mesmo número: <b>1% de reincidência</b> frente a
+          <b>42,5% no país</b>. Esta página é o fio da conversa — para quem decide contratar,
+          investir ou apoiar.
+        </p>
+        <ul class="bridge__paths">
+          <li>Contratar pessoas egressas</li>
+          <li>Investir / apoiar institucionalmente</li>
+          <li>Agendar uma conversa de 15 minutos</li>
+        </ul>
+        <a class="btn" href={whatsappHref} target="_blank" rel="noopener"
+          >Falar no WhatsApp agora →</a
+        >
+        <p class="cta-note">Resposta em horário comercial · sem compromisso</p>
+      </section>
+
       <section class="bars" aria-label="Comparação de reincidência criminal">
         <div class="bars-head">O dado que muda a conversa</div>
 
@@ -62,6 +87,10 @@ import '@fontsource-variable/inter/wght.css';
         <div class="bars-note">
           <b>42 vezes menos.</b> É a diferença entre quem passa pelo nosso programa de reinserção
           profissional e a média do país.
+        </div>
+        <div class="bars-imply">
+          Para quem decide: risco radicalmente menor para a cidade e para a empresa — com retorno
+          social de <b>16:1</b> por real investido.
         </div>
       </section>
 
@@ -101,6 +130,15 @@ import '@fontsource-variable/inter/wght.css';
         </div>
       </section>
 
+      <section class="cta cta--mid">
+        <h2>Quer transformar esse café em parceria?</h2>
+        <p>Vagas limitadas para reuniões nesta semana com a equipe do Instituto.</p>
+        <a class="btn" href={whatsappHref} target="_blank" rel="noopener"
+          >Falar no WhatsApp agora →</a
+        >
+        <p class="cta-note">Resposta em horário comercial · conversa objetiva</p>
+      </section>
+
       <section class="today">
         <span class="tag">11 de agosto de 2026</span>
         <h2>Você esteve com a gente hoje</h2>
@@ -123,7 +161,10 @@ import '@fontsource-variable/inter/wght.css';
         <p>
           Fale com a gente sobre parcerias, contratação de pessoas egressas ou apoio institucional.
         </p>
-        <a class="btn" href="https://wa.me/5511953054694" target="_blank" rel="noopener">Entrar em contato →</a>
+        <a class="btn" href={whatsappHref} target="_blank" rel="noopener"
+          >Falar no WhatsApp agora →</a
+        >
+        <p class="cta-note">Resposta em horário comercial · sem compromisso</p>
         <div class="social">
           <a href="https://recomecar360.org" target="_blank" rel="noopener">recomecar360.org</a>
           <a href="https://www.instagram.com/recomecar360" target="_blank" rel="noopener">Instagram</a>
@@ -234,6 +275,52 @@ import '@fontsource-variable/inter/wght.css';
     margin: 0;
   }
 
+  /* ---------- BRIDGE / EVENT CONTINUATION ---------- */
+  .bridge {
+    padding: 36px 0 44px;
+    border-top: 1px solid #38373a;
+  }
+  .bridge__tag {
+    display: inline-block;
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 11.5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--yellow);
+    margin-bottom: 14px;
+  }
+  .bridge h2 {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 0 12px;
+    line-height: 1.2;
+  }
+  .bridge p {
+    font-size: 15px;
+    color: var(--ink-muted);
+    margin: 0 0 18px;
+  }
+  .bridge p b {
+    color: var(--ink);
+  }
+  .bridge__paths {
+    list-style: none;
+    margin: 0 0 22px;
+    padding: 0;
+    display: grid;
+    gap: 8px;
+  }
+  .bridge__paths li {
+    font-size: 14px;
+    color: var(--ink);
+    padding: 10px 12px;
+    background: var(--surface);
+    border-left: 2px solid var(--yellow);
+    border-radius: 0 6px 6px 0;
+  }
+
   /* ---------- BAR COMPARISON (signature element) ---------- */
   .bars {
     padding: 8px 0 50px;
@@ -337,6 +424,17 @@ import '@fontsource-variable/inter/wght.css';
   }
   .bars-note b {
     color: var(--ink);
+  }
+  .bars-imply {
+    margin-top: 16px;
+    font-size: 14px;
+    color: var(--ink-muted);
+    background: var(--surface);
+    border-radius: 6px;
+    padding: 14px 16px;
+  }
+  .bars-imply b {
+    color: var(--yellow);
   }
 
   /* ---------- MISSION ---------- */
@@ -447,6 +545,17 @@ import '@fontsource-variable/inter/wght.css';
     color: var(--ink-muted);
     margin: 0 0 24px;
     max-width: 46ch;
+  }
+  .cta--mid {
+    padding: 36px 0 40px;
+  }
+  .cta-note {
+    margin: 12px 0 0;
+    font-size: 12.5px;
+    color: var(--ink-faint);
+  }
+  .bridge .cta-note {
+    margin-top: 12px;
   }
   .btn {
     display: inline-flex;
