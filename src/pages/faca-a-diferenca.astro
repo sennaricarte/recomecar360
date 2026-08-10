@@ -1,0 +1,495 @@
+---
+import '@fontsource/oswald/500.css';
+import '@fontsource/oswald/600.css';
+import '@fontsource/oswald/700.css';
+import '@fontsource-variable/inter/wght.css';
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Café da Liberdade — Instituto Recomeçar</title>
+    <meta
+      name="description"
+      content="Segurança pública se constrói com oportunidade. Conheça os dados por trás do Instituto Recomeçar."
+    />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+  </head>
+  <body>
+    <div class="topline"></div>
+
+    <main class="wrap">
+      <section class="hero">
+        <div class="eyebrow">Instituto Recomeçar × Zeta Dados</div>
+        <h1>Segurança pública se constrói com oportunidade.</h1>
+        <p>Não é caridade. É infraestrutura social — e tem retorno mensurável.</p>
+      </section>
+
+      <section class="bars" aria-label="Comparação de reincidência criminal">
+        <div class="bars-head">O dado que muda a conversa</div>
+
+        <div class="bar-row us" id="bar-us">
+          <div class="bar-label-top">
+            <span class="bar-num">1%</span>
+            <span class="bar-desc">reincidência entre participantes do Recomeçar</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill"></div></div>
+        </div>
+
+        <div class="bar-row br" id="bar-br">
+          <div class="bar-label-top">
+            <span class="bar-num">42,5%</span>
+            <span class="bar-desc">média nacional de reincidência (CNJ)</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill"></div></div>
+        </div>
+
+        <div class="bars-note">
+          <b>42 vezes menos.</b> É a diferença entre quem passa pelo nosso programa de reinserção
+          profissional e a média do país.
+        </div>
+      </section>
+
+      <section class="mission">
+        <h2>O que fazemos, na prática</h2>
+        <p>
+          O Instituto Recomeçar prepara pessoas egressas do sistema prisional para o mercado de
+          trabalho — com plano de desenvolvimento individual, capacitação técnica e acompanhamento
+          real, dentro das quebradas de São Paulo.
+        </p>
+        <p>
+          Cada pessoa que recomeça é uma vítima a menos, um custo público a menos, uma vaga
+          preenchida a mais.
+        </p>
+      </section>
+
+      <section class="proof">
+        <div class="grid">
+          <div class="cell">
+            <span class="num">16:1</span>
+            <span class="lbl">de retorno social para cada real investido</span>
+          </div>
+          <div class="cell">
+            <span class="num">13.000+</span>
+            <span class="lbl">pessoas já passaram pelos nossos programas</span>
+          </div>
+          <div class="cell">
+            <span class="num">1%</span>
+            <span class="lbl">de reincidência entre participantes</span>
+          </div>
+          <div class="cell">
+            <span class="num">100%</span>
+            <span class="lbl"
+              >do acompanhamento pela Trilha do Egresso, nossa metodologia própria</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="today">
+        <span class="tag">11 de agosto de 2026</span>
+        <h2>Você esteve com a gente hoje</h2>
+        <p>
+          No Café da Liberdade, reunimos lideranças que decidem com quem já tem resultado
+          comprovado. Obrigado por dividir a mesa com a gente.
+        </p>
+        <p>
+          Essa xícara é um lembrete: cada oportunidade oferecida muda uma trajetória — e a de uma
+          cidade inteira.
+        </p>
+        <div class="realizacao">
+          Realização Instituto Recomeçar × Zeta Dados, no Espaço Abrahão e Rosa, sede do Instituto
+          Ação pela Paz.
+        </div>
+      </section>
+
+      <section class="cta">
+        <h2>Quer fazer parte dessa conversa?</h2>
+        <p>
+          Fale com a gente sobre parcerias, contratação de pessoas egressas ou apoio institucional.
+        </p>
+        <a class="btn" href="mailto:contato@recomecar360.org">Entrar em contato →</a>
+        <div class="social">
+          <a href="https://recomecar360.org" target="_blank" rel="noopener">recomecar360.org</a>
+          <a href="#" target="_blank" rel="noopener">Instagram</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </section>
+
+      <footer>
+        <div class="wordmark">RE.<span>COMEÇAR</span></div>
+        <div class="fine">Instituto Recomeçar · Segurança pública através de oportunidade</div>
+      </footer>
+    </main>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --bg: #1c1b1d;
+    --surface: #262528;
+    --surface-2: #302f32;
+    --graphite: #3f3e40;
+    --yellow: #ffca00;
+    --maroon: #86323c;
+    --maroon-deep: #5c2029;
+    --ink: #f5f3f0;
+    --ink-muted: #a8a6a9;
+    --ink-faint: #6f6d70;
+    --display: 'Oswald', 'Arial Narrow', sans-serif;
+    --body: 'Inter Variable', Inter, -apple-system, sans-serif;
+    --max: 620px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    * {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--body);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 0 22px;
+  }
+
+  .topline {
+    height: 5px;
+    background: linear-gradient(90deg, var(--yellow) 0%, var(--yellow) 60%, var(--maroon) 100%);
+  }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    padding: 56px 0 44px;
+    text-align: left;
+  }
+  .eyebrow {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 12.5px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--yellow);
+    margin-bottom: 18px;
+  }
+  h1 {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.08;
+    margin: 0 0 18px;
+    letter-spacing: -0.2px;
+  }
+  .hero p {
+    font-size: 16.5px;
+    color: var(--ink-muted);
+    max-width: 46ch;
+    margin: 0;
+  }
+
+  /* ---------- BAR COMPARISON (signature element) ---------- */
+  .bars {
+    padding: 8px 0 50px;
+  }
+  .bars-head {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 28px;
+    border-top: 1px solid #38373a;
+    padding-top: 28px;
+  }
+  .bar-row {
+    margin-bottom: 26px;
+  }
+  .bar-row:last-child {
+    margin-bottom: 0;
+  }
+  .bar-label-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+  }
+  .bar-num {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .bar-row.us .bar-num {
+    color: var(--yellow);
+  }
+  .bar-row.br .bar-num {
+    color: #d8707c;
+  }
+  .bar-desc {
+    font-size: 12.5px;
+    color: var(--ink-muted);
+    text-align: right;
+    max-width: 62%;
+  }
+  .bar-track {
+    height: 14px;
+    background: var(--surface);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 3px;
+  }
+  .bar-row.us .bar-fill {
+    background: var(--yellow);
+    width: 2.4%;
+  }
+  .bar-row.br .bar-fill {
+    background: var(--maroon);
+    width: 100%;
+  }
+
+  @keyframes barGrowUs {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 2.4%;
+    }
+  }
+
+  @keyframes barGrowBr {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @supports (animation-timeline: view()) {
+    .bar-row.us .bar-fill {
+      animation: barGrowUs 1.4s cubic-bezier(0.22, 0.68, 0.36, 1) both;
+      animation-timeline: view();
+      animation-range: entry 10% cover 40%;
+    }
+    .bar-row.br .bar-fill {
+      animation: barGrowBr 1.4s cubic-bezier(0.22, 0.68, 0.36, 1) both;
+      animation-timeline: view();
+      animation-range: entry 10% cover 40%;
+    }
+  }
+
+  .bars-note {
+    margin-top: 22px;
+    font-size: 13.5px;
+    color: var(--ink-muted);
+    border-left: 2px solid var(--maroon);
+    padding-left: 14px;
+  }
+  .bars-note b {
+    color: var(--ink);
+  }
+
+  /* ---------- MISSION ---------- */
+  .mission {
+    padding: 44px 0;
+    border-top: 1px solid #38373a;
+  }
+  .mission h2 {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 0 14px;
+    line-height: 1.2;
+  }
+  .mission p {
+    font-size: 15.5px;
+    color: var(--ink-muted);
+    margin: 0 0 12px;
+  }
+  .mission p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* ---------- PROOF GRID ---------- */
+  .proof {
+    padding: 40px 0 46px;
+    border-top: 1px solid #38373a;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: #38373a;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .cell {
+    background: var(--surface);
+    padding: 20px 16px;
+  }
+  .cell .num {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--yellow);
+    display: block;
+    margin-bottom: 6px;
+  }
+  .cell .lbl {
+    font-size: 12px;
+    color: var(--ink-muted);
+    line-height: 1.4;
+  }
+
+  /* ---------- TODAY / EVENT ---------- */
+  .today {
+    padding: 44px 0;
+    border-top: 1px solid #38373a;
+  }
+  .today .tag {
+    display: inline-block;
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 11.5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background: #f2d9db1a;
+    border: 1px solid #86323c66;
+    color: #e79aa2;
+    padding: 5px 11px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+  }
+  .today h2 {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0 0 12px;
+  }
+  .today p {
+    font-size: 15px;
+    color: var(--ink-muted);
+    margin: 0 0 12px;
+  }
+  .today .realizacao {
+    font-size: 12.5px;
+    color: var(--ink-faint);
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px dashed #38373a;
+  }
+
+  /* ---------- CTA ---------- */
+  .cta {
+    padding: 46px 0 50px;
+    border-top: 1px solid #38373a;
+    text-align: left;
+  }
+  .cta h2 {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0 0 12px;
+    line-height: 1.15;
+  }
+  .cta p {
+    font-size: 15px;
+    color: var(--ink-muted);
+    margin: 0 0 24px;
+    max-width: 46ch;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--yellow);
+    color: #201f21;
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 14.5px;
+    text-decoration: none;
+    padding: 14px 22px;
+    border-radius: 6px;
+    letter-spacing: 0.3px;
+  }
+  .btn:focus-visible,
+  .social a:focus-visible {
+    outline: 2px solid var(--yellow);
+    outline-offset: 3px;
+  }
+  .btn:hover {
+    background: #ffd633;
+  }
+  .social {
+    margin-top: 22px;
+  }
+  .social a {
+    color: var(--ink-muted);
+    text-decoration: none;
+    font-size: 13.5px;
+    border-bottom: 1px solid #4a494c;
+    padding-bottom: 2px;
+    margin-right: 20px;
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+  .social a:hover {
+    color: var(--ink);
+    border-color: var(--ink-muted);
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer {
+    padding: 30px 0 46px;
+    border-top: 1px solid #38373a;
+  }
+  .wordmark {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+  }
+  .wordmark span {
+    color: var(--yellow);
+  }
+  footer .fine {
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--ink-faint);
+  }
+
+  @media (min-width: 640px) {
+    h1 {
+      font-size: 48px;
+    }
+    .grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+</style>

@@ -18,7 +18,7 @@ export default defineConfig({
       filter: (page) => {
         const path = new URL(page).pathname.replace(/\/$/, '') || '/';
 
-        if (path === '/obrigado') {
+        if (path === '/obrigado' || path === '/faca-a-diferenca') {
           return false;
         }
 
