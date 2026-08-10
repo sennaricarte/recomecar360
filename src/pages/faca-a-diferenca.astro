@@ -22,6 +22,18 @@ import '@fontsource-variable/inter/wght.css';
     <div class="topline"></div>
 
     <main class="wrap">
+      <section class="opening" aria-label="Vídeo de abertura do Café da Liberdade">
+        <video
+          class="opening__video"
+          controls
+          playsinline
+          preload="metadata"
+        >
+          <source src="/video/recomecar-liderdade.mp4" type="video/mp4" />
+          Seu navegador não suporta vídeo HTML5.
+        </video>
+      </section>
+
       <section class="hero">
         <div class="eyebrow">Instituto Recomeçar × Zeta Dados</div>
         <h1>Segurança pública se constrói com oportunidade.</h1>
@@ -111,11 +123,11 @@ import '@fontsource-variable/inter/wght.css';
         <p>
           Fale com a gente sobre parcerias, contratação de pessoas egressas ou apoio institucional.
         </p>
-        <a class="btn" href="mailto:contato@recomecar360.org">Entrar em contato →</a>
+        <a class="btn" href="https://wa.me/5511953054694" target="_blank" rel="noopener">Entrar em contato →</a>
         <div class="social">
           <a href="https://recomecar360.org" target="_blank" rel="noopener">recomecar360.org</a>
-          <a href="#" target="_blank" rel="noopener">Instagram</a>
-          <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.instagram.com/recomecar360" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/company/instituto-recomecar/?originalSubdomain=br" target="_blank" rel="noopener">LinkedIn</a>
         </div>
       </section>
 
@@ -181,9 +193,21 @@ import '@fontsource-variable/inter/wght.css';
     background: linear-gradient(90deg, var(--yellow) 0%, var(--yellow) 60%, var(--maroon) 100%);
   }
 
+  /* ---------- OPENING VIDEO ---------- */
+  .opening {
+    padding: 28px 0 0;
+  }
+  .opening__video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background: #000;
+  }
+
   /* ---------- HERO ---------- */
   .hero {
-    padding: 56px 0 44px;
+    padding: 40px 0 44px;
     text-align: left;
   }
   .eyebrow {
