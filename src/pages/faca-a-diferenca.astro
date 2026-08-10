@@ -161,9 +161,12 @@ const whatsappHref =
         <p>
           Fale com a gente sobre parcerias, contratação de pessoas egressas ou apoio institucional.
         </p>
-        <a class="btn" href={whatsappHref} target="_blank" rel="noopener"
-          >Falar no WhatsApp agora →</a
-        >
+        <div class="cta__actions">
+          <a class="btn" href={whatsappHref} target="_blank" rel="noopener"
+            >Falar no WhatsApp agora →</a
+          >
+          <a class="btn btn--secondary" href="/doe/">Quero doar</a>
+        </div>
         <p class="cta-note">Resposta em horário comercial · sem compromisso</p>
         <div class="social">
           <a href="https://recomecar360.org" target="_blank" rel="noopener">recomecar360.org</a>
@@ -570,6 +573,18 @@ const whatsappHref =
     padding: 14px 22px;
     border-radius: 6px;
     letter-spacing: 0.3px;
+    border: 1px solid transparent;
+  }
+  .cta__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+  .btn--secondary {
+    background: transparent;
+    color: var(--ink);
+    border-color: #4a494c;
   }
   .btn:focus-visible,
   .social a:focus-visible {
@@ -578,6 +593,11 @@ const whatsappHref =
   }
   .btn:hover {
     background: #ffd633;
+  }
+  .btn--secondary:hover {
+    background: var(--surface);
+    border-color: var(--ink-muted);
+    color: var(--ink);
   }
   .social {
     margin-top: 22px;
