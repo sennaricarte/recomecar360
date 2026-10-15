@@ -1,4 +1,4 @@
-export const SITE_URL = 'https://www.institutorecomecar.org.br';
+export const SITE_URL = 'https://recomecar360.org';
 
 const SOCIAL_LINKS = [
   'https://www.instagram.com/recomecar360',

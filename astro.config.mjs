@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://www.institutorecomecar.org.br',
+  site: 'https://recomecar360.org',
   output: 'static',
   image: {
     domains: ['images.unsplash.com', 'mapaosc.ipea.gov.br'],
