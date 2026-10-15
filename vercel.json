@@ -62,7 +62,7 @@
     },
     {
       "source": "/a-importancia-do-diploma-superior",
-      "destination": "/blog/a-importancia-do-diploma-superior/",
+      "destination": "/blog/",
       "statusCode": 301
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "source": "/advogado-trabalhista-em-caso-de-discriminacao-no-trabalho",
-      "destination": "/blog/advogado-trabalhista-em-caso-de-discriminacao-no-trabalho/",
+      "destination": "/blog/",
       "statusCode": 301
     },
     {
@@ -147,17 +147,17 @@
     },
     {
       "source": "/como-descobrir-um-endereco-pelo-cpf-facilmente",
-      "destination": "/blog/como-descobrir-um-endereco-pelo-cpf-facilmente/",
+      "destination": "/blog/",
       "statusCode": 301
     },
     {
       "source": "/como-o-banco-de-questoes-gratuito-pode-ajudar-na-sua-preparacao-para-concursos",
-      "destination": "/blog/como-o-banco-de-questoes-gratuito-pode-ajudar-na-sua-preparacao-para-concursos/",
+      "destination": "/blog/",
       "statusCode": 301
     },
     {
       "source": "/como-o-conserto-de-notebooks-pode-apoiar-a-reintegracao",
-      "destination": "/blog/como-o-conserto-de-notebooks-pode-apoiar-a-reintegracao/",
+      "destination": "/blog/",
       "statusCode": 301
     },
     {
@@ -172,7 +172,7 @@
     },
     {
       "source": "/como-proteger-seu-veiculo-com-rastreador-gps",
-      "destination": "/blog/como-proteger-seu-veiculo-com-rastreador-gps/",
+      "destination": "/blog/",
       "statusCode": 301
     },
     {
@@ -732,12 +732,12 @@
     },
     {
       "source": "/transforme-seu-futuro-curso-de-desentupidora",
-      "destination": "/blog/transforme-seu-futuro-curso-de-desentupidora/",
+      "destination": "/blog/",
       "statusCode": 301
     },
     {
       "source": "/transforme-sua-carreira-com-cursos-gratis",
-      "destination": "/blog/transforme-sua-carreira-com-cursos-gratis/",
+      "destination": "/blog/",
       "statusCode": 301
     },
     {
@@ -763,6 +763,46 @@
     {
       "source": "/zona-leste-de-sao-paulo-contrastes-sociais-e-urbanos",
       "destination": "/blog/zona-leste-de-sao-paulo-contrastes-sociais-e-urbanos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/a-importancia-do-diploma-superior",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/advogado-trabalhista-em-caso-de-discriminacao-no-trabalho",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/como-descobrir-um-endereco-pelo-cpf-facilmente",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/como-o-banco-de-questoes-gratuito-pode-ajudar-na-sua-preparacao-para-concursos",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/como-o-conserto-de-notebooks-pode-apoiar-a-reintegracao",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/como-proteger-seu-veiculo-com-rastreador-gps",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/transforme-seu-futuro-curso-de-desentupidora",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/transforme-sua-carreira-com-cursos-gratis",
+      "destination": "/blog/",
       "statusCode": 301
     }
   ]
