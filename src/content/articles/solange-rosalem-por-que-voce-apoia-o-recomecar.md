@@ -4,7 +4,7 @@ slug: "solange-rosalem-por-que-voce-apoia-o-recomecar"
 excerpt: ""
 category: "Blog"
 author: "Joel Novaes"
-image: "blog/_placeholder.svg"
+image: "blog/solange-rosalem-por-que-voce-apoia-o-recomecar.jpg"
 pubDate: 2022-11-07T14:28:15+00:00
 status: "published"
 metaTitle: "Solange Rosalem: Por que você apoia o Recomeçar?"

@@ -4,7 +4,7 @@ slug: "sandra-gioffi-por-que-voce-apoia-o-recomecar"
 excerpt: ""
 category: "Blog"
 author: "Joel Novaes"
-image: "blog/_placeholder.svg"
+image: "blog/sandra-gioffi-por-que-voce-apoia-o-recomecar.jpg"
 pubDate: 2022-10-17T13:41:59+00:00
 status: "published"
 metaTitle: "Sandra Gioffi - Por que você apoia o Recomeçar?"
