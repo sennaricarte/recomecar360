@@ -7,8 +7,8 @@ author: "Joel Novaes"
 image: "blog/como-saber-se-tenho-direito-ao-vale-gas.jpg"
 pubDate: 2025-11-06T19:59:47+00:00
 status: "published"
-metaTitle: "Como Saber se Tenho Direito ao Vale Gás: Passo a Passo Completo"
-metaDescription: "Você já se perguntou como saber se tenho direito ao vale gás? Se sim, você está no lugar certo! O Auxílio Gás é uma ajuda importante para muitas famílias brasileiras, especialmente em tempos desafiadores."
+metaTitle: "Vale Gás: Como Saber se Tenho Direito e Consultar"
+metaDescription: "Quem tem direito ao vale gás? Veja os requisitos do CadÚnico, a renda exigida e como consultar pelo aplicativo ou pelo telefone da CAIXA."
 ---
 
 <p>Você já se perguntou como saber se tenho direito ao vale gás? Se sim, você está no lugar certo! O Auxílio Gás é uma ajuda importante para muitas famílias brasileiras, especialmente em tempos desafiadores. </p>
