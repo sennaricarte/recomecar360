@@ -5,7 +5,9 @@ excerpt: "Sua empresa quer contratar egressos? Veja as regras legais, as vagas r
 category: "Blog"
 cluster: "egressos"
 author: "Equipe de Comunicação Recomeçar"
-image: "blog/_placeholder.svg"
+image: "blog/como-contratar-egressos-do-sistema-prisional.jpg"
+imageCredit: "Tima Miroshnichenko / Pexels"
+imageCreditUrl: "https://www.pexels.com/pt-br/foto/empresario-homem-de-negocios-comentarios-feedback-5439140/"
 pubDate: 2026-10-15T14:00:00+00:00
 status: "published"
 metaTitle: "Contratar Egressos: Guia para Empresas e Regras Legais"
