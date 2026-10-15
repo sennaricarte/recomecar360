@@ -10,7 +10,7 @@ metaTitle: "ONGs que ajudam ex-presidiários"
 metaDescription: ""
 ---
 
-Você sabia que além do <a href="https://recomecar360.org/cadastro-unico/">Instituto Recomeçar</a> existem diversas ONGs que ajudam ex-presidiários a se reposicionar na sociedade?
+Você sabia que além do <a href="/quem-somos/">Instituto Recomeçar</a> existem diversas ONGs que ajudam ex-presidiários a se reposicionar na sociedade?
 
 Essas ONGs realizam atividades educativas, culturais, profissionalizantes e de assistência jurídica para os ex-detentos, visando a sua ressocialização e a redução da reincidência criminal.
 

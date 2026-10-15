@@ -22,7 +22,7 @@ metaDescription: "Você já parou para pensar em como a inteligência artificial
 
 <li><a href="/blog/mitos-e-verdades-sobre-o-que-vestir-em-entrevistas-de-emprego/">Mitos e Verdades Sobre o que Vestir em Entrevistas de Emprego</a></li>
 
-<li><a href="https://recomecar360.org/como-se-comportar-em-uma-entrevista-de-emprego/" target="_blank" rel="noopener noreferrer">Como se comportar em uma entrevista de emprego</a></li>
+<li><a href="/blog/dicas-entrevista-emprego-pat/">Dicas de ouro para entrevista de emprego</a></li>
 </ul>
 
 <h2 class="wp-block-heading"><strong>A revolução da inteligência artificial na educação</strong></h2>

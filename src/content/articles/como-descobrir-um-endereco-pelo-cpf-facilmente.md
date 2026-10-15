@@ -13,9 +13,9 @@ metaDescription: "Não sabemos qual o seu interesse em levantar o endereço pelo
 <p>Não sabemos qual o seu interesse em levantar o endereço pelo CPF mas se você chegou até aqui é porque os mecanismo de busca mencionou como o melhor conteúdo com dicas cruciais, se você deseja descobrir o <strong>endereço pelo CPF</strong> por algum determinado motivo vale a pena seguir essas dicas importantes.</p>
 
 
-<div class="wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://recomecar360.org/beneficios-sociais-do-brasil/">Benefícios Sociais</a></div>
+<div class="wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/blog/o-que-sao-beneficios-sociais/">Benefícios Sociais</a></div>
 
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://recomecar360.org/oportunidades-de-emprego/">Vagas de Emprego</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/aplicativo/">Vagas de Emprego</a></div>
 
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="http://Auxílio-Reclusão 2026: Quem tem direito e como funciona o benefício?">Auxílio Reclusão</a></div>
 </div>

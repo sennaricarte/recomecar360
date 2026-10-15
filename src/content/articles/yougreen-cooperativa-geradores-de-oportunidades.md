@@ -20,6 +20,6 @@ Em 2022 a Yougreen tem sido a empresa parceira que mais abril vagas para os noss
 
 Em breve você poderá conhecer aqui outros parceiros em empregabilidade que estão nos ajudando nessa missão de transformação social.
 
-Assista, comente e compartilhe o primeiro vídeo da série <a href="https://recomecar360.org/?s=geradores+de+oportunidades"><strong>Geradores de Oportunidades</strong></a>:
+Assista, comente e compartilhe o primeiro vídeo da série <strong>Geradores de Oportunidades</strong>:
 
 ;

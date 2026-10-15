@@ -22,7 +22,7 @@ metaDescription: "A primeira impressão é um fator decisivo em muitos aspecto
 
 <p><a href="/blog/ginead-democratizando-a-educacao-com-cursos-online-gratuitos/">GINEAD: Democratizando a Educação com Cursos Online Gratuitos</a></p>
 
-<p><a href="https://recomecar360.org/como-se-comportar-em-uma-entrevista-de-emprego/" target="_blank" rel="noopener noreferrer">Como se comportar em uma entrevista de emprego</a></p>
+<p><a href="/blog/dicas-entrevista-emprego-pat/">Dicas de ouro para entrevista de emprego</a></p>
 
 <p><a href="/blog/cursos-gratuitos-do-governo-conheca-a-escola-virtual/">Cursos gratuitos do governo, conheça a Escola Virtual</a></p>
 

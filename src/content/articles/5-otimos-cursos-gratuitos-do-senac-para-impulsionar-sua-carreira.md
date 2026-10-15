@@ -20,7 +20,7 @@ metaDescription: "No mundo dinâmico de hoje, a&nbsp;educação continuada&nbsp;
 
 <p>Leia também:</p>
 
-<p><a href="https://recomecar360.org/como-se-comportar-em-uma-entrevista-de-emprego/" target="_blank" rel="noopener noreferrer">Como se comportar em uma entrevista de emprego</a></p>
+<p><a href="/blog/dicas-entrevista-emprego-pat/">Dicas de ouro para entrevista de emprego</a></p>
 
 <p><a href="/blog/os-melhores-cursos-online-gratuitos-para-impulsionar-sua-carreira/">Os melhores cursos online gratuitos para impulsionar sua carreira</a></p>
 
