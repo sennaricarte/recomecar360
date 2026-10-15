@@ -4,6 +4,766 @@
       "source": "/blog/categoria/:path*",
       "destination": "/blog/",
       "statusCode": 301
+    },
+    {
+      "source": "/tag/:path*",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/categorias",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/projeto-integrado",
+      "destination": "/",
+      "statusCode": 301
+    },
+    {
+      "source": "/10-cursos-gratis-de-excel-para-turbinar-suas-habilidades",
+      "destination": "/blog/10-cursos-gratis-de-excel-para-turbinar-suas-habilidades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/5-livros-sobre-o-sistema-prisional-brasileiro",
+      "destination": "/blog/5-livros-sobre-o-sistema-prisional-brasileiro/",
+      "statusCode": 301
+    },
+    {
+      "source": "/5-otimos-cursos-gratuitos-do-senac-para-impulsionar-sua-carreira",
+      "destination": "/blog/5-otimos-cursos-gratuitos-do-senac-para-impulsionar-sua-carreira/",
+      "statusCode": 301
+    },
+    {
+      "source": "/99-dos-atendidos-pelo-recomecar-permanecem-em-sociedade",
+      "destination": "/blog/99-dos-atendidos-pelo-recomecar-permanecem-em-sociedade/",
+      "statusCode": 301
+    },
+    {
+      "source": "/a-cor-da-crise-no-empreendedorismo",
+      "destination": "/blog/a-cor-da-crise-no-empreendedorismo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/a-importancia-da-educacao-dentro-dos-presidios-brasileiros",
+      "destination": "/blog/a-importancia-da-educacao-dentro-dos-presidios-brasileiros/",
+      "statusCode": 301
+    },
+    {
+      "source": "/a-importancia-do-acompanhamento-medico-na-reintegracao-social",
+      "destination": "/blog/a-importancia-do-acompanhamento-medico-na-reintegracao-social/",
+      "statusCode": 301
+    },
+    {
+      "source": "/a-importancia-do-diploma-superior",
+      "destination": "/blog/a-importancia-do-diploma-superior/",
+      "statusCode": 301
+    },
+    {
+      "source": "/a-invisibilidade-das-criancas-que-nascem-nos-presidios-femininos-brasileiros",
+      "destination": "/blog/a-invisibilidade-das-criancas-que-nascem-nos-presidios-femininos-brasileiros/",
+      "statusCode": 301
+    },
+    {
+      "source": "/a-literatura-como-meio-de-ressocializacao-de-detentos",
+      "destination": "/blog/a-literatura-como-meio-de-ressocializacao-de-detentos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/a-trilha-sonora-do-recomeco",
+      "destination": "/blog/a-trilha-sonora-do-recomeco/",
+      "statusCode": 301
+    },
+    {
+      "source": "/advogado-trabalhista-em-caso-de-discriminacao-no-trabalho",
+      "destination": "/blog/advogado-trabalhista-em-caso-de-discriminacao-no-trabalho/",
+      "statusCode": 301
+    },
+    {
+      "source": "/auxilio-reclusao-quem-tem-direito",
+      "destination": "/blog/auxilio-reclusao-quem-tem-direito/",
+      "statusCode": 301
+    },
+    {
+      "source": "/bate-papo-com-douglas-guilherme-da-acor",
+      "destination": "/blog/bate-papo-com-douglas-guilherme-da-acor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/bem-vindo-a-poa",
+      "destination": "/blog/bem-vindo-a-poa/",
+      "statusCode": 301
+    },
+    {
+      "source": "/busca-por-livros-aumenta-nos-presidios-do-estado-de-sao-paulo",
+      "destination": "/blog/busca-por-livros-aumenta-nos-presidios-do-estado-de-sao-paulo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/chegou-o-bazar-recomecar-abuse-e-reuse",
+      "destination": "/blog/chegou-o-bazar-recomecar-abuse-e-reuse/",
+      "statusCode": 301
+    },
+    {
+      "source": "/cicero-lima-entrevista-na-radio-olinda",
+      "destination": "/blog/cicero-lima-entrevista-na-radio-olinda/",
+      "statusCode": 301
+    },
+    {
+      "source": "/cnj-lanca-aplicativo-para-egressos-do-sistema-prisional",
+      "destination": "/blog/cnj-lanca-aplicativo-para-egressos-do-sistema-prisional/",
+      "statusCode": 301
+    },
+    {
+      "source": "/cnj-vai-garantir-documentacao-civil-a-pessoas-presas",
+      "destination": "/blog/cnj-vai-garantir-documentacao-civil-a-pessoas-presas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/como-a-inteligencia-artificial-que-pode-transforma-sua-forma-de-estudar",
+      "destination": "/blog/como-a-inteligencia-artificial-que-pode-transforma-sua-forma-de-estudar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/como-a-saude-mental-impulsiona-carreiras",
+      "destination": "/blog/como-a-saude-mental-impulsiona-carreiras/",
+      "statusCode": 301
+    },
+    {
+      "source": "/como-consultar-o-pis-pasep",
+      "destination": "/blog/como-consultar-o-pis-pasep/",
+      "statusCode": 301
+    },
+    {
+      "source": "/como-cuidar-da-saude-mental-no-mundo-moderno",
+      "destination": "/blog/como-cuidar-da-saude-mental-no-mundo-moderno/",
+      "statusCode": 301
+    },
+    {
+      "source": "/como-descobrir-um-endereco-pelo-cpf-facilmente",
+      "destination": "/blog/como-descobrir-um-endereco-pelo-cpf-facilmente/",
+      "statusCode": 301
+    },
+    {
+      "source": "/como-o-banco-de-questoes-gratuito-pode-ajudar-na-sua-preparacao-para-concursos",
+      "destination": "/blog/como-o-banco-de-questoes-gratuito-pode-ajudar-na-sua-preparacao-para-concursos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/como-o-conserto-de-notebooks-pode-apoiar-a-reintegracao",
+      "destination": "/blog/como-o-conserto-de-notebooks-pode-apoiar-a-reintegracao/",
+      "statusCode": 301
+    },
+    {
+      "source": "/como-os-sonhos-podem-guiar-a-jornada-de-reinsercao-social",
+      "destination": "/blog/como-os-sonhos-podem-guiar-a-jornada-de-reinsercao-social/",
+      "statusCode": 301
+    },
+    {
+      "source": "/como-pode-pedir-a-isencao-de-taxas-em-concursos-federais",
+      "destination": "/blog/como-pode-pedir-a-isencao-de-taxas-em-concursos-federais/",
+      "statusCode": 301
+    },
+    {
+      "source": "/como-proteger-seu-veiculo-com-rastreador-gps",
+      "destination": "/blog/como-proteger-seu-veiculo-com-rastreador-gps/",
+      "statusCode": 301
+    },
+    {
+      "source": "/como-saber-se-tenho-direito-ao-vale-gas",
+      "destination": "/blog/como-saber-se-tenho-direito-ao-vale-gas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/como-se-tornar-um-encanador-autonomo",
+      "destination": "/blog/como-se-tornar-um-encanador-autonomo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/conheca-o-curso-gratis-de-controlador-de-acesso-da-prime-cursos",
+      "destination": "/blog/conheca-o-curso-gratis-de-controlador-de-acesso-da-prime-cursos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/conheca-o-programa-de-alimentacao-do-trabalhador-pat",
+      "destination": "/blog/conheca-o-programa-de-alimentacao-do-trabalhador-pat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/conheca-o-qualifica-recife-e-transforme-sua-carreira",
+      "destination": "/blog/conheca-o-qualifica-recife-e-transforme-sua-carreira/",
+      "statusCode": 301
+    },
+    {
+      "source": "/contaminacao-por-covid-19-cai-nos-presidios-de-sao-paulo",
+      "destination": "/blog/contaminacao-por-covid-19-cai-nos-presidios-de-sao-paulo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/controle-de-pragas-urbanas-reintegracao-social",
+      "destination": "/blog/controle-de-pragas-urbanas-reintegracao-social/",
+      "statusCode": 301
+    },
+    {
+      "source": "/copa-sao-paulo-coloca-na-vitrine-municipios-do-alto-tiete",
+      "destination": "/blog/copa-sao-paulo-coloca-na-vitrine-municipios-do-alto-tiete/",
+      "statusCode": 301
+    },
+    {
+      "source": "/curso-de-imersao-de-ingles",
+      "destination": "/blog/curso-de-imersao-de-ingles/",
+      "statusCode": 301
+    },
+    {
+      "source": "/cursos-gratuitos-do-governo-conheca-a-escola-virtual",
+      "destination": "/blog/cursos-gratuitos-do-governo-conheca-a-escola-virtual/",
+      "statusCode": 301
+    },
+    {
+      "source": "/cursos-gratuitos-qualificacao-profissional-pat",
+      "destination": "/blog/cursos-gratuitos-qualificacao-profissional-pat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/depois-da-cracolandia-e-presidio-recomecar",
+      "destination": "/blog/depois-da-cracolandia-e-presidio-recomecar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/desafios-e-impactos-sociais-na-atuacao-de-desenvolvimento-e-empregabilidade-de-egressos-do-sistema-carcerario",
+      "destination": "/blog/desafios-e-impactos-sociais-na-atuacao-de-desenvolvimento-e-empregabilidade-de-egressos-do-sistema-carcerario/",
+      "statusCode": 301
+    },
+    {
+      "source": "/desafios-e-oportunidades-ex-presidiarios-no-mercado-de-trabalho",
+      "destination": "/blog/desafios-e-oportunidades-ex-presidiarios-no-mercado-de-trabalho/",
+      "statusCode": 301
+    },
+    {
+      "source": "/desdobramentos-da-lei-de-execucao-penal",
+      "destination": "/blog/desdobramentos-da-lei-de-execucao-penal/",
+      "statusCode": 301
+    },
+    {
+      "source": "/dia-do-trabalho-tem-origem-na-luta-de-operarios-pela-reducao-da-jornada-para-8-horas",
+      "destination": "/blog/dia-do-trabalho-tem-origem-na-luta-de-operarios-pela-reducao-da-jornada-para-8-horas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/dia-internacional-dos-direitos-humanos",
+      "destination": "/blog/dia-internacional-dos-direitos-humanos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/dicas-entrevista-emprego-pat",
+      "destination": "/blog/dicas-entrevista-emprego-pat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/distribuicao-de-renda-entenda-o-que-e",
+      "destination": "/blog/distribuicao-de-renda-entenda-o-que-e/",
+      "statusCode": 301
+    },
+    {
+      "source": "/educacao-para-todos",
+      "destination": "/blog/educacao-para-todos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/egressos-do-sistema-prisional-entenda-quem-sao",
+      "destination": "/blog/egressos-do-sistema-prisional-entenda-quem-sao/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ela-so-quer-uma-vaga-de-trabalho",
+      "destination": "/blog/ela-so-quer-uma-vaga-de-trabalho/",
+      "statusCode": 301
+    },
+    {
+      "source": "/empreendedor-alex-sandro-da-conceicao",
+      "destination": "/blog/empreendedor-alex-sandro-da-conceicao/",
+      "statusCode": 301
+    },
+    {
+      "source": "/empreendedorismo-como-solucao-de-renda-para-o-egresso-do-sistema-prisional",
+      "destination": "/blog/empreendedorismo-como-solucao-de-renda-para-o-egresso-do-sistema-prisional/",
+      "statusCode": 301
+    },
+    {
+      "source": "/empregos-formais-crescem-92-em-janeiro-no-alto-tiete",
+      "destination": "/blog/empregos-formais-crescem-92-em-janeiro-no-alto-tiete/",
+      "statusCode": 301
+    },
+    {
+      "source": "/entendendo-o-bolsa-familia",
+      "destination": "/blog/entendendo-o-bolsa-familia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/equipe-itinerante-comeca-os-trabalhos-pelo-bairro-do-jaragua",
+      "destination": "/blog/equipe-itinerante-comeca-os-trabalhos-pelo-bairro-do-jaragua/",
+      "statusCode": 301
+    },
+    {
+      "source": "/espacos-educacionais-de-presidios-paulistas-passam-por-melhorias",
+      "destination": "/blog/espacos-educacionais-de-presidios-paulistas-passam-por-melhorias/",
+      "statusCode": 301
+    },
+    {
+      "source": "/estamos-na-era-da-carteira-de-trabalho-digital",
+      "destination": "/blog/estamos-na-era-da-carteira-de-trabalho-digital/",
+      "statusCode": 301
+    },
+    {
+      "source": "/estrategias-para-captacao-de-recursos-para-o-terceiro-setor",
+      "destination": "/blog/estrategias-para-captacao-de-recursos-para-o-terceiro-setor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/explorando-os-servicos-dos-postos-de-atendimento-ao-trabalhador-em-sao-paulo",
+      "destination": "/blog/explorando-os-servicos-dos-postos-de-atendimento-ao-trabalhador-em-sao-paulo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/famosos-que-superaram-a-prisao-e-reencontraram-o-sucesso",
+      "destination": "/blog/famosos-que-superaram-a-prisao-e-reencontraram-o-sucesso/",
+      "statusCode": 301
+    },
+    {
+      "source": "/favelas-e-comunidades-urbanas-entenda-a-nova-abordagem-do-ibge",
+      "destination": "/blog/favelas-e-comunidades-urbanas-entenda-a-nova-abordagem-do-ibge/",
+      "statusCode": 301
+    },
+    {
+      "source": "/fomento-ao-empreendedorismo-para-egressos-do-sistema-carcerario",
+      "destination": "/blog/fomento-ao-empreendedorismo-para-egressos-do-sistema-carcerario/",
+      "statusCode": 301
+    },
+    {
+      "source": "/francisco-pereira-por-que-voce-apoia-o-recomecar",
+      "destination": "/blog/francisco-pereira-por-que-voce-apoia-o-recomecar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/gerador-de-curriculo",
+      "destination": "/blog/gerador-de-curriculo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ginead-democratizando-a-educacao-com-cursos-online-gratuitos",
+      "destination": "/blog/ginead-democratizando-a-educacao-com-cursos-online-gratuitos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/guia-curriculo-perfeito-pat",
+      "destination": "/blog/guia-curriculo-perfeito-pat/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ideias-para-melhorar-o-sistema-prisional-brasileiro",
+      "destination": "/blog/ideias-para-melhorar-o-sistema-prisional-brasileiro/",
+      "statusCode": 301
+    },
+    {
+      "source": "/importancia-de-empresas-que-abrem-vagas-para-egressos-do-sistema-prisional",
+      "destination": "/blog/importancia-de-empresas-que-abrem-vagas-para-egressos-do-sistema-prisional/",
+      "statusCode": 301
+    },
+    {
+      "source": "/inclusao-produtiva",
+      "destination": "/blog/inclusao-produtiva/",
+      "statusCode": 301
+    },
+    {
+      "source": "/instituto-recomecar-em-campo-no-litoral-de-sao-paulo",
+      "destination": "/blog/instituto-recomecar-em-campo-no-litoral-de-sao-paulo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/instituto-recomecar-na-barra-funda",
+      "destination": "/blog/instituto-recomecar-na-barra-funda/",
+      "statusCode": 301
+    },
+    {
+      "source": "/instituto-recomecar-no-litoral-norte",
+      "destination": "/blog/instituto-recomecar-no-litoral-norte/",
+      "statusCode": 301
+    },
+    {
+      "source": "/jogo-da-memoria",
+      "destination": "/blog/jogo-da-memoria/",
+      "statusCode": 301
+    },
+    {
+      "source": "/lacos-familiares-o-papel-crucial-na-reinsercao-de-presos",
+      "destination": "/blog/lacos-familiares-o-papel-crucial-na-reinsercao-de-presos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/lei-de-execucoes-penais-entre-desafios-e-objetivos",
+      "destination": "/blog/lei-de-execucoes-penais-entre-desafios-e-objetivos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/leonardo-precioso-participou-da-live-do-ifmsa",
+      "destination": "/blog/leonardo-precioso-participou-da-live-do-ifmsa/",
+      "statusCode": 301
+    },
+    {
+      "source": "/livro-incentiva-autoconhecimento-e-valorizacao-feminina-de-reclusas",
+      "destination": "/blog/livro-incentiva-autoconhecimento-e-valorizacao-feminina-de-reclusas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/mais-de-2-400-presos-de-sp-sao-classificados-no-enem",
+      "destination": "/blog/mais-de-2-400-presos-de-sp-sao-classificados-no-enem/",
+      "statusCode": 301
+    },
+    {
+      "source": "/maternidade-digna-marco-legal-da-primeira-infancia",
+      "destination": "/blog/maternidade-digna-marco-legal-da-primeira-infancia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/medalhas-de-prata-e-ouro-impulsionam-a-moda-streetwear",
+      "destination": "/blog/medalhas-de-prata-e-ouro-impulsionam-a-moda-streetwear/",
+      "statusCode": 301
+    },
+    {
+      "source": "/mitos-e-verdades-sobre-a-saidinha-temporaria-no-brasil",
+      "destination": "/blog/mitos-e-verdades-sobre-a-saidinha-temporaria-no-brasil/",
+      "statusCode": 301
+    },
+    {
+      "source": "/mitos-e-verdades-sobre-o-que-vestir-em-entrevistas-de-emprego",
+      "destination": "/blog/mitos-e-verdades-sobre-o-que-vestir-em-entrevistas-de-emprego/",
+      "statusCode": 301
+    },
+    {
+      "source": "/moda-sustentavel-por-que-ela-e-importante-e-como-pratica-la",
+      "destination": "/blog/moda-sustentavel-por-que-ela-e-importante-e-como-pratica-la/",
+      "statusCode": 301
+    },
+    {
+      "source": "/mulheres-reclusas-recebem-atencao-preventiva-ao-hiv-e-cancer-de-mama",
+      "destination": "/blog/mulheres-reclusas-recebem-atencao-preventiva-ao-hiv-e-cancer-de-mama/",
+      "statusCode": 301
+    },
+    {
+      "source": "/novo-caminho",
+      "destination": "/blog/novo-caminho/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-cone-do-recomeco",
+      "destination": "/blog/o-cone-do-recomeco/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-direito-ao-voto-do-preso",
+      "destination": "/blog/o-direito-ao-voto-do-preso/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-que-as-mulheres-ex-presidiarias-enfrentam-apos-ganharem-a-liberdade",
+      "destination": "/blog/o-que-as-mulheres-ex-presidiarias-enfrentam-apos-ganharem-a-liberdade/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-que-e-cultura-periferica",
+      "destination": "/blog/o-que-e-cultura-periferica/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-que-e-impacto-social",
+      "destination": "/blog/o-que-e-impacto-social/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-que-e-marido-de-alugel",
+      "destination": "/blog/o-que-e-marido-de-alugel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-que-e-o-encceja-e-por-que-ele-e-importante",
+      "destination": "/blog/o-que-e-o-encceja-e-por-que-ele-e-importante/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-que-e-o-pop-rua-e-como-ele-ajuda-a-populacao-em-situacao-de-rua-em-sao-paulo",
+      "destination": "/blog/o-que-e-o-pop-rua-e-como-ele-ajuda-a-populacao-em-situacao-de-rua-em-sao-paulo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-que-e-o-pro-egresso",
+      "destination": "/blog/o-que-e-o-pro-egresso/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-que-e-tcc",
+      "destination": "/blog/o-que-e-tcc/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-que-faz-um-ajudante-de-pizzaiolo",
+      "destination": "/blog/o-que-faz-um-ajudante-de-pizzaiolo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-que-faz-um-auxiliar-de-limpeza",
+      "destination": "/blog/o-que-faz-um-auxiliar-de-limpeza/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-que-sao-beneficios-sociais",
+      "destination": "/blog/o-que-sao-beneficios-sociais/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-que-um-auxiliar-de-cozinha-faz",
+      "destination": "/blog/o-que-um-auxiliar-de-cozinha-faz/",
+      "statusCode": 301
+    },
+    {
+      "source": "/o-que-voce-ganha-ao-ser-um-voluntario-em-uma-ong",
+      "destination": "/blog/o-que-voce-ganha-ao-ser-um-voluntario-em-uma-ong/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ongs-que-ajudam-ex-presidiarios",
+      "destination": "/blog/ongs-que-ajudam-ex-presidiarios/",
+      "statusCode": 301
+    },
+    {
+      "source": "/os-melhores-cursos-online-gratuitos-para-impulsionar-sua-carreira",
+      "destination": "/blog/os-melhores-cursos-online-gratuitos-para-impulsionar-sua-carreira/",
+      "statusCode": 301
+    },
+    {
+      "source": "/parceria-movimento-happiness-e-instituto-recomecar",
+      "destination": "/blog/parceria-movimento-happiness-e-instituto-recomecar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/parceria-transformadora-entre-grupo-viggo-e-instituto-recomecar",
+      "destination": "/blog/parceria-transformadora-entre-grupo-viggo-e-instituto-recomecar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/passo-a-passo-para-solicitar-o-loas",
+      "destination": "/blog/passo-a-passo-para-solicitar-o-loas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/populacao-carceraria-nas-americas-cresce-mas-dados-sobre-egressos-sao-escassos",
+      "destination": "/blog/populacao-carceraria-nas-americas-cresce-mas-dados-sobre-egressos-sao-escassos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/presidios-visitas-presenciais-serao-retomadas",
+      "destination": "/blog/presidios-visitas-presenciais-serao-retomadas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/presos-aprendem-uma-nova-profissao-por-meio-da-marcenaria",
+      "destination": "/blog/presos-aprendem-uma-nova-profissao-por-meio-da-marcenaria/",
+      "statusCode": 301
+    },
+    {
+      "source": "/presos-de-sp-iniciam-curso-off-line-ead-sobre-educacao-para-a-paz",
+      "destination": "/blog/presos-de-sp-iniciam-curso-off-line-ead-sobre-educacao-para-a-paz/",
+      "statusCode": 301
+    },
+    {
+      "source": "/problematicas-da-seguranca-na-gestao-publica",
+      "destination": "/blog/problematicas-da-seguranca-na-gestao-publica/",
+      "statusCode": 301
+    },
+    {
+      "source": "/profissao-desentupidor",
+      "destination": "/blog/profissao-desentupidor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/profissao-encanador-mitos-e-verdades",
+      "destination": "/blog/profissao-encanador-mitos-e-verdades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/qual-a-funcao-de-um-ajudante-de-pedreiro",
+      "destination": "/blog/qual-a-funcao-de-um-ajudante-de-pedreiro/",
+      "statusCode": 301
+    },
+    {
+      "source": "/qualificasp-descubra-novas-oportunidades-de-qualificacao-profissional",
+      "destination": "/blog/qualificasp-descubra-novas-oportunidades-de-qualificacao-profissional/",
+      "statusCode": 301
+    },
+    {
+      "source": "/reclusas-e-egressas-apresentam-novo-livro-de-poesias",
+      "destination": "/blog/reclusas-e-egressas-apresentam-novo-livro-de-poesias/",
+      "statusCode": 301
+    },
+    {
+      "source": "/recomecar-desembarca-em-brasilia",
+      "destination": "/blog/recomecar-desembarca-em-brasilia/",
+      "statusCode": 301
+    },
+    {
+      "source": "/recomecei-e-venci-episodio-1-julio-cesar",
+      "destination": "/blog/recomecei-e-venci-episodio-1-julio-cesar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/recomecei-e-venci-episodio-2-douglas",
+      "destination": "/blog/recomecei-e-venci-episodio-2-douglas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/reducao-da-populacao-carceraria-a-importancia-de-politicas-judiciarias",
+      "destination": "/blog/reducao-da-populacao-carceraria-a-importancia-de-politicas-judiciarias/",
+      "statusCode": 301
+    },
+    {
+      "source": "/reinsercao-social-um-desafio-para-presidiarios-e-sociedade",
+      "destination": "/blog/reinsercao-social-um-desafio-para-presidiarios-e-sociedade/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ressocializacao-de-presos-o-que-e-e-por-que-e-importante",
+      "destination": "/blog/ressocializacao-de-presos-o-que-e-e-por-que-e-importante/",
+      "statusCode": 301
+    },
+    {
+      "source": "/ressocializacao-o-que-e-e-como-funciona",
+      "destination": "/blog/ressocializacao-o-que-e-e-como-funciona/",
+      "statusCode": 301
+    },
+    {
+      "source": "/rostos-do-recomecar-katiane",
+      "destination": "/blog/rostos-do-recomecar-katiane/",
+      "statusCode": 301
+    },
+    {
+      "source": "/rostos-do-recomecar-nayara-tatiane",
+      "destination": "/blog/rostos-do-recomecar-nayara-tatiane/",
+      "statusCode": 301
+    },
+    {
+      "source": "/rostos-recomecar-juliana",
+      "destination": "/blog/rostos-recomecar-juliana/",
+      "statusCode": 301
+    },
+    {
+      "source": "/sala-para-advogados-e-inaugurada-no-cdp-de-suzano-sp",
+      "destination": "/blog/sala-para-advogados-e-inaugurada-no-cdp-de-suzano-sp/",
+      "statusCode": 301
+    },
+    {
+      "source": "/sandra-gioffi-por-que-voce-apoia-o-recomecar",
+      "destination": "/blog/sandra-gioffi-por-que-voce-apoia-o-recomecar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/sao-paulo-470-anos-cidade-singular-e-plural",
+      "destination": "/blog/sao-paulo-470-anos-cidade-singular-e-plural/",
+      "statusCode": 301
+    },
+    {
+      "source": "/sap-registra-aumento-de-36-no-numero-de-inscritos-para-o-enem-ppl",
+      "destination": "/blog/sap-registra-aumento-de-36-no-numero-de-inscritos-para-o-enem-ppl/",
+      "statusCode": 301
+    },
+    {
+      "source": "/seguro-desemprego-negado-bloqueado-o-que-fazer",
+      "destination": "/blog/seguro-desemprego-negado-bloqueado-o-que-fazer/",
+      "statusCode": 301
+    },
+    {
+      "source": "/senado-proibe-despejo-e-desocupacao-ate-o-fim-de-2021",
+      "destination": "/blog/senado-proibe-despejo-e-desocupacao-ate-o-fim-de-2021/",
+      "statusCode": 301
+    },
+    {
+      "source": "/setembro-amarelo-prevencao-do-suicidio",
+      "destination": "/blog/setembro-amarelo-prevencao-do-suicidio/",
+      "statusCode": 301
+    },
+    {
+      "source": "/simulados-a-chave-magica-para-desbloquear-seu-potencial",
+      "destination": "/blog/simulados-a-chave-magica-para-desbloquear-seu-potencial/",
+      "statusCode": 301
+    },
+    {
+      "source": "/situacao-das-criancas-e-dos-adolescentes-no-brasil",
+      "destination": "/blog/situacao-das-criancas-e-dos-adolescentes-no-brasil/",
+      "statusCode": 301
+    },
+    {
+      "source": "/solange-rosalem-por-que-voce-apoia-o-recomecar",
+      "destination": "/blog/solange-rosalem-por-que-voce-apoia-o-recomecar/",
+      "statusCode": 301
+    },
+    {
+      "source": "/teste-de-perfil-empreendedor",
+      "destination": "/blog/teste-de-perfil-empreendedor/",
+      "statusCode": 301
+    },
+    {
+      "source": "/teste-de-personalidade",
+      "destination": "/blog/teste-de-personalidade/",
+      "statusCode": 301
+    },
+    {
+      "source": "/transformacao-o-papel-da-cultura-na-reabilitacao-de-detentos",
+      "destination": "/blog/transformacao-o-papel-da-cultura-na-reabilitacao-de-detentos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/transformacao-social-e-os-beneficios-das-acoes-para-quebra-de-ciclos-de-vulnerabilidade",
+      "destination": "/blog/transformacao-social-e-os-beneficios-das-acoes-para-quebra-de-ciclos-de-vulnerabilidade/",
+      "statusCode": 301
+    },
+    {
+      "source": "/transforme-seu-futuro-curso-de-desentupidora",
+      "destination": "/blog/transforme-seu-futuro-curso-de-desentupidora/",
+      "statusCode": 301
+    },
+    {
+      "source": "/transforme-sua-carreira-com-cursos-gratis",
+      "destination": "/blog/transforme-sua-carreira-com-cursos-gratis/",
+      "statusCode": 301
+    },
+    {
+      "source": "/turismo-social-conectando-pessoas",
+      "destination": "/blog/turismo-social-conectando-pessoas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/vencendo-o-coronavirus-vacina-e-cuidados",
+      "destination": "/blog/vencendo-o-coronavirus-vacina-e-cuidados/",
+      "statusCode": 301
+    },
+    {
+      "source": "/vida-pos-carcere",
+      "destination": "/blog/vida-pos-carcere/",
+      "statusCode": 301
+    },
+    {
+      "source": "/yougreen-cooperativa-geradores-de-oportunidades",
+      "destination": "/blog/yougreen-cooperativa-geradores-de-oportunidades/",
+      "statusCode": 301
+    },
+    {
+      "source": "/zona-leste-de-sao-paulo-contrastes-sociais-e-urbanos",
+      "destination": "/blog/zona-leste-de-sao-paulo-contrastes-sociais-e-urbanos/",
+      "statusCode": 301
     }
   ]
 }
