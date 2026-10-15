@@ -7,8 +7,8 @@ author: "Senna Ricarte"
 image: "blog/o-que-faz-um-ajudante-de-pizzaiolo.jpg"
 pubDate: 2025-11-04T16:08:36+00:00
 status: "published"
-metaTitle: "O que Faz um Ajudante de Pizzaiolo: Funções e Responsabilidades na Cozinha"
-metaDescription: "Você já parou para pensar no papel fundamental que um ajudante de pizzaiolo desempenha na cozinha? Esse profissional é essencial para garantir que cada pizza saia perfeita, quente e deliciosa. Mas o que faz um ajudante de pizzaiolo, exatamente?"
+metaTitle: "Auxiliar de Pizzaiolo (Ajudante): o Que Faz e Quanto Ganha"
+metaDescription: "Veja o que faz um auxiliar ou ajudante de pizzaiolo, a faixa salarial, as habilidades exigidas e dicas para conseguir a primeira vaga na cozinha."
 ---
 
 <p>Você já parou para pensar no papel fundamental que um ajudante de pizzaiolo desempenha na cozinha? Esse profissional é essencial para garantir que cada pizza saia perfeita, quente e deliciosa. Mas o que faz um ajudante de pizzaiolo, exatamente? </p>

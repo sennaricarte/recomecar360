@@ -7,8 +7,8 @@ author: "Joel Novaes"
 image: "blog/o-que-um-auxiliar-de-cozinha-faz.jpg"
 pubDate: 2025-11-04T15:29:39+00:00
 status: "published"
-metaTitle: "O que um Auxiliar de Cozinha Faz: Funções e Responsabilidades"
-metaDescription: "Você já se perguntou o que faz um auxiliar de cozinha? Esse profissional desempenha um papel fundamental nos bastidores de restaurantes, lanchonetes e até mesmo na sua casa. Muitas vezes invisível, mas sempre essencial, o auxiliar de cozinha contribui para que tudo funcione perfeitamente nos momento"
+metaTitle: "Auxiliar de Cozinha: o Que Faz e Diferença para Ajudante"
+metaDescription: "Veja o que faz um auxiliar de cozinha, o que ele não pode fazer, a diferença para o ajudante e como se qualificar para conseguir a vaga."
 ---
 
 <p>Você já se perguntou o que faz um auxiliar de cozinha? Esse profissional desempenha um papel fundamental nos bastidores de restaurantes, lanchonetes e até mesmo na sua casa. Muitas vezes invisível, mas sempre essencial, o auxiliar de cozinha contribui para que tudo funcione perfeitamente nos momentos em que os pratos são preparados. </p>
