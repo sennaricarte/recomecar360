@@ -6,7 +6,7 @@ category: "Blog"
 author: "Equipe de Comunicação Recomeçar"
 image: "blog/como-o-conserto-de-notebooks-pode-apoiar-a-reintegracao.jpg"
 pubDate: 2025-07-26T09:18:10+00:00
-status: "published"
+status: "draft"
 metaTitle: "Como o Conserto de Notebooks Pode Apoiar a Reintegração de Egressos"
 metaDescription: "A tecnologia está presente em todos os aspectos de nossa vida, desde a busca por informações até a execução de tarefas cotidianas. Mas será que reparar notebooks pode ter um impacto social positivo?"
 ---

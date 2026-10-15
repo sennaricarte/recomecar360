@@ -6,7 +6,7 @@ category: "Blog"
 author: "Equipe de Comunicação Recomeçar"
 image: "blog/transforme-sua-carreira-com-cursos-gratis.jpg"
 pubDate: 2025-07-09T12:47:16+00:00
-status: "published"
+status: "draft"
 metaTitle: "Conquiste um Diploma e Acelere seu Futuro"
 metaDescription: "Você já se pegou pensando se vale a pena investir seu tempo em cursos gratuitos que oferecem diplomas pagos? É um mercado que está em plena expansão e com muitas nuances a ser exploradas."
 ---

@@ -6,7 +6,7 @@ category: "Blog"
 author: "Equipe de Comunicação Recomeçar"
 image: "blog/como-proteger-seu-veiculo-com-rastreador-gps.jpg"
 pubDate: 2025-05-28T17:16:56+00:00
-status: "published"
+status: "draft"
 metaTitle: "Como proteger seu veículo com Rastreador GPS?"
 metaDescription: "Deseja monitorar seu carro e saber a real localização do mesmo? Saiba que um dispositivo com sinal GPRS, GSM E GPS pode ajudar a monitorar seu bem mais valioso. Muitas pessoas não sabem mais um rastreador veicular escondido no seu veículo pode proteger de varias situações e ajudar a fornecer informa"
 ---
