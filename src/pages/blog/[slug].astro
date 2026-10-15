@@ -18,7 +18,8 @@ import {
 } from '../../lib/blog';
 import { resolveArticleImageWithFallback } from '../../lib/blog-image';
 import { categoryToSlug, getCategoryLabel } from '../../lib/categories';
-import { SITE_URL } from '../../lib/jsonld';
+import { SITE_URL, organizationRef } from '../../lib/jsonld';
+import { toPlainText } from '../../lib/seo';
 
 export async function getStaticPaths() {
   const allArticles = await getPublishedArticles();
@@ -57,28 +58,49 @@ const coverImageUrl = coverImage.isRemote
   ? coverImage.src
   : new URL(coverImage.src, SITE_URL).href;
 
+// SVG (capa provisória) não é formato de imagem aceito em rich results de artigo.
+const schemaImageUrl = /\.svg(\?|$)/i.test(coverImageUrl)
+  ? new URL('/images/og-default.png', SITE_URL).href
+  : coverImageUrl;
+
+const articleUrl = new URL(canonicalPath, SITE_URL).href;
+
+// Mesmos itens para o breadcrumb visual e para o BreadcrumbList do schema.
+const breadcrumbItems = [
+  { label: 'Início', href: '/' },
+  { label: 'Blog', href: '/blog/' },
+  { label: categoryLabel, href: `/blog/categoria/${categorySlug}/` },
+  { label: article.data.title, current: true },
+];
+
 const articleJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
-  headline: article.data.title,
+  '@id': `${articleUrl}#article`,
+  headline: toPlainText(article.data.title),
   description: seoDescription,
-  image: coverImageUrl,
+  image: schemaImageUrl,
   datePublished: article.data.pubDate.toISOString(),
-  author: {
-    '@type': 'Organization',
-    name: 'Instituto Recomeçar',
-  },
+  // dateModified só existe quando há uma data de revisão real no artigo.
+  ...(article.data.updatedDate && { dateModified: article.data.updatedDate.toISOString() }),
+  inLanguage: 'pt-BR',
+  url: articleUrl,
+  author: organizationRef(),
   publisher: {
-    '@type': 'Organization',
-    name: 'Instituto Recomeçar',
+    ...organizationRef(),
     logo: {
       '@type': 'ImageObject',
       url: `${SITE_URL}/logo-recomecar.png`,
     },
   },
+  isPartOf: {
+    '@type': 'Blog',
+    name: 'Blog Recomeçar',
+    url: new URL('/blog/', SITE_URL).href,
+  },
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': new URL(canonicalPath, SITE_URL).href,
+    '@id': articleUrl,
   },
 };
 ---
@@ -90,19 +112,13 @@ const articleJsonLd = {
     description={seoDescription}
     canonicalPath={canonicalPath}
     jsonLd={[articleJsonLd]}
+    breadcrumbs={breadcrumbItems}
   />
   <JoinAdsScript slot="head" />
 
   <article class="post">
     <header class="post__header">
-      <BlogBreadcrumb
-        items={[
-          { label: 'Início', href: '/' },
-          { label: 'Blog', href: '/blog/' },
-          { label: categoryLabel, href: `/blog/categoria/${categorySlug}/` },
-          { label: article.data.title, current: true },
-        ]}
-      />
+      <BlogBreadcrumb items={breadcrumbItems} />
 
       <a href={`/blog/categoria/${categorySlug}/`} class="post__category">
         {categoryLabel}

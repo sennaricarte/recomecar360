@@ -12,6 +12,10 @@ const colunistas = (await getCollection('colunistas')).sort(
 const pageTitle = 'Colunistas | Instituto Recomeçar';
 const pageDescription =
   'Conheça os colunistas do Instituto Recomeçar e leia reflexões sobre ressocialização, inclusão e transformação social.';
+const breadcrumbItems = [
+  { label: 'Início', href: '/' },
+  { label: 'Colunistas', current: true },
+];
 ---
 
 <BaseLayout>
@@ -20,15 +24,11 @@ const pageDescription =
     title={pageTitle}
     description={pageDescription}
     canonicalPath="/colunistas/"
+    breadcrumbs={breadcrumbItems}
   />
 
   <div class="columnists-page">
-    <BlogBreadcrumb
-      items={[
-        { label: 'Início', href: '/' },
-        { label: 'Colunistas', current: true },
-      ]}
-    />
+    <BlogBreadcrumb items={breadcrumbItems} />
 
     <header class="columnists-page__header">
       <p class="columnists-page__eyebrow">Opinião e reflexão</p>
