@@ -3,6 +3,7 @@ title: "Rostos Recomeçar - Juliana"
 slug: "rostos-recomecar-juliana"
 excerpt: ""
 category: "Blog"
+cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/rostos-recomecar-juliana.jpg"
 pubDate: 2022-04-21T12:50:14+00:00

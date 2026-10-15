@@ -3,6 +3,7 @@ title: "O que é o ENCCEJA e por que ele é importante?"
 slug: "o-que-e-o-encceja-e-por-que-ele-e-importante"
 excerpt: ""
 category: "Blog"
+cluster: "emprego-e-cursos"
 author: "Senna Ricarte"
 image: "blog/o-que-e-o-encceja-e-por-que-ele-e-importante.jpg"
 pubDate: 2024-03-13T17:29:28+00:00

@@ -3,6 +3,7 @@ title: "Distribuição de Renda: Entenda o Que É, Como é Medida e Por Que Ela 
 slug: "distribuicao-de-renda-entenda-o-que-e"
 excerpt: "A distribuição de renda é um tema central em qualquer debate sobre economia e justiça social. Em poucas palavras, ela reflete como a riqueza e os recursos gerados por um país (como salários, lucros e dividendos) são repartidos entre seus habitantes. O ideal, claro, é que essa distribuição seja a mai"
 category: "Blog"
+cluster: "beneficios"
 author: "Joel Novaes"
 image: "blog/distribuicao-de-renda-entenda-o-que-e.jpg"
 pubDate: 2025-11-24T18:35:19+00:00

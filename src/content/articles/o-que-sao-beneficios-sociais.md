@@ -3,6 +3,7 @@ title: "O que são benefícios sociais e como eles ajudam na sua retomada de vid
 slug: "o-que-sao-beneficios-sociais"
 excerpt: "Recomeçar a vida após o cumprimento de uma pena ou em um momento de extrema dificuldade financeira é um desafio que exige coragem e, acima de tudo, apoio. Muitas vezes, a porta para essa nova fase se abre através do acesso aos benefícios sociais."
 category: "Blog"
+cluster: "beneficios"
 author: "Senna Ricarte"
 image: "blog/o-que-sao-beneficios-sociais.jpg"
 pubDate: 2026-01-16T15:52:13+00:00

@@ -3,6 +3,7 @@ title: "SAP registra aumento de 36% no número de inscritos para o Enem PPL"
 slug: "sap-registra-aumento-de-36-no-numero-de-inscritos-para-o-enem-ppl"
 excerpt: ""
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/sap-registra-aumento-de-36-no-numero-de-inscritos-para-o-enem-ppl.jpeg"
 pubDate: 2021-11-09T16:12:05+00:00

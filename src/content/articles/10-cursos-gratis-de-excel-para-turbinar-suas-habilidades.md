@@ -3,6 +3,7 @@ title: "10 cursos grátis de Excel para turbinar suas habilidades"
 slug: "10-cursos-gratis-de-excel-para-turbinar-suas-habilidades"
 excerpt: "No cenário corporativo atual, a&nbsp;proficiência em Excel&nbsp;é mais do que uma habilidade desejável; é uma necessidade. Este poderoso software de planilhas se tornou um&nbsp;pilar fundamental&nbsp;na análise de dados, gestão financeira e planejamento estratégico. Além disso, o domínio do Excel po"
 category: "Blog"
+cluster: "emprego-e-cursos"
 author: "Joel Novaes"
 image: "blog/10-cursos-gratis-de-excel-para-turbinar-suas-habilidades.jpg"
 pubDate: 2024-04-28T22:13:39+00:00

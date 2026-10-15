@@ -3,6 +3,7 @@ title: "Francisco Pereira - Por que você apoia o Recomeçar?"
 slug: "francisco-pereira-por-que-voce-apoia-o-recomecar"
 excerpt: ""
 category: "Blog"
+cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2022-10-25T14:40:47+00:00

@@ -3,6 +3,7 @@ title: "O Direito ao voto do preso"
 slug: "o-direito-ao-voto-do-preso"
 excerpt: ""
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2020-11-10T12:57:05+00:00

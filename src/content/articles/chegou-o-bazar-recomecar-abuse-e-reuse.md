@@ -3,6 +3,7 @@ title: "Chegou o Bazar Recomeçar - Abuse e Reuse"
 slug: "chegou-o-bazar-recomecar-abuse-e-reuse"
 excerpt: ""
 category: "Blog"
+cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2022-09-29T14:32:04+00:00

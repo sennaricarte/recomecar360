@@ -3,6 +3,7 @@ title: "Entendendo o Bolsa Família: Como Funciona e Quem Pode Participar?"
 slug: "entendendo-o-bolsa-familia"
 excerpt: "Você já ouviu falar do Bolsa Família? Esse programa social tem sido um verdadeiro apoio para milhões de brasileiros, ajudando a combater a pobreza e proporcionando melhores condições de vida."
 category: "Blog"
+cluster: "beneficios"
 author: "Senna Ricarte"
 image: "blog/entendendo-o-bolsa-familia.jpg"
 pubDate: 2025-11-06T19:37:54+00:00

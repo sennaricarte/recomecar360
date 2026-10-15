@@ -3,6 +3,7 @@ title: "Leonardo Precioso participou da Live do IFMSA"
 slug: "leonardo-precioso-participou-da-live-do-ifmsa"
 excerpt: ""
 category: "Blog"
+cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/leonardo-precioso-participou-da-live-do-ifmsa.jpg"
 pubDate: 2020-10-14T12:49:50+00:00

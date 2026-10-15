@@ -3,6 +3,7 @@ title: "Medalhas de prata e ouro impulsionam a moda streetwear"
 slug: "medalhas-de-prata-e-ouro-impulsionam-a-moda-streetwear"
 excerpt: ""
 category: "Blog"
+cluster: "cultura-periferica"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-07-28T13:28:09+00:00

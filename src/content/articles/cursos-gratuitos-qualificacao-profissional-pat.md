@@ -3,6 +3,7 @@ title: "Cursos Gratuitos e Qualificação Profissional: Como o PAT pode impulsio
 slug: "cursos-gratuitos-qualificacao-profissional-pat"
 excerpt: "Você já sentiu que, para alcançar aquela vaga dos sonhos ou ser promovido no trabalho, faltava \"algo a mais\" no seu currículo? No mercado atual, a vontade de trabalhar é o ponto de partida, mas a qualificação profissional é o combustível que faz a carreira decolar."
 category: "Blog"
+cluster: "emprego-e-cursos"
 author: "Joel Novaes"
 image: "blog/cursos-gratuitos-qualificacao-profissional-pat.jpg"
 pubDate: 2026-02-02T19:55:09+00:00

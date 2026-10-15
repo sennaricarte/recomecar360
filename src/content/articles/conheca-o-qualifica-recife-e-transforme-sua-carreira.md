@@ -3,6 +3,7 @@ title: "Conheça o Qualifica Recife e transforme sua carreira!"
 slug: "conheca-o-qualifica-recife-e-transforme-sua-carreira"
 excerpt: ""
 category: "Blog"
+cluster: "emprego-e-cursos"
 author: "Joel Novaes"
 image: "blog/conheca-o-qualifica-recife-e-transforme-sua-carreira.jpg"
 pubDate: 2024-01-16T18:15:13+00:00

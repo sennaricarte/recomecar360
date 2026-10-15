@@ -3,6 +3,7 @@ title: "Turismo Social: Conectando Pessoas, Superando Barreiras e Promovendo Nov
 slug: "turismo-social-conectando-pessoas"
 excerpt: "Imagine viajar para um lugar incrível por um preço que se encaixa no seu bolso enquanto contribui para o bem-estar de comunidades locais. Parece um sonho, certo? Pois é exatamente essa a proposta do turismo social."
 category: "Blog"
+cluster: "terceiro-setor"
 author: "Equipe de Comunicação Recomeçar"
 image: "blog/turismo-social-conectando-pessoas.jpg"
 pubDate: 2025-07-01T10:31:43+00:00

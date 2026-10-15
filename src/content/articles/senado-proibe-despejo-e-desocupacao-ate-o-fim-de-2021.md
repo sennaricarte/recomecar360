@@ -3,6 +3,7 @@ title: "Senado proíbe despejo e desocupação até o fim de 2021"
 slug: "senado-proibe-despejo-e-desocupacao-ate-o-fim-de-2021"
 excerpt: ""
 category: "Blog"
+cluster: "beneficios"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-06-29T13:21:16+00:00

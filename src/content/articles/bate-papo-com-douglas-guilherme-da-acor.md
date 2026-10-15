@@ -3,6 +3,7 @@ title: "Bate papo com Douglas Guilherme da ACOR"
 slug: "bate-papo-com-douglas-guilherme-da-acor"
 excerpt: ""
 category: "Blog"
+cluster: "cultura-periferica"
 author: "Senna Ricarte"
 image: "blog/bate-papo-com-douglas-guilherme-da-acor.jpg"
 pubDate: 2021-08-16T13:31:14+00:00

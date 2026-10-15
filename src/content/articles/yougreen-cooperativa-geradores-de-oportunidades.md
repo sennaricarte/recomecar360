@@ -3,6 +3,7 @@ title: "Yougreen Cooperativa: Geradores de Oportunidades"
 slug: "yougreen-cooperativa-geradores-de-oportunidades"
 excerpt: ""
 category: "Blog"
+cluster: "terceiro-setor"
 author: "Senna Ricarte"
 image: "blog/yougreen-cooperativa-geradores-de-oportunidades.jpg"
 pubDate: 2022-11-21T13:54:32+00:00

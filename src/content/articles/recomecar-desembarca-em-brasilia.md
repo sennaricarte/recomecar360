@@ -3,6 +3,7 @@ title: "Recomeçar desembarca em Brasília"
 slug: "recomecar-desembarca-em-brasilia"
 excerpt: ""
 category: "Blog"
+cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-06-22T13:20:17+00:00

@@ -3,6 +3,7 @@ title: "Novo Caminho - Osmar Fiotikoski"
 slug: "novo-caminho"
 excerpt: ""
 category: "Blog"
+cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/novo-caminho.jpg"
 pubDate: 2020-10-13T12:48:24+00:00

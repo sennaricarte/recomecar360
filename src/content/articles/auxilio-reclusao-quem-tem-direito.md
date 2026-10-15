@@ -3,6 +3,7 @@ title: "Auxílio-Reclusão 2026: Quem tem direito e como funciona o benefício?"
 slug: "auxilio-reclusao-quem-tem-direito"
 excerpt: "Existe muita desinformação circulando sobre o Auxílio-Reclusão. No Instituto Recomeçar, acreditamos que a transparência e a educação são os primeiros passos para a reintegração social. Por isso, preparamos este guia completo para explicar, sem termos complicados, o que é este benefício e como ele aj"
 category: "Blog"
+cluster: "beneficios"
 author: "Joel Novaes"
 image: "blog/auxilio-reclusao-quem-tem-direito.jpg"
 pubDate: 2026-01-16T16:06:54+00:00
