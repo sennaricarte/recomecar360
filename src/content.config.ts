@@ -15,6 +15,9 @@ const articles = defineCollection({
     /** Tema do artigo (src/lib/clusters.ts). Alimenta "relacionados" e a caixa do guia principal. */
     cluster: z.enum(CLUSTER_IDS).optional(),
     image: z.string(),
+    /** Crédito da foto de capa (ex.: "Nome / Pexels"). Aparece sob a capa; `imageCreditUrl` é a página da foto. */
+    imageCredit: z.string().optional(),
+    imageCreditUrl: z.string().url().optional(),
     pubDate: z.coerce.date(),
     /** Data da última revisão real do artigo. Vira dateModified no schema; sem ela, o campo é omitido. */
     updatedDate: z.coerce.date().optional(),

@@ -5,7 +5,9 @@ excerpt: "Ex-presidiário recebe seguro-desemprego? Pelas fontes oficiais, não 
 category: "Blog"
 cluster: "egressos"
 author: "Equipe de Comunicação Recomeçar"
-image: "blog/_placeholder.svg"
+image: "blog/egresso-tem-direito-a-seguro-desemprego.jpg"
+imageCredit: "Matheus Natan / Pexels"
+imageCreditUrl: "https://www.pexels.com/pt-br/foto/entrada-moderna-do-edificio-do-banco-em-brasilia-37201909/"
 pubDate: 2026-10-15T12:00:00+00:00
 status: "published"
 metaTitle: "Egresso Tem Direito a Seguro-Desemprego? O Que Diz a Lei"
