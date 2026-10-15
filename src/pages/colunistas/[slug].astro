@@ -4,6 +4,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SEO from '../../components/seo/SEO.astro';
 import BlogBreadcrumb from '../../components/blog/BlogBreadcrumb.astro';
 import type { ColunistaEntry } from '../../lib/team';
+import { profilePageJsonLd } from '../../lib/jsonld';
+import { toPlainText } from '../../lib/seo';
 
 export async function getStaticPaths() {
   const colunistas = await getCollection('colunistas');
@@ -23,6 +25,16 @@ const { colunista } = Astro.props;
 const pageTitle = `${colunista.data.name} | Colunistas | Instituto Recomeçar`;
 const pageDescription = colunista.data.bio;
 const canonicalPath = `/colunistas/${colunista.data.slug}/`;
+const breadcrumbItems = [
+  { label: 'Início', href: '/' },
+  { label: 'Colunistas', href: '/colunistas/' },
+  { label: colunista.data.name, current: true },
+];
+const profileJsonLd = profilePageJsonLd({
+  name: colunista.data.name,
+  description: toPlainText(colunista.data.bio),
+  path: canonicalPath,
+});
 ---
 
 <BaseLayout>
@@ -31,16 +43,12 @@ const canonicalPath = `/colunistas/${colunista.data.slug}/`;
     title={pageTitle}
     description={pageDescription}
     canonicalPath={canonicalPath}
+    jsonLd={[profileJsonLd]}
+    breadcrumbs={breadcrumbItems}
   />
 
   <article class="columnist-profile">
-    <BlogBreadcrumb
-      items={[
-        { label: 'Início', href: '/' },
-        { label: 'Colunistas', href: '/colunistas/' },
-        { label: colunista.data.name, current: true },
-      ]}
-    />
+    <BlogBreadcrumb items={breadcrumbItems} />
 
     <header class="columnist-profile__header">
       <p class="columnist-profile__eyebrow">{colunista.data.columnName}</p>

@@ -1,5 +1,5 @@
 ---
-import { SITE_URL } from '../../lib/jsonld';
+import { SITE_URL, breadcrumbJsonLd, type BreadcrumbInput } from '../../lib/jsonld';
 import { normalizeDescription, toPlainText } from '../../lib/seo';
 
 interface Props {
@@ -8,6 +8,8 @@ interface Props {
   canonicalPath: string;
   ogImage?: string;
   jsonLd?: Record<string, unknown>[];
+  /** Trilha de navegação; gera o BreadcrumbList. Use os mesmos itens do breadcrumb visual. */
+  breadcrumbs?: BreadcrumbInput[];
 }
 
 const {
@@ -15,8 +17,13 @@ const {
   description: rawDescription,
   canonicalPath,
   ogImage = '/images/og-default.png',
-  jsonLd = [],
+  jsonLd: extraJsonLd = [],
+  breadcrumbs,
 } = Astro.props;
+
+const jsonLd = breadcrumbs?.length
+  ? [...extraJsonLd, breadcrumbJsonLd(breadcrumbs, canonicalPath)]
+  : extraJsonLd;
 
 // Rede de segurança para todas as páginas: sem tags/entidades e com tamanho de snippet.
 const title = toPlainText(rawTitle);

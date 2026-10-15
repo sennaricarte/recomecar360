@@ -10,6 +10,8 @@ const articles = defineCollection({
     category: z.enum(['Blog - Recomeçar 360', 'Guest Post']),
     image: z.string(),
     pubDate: z.coerce.date(),
+    /** Data da última revisão real do artigo. Vira dateModified no schema; sem ela, o campo é omitido. */
+    updatedDate: z.coerce.date().optional(),
     status: z.enum(['published', 'draft']).default('published'),
     metaTitle: z.string(),
     metaDescription: z.string(),

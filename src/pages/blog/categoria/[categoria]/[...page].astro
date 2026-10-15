@@ -51,6 +51,12 @@ const seoDescription = isPaginated
   ? `${pageDescription} Página ${page.currentPage} de ${page.lastPage}.`
   : pageDescription;
 const canonicalPath = getCategoryPagePath(categorySlug, page.currentPage);
+// Mesmos itens para o breadcrumb visual e para o BreadcrumbList do schema.
+const breadcrumbItems = [
+  { label: 'Início', href: '/' },
+  { label: 'Blog', href: '/blog/' },
+  { label: categoryLabel, current: true },
+];
 ---
 
 <BaseLayout>
@@ -59,17 +65,12 @@ const canonicalPath = getCategoryPagePath(categorySlug, page.currentPage);
     title={pageTitle}
     description={seoDescription}
     canonicalPath={canonicalPath}
+    breadcrumbs={breadcrumbItems}
   />
   <JoinAdsScript slot="head" />
 
   <div class="blog-page">
-    <BlogBreadcrumb
-      items={[
-        { label: 'Início', href: '/' },
-        { label: 'Blog', href: '/blog/' },
-        { label: categoryLabel, current: true },
-      ]}
-    />
+    <BlogBreadcrumb items={breadcrumbItems} />
 
     <header class="blog-page__header">
       <p class="blog-page__eyebrow">Categoria</p>
