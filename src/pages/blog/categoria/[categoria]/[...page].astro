@@ -41,8 +41,15 @@ interface Props {
 const { page, categorySlug, categoryLabel } = Astro.props;
 const adAfterIndex = Math.min(2, Math.max(page.data.length - 1, 0));
 
-const pageTitle = `${categoryLabel} | Blog | Instituto Recomeçar`;
+const isPaginated = page.currentPage > 1;
+const pageTitle = isPaginated
+  ? `${categoryLabel} — página ${page.currentPage} | Blog | Instituto Recomeçar`
+  : `${categoryLabel} | Blog | Instituto Recomeçar`;
 const pageDescription = `Artigos da categoria ${categoryLabel} no blog do Instituto Recomeçar.`;
+// Páginas 2+ ganham description própria para não duplicar a da primeira página.
+const seoDescription = isPaginated
+  ? `${pageDescription} Página ${page.currentPage} de ${page.lastPage}.`
+  : pageDescription;
 const canonicalPath = getCategoryPagePath(categorySlug, page.currentPage);
 ---
 
@@ -50,7 +57,7 @@ const canonicalPath = getCategoryPagePath(categorySlug, page.currentPage);
   <SEO
     slot="head"
     title={pageTitle}
-    description={pageDescription}
+    description={seoDescription}
     canonicalPath={canonicalPath}
   />
   <JoinAdsScript slot="head" />
