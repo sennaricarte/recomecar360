@@ -2,7 +2,8 @@
 title: "Situação das crianças e dos adolescentes no Brasil"
 slug: "situacao-das-criancas-e-dos-adolescentes-no-brasil"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/situacao-das-criancas-e-dos-adolescentes-no-brasil.jpg"
 pubDate: 2021-10-11T15:16:31+00:00
 status: "published"

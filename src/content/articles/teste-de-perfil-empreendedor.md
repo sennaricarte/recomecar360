@@ -2,7 +2,8 @@
 title: "Teste de Perfil Empreendedor"
 slug: "teste-de-perfil-empreendedor"
 excerpt: "Você sabia que existem diferentes perfis de empreendedores? Cada um tem uma forma única de liderar, inovar e tomar decisões. Mas qual é o seu perfil? 🤔"
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/teste-de-perfil-empreendedor.jpg"
 pubDate: 2025-07-29T15:07:02+00:00
 status: "published"

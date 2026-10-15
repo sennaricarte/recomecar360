@@ -2,7 +2,8 @@
 title: "O que é o Pop Rua e como ele ajuda a população em situação de rua em São Paulo"
 slug: "o-que-e-o-pop-rua-e-como-ele-ajuda-a-populacao-em-situacao-de-rua-em-sao-paulo"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/o-que-e-o-pop-rua-e-como-ele-ajuda-a-populacao-em-situacao-de-rua-em-sao-paulo.jpg"
 pubDate: 2024-01-24T12:53:13+00:00
 status: "published"

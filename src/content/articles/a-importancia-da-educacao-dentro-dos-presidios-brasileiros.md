@@ -2,7 +2,8 @@
 title: "A importância da educação dentro dos presídios brasileiros"
 slug: "a-importancia-da-educacao-dentro-dos-presidios-brasileiros"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/a-importancia-da-educacao-dentro-dos-presidios-brasileiros.jpg"
 pubDate: 2023-03-13T13:53:02+00:00
 status: "published"

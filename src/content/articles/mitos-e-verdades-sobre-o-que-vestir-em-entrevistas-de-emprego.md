@@ -2,7 +2,8 @@
 title: "Mitos e Verdades Sobre o que Vestir em Entrevistas de Emprego"
 slug: "mitos-e-verdades-sobre-o-que-vestir-em-entrevistas-de-emprego"
 excerpt: "A primeira impressão é um fator decisivo em muitos aspectos da vida, e não é diferente quando se trata de entrevistas de emprego. Além disso, a maneira como nos vestimos pode comunicar muito sobre nossa personalidade profissional e adequação ao ambiente de trabalho. Portanto, selecionar o traje apro"
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/mitos-e-verdades-sobre-o-que-vestir-em-entrevistas-de-emprego.jpg"
 pubDate: 2024-06-18T14:51:11+00:00
 status: "published"

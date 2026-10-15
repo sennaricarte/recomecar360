@@ -2,7 +2,8 @@
 title: "O que é TCC: Entenda o Trabalho de Conclusão de Curso"
 slug: "o-que-e-tcc"
 excerpt: "Se você está prestes a concluir a graduação, com certeza já ouviu falar do TCC. Mas o que é TCC exatamente? O Trabalho de Conclusão de Curso pode parecer um desafio assustador, mas na verdade é uma oportunidade incrível para mostrar todo o conhecimento adquirido ao longo da sua jornada acadêmica."
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/o-que-e-tcc.jpg"
 pubDate: 2025-10-13T16:49:00+00:00
 status: "published"

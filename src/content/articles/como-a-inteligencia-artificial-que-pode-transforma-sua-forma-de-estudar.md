@@ -2,7 +2,8 @@
 title: "Como a Inteligência Artificial Que Pode Transforma Sua Forma de Estudar"
 slug: "como-a-inteligencia-artificial-que-pode-transforma-sua-forma-de-estudar"
 excerpt: "Você já parou para pensar em como a inteligência artificial pode transformar sua forma de estudar? Nos dias de hoje, a tecnologia está ao nosso redor e, com ela, surgem ferramentas incríveis que podem potencializar o aprendizado."
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/como-a-inteligencia-artificial-que-pode-transforma-sua-forma-de-estudar.jpg"
 pubDate: 2025-02-24T12:10:57+00:00
 status: "published"

@@ -2,7 +2,8 @@
 title: "Desafios e Oportunidades: Ex-Presidiários no Mercado de Trabalho"
 slug: "desafios-e-oportunidades-ex-presidiarios-no-mercado-de-trabalho"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/desafios-e-oportunidades-ex-presidiarios-no-mercado-de-trabalho.png"
 pubDate: 2024-01-15T18:47:56+00:00
 status: "published"

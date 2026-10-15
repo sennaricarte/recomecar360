@@ -2,7 +2,8 @@
 title: "Conquiste um Diploma e Acelere seu Futuro"
 slug: "transforme-sua-carreira-com-cursos-gratis"
 excerpt: "Você já se pegou pensando se vale a pena investir seu tempo em cursos gratuitos que oferecem diplomas pagos? É um mercado que está em plena expansão e com muitas nuances a ser exploradas."
-category: "Guest Post"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/transforme-sua-carreira-com-cursos-gratis.jpg"
 pubDate: 2025-07-09T12:47:16+00:00
 status: "published"

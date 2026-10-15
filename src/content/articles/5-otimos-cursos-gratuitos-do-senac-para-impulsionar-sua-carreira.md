@@ -2,7 +2,8 @@
 title: "5 ótimos cursos gratuitos do SENAC para impulsionar sua carreira"
 slug: "5-otimos-cursos-gratuitos-do-senac-para-impulsionar-sua-carreira"
 excerpt: "No mundo dinâmico de hoje, a&nbsp;educação continuada&nbsp;é a chave para manter-se relevante no mercado de trabalho. Com a tecnologia avançando a passos largos, profissionais de todas as áreas precisam atualizar constantemente suas habilidades. Felizmente, instituições como o&nbsp;SENAC&nbsp;oferec"
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/5-otimos-cursos-gratuitos-do-senac-para-impulsionar-sua-carreira.jpg"
 pubDate: 2024-05-06T13:16:17+00:00
 status: "published"

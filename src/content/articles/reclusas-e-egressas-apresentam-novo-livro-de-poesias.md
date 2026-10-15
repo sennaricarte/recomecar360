@@ -2,7 +2,8 @@
 title: "Reclusas e egressas apresentam novo livro de poesias"
 slug: "reclusas-e-egressas-apresentam-novo-livro-de-poesias"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-06-09T13:18:13+00:00
 status: "published"

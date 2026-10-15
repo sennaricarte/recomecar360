@@ -2,7 +2,8 @@
 title: "Como os Sonhos Podem Guiar a Jornada de Reinserção Social"
 slug: "como-os-sonhos-podem-guiar-a-jornada-de-reinsercao-social"
 excerpt: "A reinserção social é um desafio que muitos enfrentam após períodos difíceis. Nesse processo, a busca por novas oportunidades e o desejo de transformação são fundamentais. No entanto, nem sempre sabemos como dar os primeiros passos.Os sonhos podem ser uma fonte inesperada de inspiração durante essa"
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/como-os-sonhos-podem-guiar-a-jornada-de-reinsercao-social.jpg"
 pubDate: 2025-06-27T16:41:01+00:00
 status: "published"

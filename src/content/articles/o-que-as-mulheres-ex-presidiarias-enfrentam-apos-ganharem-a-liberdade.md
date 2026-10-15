@@ -2,7 +2,8 @@
 title: "O que as mulheres ex-presidiárias enfrentam após ganharem a liberdade?"
 slug: "o-que-as-mulheres-ex-presidiarias-enfrentam-apos-ganharem-a-liberdade"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/o-que-as-mulheres-ex-presidiarias-enfrentam-apos-ganharem-a-liberdade.jpg"
 pubDate: 2023-02-23T18:44:43+00:00
 status: "published"

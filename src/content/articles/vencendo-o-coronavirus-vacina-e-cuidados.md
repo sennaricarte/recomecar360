@@ -2,7 +2,8 @@
 title: "Vencendo o Coronavírus - Vacina e Cuidados"
 slug: "vencendo-o-coronavirus-vacina-e-cuidados"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-05-19T13:16:02+00:00
 status: "published"

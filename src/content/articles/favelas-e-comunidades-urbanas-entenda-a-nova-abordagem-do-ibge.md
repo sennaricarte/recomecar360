@@ -2,7 +2,8 @@
 title: "Favelas e Comunidades Urbanas: Entenda a nova abordagem do IBGE"
 slug: "favelas-e-comunidades-urbanas-entenda-a-nova-abordagem-do-ibge"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/favelas-e-comunidades-urbanas-entenda-a-nova-abordagem-do-ibge.jpg"
 pubDate: 2024-01-31T12:36:47+00:00
 status: "published"

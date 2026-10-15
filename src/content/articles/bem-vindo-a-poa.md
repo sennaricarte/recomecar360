@@ -2,7 +2,8 @@
 title: "Bem vindo à Poá"
 slug: "bem-vindo-a-poa"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2020-09-29T12:40:45+00:00
 status: "published"

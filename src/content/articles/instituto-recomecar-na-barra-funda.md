@@ -2,7 +2,8 @@
 title: "Instituto Recomeçar na Barra Funda"
 slug: "instituto-recomecar-na-barra-funda"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/instituto-recomecar-na-barra-funda.jpg"
 pubDate: 2023-12-06T11:43:09+00:00
 status: "published"

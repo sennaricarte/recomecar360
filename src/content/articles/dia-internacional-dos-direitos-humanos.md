@@ -2,7 +2,8 @@
 title: "Dia Internacional dos Direitos Humanos"
 slug: "dia-internacional-dos-direitos-humanos"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/dia-internacional-dos-direitos-humanos.jpg"
 pubDate: 2023-12-10T11:00:07+00:00
 status: "published"

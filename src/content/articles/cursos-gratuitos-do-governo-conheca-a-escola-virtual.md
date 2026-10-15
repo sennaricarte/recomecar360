@@ -2,7 +2,8 @@
 title: "Cursos gratuitos do governo, conheça a Escola Virtual"
 slug: "cursos-gratuitos-do-governo-conheca-a-escola-virtual"
 excerpt: "Olá, tudo bem? Já parou para pensar que nunca paramos de aprender? Pois é, o aprendizado é uma viagem que não tem fim. E nessa jornada, se manter atualizado é super importante, ainda mais com o tanto de coisa nova que aparece todo dia."
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/cursos-gratuitos-do-governo-conheca-a-escola-virtual.jpg"
 pubDate: 2024-04-22T13:20:57+00:00
 status: "published"

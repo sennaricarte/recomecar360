@@ -2,7 +2,8 @@
 title: "Desafios e impactos sociais na atuação de desenvolvimento e empregabilidade de egressos do sistema carcerário"
 slug: "desafios-e-impactos-sociais-na-atuacao-de-desenvolvimento-e-empregabilidade-de-egressos-do-sistema-carcerario"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/desafios-e-impactos-sociais-na-atuacao-de-desenvolvimento-e-empregabilidade-de-egressos-do-sistema-carcerario.jpg"
 pubDate: 2024-02-27T14:52:09+00:00
 status: "published"

@@ -48,6 +48,15 @@ export function organizationRef(siteUrl: string = SITE_URL) {
   };
 }
 
+/** Pessoa autora. Só inclui `url` quando o autor tem página própria no site. */
+export function personRef(name: string, path?: string, siteUrl: string = SITE_URL) {
+  return {
+    '@type': 'Person',
+    name,
+    ...(path && { url: new URL(path, siteUrl).href }),
+  };
+}
+
 export function profilePageJsonLd(input: {
   name: string;
   description: string;

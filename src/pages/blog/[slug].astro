@@ -17,8 +17,8 @@ import {
   type ArticleEntry,
 } from '../../lib/blog';
 import { resolveArticleImageWithFallback } from '../../lib/blog-image';
-import { categoryToSlug, getCategoryLabel } from '../../lib/categories';
-import { SITE_URL, organizationRef } from '../../lib/jsonld';
+import { getAuthor } from '../../lib/authors';
+import { SITE_URL, organizationRef, personRef } from '../../lib/jsonld';
 import { toPlainText } from '../../lib/seo';
 
 export async function getStaticPaths() {
@@ -44,8 +44,7 @@ const { Content } = await render(article);
 const seoTitle = getArticleSeoTitle(article);
 const seoDescription = getArticleSeoDescription(article);
 const canonicalPath = `/blog/${article.data.slug}/`;
-const categorySlug = categoryToSlug(article.data.category);
-const categoryLabel = getCategoryLabel(categorySlug);
+const author = getAuthor(article.data.author);
 const readingMinutes = getReadingTimeMinutes(article.body ?? '');
 const coverImage = await resolveArticleImageWithFallback(
   article.data.image,
@@ -69,7 +68,6 @@ const articleUrl = new URL(canonicalPath, SITE_URL).href;
 const breadcrumbItems = [
   { label: 'Início', href: '/' },
   { label: 'Blog', href: '/blog/' },
-  { label: categoryLabel, href: `/blog/categoria/${categorySlug}/` },
   { label: article.data.title, current: true },
 ];
 
@@ -85,7 +83,8 @@ const articleJsonLd = {
   ...(article.data.updatedDate && { dateModified: article.data.updatedDate.toISOString() }),
   inLanguage: 'pt-BR',
   url: articleUrl,
-  author: organizationRef(),
+  // Autor individual quando cadastrado no artigo; sem autor, a organização assina.
+  author: author ? personRef(author.name, author.path) : organizationRef(),
   publisher: {
     ...organizationRef(),
     logo: {
@@ -120,11 +119,18 @@ const articleJsonLd = {
     <header class="post__header">
       <BlogBreadcrumb items={breadcrumbItems} />
 
-      <a href={`/blog/categoria/${categorySlug}/`} class="post__category">
-        {categoryLabel}
-      </a>
       <h1 class="post__title">{article.data.title}</h1>
       <div class="post__meta">
+        {
+          author && (
+            <>
+              <span class="post__author">
+                Por {author.path ? <a href={author.path}>{author.name}</a> : author.name}
+              </span>
+              <span aria-hidden="true">·</span>
+            </>
+          )
+        }
         <time datetime={article.data.pubDate.toISOString()}>
           {formatArticleDate(article.data.pubDate)}
         </time>
@@ -189,20 +195,15 @@ const articleJsonLd = {
     margin-bottom: 2rem;
   }
 
-  .post__category {
-    display: inline-block;
-    margin-bottom: 0.75rem;
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--color-accent-text);
-    text-decoration: none;
+  .post__author a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
   }
 
-  .post__category:hover,
-  .post__category:focus-visible {
-    text-decoration: underline;
+  .post__author a:hover,
+  .post__author a:focus-visible {
+    text-decoration-thickness: 2px;
   }
 
   .post__title {

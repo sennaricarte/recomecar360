@@ -2,7 +2,8 @@
 title: "Os melhores cursos online gratuitos para impulsionar sua carreira"
 slug: "os-melhores-cursos-online-gratuitos-para-impulsionar-sua-carreira"
 excerpt: "No mundo moderno, onde a busca por conhecimento é incessante, com toda a certeza, encontrar os melhores cursos online gratuitos é um verdadeiro atalho para o sucesso. Neste artigo, vamos mergulhar em um universo de possibilidades educacionais. Vamos nos aprofundar nas opções onde acessibilidade e a"
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/os-melhores-cursos-online-gratuitos-para-impulsionar-sua-carreira.jpg"
 pubDate: 2024-04-03T17:19:29+00:00
 status: "published"

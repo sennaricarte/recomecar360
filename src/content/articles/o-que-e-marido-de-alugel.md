@@ -2,7 +2,8 @@
 title: "Saiba o Que é Marido de Alugel e Como Se Tornar Um"
 slug: "o-que-e-marido-de-alugel"
 excerpt: "Você já ouviu falar em \"marido de aluguel\"? Esse termo pode soar curioso, mas é uma solução prática para quem precisa de ajuda em casa. Se você tem um projeto pendente ou algo que não sabe como resolver, esse profissional pode ser a resposta ideal."
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/o-que-e-marido-de-alugel.jpg"
 pubDate: 2025-11-07T17:33:01+00:00
 status: "published"

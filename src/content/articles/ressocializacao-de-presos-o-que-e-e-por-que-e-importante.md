@@ -2,7 +2,8 @@
 title: "Ressocialização de presos: o que é e por que é importante?"
 slug: "ressocializacao-de-presos-o-que-e-e-por-que-e-importante"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/ressocializacao-de-presos-o-que-e-e-por-que-e-importante.png"
 pubDate: 2023-03-21T18:56:31+00:00
 status: "published"

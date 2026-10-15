@@ -2,7 +2,8 @@
 title: "Livro incentiva autoconhecimento e valorização feminina de reclusas"
 slug: "livro-incentiva-autoconhecimento-e-valorizacao-feminina-de-reclusas"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-01-06T13:04:53+00:00
 status: "published"

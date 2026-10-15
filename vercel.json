@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/blog/categoria/:path*",
+      "destination": "/blog/",
+      "statusCode": 301
+    }
+  ]
+}

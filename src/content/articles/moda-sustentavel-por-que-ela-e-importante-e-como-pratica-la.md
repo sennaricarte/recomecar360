@@ -2,7 +2,8 @@
 title: "Moda sustentável: por que ela é importante e como praticá-la"
 slug: "moda-sustentavel-por-que-ela-e-importante-e-como-pratica-la"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/moda-sustentavel-por-que-ela-e-importante-e-como-pratica-la.jpg"
 pubDate: 2023-03-23T17:16:31+00:00
 status: "published"

@@ -2,7 +2,8 @@
 title: "Estratégias para captação de recursos para o Terceiro Setor"
 slug: "estrategias-para-captacao-de-recursos-para-o-terceiro-setor"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/estrategias-para-captacao-de-recursos-para-o-terceiro-setor.jpg"
 pubDate: 2024-02-08T12:46:32+00:00
 status: "published"

@@ -2,7 +2,8 @@
 title: "Setembro Amarelo - Prevenção do Suicídio"
 slug: "setembro-amarelo-prevencao-do-suicidio"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-09-08T13:34:53+00:00
 status: "published"

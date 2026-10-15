@@ -2,7 +2,8 @@
 title: "A Invisibilidade das Crianças que Nascem nos Presídios Femininos Brasileiros"
 slug: "a-invisibilidade-das-criancas-que-nascem-nos-presidios-femininos-brasileiros"
 excerpt: "O Brasil possui a quarta maior população carcerária feminina do mundo. Por trás desse número, existe uma realidade ainda mais delicada e, muitas vezes, invisível: a das crianças que nascem e passam seus primeiros meses de vida dentro das celas."
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/a-invisibilidade-das-criancas-que-nascem-nos-presidios-femininos-brasileiros.jpg"
 pubDate: 2025-11-24T18:58:01+00:00
 status: "published"

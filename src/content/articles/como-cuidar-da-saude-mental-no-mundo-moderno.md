@@ -2,7 +2,8 @@
 title: "Como cuidar da saúde mental no mundo moderno"
 slug: "como-cuidar-da-saude-mental-no-mundo-moderno"
 excerpt: "Descubra estratégias práticas para preservar o equilíbrio emocional em meio à correria, à hiperconexão e às pressões da vida contemporânea."
-category: "Guest Post"
+category: "Blog"
+author: "Senna Ricarte"
 image: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=1200&q=80"
 pubDate: 2026-07-01T16:32:57.587023+00:00
 status: "published"

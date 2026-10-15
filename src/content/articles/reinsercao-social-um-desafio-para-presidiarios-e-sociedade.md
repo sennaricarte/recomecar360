@@ -2,7 +2,8 @@
 title: "Reinserção social: um desafio para presidiários e sociedade"
 slug: "reinsercao-social-um-desafio-para-presidiarios-e-sociedade"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/reinsercao-social-um-desafio-para-presidiarios-e-sociedade.jpg"
 pubDate: 2024-01-08T18:41:19+00:00
 status: "published"

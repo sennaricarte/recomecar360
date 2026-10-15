@@ -2,7 +2,8 @@
 title: "O que é Impacto Social? Entenda a Definição, Tipos e Por Que Ele Transforma Vidas"
 slug: "o-que-e-impacto-social"
 excerpt: "Você já parou para pensar no que realmente move o mundo? Não falamos apenas de dinheiro, mas de algo mais profundo: transformação. Quando o assunto é fazer a diferença de forma positiva e duradoura na vida das pessoas e do planeta, o termo que domina a conversa é Impacto Social."
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/o-que-e-impacto-social.jpg"
 pubDate: 2025-11-24T18:45:03+00:00
 status: "published"

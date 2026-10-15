@@ -2,7 +2,8 @@
 title: "Mais de 2.400 presos de SP são classificados no Enem"
 slug: "mais-de-2-400-presos-de-sp-sao-classificados-no-enem"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-05-11T13:14:58+00:00
 status: "published"

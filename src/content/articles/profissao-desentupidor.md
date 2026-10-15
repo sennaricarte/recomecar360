@@ -2,7 +2,8 @@
 title: "Profissão Desentupidor: Qualificação e Oportunidades no Mercado de Trabalho"
 slug: "profissao-desentupidor"
 excerpt: "Muitas pessoas, ao buscarem uma nova trajetória profissional, procuram áreas que ofereçam estabilidade, demanda constante e a possibilidade de trabalhar de forma autônoma ou em grandes empresas. Nesse cenário, a profissão de desentupidor se destaca como uma das portas mais acessíveis e rentáveis do"
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/profissao-desentupidor.jpg"
 pubDate: 2026-01-20T14:19:23+00:00
 status: "published"

@@ -2,7 +2,8 @@
 title: "Conheça o curso grátis de Controlador de Acesso da Prime Cursos"
 slug: "conheca-o-curso-gratis-de-controlador-de-acesso-da-prime-cursos"
 excerpt: "Segurança é a base de qualquer lugar que a gente chama de lar ou trabalho. Profissionais de portaria são super importantes, porque eles são a primeira impressão e a linha de frente da segurança. Com a demanda por segurança aumentando, o Curso Grátis de Controlador de Acesso da Prime Cursos é a chanc"
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/conheca-o-curso-gratis-de-controlador-de-acesso-da-prime-cursos.jpg"
 pubDate: 2024-05-09T11:13:31+00:00
 status: "published"

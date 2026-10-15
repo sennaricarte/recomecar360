@@ -2,7 +2,8 @@
 title: "Transforme Seu Futuro: Curso de Desentupidora para Iniciar Seu Negócio com Sucesso!"
 slug: "transforme-seu-futuro-curso-de-desentupidora"
 excerpt: "Você já ficou com a pia entupida e não sabia o que fazer? Talvez a água do chuveiro leve uma eternidade para escoar, ou aquele ralo da cozinha que mais parece uma banheira de tanto que acumula."
-category: "Guest Post"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/transforme-seu-futuro-curso-de-desentupidora.jpg"
 pubDate: 2025-08-01T16:45:14+00:00
 status: "published"

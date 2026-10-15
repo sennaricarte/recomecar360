@@ -2,7 +2,8 @@
 title: "Fomento ao empreendedorismo para egressos do sistema carcerário"
 slug: "fomento-ao-empreendedorismo-para-egressos-do-sistema-carcerario"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-04-26T13:10:30+00:00
 status: "published"

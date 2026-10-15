@@ -2,7 +2,8 @@
 title: "Ressocialização: O que é e como funciona"
 slug: "ressocializacao-o-que-e-e-como-funciona"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/ressocializacao-o-que-e-e-como-funciona.jpg"
 pubDate: 2024-02-14T15:28:56+00:00
 status: "published"
