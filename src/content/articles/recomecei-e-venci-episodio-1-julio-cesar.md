@@ -4,7 +4,7 @@ slug: "recomecei-e-venci-episodio-1-julio-cesar"
 excerpt: ""
 category: "Blog"
 author: "Senna Ricarte"
-image: "blog/_placeholder.svg"
+image: "blog/recomecei-e-venci-episodio-1-julio-cesar.jpg"
 pubDate: 2021-07-24T13:27:11+00:00
 status: "published"
 metaTitle: "Recomecei e Venci - Episódio 1 (Júlio César)"
