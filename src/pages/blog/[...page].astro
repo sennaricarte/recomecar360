@@ -19,9 +19,16 @@ export const getStaticPaths = (async ({ paginate }) => {
 const { page } = Astro.props;
 const adAfterIndex = Math.min(2, page.data.length - 1);
 
-const pageTitle = 'Blog | Instituto Recomeçar';
+const isPaginated = page.currentPage > 1;
+const pageTitle = isPaginated
+  ? `Blog — página ${page.currentPage} | Instituto Recomeçar`
+  : 'Blog | Instituto Recomeçar';
 const pageDescription =
   'Artigos, notícias e conteúdos sobre ressocialização, empregabilidade, educação e impacto social do Instituto Recomeçar.';
+// Páginas 2+ ganham description própria para não duplicar a da primeira página.
+const seoDescription = isPaginated
+  ? `${pageDescription} Página ${page.currentPage} de ${page.lastPage}.`
+  : pageDescription;
 const canonicalPath = getBlogPagePath(page.currentPage);
 ---
 
@@ -29,7 +36,7 @@ const canonicalPath = getBlogPagePath(page.currentPage);
   <SEO
     slot="head"
     title={pageTitle}
-    description={pageDescription}
+    description={seoDescription}
     canonicalPath={canonicalPath}
   />
   <JoinAdsScript slot="head" />

@@ -1,5 +1,6 @@
 ---
 import { SITE_URL } from '../../lib/jsonld';
+import { normalizeDescription, toPlainText } from '../../lib/seo';
 
 interface Props {
   title: string;
@@ -10,12 +11,16 @@ interface Props {
 }
 
 const {
-  title,
-  description,
+  title: rawTitle,
+  description: rawDescription,
   canonicalPath,
   ogImage = '/images/og-default.png',
   jsonLd = [],
 } = Astro.props;
+
+// Rede de segurança para todas as páginas: sem tags/entidades e com tamanho de snippet.
+const title = toPlainText(rawTitle);
+const description = normalizeDescription(rawDescription);
 
 const canonicalUrl = new URL(canonicalPath, SITE_URL).href;
 const ogImageUrl = new URL(ogImage, SITE_URL).href;
