@@ -3,7 +3,7 @@ title: "Como um Advogado Trabalhista Pode Ajudar no Caso de Discriminação no T
 slug: "advogado-trabalhista-em-caso-de-discriminacao-no-trabalho"
 excerpt: "Você já sentiu que estava sendo tratado de forma diferente no trabalho por causa de sua raça, gênero ou idade? Infelizmente, muitos trabalhadores enfrentam discriminação no local de trabalho, e essa realidade muitas vezes passa despercebida ou não é denunciada por falta de conhecimento sobre como ag"
 category: "Blog"
-author: "Senna Ricarte"
+author: "Equipe de Comunicação Recomeçar"
 image: "blog/advogado-trabalhista-em-caso-de-discriminacao-no-trabalho.jpg"
 pubDate: 2025-07-16T07:38:41+00:00
 status: "published"

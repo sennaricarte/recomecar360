@@ -3,7 +3,7 @@ title: "O que Faz um Ajudante de Pizzaiolo: Funções e Responsabilidades na Coz
 slug: "o-que-faz-um-ajudante-de-pizzaiolo"
 excerpt: "Você já parou para pensar no papel fundamental que um ajudante de pizzaiolo desempenha na cozinha? Esse profissional é essencial para garantir que cada pizza saia perfeita, quente e deliciosa. Mas o que faz um ajudante de pizzaiolo, exatamente?"
 category: "Blog"
-author: "Joel Novaes"
+author: "Senna Ricarte"
 image: "blog/o-que-faz-um-ajudante-de-pizzaiolo.jpg"
 pubDate: 2025-11-04T16:08:36+00:00
 status: "published"

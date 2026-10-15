@@ -3,7 +3,7 @@ title: "O Que é Cultura Periférica: Entendendo Suas Raízes e Influências"
 slug: "o-que-e-cultura-periferica"
 excerpt: "A cultura periférica é um tema que ressoa profundamente nas vozes e expressões das comunidades que estão à margem dos grandes centros urbanos. Ela traz consigo histórias, ritmos e uma riqueza cultural única. Mas o que exatamente é essa cultura? Como ela se formou e quais são suas influências?"
 category: "Blog"
-author: "Joel Novaes"
+author: "Senna Ricarte"
 image: "blog/o-que-e-cultura-periferica.jpg"
 pubDate: 2025-10-27T14:42:42+00:00
 status: "published"

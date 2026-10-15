@@ -3,7 +3,7 @@ title: "Guia do Currículo Perfeito para o PAT: Conquiste sua Vaga no Recomeço"
 slug: "guia-curriculo-perfeito-pat"
 excerpt: "Conseguir uma vaga de emprego é o primeiro grande passo para quem deseja dar um novo rumo à vida. Aqui no Instituto Recomeçar, sabemos que o caminho pode parecer difícil, especialmente para quem está saindo do sistema prisional ou enfrentando um longo tempo fora do mercado."
 category: "Blog"
-author: "Senna Ricarte"
+author: "Joel Novaes"
 image: "blog/guia-curriculo-perfeito-pat.jpg"
 pubDate: 2026-02-02T19:38:33+00:00
 status: "published"

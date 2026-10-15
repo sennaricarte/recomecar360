@@ -1,5 +1,5 @@
 ---
-import { render } from 'astro:content';
+import { getEntry, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SEO from '../../components/seo/SEO.astro';
 import ArticleCard from '../../components/blog/ArticleCard.astro';
@@ -18,7 +18,7 @@ import {
 } from '../../lib/blog';
 import { resolveArticleImageWithFallback } from '../../lib/blog-image';
 import { getAuthor } from '../../lib/authors';
-import { SITE_URL, organizationRef, personRef } from '../../lib/jsonld';
+import { SITE_URL, authorJsonLd, organizationRef } from '../../lib/jsonld';
 import { toPlainText } from '../../lib/seo';
 
 export async function getStaticPaths() {
@@ -45,6 +45,11 @@ const seoTitle = getArticleSeoTitle(article);
 const seoDescription = getArticleSeoDescription(article);
 const canonicalPath = `/blog/${article.data.slug}/`;
 const author = getAuthor(article.data.author);
+// Bio: do cadastro do autor ou, para colunistas, do perfil em src/content/colunistas.
+const authorColunista = author?.colunista
+  ? await getEntry('colunistas', author.colunista)
+  : undefined;
+const authorBio = author?.bio ?? authorColunista?.data.bio;
 const readingMinutes = getReadingTimeMinutes(article.body ?? '');
 const coverImage = await resolveArticleImageWithFallback(
   article.data.image,
@@ -84,7 +89,7 @@ const articleJsonLd = {
   inLanguage: 'pt-BR',
   url: articleUrl,
   // Autor individual quando cadastrado no artigo; sem autor, a organização assina.
-  author: author ? personRef(author.name, author.path) : organizationRef(),
+  author: author ? authorJsonLd({ ...author, bio: authorBio }) : organizationRef(),
   publisher: {
     ...organizationRef(),
     logo: {
@@ -154,6 +159,18 @@ const articleJsonLd = {
       <Content />
     </div>
 
+    {
+      author && authorBio && (
+        <aside class="post__author-box" aria-label="Sobre o autor">
+          <p class="post__author-box-label">Sobre o autor</p>
+          <p class="post__author-box-name">
+            {author.path ? <a href={author.path}>{author.name}</a> : author.name}
+          </p>
+          <p class="post__author-box-bio">{authorBio}</p>
+        </aside>
+      )
+    }
+
     <aside class="post__ad-end" aria-label="Publicidade">
       <AdSlot code="Content4" />
     </aside>
@@ -193,6 +210,47 @@ const articleJsonLd = {
     max-width: 48rem;
     margin-inline: auto;
     margin-bottom: 2rem;
+  }
+
+  .post__author-box {
+    max-width: 48rem;
+    margin: 2.5rem auto 0;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    background: var(--color-muted);
+  }
+
+  .post__author-box p {
+    margin: 0;
+  }
+
+  .post__author-box-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-muted-text);
+  }
+
+  .post__author-box-name {
+    margin-top: 0.25rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .post__author-box-name a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+  }
+
+  .post__author-box-bio {
+    margin-top: 0.5rem;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--color-text);
   }
 
   .post__author a {

@@ -3,7 +3,7 @@ title: "Além da Vaga de Emprego: Como a Saúde Mental Impulsiona a Carreira a L
 slug: "como-a-saude-mental-impulsiona-carreiras"
 excerpt: "Você já teve a sensação de estar sobrecarregado mesmo sem fazer tantas coisas ao mesmo tempo? A saúde mental é um tema que tem ganhado cada vez mais visibilidade nos últimos tempos, mas ainda há um longo caminho a percorrer em termos de conscientização. Mundo afora, transtornos mentais afetam milhõe"
 category: "Blog"
-author: "Joel Novaes"
+author: "Senna Ricarte"
 image: "blog/como-a-saude-mental-impulsiona-carreiras.jpg"
 pubDate: 2025-08-24T15:46:06+00:00
 status: "published"

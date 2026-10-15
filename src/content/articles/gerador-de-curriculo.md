@@ -3,7 +3,7 @@ title: "Gerador de Currículo"
 slug: "gerador-de-curriculo"
 excerpt: "Criamos essa ferramenta com o objetivo de auxiliar você na criação de seu curriculum vitae, um documento essencial para quem está a procura de um novo emprego."
 category: "Blog"
-author: "Joel Novaes"
+author: "Senna Ricarte"
 image: "blog/gerador-de-curriculo.jpg"
 pubDate: 2025-07-21T14:47:35+00:00
 status: "published"
