@@ -12,7 +12,7 @@ metaDescription: ""
 
 Juliana tem força de vontade, disposição para trabalhar e aprender. Juliana decidiu Recomeçar e faz o corre dia a dia para sobreviver e levar comida pra casa.
 
-Juliana passou recentemente pelo nosso programa de <a href="https://recomecar360.org/cadastro-unico/">Desenvolvimento Pessoal</a>, Social e Profissional, agora ela espera uma oportunidade de inserção no mercado de trabalho.
+Juliana passou recentemente pelo nosso programa de <a href="/locais-de-cadastro/">Desenvolvimento Pessoal</a>, Social e Profissional, agora ela espera uma oportunidade de inserção no mercado de trabalho.
 <h2 style="text-align: center">Confira o depoimento que a Juliana deu para a nossa equipe de comunicação:</h2>
 
 

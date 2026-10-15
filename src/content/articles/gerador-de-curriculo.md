@@ -22,7 +22,7 @@ metaDescription: "Criamos essa ferramenta com o objetivo de auxiliar você na cr
 </blockquote>
 
 
-<div class="wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://recomecar360.org/gerar-curriculo/" target="_blank" rel="noreferrer noopener">Clique aqui e gere seu currículo agora!</a></div>
+<div class="wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/blog/guia-curriculo-perfeito-pat/">Veja o guia do currículo perfeito</a></div>
 </div>
 
 <p></p>

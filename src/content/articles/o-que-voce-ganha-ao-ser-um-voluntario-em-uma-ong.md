@@ -49,7 +49,7 @@ metaDescription: ""
 
 <span style="font-weight: 400">Além disso, você também pode entrar em contato diretamente com as ONGs que te interessam e se informar sobre as possibilidades de voluntariado.</span>
 
-<span style="font-weight: 400">Aqui no Instituto Recomeçar, por exemplo, você pode se inscrever através da nossa <a href="https://recomecar360.org/voluntariado/">Página para Voluntariado</a>.</span>
+<span style="font-weight: 400">Aqui no Instituto Recomeçar, por exemplo, você pode se inscrever através da nossa <a href="/contato/">página de contato</a>.</span>
 
 <span style="font-weight: 400">E acredite, nós precisamos muito de ajuda, em várias frentes, para potencializar nossa atuação e aumentar o impacto social que geramos.</span>
 

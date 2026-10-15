@@ -22,4 +22,4 @@ Este é o primeiro vídeo de uma série que faremos com todos os nossos Conselhe
 <h2>Assista o Depoimento da Sandra Gioffi:</h2>
 
 
-Fique de olho nos <a href="https://recomecar360.org/?s=por+que+voc%C3%AA+apoia+o+Recome%C3%A7ar%3F">próximos episódios</a>, por aqui vai passar muita gente bacana, que nos ajuda a impulsionar o nosso trabalho.;
+Fique de olho nos próximos episódios, por aqui vai passar muita gente bacana, que nos ajuda a impulsionar o nosso trabalho.;

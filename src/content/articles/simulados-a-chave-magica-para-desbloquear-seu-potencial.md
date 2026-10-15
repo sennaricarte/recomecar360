@@ -18,7 +18,7 @@ metaDescription: "Você já se sentiu perdido na hora de estudar para aquela pro
 
 <ul class="wp-block-list"><li><a href="/blog/5-otimos-cursos-gratuitos-do-senac-para-impulsionar-sua-carreira/">5 ótimos cursos gratuitos do SENAC para impulsionar sua carreira</a></li>
 
-<li><a href="https://recomecar360.org/como-se-comportar-em-uma-entrevista-de-emprego/" target="_blank" rel="noopener noreferrer">Como se comportar em uma entrevista de emprego</a></li>
+<li><a href="/blog/dicas-entrevista-emprego-pat/">Dicas de ouro para entrevista de emprego</a></li>
 
 <li><a href="/blog/10-cursos-gratis-de-excel-para-turbinar-suas-habilidades/">10 cursos grátis de Excel para turbinar suas habilidades</a></li>
 </ul>

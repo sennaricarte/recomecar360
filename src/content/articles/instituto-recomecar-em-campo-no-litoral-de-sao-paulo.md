@@ -19,7 +19,7 @@ A região cercada de belíssimas praias e montanhas; e um povo alegre e acolhedo
 
 Tocado pelas fortes imagens e relatos que chegaram da região, o lider social <strong>Eduardo Lyra</strong>, fundador do <a href="https://gerandofalcoes.com/" target="_blank" rel="noopener">Instituto Gerando Falcões</a> convocou uma comissão de líderes, seguiu para a região e sobrevoou as áreas atingidas pelas chuvas.
 
-Portanto, <strong><a href="https://recomecar360.org/?s=leonardo">Leonardo Precioso</a>,</strong> fundador do Instituto Recomeçar, embarcou na comitiva para prestar solidariedade e junto com o grupo ajudar a traçar planos de emergência para amenizar o sofrimento das famílias.
+Portanto, <strong><a href="/quem-somos/">Leonardo Precioso</a>,</strong> fundador do Instituto Recomeçar, embarcou na comitiva para prestar solidariedade e junto com o grupo ajudar a traçar planos de emergência para amenizar o sofrimento das famílias.
 
 Léo tem uma ligação muito forte com a região, pois tem muitos familiares no litoral do estado.
 

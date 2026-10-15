@@ -22,4 +22,4 @@ Assista, comente, compartilhe:
 
 
 
-Gostou? Fique de olho que em breve apresentaremos mais <a href="https://recomecar360.org/?s=por+que+voc%C3%AA+apoia+o+Recome%C3%A7ar%3F">parceiros</a> na nossa luta pela diminuição da reincidência carcerária e quebra de cilcos de vulnerabilidade social.;
+Gostou? Fique de olho que em breve apresentaremos mais parceiros na nossa luta pela diminuição da reincidência carcerária e quebra de cilcos de vulnerabilidade social.;
