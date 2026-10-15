@@ -2,7 +2,8 @@
 title: "São Paulo 470 anos - Cidade singular e plural"
 slug: "sao-paulo-470-anos-cidade-singular-e-plural"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/sao-paulo-470-anos-cidade-singular-e-plural.jpg"
 pubDate: 2024-01-25T08:27:13+00:00
 status: "published"

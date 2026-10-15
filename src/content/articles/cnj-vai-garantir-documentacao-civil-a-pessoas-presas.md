@@ -2,7 +2,8 @@
 title: "CNJ vai garantir documentação civil a pessoas presas"
 slug: "cnj-vai-garantir-documentacao-civil-a-pessoas-presas"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-08-11T13:30:12+00:00
 status: "published"

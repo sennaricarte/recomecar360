@@ -2,7 +2,8 @@
 title: "Contaminação por Covid-19 cai nos presídios de São Paulo"
 slug: "contaminacao-por-covid-19-cai-nos-presidios-de-sao-paulo"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-09-22T13:36:04+00:00
 status: "published"

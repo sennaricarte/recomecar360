@@ -2,7 +2,8 @@
 title: "QualificaSP: Descubra novas oportunidades de qualificação profissional"
 slug: "qualificasp-descubra-novas-oportunidades-de-qualificacao-profissional"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/qualificasp-descubra-novas-oportunidades-de-qualificacao-profissional.jpg"
 pubDate: 2024-01-16T12:45:56+00:00
 status: "published"

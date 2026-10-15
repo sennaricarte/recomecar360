@@ -2,7 +2,8 @@
 title: "Cícero Lima: Entrevista na Rádio Olinda"
 slug: "cicero-lima-entrevista-na-radio-olinda"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2020-10-07T12:46:47+00:00
 status: "published"

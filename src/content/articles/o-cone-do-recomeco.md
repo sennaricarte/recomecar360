@@ -2,7 +2,8 @@
 title: "O Cone do Recomeço: Geometria Sólida para Construir um Futuro Sólido"
 slug: "o-cone-do-recomeco"
 excerpt: "A jornada de reintegração social é, em essência, um exercício de reconstrução. Assim como um arquiteto planeja uma estrutura do zero, o egresso do sistema prisional precisa de fundamentos sólidos, planejamento e uma visão clara para o futuro."
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/o-cone-do-recomeco.jpg"
 pubDate: 2025-10-25T11:45:01+00:00
 status: "published"

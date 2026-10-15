@@ -2,7 +2,8 @@
 title: "Como se tornar um empreendedor social de sucesso"
 slug: "como-se-tornar-um-empreendedor-social-de-sucesso"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2024-01-01T00:00:00+00:00
 status: "draft"

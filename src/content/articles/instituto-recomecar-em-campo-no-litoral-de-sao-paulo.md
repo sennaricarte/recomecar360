@@ -2,7 +2,8 @@
 title: "Instituto Recomeçar em campo no litoral de São Paulo"
 slug: "instituto-recomecar-em-campo-no-litoral-de-sao-paulo"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/instituto-recomecar-em-campo-no-litoral-de-sao-paulo.jpg"
 pubDate: 2023-02-20T20:21:47+00:00
 status: "published"

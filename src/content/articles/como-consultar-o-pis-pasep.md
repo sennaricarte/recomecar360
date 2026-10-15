@@ -2,7 +2,8 @@
 title: "Como Consultar o PIS/PASEP: Guia Completo para Saber se Você Tem Direito ao Abono Salarial e Cotas"
 slug: "como-consultar-o-pis-pasep"
 excerpt: "Você já se perguntou como saber se tenho PIS/PASEP para receber? Se sim, você está no lugar certo! O abono salarial pode ser uma ajuda extra muito bem-vinda para o seu orçamento."
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/como-consultar-o-pis-pasep.jpg"
 pubDate: 2025-11-06T19:18:17+00:00
 status: "published"

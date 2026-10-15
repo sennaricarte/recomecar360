@@ -2,7 +2,8 @@
 title: "Teste de Personalidade"
 slug: "teste-de-personalidade"
 excerpt: "A personalidade é uma das características mais fascinantes que temos. Ela influencia como nos relacionamos com os outros, como tomamos decisões e como reagimos a diferentes situações. Mas você já se perguntou como sua personalidade realmente é? Quais são os seus pontos fortes, os desafios que você e"
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/teste-de-personalidade.jpg"
 pubDate: 2025-07-29T14:56:03+00:00
 status: "published"

@@ -2,7 +2,8 @@
 title: "Egressos do sistema prisional: Entenda quem são"
 slug: "egressos-do-sistema-prisional-entenda-quem-sao"
 excerpt: "O tema do sistema prisional é complexo e muitas vezes cercado de estigmas. Quando falamos sobre os egressos do sistema prisional, adentramos um universo repleto de histórias, desafios e a busca por uma nova chance."
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/egressos-do-sistema-prisional-entenda-quem-sao.jpg"
 pubDate: 2025-02-10T13:38:34+00:00
 status: "published"

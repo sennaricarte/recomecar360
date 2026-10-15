@@ -2,7 +2,8 @@
 title: "CNJ lança aplicativo para egressos do sistema prisional"
 slug: "cnj-lanca-aplicativo-para-egressos-do-sistema-prisional"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-04-27T13:11:43+00:00
 status: "published"

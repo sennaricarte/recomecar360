@@ -2,7 +2,8 @@
 title: "A Importância do Diploma Superior: Como Ele Pode Transformar Sua Carreira"
 slug: "a-importancia-do-diploma-superior"
 excerpt: "Você já se questionou sobre a real importância de um diploma superior nos dias de hoje? Com a ascensão de carreiras digitais e empreendimentos inovadores, parece que o caminho tradicional da educação formal começou a perder o brilho."
-category: "Guest Post"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/a-importancia-do-diploma-superior.jpg"
 pubDate: 2025-07-09T11:28:16+00:00
 status: "published"

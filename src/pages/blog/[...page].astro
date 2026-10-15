@@ -4,7 +4,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import SEO from '../../components/seo/SEO.astro';
 import ArticleCard from '../../components/blog/ArticleCard.astro';
 import BlogBreadcrumb from '../../components/blog/BlogBreadcrumb.astro';
-import CategoryNav from '../../components/blog/CategoryNav.astro';
 import PaginationNav from '../../components/blog/PaginationNav.astro';
 import AdSlot from '../../components/ads/AdSlot.astro';
 import JoinAdsScript from '../../components/ads/JoinAdsScript.astro';
@@ -56,8 +55,6 @@ const breadcrumbItems = [
       <p class="blog-page__lead">{pageDescription}</p>
       <p class="blog-page__count">{page.total} artigos publicados</p>
     </header>
-
-    <CategoryNav />
 
     <ul class="blog-page__grid">
       {

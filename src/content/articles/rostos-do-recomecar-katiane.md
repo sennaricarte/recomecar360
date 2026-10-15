@@ -2,7 +2,8 @@
 title: "Rostos do Recomeçar - Katiane"
 slug: "rostos-do-recomecar-katiane"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-02-22T13:06:57+00:00
 status: "published"

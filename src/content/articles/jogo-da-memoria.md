@@ -2,7 +2,8 @@
 title: "Jogo da Memória"
 slug: "jogo-da-memoria"
 excerpt: "(Imagem de destaque: Pessoas de diferentes idades (crianças, adultos, idosos) jogando Jogo da Memória e se divertindo)"
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/jogo-da-memoria.jpg"
 pubDate: 2025-07-29T14:41:31+00:00
 status: "published"

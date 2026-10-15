@@ -2,7 +2,8 @@
 title: "5 livros sobre o sistema prisional brasileiro"
 slug: "5-livros-sobre-o-sistema-prisional-brasileiro"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/5-livros-sobre-o-sistema-prisional-brasileiro.jpg"
 pubDate: 2024-01-10T13:49:35+00:00
 status: "published"

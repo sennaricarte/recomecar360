@@ -2,7 +2,8 @@
 title: "Empreendedorismo como Solução de renda para o Egresso do Sistema Prisional"
 slug: "empreendedorismo-como-solucao-de-renda-para-o-egresso-do-sistema-prisional"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2020-11-03T12:54:45+00:00
 status: "published"

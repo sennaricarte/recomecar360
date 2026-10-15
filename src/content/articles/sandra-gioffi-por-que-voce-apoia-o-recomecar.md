@@ -2,7 +2,8 @@
 title: "Sandra Gioffi - Por que você apoia o Recomeçar?"
 slug: "sandra-gioffi-por-que-voce-apoia-o-recomecar"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2022-10-17T13:41:59+00:00
 status: "published"

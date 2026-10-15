@@ -2,7 +2,8 @@
 title: "Empreendedor Alex Sandro da Conceição"
 slug: "empreendedor-alex-sandro-da-conceicao"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-01-22T13:06:03+00:00
 status: "published"

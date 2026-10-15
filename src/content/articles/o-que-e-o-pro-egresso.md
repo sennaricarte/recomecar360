@@ -2,7 +2,8 @@
 title: "O que é o Pró-Egresso"
 slug: "o-que-e-o-pro-egresso"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/o-que-e-o-pro-egresso.jpg"
 pubDate: 2024-01-15T17:02:02+00:00
 status: "published"

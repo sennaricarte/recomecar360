@@ -2,7 +2,8 @@
 title: "Problemáticas da Segurança na Gestão Pública"
 slug: "problematicas-da-seguranca-na-gestao-publica"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2020-11-24T13:00:19+00:00
 status: "published"

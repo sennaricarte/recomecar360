@@ -2,7 +2,8 @@
 title: "Explorando os Serviços dos Postos de Atendimento ao Trabalhador em São Paulo"
 slug: "explorando-os-servicos-dos-postos-de-atendimento-ao-trabalhador-em-sao-paulo"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/explorando-os-servicos-dos-postos-de-atendimento-ao-trabalhador-em-sao-paulo.jpg"
 pubDate: 2024-01-03T13:28:08+00:00
 status: "published"

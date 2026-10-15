@@ -2,7 +2,8 @@
 title: "A cor da crise no empreendedorismo"
 slug: "a-cor-da-crise-no-empreendedorismo"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2020-10-20T12:51:04+00:00
 status: "published"

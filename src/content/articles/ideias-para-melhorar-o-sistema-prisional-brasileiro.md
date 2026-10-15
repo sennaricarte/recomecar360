@@ -2,7 +2,8 @@
 title: "Ideias para melhorar o sistema prisional brasileiro"
 slug: "ideias-para-melhorar-o-sistema-prisional-brasileiro"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/ideias-para-melhorar-o-sistema-prisional-brasileiro.jpg"
 pubDate: 2024-01-09T13:28:11+00:00
 status: "published"

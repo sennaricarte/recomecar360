@@ -2,7 +2,8 @@
 title: "Parceria Movimento Happiness e Instituto Recomeçar"
 slug: "parceria-movimento-happiness-e-instituto-recomecar"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2020-11-17T12:59:41+00:00
 status: "published"

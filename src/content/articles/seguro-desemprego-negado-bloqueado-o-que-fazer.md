@@ -2,7 +2,8 @@
 title: "Seguro-Desemprego Negado ou Bloqueado? Saiba como resolver no PAT (Guia 2026)"
 slug: "seguro-desemprego-negado-bloqueado-o-que-fazer"
 excerpt: "Você fez o pedido, contou com aquele dinheiro para organizar as contas, mas o sistema deu o aviso: Seguro-Desemprego Negado ou Bloqueado. A frustração é grande, mas calma. No Instituto Recomeçar, sabemos que pedras no caminho fazem parte da jornada de quem está buscando uma nova oportunidade."
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/seguro-desemprego-negado-bloqueado-o-que-fazer.jpg"
 pubDate: 2026-02-02T19:45:57+00:00
 status: "published"

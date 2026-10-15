@@ -2,7 +2,8 @@
 title: "Equipe itinerante começa os trabalhos pelo bairro do Jaraguá"
 slug: "equipe-itinerante-comeca-os-trabalhos-pelo-bairro-do-jaragua"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-06-15T13:19:25+00:00
 status: "published"

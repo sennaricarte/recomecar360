@@ -65,11 +65,5 @@ export function getRelatedArticles(
   allArticles: ArticleEntry[],
   limit = 3,
 ): ArticleEntry[] {
-  return allArticles
-    .filter(
-      (entry) =>
-        entry.data.category === article.data.category &&
-        entry.data.slug !== article.data.slug,
-    )
-    .slice(0, limit);
+  return allArticles.filter((entry) => entry.data.slug !== article.data.slug).slice(0, limit);
 }

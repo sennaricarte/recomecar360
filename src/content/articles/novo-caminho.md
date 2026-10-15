@@ -2,7 +2,8 @@
 title: "Novo Caminho - Osmar Fiotikoski"
 slug: "novo-caminho"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2020-10-13T12:48:24+00:00
 status: "published"

@@ -2,7 +2,8 @@
 title: "Recomecei e Venci: Episódio 2 (Douglas)"
 slug: "recomecei-e-venci-episodio-2-douglas"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/recomecei-e-venci-episodio-2-douglas.jpg"
 pubDate: 2021-08-24T13:34:01+00:00
 status: "published"

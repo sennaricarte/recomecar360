@@ -2,7 +2,8 @@
 title: "Laços Familiares: O Papel Crucial na Reinserção de Presos"
 slug: "lacos-familiares-o-papel-crucial-na-reinsercao-de-presos"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/lacos-familiares-o-papel-crucial-na-reinsercao-de-presos.jpg"
 pubDate: 2024-01-03T12:56:20+00:00
 status: "published"

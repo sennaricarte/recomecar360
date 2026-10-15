@@ -2,7 +2,8 @@
 title: "Como descobrir um endereço pelo CPF facilmente?"
 slug: "como-descobrir-um-endereco-pelo-cpf-facilmente"
 excerpt: "Não sabemos qual o seu interesse em levantar o endereço pelo CPF mas se você chegou até aqui é porque os mecanismo de busca mencionou como o melhor conteúdo com dicas cruciais, se você deseja descobrir o endereço pelo CPF por algum determinado motivo vale a pena seguir essas dicas importantes."
-category: "Guest Post"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/como-descobrir-um-endereco-pelo-cpf-facilmente.jpg"
 pubDate: 2025-05-28T17:05:13+00:00
 status: "published"

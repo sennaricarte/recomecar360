@@ -2,7 +2,8 @@
 title: "Transformação Social e os benefícios das ações para quebra de ciclos de vulnerabilidade"
 slug: "transformacao-social-e-os-beneficios-das-acoes-para-quebra-de-ciclos-de-vulnerabilidade"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/transformacao-social-e-os-beneficios-das-acoes-para-quebra-de-ciclos-de-vulnerabilidade.jpg"
 pubDate: 2024-02-20T16:40:53+00:00
 status: "published"

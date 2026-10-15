@@ -2,7 +2,8 @@
 title: "99% dos atendidos pelo Recomeçar permanecem em sociedade"
 slug: "99-dos-atendidos-pelo-recomecar-permanecem-em-sociedade"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Joel Novaes"
 image: "blog/99-dos-atendidos-pelo-recomecar-permanecem-em-sociedade.webp"
 pubDate: 2023-01-30T14:51:11+00:00
 status: "published"

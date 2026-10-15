@@ -2,7 +2,8 @@
 title: "Redução da população carcerária - A importância de políticas judiciárias"
 slug: "reducao-da-populacao-carceraria-a-importancia-de-politicas-judiciarias"
 excerpt: ""
-category: "Blog - Recomeçar 360"
+category: "Blog"
+author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-06-01T13:17:13+00:00
 status: "published"
