@@ -157,6 +157,20 @@ const articleJsonLd = {
         loading="eager"
         fetchpriority="high"
       />
+      {
+        article.data.imageCredit && (
+          <p class="post__cover-credit">
+            Foto:{' '}
+            {article.data.imageCreditUrl ? (
+              <a href={article.data.imageCreditUrl} target="_blank" rel="noopener noreferrer">
+                {article.data.imageCredit}
+              </a>
+            ) : (
+              article.data.imageCredit
+            )}
+          </p>
+        )
+      }
     </header>
 
     <div class="post__content">
@@ -241,6 +255,16 @@ const articleJsonLd = {
     max-width: 48rem;
     margin-inline: auto;
     margin-bottom: 2rem;
+  }
+
+  .post__cover-credit {
+    margin: 0.5rem 0 0;
+    font-size: 0.8125rem;
+    color: var(--color-muted-text);
+  }
+
+  .post__cover-credit a {
+    text-decoration: underline;
   }
 
   .post__cluster {
