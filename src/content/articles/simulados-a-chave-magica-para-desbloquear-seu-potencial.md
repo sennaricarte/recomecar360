@@ -3,6 +3,7 @@ title: "Simulados: A Chave Mágica para Desbloquear seu Potencial!"
 slug: "simulados-a-chave-magica-para-desbloquear-seu-potencial"
 excerpt: "Você já se sentiu perdido na hora de estudar para aquela prova importante ou concurso tão sonhado? A pressão pode ser enorme, e muitas vezes a quantidade de conteúdo parece intransponível."
 category: "Blog"
+cluster: "emprego-e-cursos"
 author: "Joel Novaes"
 image: "blog/simulados-a-chave-magica-para-desbloquear-seu-potencial.jpg"
 pubDate: 2025-01-23T13:08:17+00:00

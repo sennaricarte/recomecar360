@@ -3,6 +3,7 @@ title: "Dicas de Ouro para Entrevista de Emprego via PAT: Conquiste sua Vaga!"
 slug: "dicas-entrevista-emprego-pat"
 excerpt: "Conseguir uma indicação para uma entrevista através do PAT (Posto de Atendimento ao Trabalhador) é um passo gigante para quem busca uma nova oportunidade no mercado de trabalho. No Instituto Recomeçar, sabemos que esse momento gera expectativa e, às vezes, um frio na barriga."
 category: "Blog"
+cluster: "emprego-e-cursos"
 author: "Senna Ricarte"
 image: "blog/dicas-entrevista-emprego-pat.jpg"
 pubDate: 2026-02-02T20:04:16+00:00

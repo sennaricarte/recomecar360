@@ -3,6 +3,7 @@ title: "Presos aprendem uma nova profissão por meio da marcenaria"
 slug: "presos-aprendem-uma-nova-profissao-por-meio-da-marcenaria"
 excerpt: ""
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/presos-aprendem-uma-nova-profissao-por-meio-da-marcenaria.jpg"
 pubDate: 2021-08-24T13:33:06+00:00

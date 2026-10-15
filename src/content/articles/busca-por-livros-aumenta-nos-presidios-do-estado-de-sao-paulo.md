@@ -3,6 +3,7 @@ title: "Busca por livros aumenta nos presídios do estado de São Paulo"
 slug: "busca-por-livros-aumenta-nos-presidios-do-estado-de-sao-paulo"
 excerpt: ""
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2020-12-01T13:02:00+00:00

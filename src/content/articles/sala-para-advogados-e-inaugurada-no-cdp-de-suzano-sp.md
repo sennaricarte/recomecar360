@@ -3,6 +3,7 @@ title: "Sala para advogados é inaugurada no CDP de Suzano-SP"
 slug: "sala-para-advogados-e-inaugurada-no-cdp-de-suzano-sp"
 excerpt: ""
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/sala-para-advogados-e-inaugurada-no-cdp-de-suzano-sp.jpg"
 pubDate: 2021-08-18T13:32:12+00:00

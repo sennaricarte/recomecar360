@@ -11,10 +11,12 @@ import {
   formatArticleDate,
   getArticleSeoDescription,
   getArticleSeoTitle,
+  getClusterContext,
   getPublishedArticles,
   getReadingTimeMinutes,
   getRelatedArticles,
   type ArticleEntry,
+  type ClusterContext,
 } from '../../lib/blog';
 import { resolveArticleImageWithFallback } from '../../lib/blog-image';
 import { getAuthor } from '../../lib/authors';
@@ -29,6 +31,7 @@ export async function getStaticPaths() {
     props: {
       article,
       relatedArticles: getRelatedArticles(article, allArticles),
+      clusterContext: getClusterContext(article, allArticles),
     },
   }));
 }
@@ -36,9 +39,10 @@ export async function getStaticPaths() {
 interface Props {
   article: ArticleEntry;
   relatedArticles: ArticleEntry[];
+  clusterContext?: ClusterContext;
 }
 
-const { article, relatedArticles } = Astro.props;
+const { article, relatedArticles, clusterContext } = Astro.props;
 const { Content } = await render(article);
 
 const seoTitle = getArticleSeoTitle(article);
@@ -161,6 +165,32 @@ const articleJsonLd = {
     </div>
 
     {
+      clusterContext && (clusterContext.pillar || clusterContext.spokes.length > 0) && (
+        <aside class="post__cluster" aria-label={`Tema: ${clusterContext.label}`}>
+          <p class="post__cluster-label">Tema: {clusterContext.label}</p>
+          {clusterContext.pillar && (
+            <p class="post__cluster-text">
+              Quer o panorama completo? Leia o guia{' '}
+              <a href={`/blog/${clusterContext.pillar.slug}/`}>{clusterContext.pillar.title}</a>.
+            </p>
+          )}
+          {clusterContext.spokes.length > 0 && (
+            <>
+              <p class="post__cluster-text">Continue lendo sobre este tema:</p>
+              <ul class="post__cluster-list">
+                {clusterContext.spokes.map((spoke) => (
+                  <li>
+                    <a href={`/blog/${spoke.slug}/`}>{spoke.title}</a>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
+        </aside>
+      )
+    }
+
+    {
       author && authorBio && (
         <aside class="post__author-box" aria-label="Sobre o autor">
           <p class="post__author-box-label">Sobre o autor</p>
@@ -211,6 +241,44 @@ const articleJsonLd = {
     max-width: 48rem;
     margin-inline: auto;
     margin-bottom: 2rem;
+  }
+
+  .post__cluster {
+    max-width: 48rem;
+    margin: 2rem auto 0;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--color-border, #e5e7eb);
+    border-left: 4px solid var(--color-accent-text, #0f766e);
+    border-radius: 0.5rem;
+    background: var(--color-surface, #f9fafb);
+  }
+
+  .post__cluster p {
+    margin: 0 0 0.5rem;
+  }
+
+  .post__cluster-label {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-accent-text, #0f766e);
+  }
+
+  .post__cluster-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .post__cluster a {
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .post__cluster-list {
+    margin: 0;
+    padding-left: 1.25rem;
+    line-height: 1.7;
   }
 
   .post__author-box {

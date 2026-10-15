@@ -3,6 +3,7 @@ title: "Presídios: Visitas presenciais serão retomadas"
 slug: "presidios-visitas-presenciais-serao-retomadas"
 excerpt: ""
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-08-03T13:29:11+00:00

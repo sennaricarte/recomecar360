@@ -3,6 +3,7 @@ title: "Copa São Paulo coloca na vitrine municípios do Alto Tietê"
 slug: "copa-sao-paulo-coloca-na-vitrine-municipios-do-alto-tiete"
 excerpt: ""
 category: "Blog"
+cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/copa-sao-paulo-coloca-na-vitrine-municipios-do-alto-tiete.jpg"
 pubDate: 2024-01-05T17:23:42+00:00

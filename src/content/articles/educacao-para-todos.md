@@ -3,6 +3,7 @@ title: "Educação Para Todos"
 slug: "educacao-para-todos"
 excerpt: ""
 category: "Blog"
+cluster: "terceiro-setor"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-07-21T13:26:13+00:00

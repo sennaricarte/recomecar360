@@ -3,6 +3,7 @@ title: "Maternidade digna - Marco Legal da Primeira Infância"
 slug: "maternidade-digna-marco-legal-da-primeira-infancia"
 excerpt: ""
 category: "Blog"
+cluster: "beneficios"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-05-05T13:13:54+00:00

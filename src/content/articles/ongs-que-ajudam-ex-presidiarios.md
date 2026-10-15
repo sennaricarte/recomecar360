@@ -3,6 +3,7 @@ title: "ONGs que ajudam ex-presidiários"
 slug: "ongs-que-ajudam-ex-presidiarios"
 excerpt: ""
 category: "Blog"
+cluster: "egressos"
 author: "Senna Ricarte"
 image: "blog/ongs-que-ajudam-ex-presidiarios.jpg"
 pubDate: 2023-12-08T13:22:48+00:00

@@ -3,6 +3,7 @@ title: "Mitos e verdades sobre a saidinha temporária no Brasil"
 slug: "mitos-e-verdades-sobre-a-saidinha-temporaria-no-brasil"
 excerpt: ""
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/mitos-e-verdades-sobre-a-saidinha-temporaria-no-brasil.jpg"
 pubDate: 2024-02-14T13:51:58+00:00

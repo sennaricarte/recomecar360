@@ -3,6 +3,7 @@ title: "Estamos na era da Carteira de Trabalho Digital"
 slug: "estamos-na-era-da-carteira-de-trabalho-digital"
 excerpt: ""
 category: "Blog"
+cluster: "emprego-e-cursos"
 author: "Senna Ricarte"
 image: "blog/estamos-na-era-da-carteira-de-trabalho-digital.jpg"
 pubDate: 2024-02-02T18:26:13+00:00

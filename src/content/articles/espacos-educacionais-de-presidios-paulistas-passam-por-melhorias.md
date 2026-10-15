@@ -3,6 +3,7 @@ title: "Espaços educacionais de presídios paulistas passam por melhorias"
 slug: "espacos-educacionais-de-presidios-paulistas-passam-por-melhorias"
 excerpt: ""
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-07-15T13:23:20+00:00

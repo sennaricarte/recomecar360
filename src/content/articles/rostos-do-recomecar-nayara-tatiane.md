@@ -3,6 +3,7 @@ title: "Rostos do Recomeçar - Nayara Tatiane"
 slug: "rostos-do-recomecar-nayara-tatiane"
 excerpt: ""
 category: "Blog"
+cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-02-26T13:08:20+00:00

@@ -3,6 +3,7 @@ title: "Presos de SP iniciam curso off-line EAD sobre Educação para a Paz"
 slug: "presos-de-sp-iniciam-curso-off-line-ead-sobre-educacao-para-a-paz"
 excerpt: ""
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-04-22T13:09:28+00:00

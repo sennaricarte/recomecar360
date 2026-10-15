@@ -3,6 +3,7 @@ title: "Passo a Passo para Solicitar o LOAS: O Guia Completo e Atualizado que Vo
 slug: "passo-a-passo-para-solicitar-o-loas"
 excerpt: "Você sabia que o LOAS, também conhecido como Benefício de Prestação Continuada (BPC), pode ser a solução ideal para muitas pessoas em situação de vulnerabilidade social? Esse benefício é uma importante ajuda financeira destinada a idosos e pessoas com deficiência que não têm meios de prover a própri"
 category: "Blog"
+cluster: "beneficios"
 author: "Senna Ricarte"
 image: "blog/passo-a-passo-para-solicitar-o-loas.jpg"
 pubDate: 2025-11-06T20:28:52+00:00

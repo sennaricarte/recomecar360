@@ -3,6 +3,7 @@ title: "Zona Leste de São Paulo: contrastes sociais e urbanos"
 slug: "zona-leste-de-sao-paulo-contrastes-sociais-e-urbanos"
 excerpt: ""
 category: "Blog"
+cluster: "cultura-periferica"
 author: "Senna Ricarte"
 image: "blog/zona-leste-de-sao-paulo-contrastes-sociais-e-urbanos.jpg"
 pubDate: 2024-01-22T12:22:00+00:00

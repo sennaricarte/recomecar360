@@ -3,6 +3,7 @@ title: "Inclusão Produtiva: Transformando Vidas e Fortalecendo Comunidades"
 slug: "inclusao-produtiva"
 excerpt: "A inclusão produtiva é um tema que ganha cada vez mais destaque no Brasil. Em tempos de desafios econômicos, entender como transformar vidas e fortalecer comunidades se torna essencial. Mas o que realmente significa incluir pessoas no mercado de trabalho de forma eficaz?"
 category: "Blog"
+cluster: "terceiro-setor"
 author: "Senna Ricarte"
 image: "blog/inclusao-produtiva.jpg"
 pubDate: 2025-10-23T17:57:40+00:00

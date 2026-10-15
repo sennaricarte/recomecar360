@@ -3,6 +3,7 @@ title: "Dia do Trabalho tem origem na luta de operários pela redução da jorna
 slug: "dia-do-trabalho-tem-origem-na-luta-de-operarios-pela-reducao-da-jornada-para-8-horas"
 excerpt: ""
 category: "Blog"
+cluster: "emprego-e-cursos"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-05-01T13:12:52+00:00

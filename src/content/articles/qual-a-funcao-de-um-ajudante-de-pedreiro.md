@@ -3,6 +3,7 @@ title: "Qual a Função de um Ajudante de Pedreiro? Entenda Seu Papel na Constru
 slug: "qual-a-funcao-de-um-ajudante-de-pedreiro"
 excerpt: "Se você já se perguntou qual a função de um ajudante de pedreiro, está no lugar certo! Esse profissional desempenha um papel fundamental nas obras, garantindo que tudo aconteça da melhor maneira possível. Enquanto os pedreiros estão focados em tarefas específicas e técnicas, o ajudante é o suporte e"
 category: "Blog"
+cluster: "profissoes"
 author: "Joel Novaes"
 image: "blog/qual-a-funcao-de-um-ajudante-de-pedreiro.jpg"
 pubDate: 2025-11-04T15:52:13+00:00

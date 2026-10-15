@@ -3,6 +3,7 @@ title: "GINEAD: Democratizando a Educação com Cursos Online Gratuitos"
 slug: "ginead-democratizando-a-educacao-com-cursos-online-gratuitos"
 excerpt: "A&nbsp;educação&nbsp;é a espinha dorsal de uma sociedade próspera e, em um mundo cada vez mais conectado, o acesso ao conhecimento não deve ser um privilégio, mas um direito universal. Com a ascensão da&nbsp;tecnologia digital, surge uma oportunidade sem precedentes para democratizar o aprendizado."
 category: "Blog"
+cluster: "emprego-e-cursos"
 author: "Senna Ricarte"
 image: "blog/ginead-democratizando-a-educacao-com-cursos-online-gratuitos.jpg"
 pubDate: 2024-05-16T19:20:45+00:00

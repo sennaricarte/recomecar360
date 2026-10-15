@@ -3,6 +3,7 @@ title: "Instituto Recomeçar no Litoral Norte"
 slug: "instituto-recomecar-no-litoral-norte"
 excerpt: ""
 category: "Blog"
+cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/instituto-recomecar-no-litoral-norte.jpg"
 pubDate: 2024-01-10T15:15:02+00:00

@@ -3,6 +3,7 @@ title: "Como Saber se Tenho Direito ao Vale Gás (Gás do Povo): Guia Atualizado
 slug: "como-saber-se-tenho-direito-ao-vale-gas"
 excerpt: "O antigo Auxílio Gás foi substituído pelo Gás do Povo, que dá um vale para trocar o botijão de 13 kg de graça. Veja quem tem direito, quantas recargas a família recebe e como consultar."
 category: "Blog"
+cluster: "beneficios"
 author: "Joel Novaes"
 image: "blog/como-saber-se-tenho-direito-ao-vale-gas.jpg"
 pubDate: 2025-11-06T19:59:47+00:00

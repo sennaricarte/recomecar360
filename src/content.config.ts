@@ -1,6 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { AUTHOR_NAMES } from './lib/authors';
+import { CLUSTER_IDS } from './lib/clusters';
 
 const articles = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/articles' }),
@@ -11,6 +12,8 @@ const articles = defineCollection({
     category: z.enum(['Blog']).default('Blog'),
     /** Autor do artigo. Cadastrado em src/lib/authors.ts. Sem autor, o schema usa a organização. */
     author: z.enum(AUTHOR_NAMES).optional(),
+    /** Tema do artigo (src/lib/clusters.ts). Alimenta "relacionados" e a caixa do guia principal. */
+    cluster: z.enum(CLUSTER_IDS).optional(),
     image: z.string(),
     pubDate: z.coerce.date(),
     /** Data da última revisão real do artigo. Vira dateModified no schema; sem ela, o campo é omitido. */

@@ -1,4 +1,5 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { getCluster } from './clusters';
 import { leadTextFromBody, toPlainText, truncateAtBoundary } from './seo';
 
 export type ArticleEntry = CollectionEntry<'articles'>;
@@ -65,5 +66,59 @@ export function getRelatedArticles(
   allArticles: ArticleEntry[],
   limit = 3,
 ): ArticleEntry[] {
-  return allArticles.filter((entry) => entry.data.slug !== article.data.slug).slice(0, limit);
+  const others = allArticles.filter((entry) => entry.data.slug !== article.data.slug);
+  const cluster = getCluster(article.data.cluster);
+  if (!cluster) return others.slice(0, limit);
+
+  // Mesmo tema primeiro (guia principal à frente), depois os mais novos para completar.
+  const sameCluster = others.filter((entry) => entry.data.cluster === cluster.id);
+  const pillar = sameCluster.find((entry) => entry.data.slug === cluster.pillar);
+  const ordered = [
+    ...(pillar ? [pillar] : []),
+    ...sameCluster.filter((entry) => entry !== pillar),
+    ...others.filter((entry) => entry.data.cluster !== cluster.id),
+  ];
+  return ordered.slice(0, limit);
+}
+
+export interface ClusterContext {
+  id: string;
+  label: string;
+  /** Guia principal do tema. Ausente quando o próprio artigo é o guia ou o cluster não tem guia. */
+  pillar?: { slug: string; title: string };
+  /** Só no guia principal: artigos do mesmo tema. */
+  spokes: { slug: string; title: string }[];
+}
+
+export function getClusterContext(
+  article: ArticleEntry,
+  allArticles: ArticleEntry[],
+): ClusterContext | undefined {
+  const cluster = getCluster(article.data.cluster);
+  if (!cluster) return undefined;
+
+  const pillarEntry = cluster.pillar
+    ? allArticles.find((entry) => entry.data.slug === cluster.pillar)
+    : undefined;
+  if (cluster.pillar && !pillarEntry) {
+    throw new Error(`Cluster "${cluster.id}": guia principal "${cluster.pillar}" não encontrado ou não publicado.`);
+  }
+
+  const isPillar = pillarEntry?.data.slug === article.data.slug;
+  const spokes = isPillar
+    ? allArticles
+        .filter((entry) => entry.data.cluster === cluster.id && entry.data.slug !== article.data.slug)
+        .slice(0, 8)
+        .map((entry) => ({ slug: entry.data.slug, title: toPlainText(entry.data.title) }))
+    : [];
+
+  return {
+    id: cluster.id,
+    label: cluster.label,
+    pillar:
+      pillarEntry && !isPillar
+        ? { slug: pillarEntry.data.slug, title: toPlainText(pillarEntry.data.title) }
+        : undefined,
+    spokes,
+  };
 }

@@ -3,6 +3,7 @@ title: "Empreendedorismo como Solução de renda para o Egresso do Sistema Prisi
 slug: "empreendedorismo-como-solucao-de-renda-para-o-egresso-do-sistema-prisional"
 excerpt: ""
 category: "Blog"
+cluster: "egressos"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2020-11-03T12:54:45+00:00

@@ -3,6 +3,7 @@ title: "Lei de Execuções Penais: Entre Desafios e Objetivos"
 slug: "lei-de-execucoes-penais-entre-desafios-e-objetivos"
 excerpt: ""
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/lei-de-execucoes-penais-entre-desafios-e-objetivos.jpg"
 pubDate: 2024-01-12T14:15:12+00:00

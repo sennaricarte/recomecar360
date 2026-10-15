@@ -3,6 +3,7 @@ title: "Desdobramentos da Lei de Execução Penal"
 slug: "desdobramentos-da-lei-de-execucao-penal"
 excerpt: ""
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2020-10-28T12:53:00+00:00

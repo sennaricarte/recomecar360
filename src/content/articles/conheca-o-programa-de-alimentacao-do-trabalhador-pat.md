@@ -3,6 +3,7 @@ title: "Conheça o Programa de Alimentação do Trabalhador (PAT)"
 slug: "conheca-o-programa-de-alimentacao-do-trabalhador-pat"
 excerpt: ""
 category: "Blog"
+cluster: "emprego-e-cursos"
 author: "Joel Novaes"
 image: "blog/conheca-o-programa-de-alimentacao-do-trabalhador-pat.jpg"
 pubDate: 2024-01-30T12:36:36+00:00

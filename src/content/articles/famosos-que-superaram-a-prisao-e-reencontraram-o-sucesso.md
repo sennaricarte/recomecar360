@@ -3,6 +3,7 @@ title: "Famosos que superaram a prisão e reencontraram o sucesso"
 slug: "famosos-que-superaram-a-prisao-e-reencontraram-o-sucesso"
 excerpt: ""
 category: "Blog"
+cluster: "egressos"
 author: "Joel Novaes"
 image: "blog/famosos-que-superaram-a-prisao-e-reencontraram-o-sucesso.jpg"
 pubDate: 2024-02-01T10:47:16+00:00

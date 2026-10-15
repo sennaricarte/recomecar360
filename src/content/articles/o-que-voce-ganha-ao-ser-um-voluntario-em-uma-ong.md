@@ -3,6 +3,7 @@ title: "O que você ganha ao ser um voluntário em uma ONG"
 slug: "o-que-voce-ganha-ao-ser-um-voluntario-em-uma-ong"
 excerpt: ""
 category: "Blog"
+cluster: "terceiro-setor"
 author: "Senna Ricarte"
 image: "blog/o-que-voce-ganha-ao-ser-um-voluntario-em-uma-ong.jpg"
 pubDate: 2023-04-11T14:31:49+00:00

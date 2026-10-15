@@ -3,6 +3,7 @@ title: "População carcerária nas Américas cresce, mas dados sobre egressos s
 slug: "populacao-carceraria-nas-americas-cresce-mas-dados-sobre-egressos-sao-escassos"
 excerpt: ""
 category: "Blog"
+cluster: "egressos"
 author: "Senna Ricarte"
 image: "blog/populacao-carceraria-nas-americas-cresce-mas-dados-sobre-egressos-sao-escassos.jpg"
 pubDate: 2023-12-15T20:29:22+00:00

@@ -3,6 +3,7 @@ title: "Vida pós cárcere"
 slug: "vida-pos-carcere"
 excerpt: ""
 category: "Blog"
+cluster: "egressos"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2020-10-05T12:44:54+00:00

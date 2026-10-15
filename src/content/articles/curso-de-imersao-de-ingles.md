@@ -3,6 +3,7 @@ title: "Transforme seu Inglês em 30 Dias: Com Curso de Imersão de Inglês!"
 slug: "curso-de-imersao-de-ingles"
 excerpt: "Imaginar-se assistindo a um filme sem legendas ou tendo uma conversa casual com estrangeiros sem suar frio pode parecer um sonho distante para muitos. Mas e se eu te disser que mergulhar de cabeça em um ambiente onde tudo acontece em inglês pode transformar esse desejo em realidade mais rapidamente"
 category: "Blog"
+cluster: "emprego-e-cursos"
 author: "Joel Novaes"
 image: "blog/curso-de-imersao-de-ingles.jpg"
 pubDate: 2025-08-27T13:21:33+00:00

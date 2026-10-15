@@ -3,6 +3,7 @@ title: "Mulheres reclusas recebem atenção preventiva ao HIV e câncer de mama"
 slug: "mulheres-reclusas-recebem-atencao-preventiva-ao-hiv-e-cancer-de-mama"
 excerpt: ""
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/mulheres-reclusas-recebem-atencao-preventiva-ao-hiv-e-cancer-de-mama.jpeg"
 pubDate: 2021-10-20T16:47:22+00:00

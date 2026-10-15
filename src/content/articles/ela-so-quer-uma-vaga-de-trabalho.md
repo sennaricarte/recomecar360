@@ -3,6 +3,7 @@ title: "Ela só quer uma vaga de trabalho"
 slug: "ela-so-quer-uma-vaga-de-trabalho"
 excerpt: ""
 category: "Blog"
+cluster: "egressos"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2020-12-11T13:03:32+00:00

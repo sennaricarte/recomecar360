@@ -3,6 +3,7 @@ title: "A importância do acompanhamento médico na reintegração social"
 slug: "a-importancia-do-acompanhamento-medico-na-reintegracao-social"
 excerpt: "Você já parou para pensar no quão desafiador pode ser para alguém, após passar por uma experiência complicada na vida, retornar à sociedade e tentar recomeçar?"
 category: "Blog"
+cluster: "egressos"
 author: "Joel Novaes"
 image: "blog/a-importancia-do-acompanhamento-medico-na-reintegracao-social.jpg"
 pubDate: 2025-07-10T08:50:45+00:00

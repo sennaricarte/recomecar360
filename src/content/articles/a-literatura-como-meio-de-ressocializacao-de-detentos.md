@@ -3,6 +3,7 @@ title: "A literatura como meio de ressocialização de detentos"
 slug: "a-literatura-como-meio-de-ressocializacao-de-detentos"
 excerpt: ""
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/a-literatura-como-meio-de-ressocializacao-de-detentos.jpg"
 pubDate: 2024-02-28T23:43:22+00:00
