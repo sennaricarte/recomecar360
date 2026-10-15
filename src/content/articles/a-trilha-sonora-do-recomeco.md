@@ -3,7 +3,7 @@ title: "A Trilha Sonora do Recomeço: Como a Música Pode Ser o Primeiro Passo p
 slug: "a-trilha-sonora-do-recomeco"
 excerpt: "A vida é cheia de capítulos. Iniciar um recomeço pode ser assustador, pois o que era familiar agora é incerto. Encontrar um novo caminho e inspiração parece impossível. Mas e se a resposta para sua nova jornada estivesse a apenas uma melodia de distância?"
 category: "Blog"
-author: "Joel Novaes"
+author: "Senna Ricarte"
 image: "blog/a-trilha-sonora-do-recomeco.jpg"
 pubDate: 2025-09-03T17:07:25+00:00
 status: "published"

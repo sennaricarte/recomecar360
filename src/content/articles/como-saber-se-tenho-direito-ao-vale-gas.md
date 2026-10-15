@@ -3,7 +3,7 @@ title: "Como Saber se Tenho Direito ao Vale Gás: Passo a Passo Completo"
 slug: "como-saber-se-tenho-direito-ao-vale-gas"
 excerpt: "Você já se perguntou como saber se tenho direito ao vale gás? Se sim, você está no lugar certo! O Auxílio Gás é uma ajuda importante para muitas famílias brasileiras, especialmente em tempos desafiadores."
 category: "Blog"
-author: "Senna Ricarte"
+author: "Joel Novaes"
 image: "blog/como-saber-se-tenho-direito-ao-vale-gas.jpg"
 pubDate: 2025-11-06T19:59:47+00:00
 status: "published"

@@ -3,7 +3,7 @@ title: "O que Faz um Auxiliar de Limpeza: Funções e Responsabilidades"
 slug: "o-que-faz-um-auxiliar-de-limpeza"
 excerpt: "Você já parou para pensar no papel fundamental que um auxiliar de limpeza desempenha em nosso dia a dia? Embora muitas vezes sua função passe despercebida, esses profissionais são essenciais para manter ambientes limpos e organizados."
 category: "Blog"
-author: "Joel Novaes"
+author: "Senna Ricarte"
 image: "blog/o-que-faz-um-auxiliar-de-limpeza.jpg"
 pubDate: 2025-11-04T15:41:13+00:00
 status: "published"

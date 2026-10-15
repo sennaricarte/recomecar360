@@ -48,12 +48,30 @@ export function organizationRef(siteUrl: string = SITE_URL) {
   };
 }
 
-/** Pessoa autora. Só inclui `url` quando o autor tem página própria no site. */
-export function personRef(name: string, path?: string, siteUrl: string = SITE_URL) {
+/**
+ * Autor de um artigo. Pessoa: `url` só com página própria; `description` só com bio;
+ * `worksFor` só quando informado. Equipe: Organization com nome e site.
+ */
+export function authorJsonLd(
+  author: {
+    name: string;
+    type: 'Person' | 'Organization';
+    path?: string;
+    bio?: string;
+    worksForInstitute?: boolean;
+  },
+  siteUrl: string = SITE_URL,
+) {
+  if (author.type === 'Organization') {
+    return { '@type': 'Organization', name: author.name, url: siteUrl };
+  }
+
   return {
     '@type': 'Person',
-    name,
-    ...(path && { url: new URL(path, siteUrl).href }),
+    name: author.name,
+    ...(author.path && { url: new URL(author.path, siteUrl).href }),
+    ...(author.bio && { description: author.bio }),
+    ...(author.worksForInstitute && { worksFor: organizationRef(siteUrl) }),
   };
 }
 

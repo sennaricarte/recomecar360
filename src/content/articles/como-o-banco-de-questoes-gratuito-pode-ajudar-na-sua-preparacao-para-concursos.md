@@ -3,7 +3,7 @@ title: "Como o Banco de Questões Gratuito Pode Ajudar na Sua Preparação para 
 slug: "como-o-banco-de-questoes-gratuito-pode-ajudar-na-sua-preparacao-para-concursos"
 excerpt: "Se você está se preparando para concursos, já deve ter percebido que estudar apenas a teoria não é suficiente. Para garantir uma boa performance nas provas, é fundamental praticar com questões reais."
 category: "Blog"
-author: "Senna Ricarte"
+author: "Equipe de Comunicação Recomeçar"
 image: "blog/como-o-banco-de-questoes-gratuito-pode-ajudar-na-sua-preparacao-para-concursos.jpg"
 pubDate: 2025-06-27T14:52:55+00:00
 status: "published"
