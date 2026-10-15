@@ -5,7 +5,7 @@ excerpt: "Saiu da prisão e quer trabalhar? Veja o passo a passo para conseguir 
 category: "Blog"
 cluster: "egressos"
 author: "Equipe de Comunicação Recomeçar"
-image: "blog/_placeholder.svg"
+image: "blog/como-conseguir-emprego-sendo-egresso.jpg"
 pubDate: 2026-10-15T13:00:00+00:00
 status: "published"
 metaTitle: "Como Conseguir Emprego Sendo Egresso: Passo a Passo"
