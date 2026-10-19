@@ -697,7 +697,7 @@
     },
     {
       "source": "/senado-proibe-despejo-e-desocupacao-ate-o-fim-de-2021",
-      "destination": "/blog/senado-proibe-despejo-e-desocupacao-ate-o-fim-de-2021/",
+      "destination": "/blog/",
       "statusCode": 301
     },
     {
@@ -802,6 +802,11 @@
     },
     {
       "source": "/blog/como-proteger-seu-veiculo-com-rastreador-gps",
+      "destination": "/blog/",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/senado-proibe-despejo-e-desocupacao-ate-o-fim-de-2021",
       "destination": "/blog/",
       "statusCode": 301
     },
