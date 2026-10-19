@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/mulheres-reclusas-recebem-atencao-preventiva-ao-hiv-e-cancer-de-mama.jpeg"
 pubDate: 2021-10-20T16:47:22+00:00
+noindex: true
 status: "published"
 metaTitle: "Saúde de Mulheres Presas: Prevenção ao HIV e Câncer"
 metaDescription: "Notícia de 2021: ações de testes rápidos e exames preventivos para mulheres presas em unidades da Região Metropolitana de São Paulo."

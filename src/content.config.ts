@@ -25,6 +25,8 @@ const articles = defineCollection({
     metaTitle: z.string(),
     metaDescription: z.string(),
     focusKeyword: z.string().optional(),
+    /** Tira o artigo do Google: meta robots "noindex, follow" e fora do sitemap. Os links internos continuam valendo. */
+    noindex: z.boolean().default(false),
   }),
 });
 

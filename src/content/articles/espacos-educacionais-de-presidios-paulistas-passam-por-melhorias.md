@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-07-15T13:23:20+00:00
+noindex: true
 status: "published"
 metaTitle: "Escolas em Presídios Paulistas Recebem Melhorias"
 metaDescription: "Notícia de 2021: verba do PDDE-SP financia melhorias nos espaços de estudo dos presídios da Região Metropolitana de São Paulo."

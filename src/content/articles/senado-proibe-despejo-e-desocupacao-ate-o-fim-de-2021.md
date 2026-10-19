@@ -7,6 +7,7 @@ cluster: "beneficios"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-06-29T13:21:16+00:00
+noindex: true
 status: "published"
 metaTitle: "Senado proíbe despejo e desocupação até o fim de 2021"
 metaDescription: ""

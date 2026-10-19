@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2020-12-01T13:02:00+00:00
+noindex: true
 status: "published"
 metaTitle: "Busca por Livros Aumenta nos Presídios de São Paulo"
 metaDescription: "Notícia de 2020: durante a pandemia, cresceu o empréstimo de livros nos presídios paulistas, ligado ao interesse em estudar e à remição."

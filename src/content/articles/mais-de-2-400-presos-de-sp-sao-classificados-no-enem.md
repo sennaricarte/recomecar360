@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-05-11T13:14:58+00:00
+noindex: true
 status: "published"
 metaTitle: "Presos de SP Classificados no Enem PPL"
 metaDescription: "Notícia de 2021: mais de 2.400 presos de São Paulo foram classificados no Enem para Pessoas Privadas de Liberdade (Enem PPL)."

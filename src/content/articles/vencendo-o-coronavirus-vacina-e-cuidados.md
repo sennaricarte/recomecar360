@@ -6,6 +6,7 @@ category: "Blog"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-05-19T13:16:02+00:00
+noindex: true
 status: "published"
 metaTitle: "Vencendo o Coronavírus - Vacina e Cuidados"
 metaDescription: ""
