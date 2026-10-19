@@ -5,7 +5,9 @@ excerpt: "Quer trabalhar mas não tem experiência? Veja o que fazem ajudante de
 category: "Blog"
 cluster: "profissoes"
 author: "Equipe de Comunicação Recomeçar"
-image: "blog/_placeholder.svg"
+image: "blog/profissoes-para-comecar-sem-experiencia.jpg"
+imageCredit: "Xavier Messina / Pexels"
+imageCreditUrl: "https://www.pexels.com/pt-br/foto/maos-de-pe-assistir-ver-12491632/"
 pubDate: 2026-10-19T12:00:00+00:00
 status: "published"
 metaTitle: "Profissões Para Começar Sem Experiência: Guia Prático"
