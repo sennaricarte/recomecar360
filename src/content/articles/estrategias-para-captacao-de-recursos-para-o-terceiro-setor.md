@@ -120,7 +120,7 @@ metaDescription: "Guia de captação de recursos para ONGs: doações, incentivo
 
 <p><strong>Dica de leitura:</strong> <em>ONG Sustentável: o guia para organizações do terceiro setor economicamente prósperas</em>. Link de afiliado.</p>
 
-<a href="https://amzn.to/49bHrjN" target="_blank" rel="sponsored noopener noreferrer"><img class="aligncenter size-full wp-image-5871" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/db1153b5-6641-4f30-89dd-02423993daf6/livro-ONG-Sustentavel.jpg" alt="ONG Sustentável: O guia para organizações do terceiro setor economicamente prósperas" width="400" height="400" /></a>
+<a href="https://amzn.to/49bHrjN" target="_blank" rel="sponsored nofollow noopener noreferrer"><img class="aligncenter size-full wp-image-5871" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/db1153b5-6641-4f30-89dd-02423993daf6/livro-ONG-Sustentavel.jpg" alt="ONG Sustentável: O guia para organizações do terceiro setor economicamente prósperas" width="400" height="400" /></a>
 
 <h2>Fontes</h2>
 

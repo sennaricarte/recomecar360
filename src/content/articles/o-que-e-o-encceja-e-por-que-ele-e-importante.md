@@ -82,7 +82,7 @@ Além de possibilitar a obtenção de um certificado de conclusão de ensino, o 
 
 Isso, sem dúvida, pode ser um grande incentivo para a continuidade da formação educacional e inserção no mercado de trabalho.
 
-A <a href="https://amzn.to/49X3M5e" target="_blank" rel="noopener">Amazon.com</a> tem um rico material didático preparatório para o ENCCEJA, <a href="https://amzn.to/49X3M5e" target="_blank" rel="noopener">clique aqui para conferir</a>.
+A <a href="https://amzn.to/49X3M5e" target="_blank" rel="sponsored nofollow noopener noreferrer">Amazon.com</a> tem um rico material didático preparatório para o ENCCEJA, <a href="https://amzn.to/49X3M5e" target="_blank" rel="sponsored nofollow noopener noreferrer">clique aqui para conferir</a>.
 <div class="content">
 <div class="ac-container ac-adaptiveCard">
 <div class="ac-textBlock"> <span style="font-family: var(--global-body-font-family)">O ENCCEJA é mais do que um exame; é uma porta de entrada para novas oportunidades. Ele representa a chance de validar conhecimentos adquiridos ao longo da vida e de abrir caminhos para o futuro.</span></div>

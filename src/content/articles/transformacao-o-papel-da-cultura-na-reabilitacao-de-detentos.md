@@ -47,7 +47,7 @@ Portanto, vamos apoiar e valorizar essas iniciativas culturais, reconhecendo que
 
 <strong>Dica de leitura:</strong>
 
-<a href="https://amzn.to/48r1cCM" target="_blank" rel="noopener"><img class="aligncenter wp-image-5911 size-full" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/f2cedd67-9878-489d-978f-cc5c1db02e57/livro-O-Brasil-e-a-reeducacao-presidiaria.jpg" alt="O Brasil e a reeducação presidiária: a lei que não pune e não ressocializa" width="400" height="400" /></a>
+<a href="https://amzn.to/48r1cCM" target="_blank" rel="sponsored nofollow noopener noreferrer"><img class="aligncenter wp-image-5911 size-full" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/f2cedd67-9878-489d-978f-cc5c1db02e57/livro-O-Brasil-e-a-reeducacao-presidiaria.jpg" alt="O Brasil e a reeducação presidiária: a lei que não pune e não ressocializa" width="400" height="400" /></a>
 
 </div>
 </div>

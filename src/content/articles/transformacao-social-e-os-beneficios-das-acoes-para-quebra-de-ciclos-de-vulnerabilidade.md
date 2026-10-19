@@ -54,7 +54,7 @@ Ao investir em educação, saúde, empoderamento econômico e inclusão social, 
 
 A transformação social não é apenas uma aspiração, mas sim uma necessidade urgente que exige ação coletiva e comprometimento contínuo.
 <h3>Dica de leitura</h3>
-<a href="https://amzn.to/42HUpn7" target="_blank" rel="noopener"><img class="aligncenter size-full wp-image-5896" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/e7bd70de-49c8-4051-ac82-73af72afe130/livro-ECONOMIA-PARA-TRANSFORMACAO-SOCIAL.jpg" alt="ECONOMIA PARA TRANSFORMACAO SOCIAL" width="400" height="400" /></a>
+<a href="https://amzn.to/42HUpn7" target="_blank" rel="sponsored nofollow noopener noreferrer"><img class="aligncenter size-full wp-image-5896" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/e7bd70de-49c8-4051-ac82-73af72afe130/livro-ECONOMIA-PARA-TRANSFORMACAO-SOCIAL.jpg" alt="ECONOMIA PARA TRANSFORMACAO SOCIAL" width="400" height="400" /></a>
 
 Este livro é uma síntese do curso "Economia para transformação social" da Fundação Perseu Abramo. Oferece conhecimento econômico básico e crítico, acessível a não economistas, com indicações para aprofundamento.
 

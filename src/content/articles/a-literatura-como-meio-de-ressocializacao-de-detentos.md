@@ -24,10 +24,10 @@ O sistema carcerário enfrenta inúmeras críticas e desafios. Obviamente as cr�
 
 A reincidência criminal é alta, e as penitenciárias frequentemente falham em preparar os detentos para a vida após o cárcere. No entanto, a literatura oferece uma alternativa promissora. Ao proporcionar acesso a histórias, conhecimento e reflexão, ela pode ajudar a transformar vidas e abrir caminhos para a reinserção social.
 <h2>A ineficácia do sistema carcerário</h2>
-As prisões contemporâneas, muitas vezes, focam na punição e privação da liberdade. <a href="https://amzn.to/3uUoDXp" target="_blank" rel="noopener">Michel Foucault</a>, filósofo francês, argumentou que esse modelo é falho, pois não oferece ferramentas para a sobrevivência ou educação após a pena.
+As prisões contemporâneas, muitas vezes, focam na punição e privação da liberdade. <a href="https://amzn.to/3uUoDXp" target="_blank" rel="sponsored nofollow noopener noreferrer">Michel Foucault</a>, filósofo francês, argumentou que esse modelo é falho, pois não oferece ferramentas para a sobrevivência ou educação após a pena.
 
 Como resultado, muitos detentos retornam à ilegalidade, presos em um ciclo de reincidência, que muitas vezes parece impossível de ser quebrado.
-<blockquote>Leia o livro de Foucault, <span id="productTitle" class="a-size-extra-large celwidget" data-csa-c-id="8is365-2q0awx-24jg2r-wl5h55" data-cel-widget="productTitle"><a href="https://amzn.to/49Rv8cj" target="_blank" rel="noopener">Vigiar e punir: Nascimento da prisão</a>. Com toda a certeza, uma leitura importantissíma para quem se interessa pelo tema.</span>
+<blockquote>Leia o livro de Foucault, <span id="productTitle" class="a-size-extra-large celwidget" data-csa-c-id="8is365-2q0awx-24jg2r-wl5h55" data-cel-widget="productTitle"><a href="https://amzn.to/49Rv8cj" target="_blank" rel="sponsored nofollow noopener noreferrer">Vigiar e punir: Nascimento da prisão</a>. Com toda a certeza, uma leitura importantissíma para quem se interessa pelo tema.</span>
 
 <a href="/blog/transformacao-social-e-os-beneficios-das-acoes-para-quebra-de-ciclos-de-vulnerabilidade/">Entenda os beneficios da quebra de ciclos para a sociedade.</a></blockquote>
 <h2>A literatura como janela para o mundo</h2>
