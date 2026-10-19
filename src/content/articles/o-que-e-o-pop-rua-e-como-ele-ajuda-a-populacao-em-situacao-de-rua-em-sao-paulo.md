@@ -1,113 +1,103 @@
 ---
 title: "O que é o Pop Rua e como ele ajuda a população em situação de rua em São Paulo"
 slug: "o-que-e-o-pop-rua-e-como-ele-ajuda-a-populacao-em-situacao-de-rua-em-sao-paulo"
-excerpt: "Entenda o Pop Rua, programa da Prefeitura de São Paulo para inclusão social e cidadania da população em situação de rua."
+excerpt: "Entenda o PopRua, a política da Prefeitura de São Paulo para a população em situação de rua: o que é, serviços, Centro POP, documentos e como pedir ajuda pelo 156."
 category: "Blog"
 cluster: "beneficios"
 author: "Joel Novaes"
 image: "blog/o-que-e-o-pop-rua-e-como-ele-ajuda-a-populacao-em-situacao-de-rua-em-sao-paulo.jpg"
 pubDate: 2024-01-24T12:53:13+00:00
+updatedDate: 2026-10-19T16:00:00+00:00
 status: "published"
-metaTitle: "O Que É o Pop Rua e Como Ajuda em São Paulo"
-metaDescription: "Entenda o Pop Rua, programa da Prefeitura de São Paulo para inclusão social e cidadania da população em situação de rua."
+metaTitle: "Pop Rua em São Paulo: Serviços e Como Pedir Ajuda"
+metaDescription: "Entenda o PopRua da Prefeitura de São Paulo: serviços, Centro POP, documentos e CadÚnico para a população em situação de rua. Ajuda pelo 156."
 ---
 
-<div class="content">
-<div class="ac-container ac-adaptiveCard">
-<div class="ac-textBlock">
+<div style="border:2px solid #0f766e;border-radius:8px;padding:1rem;margin:1.5rem 0"><p><strong>Resposta rápida:</strong> PopRua é como se chama a política municipal de São Paulo para a população em situação de rua. Ela é coordenada pela Secretaria Municipal de Direitos Humanos e Cidadania (SMDHC). Para pedir ajuda, procure um Centro POP, que atende sem agendamento de segunda a sexta, ou ligue para o 156, que funciona 24 horas, todos os dias.</p></div>
 
-Você já se perguntou como é a vida das pessoas que vivem nas ruas de São Paulo? Como elas se alimentam, se higienizam, se protegem e se relacionam com a sociedade?
+<p>O PopRua reúne serviços, programas e normas da cidade de São Paulo para quem vive nas ruas. Este guia explica o que cada parte faz e como acessar.</p>
 
-Quais são os seus sonhos, desafios e oportunidades?
+<p>As informações vêm de páginas da Prefeitura e do Guia Pop Rua, de 2021. Horários e endereços podem mudar. Confirme pelo 156.</p>
 
-Essas são algumas das questões que o Pop Rua, um programa da <a href="https://prefeitura.sp.gov.br/poprua/" target="_blank" rel="noopener">Prefeitura de São Paulo</a>, busca responder e solucionar.
+<h2>O que é o PopRua</h2>
 
-O Pop Rua é um programa que visa principalmente, a promoção da inclusão social e cidadania da população em situação de rua, oferecendo assim, a essas pessoas um conjunto de ações que abrangem desde o acolhimento até a integração social.
+<p>PopRua é a política municipal para a população em situação de rua. A Coordenação de Políticas para a População em Situação de Rua, vinculada à Secretaria Municipal de Direitos Humanos e Cidadania, articula as ações públicas voltadas a esse público. Ela também busca ampliar o diálogo com a sociedade civil e os movimentos sociais.</p>
 
-Neste artigo, vamos conhecer um pouco mais sobre este programa, como ele funciona, quais são os seus objetivos e resultados, e também como ele pode fazer a diferença na vida das pessoas em situação de rua em São Paulo.
-<h2>O que é o Pop Rua</h2>
-Trata-se de um programa da Prefeitura de São Paulo que foi criado em 2013, com o objetivo de promover a inclusão social e cidadania da população em situação de rua.
+<p>Segundo a Prefeitura, a base legal inclui:</p>
 
-O programa é composto por um conjunto de ações, que são realizadas em parceria com organizações da sociedade civil e instituições públicas, como por exemplo:
 <ul>
- 	<li>Secretaria Municipal de Saúde</li>
- 	<li>Secretaria Municipal de Assistência Social</li>
- 	<li>Secretaria Municipal de Desenvolvimento Econômico e Trabalho.</li>
+<li>Decreto nº 7.053/2009, a Política Nacional, à qual o Município aderiu em 28 de maio de 2013;</li>
+<li>Decreto Municipal nº 53.795/2013, que criou o Comitê PopRua;</li>
+<li>Portaria Intersecretarial nº 05/2016, que instituiu o Plano Municipal PopRua;</li>
+<li>Lei nº 17.252/2019, que consolidou a política municipal;</li>
+<li>Decreto nº 62.149/2023, que criou o Programa Reencontro e regulamentou a política.</li>
 </ul>
-<strong>As ações do Pop Rua se dividem em três eixos principais: </strong>
+
+<h2>Serviços da Coordenação</h2>
+
+<p>A página da Prefeitura lista dois serviços:</p>
+
 <ul>
- 	<li>acolhimento</li>
- 	<li>acompanhamento social</li>
- 	<li>integração social.</li>
+<li><strong>Estação Cidadania.</strong></li>
+<li><strong>Serviço de Inclusão Social e Produtiva para Pessoas em Situação de Rua.</strong> Atende pessoas acolhidas na rede socioassistencial, com atividades coletivas de geração de renda. O acesso principal é o encaminhamento por outros serviços da rede.</li>
 </ul>
-<h2>Acolhimento</h2>
-<img class="aligncenter size-full wp-image-5820" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/5005d23d-6645-47ec-9fb3-bfd43b94b52f/pop-rua-prefeitura-de-sao-paulo-02.jpg" alt="Plano Individual de Atendimento (PIA)" width="600" height="300" />
 
-&nbsp;
+<p>O serviço de inclusão produtiva tem unidades como o Recifran, de capacitação profissional, e o Reviravolta, focado em reciclagem e inserção no trabalho. As duas funcionam de segunda a sexta, das 9h às 18h.</p>
 
-O acolhimento é a primeira etapa do programa, que consiste em oferecer um espaço seguro e acolhedor para a população em situação de rua, com alimentação, higiene, descanso e acesso a serviços básicos, como por exemplo, documentação, saúde, assistência social e jurídica.
+<p>A Coordenação também mantém programas e projetos, como Altas e Baixas Temperaturas, Formações, Habitação, POT PopRua, Prêmio 19 de Agosto, Seminário e Zeladoria Urbana.</p>
 
-O acolhimento é realizado em unidades chamadas de <a href="https://www.prefeitura.sp.gov.br/cidade/secretarias/assistencia_social/protecao_social_especial/index.php?p=161192" target="_blank" rel="noopener">Centros Pop</a>, que são espaços de convivência e referência para a população em situação de rua.
+<h2>Onde buscar atendimento</h2>
 
-Os Centros Pop funcionam de segunda a sexta-feira, das 8h às 17h, e oferecem café da manhã, almoço e lanche da tarde.
+<table>
+<thead><tr><th>Serviço</th><th>O que oferece</th></tr></thead>
+<tbody>
+<tr><td>Centro POP</td><td>Atende pessoas e famílias em situação de rua, de segunda a sexta, das 8h às 18h, sem agendamento. Encaminha para acolhida, orienta sobre programas e faz o CadÚnico.</td></tr>
+<tr><td>Centros de Acolhida</td><td>Oferecem cama, cobertor, bagageiro, banho, lavanderia e refeições. A ida não é obrigatória.</td></tr>
+<tr><td>Consultório na Rua</td><td>Equipes de saúde que atendem nas ruas e encaminham para a UBS.</td></tr>
+<tr><td>156</td><td>Canal oficial da Prefeitura, 24 horas por dia. Também pede equipes de abordagem.</td></tr>
+</tbody>
+</table>
 
-Além de banho, lavagem de roupas, guarda-volumes, oficinas, atividades culturais e esportivas, e também atendimento social, psicológico, médico, odontológico e jurídico.
+<h2>Documentos e benefícios</h2>
 
-Atualmente, existem 16 Centros Pop em São Paulo, que atendem cerca de 2 mil pessoas por dia.
-<h2>Acompanhamento social</h2>
-O acompanhamento social é a segunda etapa do programa, que consiste principalmente em oferecer um atendimento individualizado e especializado, realizado por uma equipe multidisciplinar, para a identificação das necessidades e potencialidades de cada pessoa em situação de rua.
+<p>Segundo o Guia Pop Rua, estas são as principais orientações:</p>
 
-O acompanhamento social é realizado por meio de um <a href="https://blog.gesuas.com.br/pia-plano-individual-de-atendimento/" target="_blank" rel="noopener">Plano Individual de Atendimento</a> (PIA), que é um documento que registra as informações, demandas, objetivos e metas de cada pessoa atendida pelo Pop Rua.
-
-O PIA é elaborado em conjunto com a pessoa em situação de rua, respeitando portanto, a sua autonomia, singularidade e protagonismo.
-
-O acompanhamento social tem como objetivo promover o fortalecimento dos vínculos familiares e comunitários, a garantia dos direitos, a superação das vulnerabilidades e também a construção de um projeto de vida.
-<h2>Integração social</h2>
-A integração social é a terceira e última etapa do Pop Rua, que consiste em promover a integração da população em situação de rua à sociedade.
-
-Esta integração acontece por meio da oferta de cursos, oficinas, atividades culturais e esportivas, que visam o desenvolvimento pessoal, profissional e social.
-
-<strong>A integração social é realizada por meio de diversas iniciativas, como:</strong>
 <ul>
- 	<li><strong>Pop Rua Cultural:</strong> Um projeto que oferece oficinas de arte, música, teatro, dança, fotografia, cinema, literatura, entre outras, para a população em situação de rua.</li>
+<li><strong>Certidão de nascimento:</strong> quem nunca foi registrado pede o registro tardio em um Cartório de Registro Civil, sem processo judicial.</li>
+<li><strong>RG:</strong> é gratuito para quem declara ser pobre, com agendamento no Poupatempo.</li>
+<li><strong>CPF:</strong> pode ser pedido online, sem custo.</li>
+<li><strong>Carteira de trabalho:</strong> é gratuita no Poupatempo, no Cate e no Descomplica SP.</li>
+<li><strong>CadÚnico:</strong> feito no CRAS, no Centro POP ou no Descomplica SP, abre acesso a programas como o Bolsa Família e o BPC.</li>
 </ul>
-Está iniciativa tem o objetivo de estimular a expressão artística, a autoestima, a criatividade e a cidadania.
+
+<p>Veja o <a href="/blog/como-fazer-o-cadunico-passo-a-passo/">passo a passo do CadÚnico</a> e <a href="/blog/entendendo-o-bolsa-familia/">como funciona o Bolsa Família</a>. Para quem saiu do sistema prisional, leia também <a href="/blog/o-que-sao-beneficios-sociais/">o que são benefícios sociais</a>.</p>
+
+<h2>Perguntas frequentes</h2>
+
+<h3>O que é o PopRua?</h3>
+<p>É a política da Prefeitura de São Paulo para a população em situação de rua. A Coordenação de Políticas para a População em Situação de Rua, ligada à SMDHC, articula as ações públicas voltadas a esse público.</p>
+
+<h3>Onde pedir ajuda em São Paulo?</h3>
+<p>No Centro POP mais próximo, que atende de segunda a sexta, sem agendamento. Também é possível ligar para o 156, canal oficial da Prefeitura, que atende 24 horas e aciona equipes de abordagem.</p>
+
+<h3>Preciso ir a um Centro de Acolhida?</h3>
+<p>Não. Segundo o Guia Pop Rua, a ida aos Centros de Acolhida da Prefeitura não é obrigatória.</p>
+
+<h3>Como tirar documentos sem endereço?</h3>
+<p>O endereço do Centro de Acolhida pode servir como comprovante de endereço e para receber correspondência. O RG é gratuito para quem declara ser pobre, com agendamento no Poupatempo.</p>
+
+<h3>Pessoa em situação de rua pode receber benefícios?</h3>
+<p>Sim, por meio do CadÚnico, feito no CRAS, no Centro POP ou no Descomplica SP. Ele dá acesso a programas como o Bolsa Família e o BPC, se a pessoa cumprir as regras.</p>
+
+<h3>Existe atendimento de saúde na rua?</h3>
+<p>Sim. O Consultório na Rua tem equipes com médicos, enfermeiros, assistentes sociais e psicólogos que atendem nas ruas e encaminham para a UBS mais próxima.</p>
+
+<h2>Fontes</h2>
+
+<p>Conferidas em 19 de outubro de 2026. O Guia Pop Rua é de 2021, então confirme horários e endereços pelo 156.</p>
+
 <ul>
- 	<li><strong>Pop Rua Esportivo:</strong> Um projeto que oferece oficinas de esportes, como futebol, vôlei, basquete, capoeira, xadrez, entre outros, para a população em situação de rua.</li>
+<li><a href="https://prefeitura.sp.gov.br/web/poprua/w/274598" target="_blank" rel="noopener noreferrer">Sobre PopRua — Coordenação de Políticas para a População em Situação de Rua, Prefeitura de São Paulo</a></li>
+<li><a href="https://prefeitura.sp.gov.br/web/poprua/w/321751" target="_blank" rel="noopener noreferrer">Serviço de Inclusão Social e Produtiva para Pessoas em Situação de Rua — Prefeitura de São Paulo</a></li>
+<li><a href="https://drive.prefeitura.sp.gov.br/cidade/secretarias/upload/direitos_humanos/POP_RUA/PUBLICACOES/GUIAPOPRUA_SMDHC.pdf" target="_blank" rel="noopener noreferrer">Guia Pop Rua: Serviços e Direitos da População em Situação de Rua (2021) — SMDHC</a></li>
 </ul>
-O objetivo desta iniciativa é portanto, promover a saúde, o bem-estar, a disciplina e o trabalho em equipe.
-<ul>
- 	<li><strong>Pop Rua Profissional</strong>: Um projeto que oferece cursos de qualificação profissional, como informática, gastronomia, artesanato, jardinagem, entre outros, para a população em situação de rua.</li>
-</ul>
-O seu objetivo é ampliar as oportunidades de inserção no mercado de trabalho e geração de renda.
-<ul>
- 	<li><strong>Pop Rua Empreendedor:</strong> Um projeto que oferece orientação e apoio para a população em situação de rua que deseja empreender, por meio de cursos, oficinas, consultorias, microcrédito, entre outros.</li>
-</ul>
-Está iniciativa tem portanto, o objetivo de fomentar o empreendedorismo social e a autonomia financeira.
-<h2>Resultados e impactos do Pop Rua</h2>
-O Pop Rua é um programa que já atendeu mais de 100 mil pessoas em situação de rua desde a sua criação, em 2013.
-
-<strong>O programa tem apresentado resultados, sem dúvida positivos, como por exemplo:</strong>
-<ul>
- 	<li>Aumento da autoestima, da confiança e também da esperança da população em situação de rua.</li>
- 	<li>Redução da violência, do abuso de álcool e drogas e das doenças infectocontagiosas entre a população em situação de rua.</li>
- 	<li>Melhoria da qualidade de vida, da saúde, da higiene e da alimentação da população em situação de rua.</li>
- 	<li>Ampliação do acesso aos serviços públicos, aos direitos e à cidadania da população em situação de rua.</li>
- 	<li>Fortalecimento dos vínculos familiares e comunitários da população em situação de rua.</li>
- 	<li>Desenvolvimento de habilidades pessoais, profissionais e sociais da população em situação de rua.</li>
- 	<li>Inserção no mercado de trabalho e geração de renda da população em situação de rua.</li>
- 	<li>Construção de um projeto de vida e de saída das ruas da população em situação de rua.</li>
-</ul>
-O nasceu primordialmente, devido a preocupação da<strong> Prefeitura de São Paulo</strong> com a população em situação de rua, reconhecendo-a assim, como sujeito de direitos, dignidade e potencialidades.
-
-Trata-se portanto, um programa que busca transformar a realidade das pessoas que vivem nas ruas de São Paulo, oferecendo-lhes oportunidades de inclusão social e cidadania.
-
-Obviamente que muita coisa precisa melhorar, afinal, a população de rua cresceu significativamente, durante a pandemia, mas este é sem dúvida um programa importante e mais ações como essa precisam ser criadas e fomentadas nas grandes cidades brasileiras.
-
-E você, o que acha do Pop Rua? Você conhece alguém que já foi atendido pelo programa?
-
-Deixe o seu comentário e também compartilhe este artigo com os seus amigos. Obrigado pela leitura e até a próxima!
-
-</div>
-</div>
-</div>;
