@@ -7,9 +7,10 @@ cluster: "beneficios"
 author: "Senna Ricarte"
 image: "blog/o-que-sao-beneficios-sociais.jpg"
 pubDate: 2026-01-16T15:52:13+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "O que são benefícios sociais e como eles ajudam na sua retomada de vida?"
-metaDescription: "Recomeçar a vida após o cumprimento de uma pena ou em um momento de extrema dificuldade financeira é um desafio que exige coragem e, acima de tudo, apoio. Muitas vezes, a porta para essa nova fase se abre através do acesso aos benefícios sociais."
+metaTitle: "O Que São Benefícios Sociais e Como Acessar em 2026"
+metaDescription: "Veja o que são benefícios sociais, os principais programas em 2026 (Bolsa Família, BPC, Gás do Povo), o CadÚnico e os direitos de egressos."
 ---
 
 <p>Recomeçar a vida após o cumprimento de uma pena ou em um momento de extrema dificuldade financeira é um desafio que exige coragem e, acima de tudo, apoio. Muitas vezes, a porta para essa nova fase se abre através do acesso aos <strong>benefícios sociais</strong>.</p>
@@ -30,11 +31,11 @@ metaDescription: "Recomeçar a vida após o cumprimento de uma pena ou em um mom
 
 <p>Atualmente, o sistema de proteção social no Brasil está mais robusto. Veja os principais programas que podem apoiar você e sua família:</p>
 
-<ul class="wp-block-list"><li><strong>Bolsa Família:</strong> Em 2026, o programa continua sendo o pilar principal, com o valor base de <strong>R$ 600</strong>, além de adicionais para crianças e gestantes. É o recurso que garante o prato de comida na mesa enquanto você busca uma oportunidade de trabalho.</li>
+<ul class="wp-block-list"><li><strong>Bolsa Família:</strong> Em 2026, o programa continua sendo o pilar principal. O MDS fala em valor mínimo de <strong>R$ 600</strong> por família, além de adicionais para crianças, adolescentes e gestantes. Os valores podem mudar, então confira no canal oficial. Entenda em <a href="/blog/entendendo-o-bolsa-familia/">como funciona o Bolsa Família</a>. É o recurso que garante o prato de comida na mesa enquanto você busca uma oportunidade de trabalho.</li>
 
-<li><strong>BPC (Benefício de Prestação Continuada):</strong> Destinado a idosos acima de 65 anos ou pessoas com deficiência que comprovem baixa renda. O valor é de um salário mínimo (<strong>R$ 1.621,00</strong> em 2026).</li>
+<li><strong>BPC (Benefício de Prestação Continuada):</strong> Destinado a idosos de 65 anos ou mais e a pessoas com deficiência que comprovem baixa renda. O valor é de um salário mínimo (<strong>R$ 1.621,00</strong> em 2026). Veja os requisitos e como pedir em <a href="/blog/passo-a-passo-para-solicitar-o-loas/">como solicitar o LOAS</a>.</li>
 
-<li><strong>Auxílio Gás e Tarifa Social:</strong> Programas que reduzem drasticamente os custos mensais com energia elétrica e botijão de gás, aliviando o orçamento doméstico.</li>
+<li><strong>Gás do Povo e Tarifa Social:</strong> o Gás do Povo substituiu o antigo Auxílio Gás e dá um vale para trocar o botijão de 13 kg. A Tarifa Social de Energia Elétrica também usa o CadÚnico. Veja <a href="/blog/como-saber-se-tenho-direito-ao-vale-gas/">como saber se tenho direito ao vale gás</a> e <a href="/blog/como-retirar-o-botijao-do-gas-do-povo/">como retirar o botijão</a>.</li>
 </ul>
 
 <h2 class="wp-block-heading"><strong>Benefícios específicos e direitos para egressos</strong></h2>
@@ -43,7 +44,7 @@ metaDescription: "Recomeçar a vida após o cumprimento de uma pena ou em um mom
 
 <h3 class="wp-block-heading"><strong>O Auxílio-Reclusão</strong></h3>
 
-<p>Diferente do que muitos dizem, o auxílio-reclusão não é pago ao preso, mas sim aos seus <strong>dependentes</strong> (filhos, esposa/marido), desde que o segurado tenha contribuído com o INSS antes da prisão. Em 2026, esse valor ajuda a manter a família do apenado, evitando que a vulnerabilidade empurre os filhos para caminhos errados.</p>
+<p>Diferente do que muitos dizem, o auxílio-reclusão não é pago ao preso, mas sim aos seus <strong>dependentes</strong> (filhos, esposa/marido), desde que o segurado tenha contribuído com o INSS antes da prisão. Em 2026, esse valor ajuda a manter a família do apenado, evitando que a vulnerabilidade empurre os filhos para caminhos errados. Veja os requisitos em <a href="/blog/auxilio-reclusao-quem-tem-direito/">auxílio-reclusão: quem tem direito</a>.</p>
 
 <h3 class="wp-block-heading"><strong>Programas de Reintegração e Emprego</strong></h3>
 
@@ -55,9 +56,9 @@ metaDescription: "Recomeçar a vida após o cumprimento de uma pena ou em um mom
 
 <ol class="wp-block-list"><li><strong>Vá ao CRAS:</strong> Procure o <a href="https://prefeitura.sp.gov.br/web/assistencia_social/w/protecao_social_basica/1906" target="_blank" rel="noreferrer noopener">Centro de Referência de Assistência Social</a> mais próximo da sua casa.</li>
 
-<li><strong>Documentação:</strong> Leve RG, CPF e comprovante de residência de todos que moram com você.</li>
+<li><strong>Documentação:</strong> o responsável familiar leva CPF ou título de eleitor, documento com foto e comprovante de endereço. Para cada pessoa da casa, leve um documento, como CPF, certidão de nascimento ou RG. Veja o <a href="/blog/como-fazer-o-cadunico-passo-a-passo/">passo a passo completo do CadÚnico</a>.</li>
 
-<li><strong>Atualização:</strong> Mesmo que você já tenha o cadastro, mantenha-o sempre atualizado. Dados antigos podem travar o recebimento do dinheiro.</li>
+<li><strong>Atualização:</strong> Mesmo que você já tenha o cadastro, atualize-o a cada dois anos ou quando algo mudar na família. Dados antigos podem travar o acesso aos programas.</li>
 </ol>
 
 <h2 class="wp-block-heading"><strong>Por que os benefícios são essenciais para o "Recomeçar"?</strong></h2>
@@ -71,3 +72,15 @@ metaDescription: "Recomeçar a vida após o cumprimento de uma pena ou em um mom
 <p>Os benefícios sociais são o seu direito e uma ferramenta de transformação. Se você é egresso ou conhece alguém que precisa desse apoio para recomeçar, saiba que o Instituto Recomeçar está de portas abertas para orientar e caminhar junto.</p>
 
 <p><strong>Gostou deste conteúdo ou tem dúvidas sobre como acessar seus direitos? Deixe um comentário ou entre em contato com a nossa equipe. Juntos somos mais fortes!</strong></p>
+
+<h2>Fontes</h2>
+
+<p>Conferidas em 19 de outubro de 2026. Valores e regras podem mudar. Confirme nos canais oficiais.</p>
+
+<ul>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12797.htm" target="_blank" rel="noopener noreferrer">Decreto nº 12.797/2025, salário mínimo de 2026 — Planalto</a></li>
+<li><a href="https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal" target="_blank" rel="noopener noreferrer">Inscrever-se no Cadastro Único — gov.br</a></li>
+<li><a href="https://www.gov.br/mds/pt-br/acoes-e-programas/gas-do-povo" target="_blank" rel="noopener noreferrer">Gás do Povo — MDS</a></li>
+<li><a href="https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-assistenciais/beneficio-assistencial-a-pessoa-idosa-bpc-loas" target="_blank" rel="noopener noreferrer">Benefício assistencial à pessoa idosa (BPC-Loas) — INSS</a></li>
+<li><a href="https://www.gov.br/inss/pt-br/direitos-e-deveres/auxilio-reclusao/auxilio-reclusao" target="_blank" rel="noopener noreferrer">Auxílio-reclusão — INSS</a></li>
+</ul>
