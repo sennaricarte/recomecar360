@@ -5,7 +5,7 @@ excerpt: "Veja os números do Instituto Recomeçar entre 2021 e 2025: cadastros,
 category: "Blog"
 cluster: "institucional"
 author: "Equipe de Comunicação Recomeçar"
-image: "blog/_placeholder.svg"
+image: "blog/resultados-do-instituto-recomecar-relatorio-de-atividades.jpg"
 pubDate: 2026-10-19T12:00:00+00:00
 status: "published"
 metaTitle: "Resultados do Instituto Recomeçar: Relatório 2021–2025"
