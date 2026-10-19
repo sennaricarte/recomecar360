@@ -6,8 +6,6 @@ category: "Blog"
 cluster: "beneficios"
 author: "Joel Novaes"
 image: "blog/o-que-e-o-pop-rua-e-como-ele-ajuda-a-populacao-em-situacao-de-rua-em-sao-paulo.jpg"
-imageCredit: "Amano Ink / Pexels"
-imageCreditUrl: "https://www.pexels.com/pt-br/foto/cidade-meio-urbano-calcada-passeio-25904132/"
 pubDate: 2024-01-24T12:53:13+00:00
 updatedDate: 2026-10-19T16:00:00+00:00
 status: "published"
