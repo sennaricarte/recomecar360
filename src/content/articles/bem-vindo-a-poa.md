@@ -1,21 +1,26 @@
 ---
 title: "Bem vindo à Poá"
 slug: "bem-vindo-a-poa"
-excerpt: ""
+excerpt: "Poá, estância hidromineral do Alto Tietê, onde o Instituto Recomeçar atua. Localização, eventos e turismo."
 category: "Blog"
 cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2020-09-29T12:40:45+00:00
+noindex: true
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Bem vindo à Poá"
-metaDescription: ""
+metaTitle: "Poá, Alto Tietê: Localização, Eventos e Turismo"
+metaDescription: "Conheça Poá, estância hidromineral do Alto Tietê: localização, eventos, turismo e a cidade onde o Instituto Recomeçar tem projetos."
 ---
 
 <h2 style="text-align: center">Seguindo a linha ferroviária em direção a Mogi das Cruzes, Poá é a segunda cidade do Alto Tietê, depois do trem cruzar o bairro de Guaianases.</h2>
 O município de pouco mais de 115 mil habitantes é classificado como Estância Hidromineral. Em termos práticos oferece, sem dúvida uma das águas mais saborosas e rica em propriedades medicinais do Estado.
 Até meados dos anos 1990 sua água mineral era requisitada nas mais importantes mesas de reuniões, bares e restaurantes da cidade.
 
+
+
+<p><strong>Atenção:</strong> os dados de população e área vêm de 2007 e podem estar desatualizados. Consulte o IBGE e a Prefeitura de Poá.</p>
 O tempo passou e a riqueza extraída da natureza foi sumindo das mesas e prateleiras a ponto de, as vezes, não ser encontrada nem mesmo no comércio da cidade.
 <h2>Características</h2>
 Poá é um dos 11 municípios paulistas considerados estância hidromineral e turística, por cumprir determinados pré-requisitos definidos por lei estadual. Tal status garante a esses municípios uma verba maior por parte do Estado para promoção do turismo regional.

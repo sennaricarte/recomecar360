@@ -1,15 +1,15 @@
 ---
 title: "Novo Caminho - Osmar Fiotikoski"
 slug: "novo-caminho"
-excerpt: ""
+excerpt: "História de Osmar Fiotikoski, que encontrou no Recomeçar o ponto de partida para uma nova vida fora do cárcere."
 category: "Blog"
 cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/novo-caminho.jpg"
 pubDate: 2020-10-13T12:48:24+00:00
 status: "published"
-metaTitle: "Novo Caminho - Osmar Fiotikoski"
-metaDescription: ""
+metaTitle: "Novo Caminho: a História de Osmar Fiotikoski"
+metaDescription: "Conheça a história de Osmar da Silva Fiotikoski e como o Instituto Recomeçar foi o ponto de partida para seguir um novo caminho."
 ---
 
 Colocar um ponto final na vida errante e seguir um novo caminho, não é só uma questão de vontade para o indivíduo que se encontra livre do cárcere.

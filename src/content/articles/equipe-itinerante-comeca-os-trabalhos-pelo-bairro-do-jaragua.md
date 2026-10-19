@@ -1,15 +1,16 @@
 ---
 title: "Equipe itinerante começa os trabalhos pelo bairro do Jaraguá"
 slug: "equipe-itinerante-comeca-os-trabalhos-pelo-bairro-do-jaragua"
-excerpt: ""
+excerpt: "O projeto Recomeçar Itinerante iniciou atendimentos no CIC Jaraguá, em São Paulo, em junho de 2021."
 category: "Blog"
 cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-06-15T13:19:25+00:00
+noindex: true
 status: "published"
-metaTitle: "Equipe itinerante começa os trabalhos pelo bairro do Jaraguá"
-metaDescription: ""
+metaTitle: "Recomeçar Itinerante Começa pelo Jaraguá, em SP"
+metaDescription: "O projeto Recomeçar Itinerante levou atendimento a egressos ao CIC Jaraguá, na zona norte de São Paulo, em junho de 2021."
 ---
 
 <h2>Demos início ao Projeto Recomeçar Itinerante</h2>

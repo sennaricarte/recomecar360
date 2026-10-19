@@ -1,15 +1,15 @@
 ---
 title: "Sandra Gioffi - Por que você apoia o Recomeçar?"
 slug: "sandra-gioffi-por-que-voce-apoia-o-recomecar"
-excerpt: ""
+excerpt: "Sandra Gioffi conta por que apoia o Instituto Recomeçar."
 category: "Blog"
 cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/sandra-gioffi-por-que-voce-apoia-o-recomecar.jpg"
 pubDate: 2022-10-17T13:41:59+00:00
 status: "published"
-metaTitle: "Sandra Gioffi - Por que você apoia o Recomeçar?"
-metaDescription: ""
+metaTitle: "Sandra Gioffi: Por que Apoia o Recomeçar?"
+metaDescription: "Sandra Gioffi conta por que apoia o Instituto Recomeçar e a reintegração de egressos do sistema prisional."
 ---
 
 Por que você apoia o Recomeçar Sandra Gioffi?

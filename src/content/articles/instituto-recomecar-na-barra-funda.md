@@ -1,15 +1,15 @@
 ---
 title: "Instituto Recomeçar na Barra Funda"
 slug: "instituto-recomecar-na-barra-funda"
-excerpt: ""
+excerpt: "Portaria de 2023 autoriza o Instituto Recomeçar a divulgar seus serviços no Fórum da Barra Funda, onde egressos assinam a carteirinha."
 category: "Blog"
 cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/instituto-recomecar-na-barra-funda.jpg"
 pubDate: 2023-12-06T11:43:09+00:00
 status: "published"
-metaTitle: "Instituto Recomeçar na Barra Funda"
-metaDescription: ""
+metaTitle: "Recomeçar no Fórum da Barra Funda: Portaria de 2023"
+metaDescription: "Portaria de 26/04/2023 autoriza o Instituto Recomeçar a divulgar ações no Fórum da Barra Funda, onde egressos comparecem para assinar."
 ---
 
 A estação Barra Funda é um complexo que reúne o terminal do Metrô, estação de trens da CPTM, terminal urbano de ônibus e vans de “lotação” e o terminal rodoviário cujas partidas dos ônibus seguem para cidades das regiões oeste e noroeste do Estado de São Paulo; e municípios dos Estados do Paraná e Mato Grosso.

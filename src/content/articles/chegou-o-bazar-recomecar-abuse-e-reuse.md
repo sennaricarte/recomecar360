@@ -1,15 +1,15 @@
 ---
 title: "Chegou o Bazar Recomeçar - Abuse e Reuse"
 slug: "chegou-o-bazar-recomecar-abuse-e-reuse"
-excerpt: ""
+excerpt: "O Bazar Recomeçar é um negócio de impacto social que gera sustentabilidade financeira ao Instituto."
 category: "Blog"
 cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2022-09-29T14:32:04+00:00
 status: "published"
-metaTitle: "Chegou o Bazar Recomeçar - Abuse e Reuse"
-metaDescription: ""
+metaTitle: "Bazar Recomeçar: Abuse e Reuse, Negócio de Impacto"
+metaDescription: "Conheça o Bazar Recomeçar, negócio de impacto social lançado em 2022 para gerar sustentabilidade financeira ao Instituto Recomeçar."
 ---
 
 Lançamos neste mês de setembro o Bazar Recomeçar, nosso segundo <a href="https://opportunitapizzaria.com.br/">negócio de impacto social</a>, que visa criar sustentabilidade financeira para o Instituto Recomeçar.

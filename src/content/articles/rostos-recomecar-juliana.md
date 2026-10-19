@@ -1,15 +1,15 @@
 ---
 title: "Rostos Recomeçar - Juliana"
 slug: "rostos-recomecar-juliana"
-excerpt: ""
+excerpt: "Juliana concluiu o programa de Desenvolvimento do Recomeçar e busca uma vaga no mercado de trabalho."
 category: "Blog"
 cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/rostos-recomecar-juliana.jpg"
 pubDate: 2022-04-21T12:50:14+00:00
 status: "published"
-metaTitle: "Rostos Recomeçar - Juliana"
-metaDescription: ""
+metaTitle: "Rostos do Recomeçar: Juliana"
+metaDescription: "Série Rostos do Recomeçar: Juliana concluiu o programa de Desenvolvimento do Instituto e espera uma vaga no mercado de trabalho."
 ---
 
 Juliana tem força de vontade, disposição para trabalhar e aprender. Juliana decidiu Recomeçar e faz o corre dia a dia para sobreviver e levar comida pra casa.

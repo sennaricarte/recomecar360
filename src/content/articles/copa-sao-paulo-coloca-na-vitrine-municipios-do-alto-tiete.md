@@ -1,15 +1,16 @@
 ---
 title: "Copa São Paulo coloca na vitrine municípios do Alto Tietê"
 slug: "copa-sao-paulo-coloca-na-vitrine-municipios-do-alto-tiete"
-excerpt: ""
+excerpt: "A Copa São Paulo de Futebol Júnior levou jogos a Itaquaquecetuba e Mogi das Cruzes, no Alto Tietê."
 category: "Blog"
 cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/copa-sao-paulo-coloca-na-vitrine-municipios-do-alto-tiete.jpg"
 pubDate: 2024-01-05T17:23:42+00:00
+noindex: true
 status: "published"
-metaTitle: "Copa São Paulo coloca na vitrine municípios do Alto Tietê"
-metaDescription: ""
+metaTitle: "Copa São Paulo e os Municípios do Alto Tietê"
+metaDescription: "A Copa São Paulo de Futebol Júnior colocou Itaquaquecetuba e Mogi das Cruzes na vitrine. Veja os jogos e a história das cidades."
 ---
 
 Considerada uma das mais tradicionais do país, a edição de 2024 da Copa São Paulo, a Copinha, acontece entre 2 e 25 de janeiro e será disputada por 128 equipes divididas em 32 grupos.

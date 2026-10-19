@@ -31,7 +31,10 @@ export const CLUSTERS = {
     label: 'Terceiro setor e impacto social',
     pillar: 'estrategias-para-captacao-de-recursos-para-o-terceiro-setor',
   },
-  institucional: { label: 'Notícias e histórias do Recomeçar' },
+  institucional: {
+    label: 'Notícias e histórias do Recomeçar',
+    pillar: 'resultados-do-instituto-recomecar-relatorio-de-atividades',
+  },
 } as const satisfies Record<string, { label: string; pillar?: string }>;
 
 export type ClusterId = keyof typeof CLUSTERS;

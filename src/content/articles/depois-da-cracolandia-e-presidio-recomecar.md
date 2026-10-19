@@ -1,15 +1,15 @@
 ---
 title: "Depois da cracolândia e presídio, Recomeçar"
 slug: "depois-da-cracolandia-e-presidio-recomecar"
-excerpt: ""
+excerpt: "Juliana Cristina Constantino viveu a “boca do lixo” e duas décadas de cárcere. Veja como recomeçou."
 category: "Blog"
 cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/depois-da-cracolandia-e-presidio-recomecar.jpg"
 pubDate: 2023-02-15T15:02:38+00:00
 status: "published"
-metaTitle: "Depois da cracolândia e presídio, Recomeçar"
-metaDescription: ""
+metaTitle: "Depois da Cracolândia e do Presídio: Juliana Recomeça"
+metaDescription: "Juliana Cristina Constantino, ex-rainha de bateria, passou duas décadas entre idas e vindas ao cárcere. Veja como ela recomeçou."
 ---
 
 Muito se fala da história atual da <strong>Cracolândia</strong>, centro de alto consumo de crack, cravado no coração da cidade de São Paulo.

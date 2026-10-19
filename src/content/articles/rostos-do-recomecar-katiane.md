@@ -1,15 +1,15 @@
 ---
 title: "Rostos do Recomeçar - Katiane"
 slug: "rostos-do-recomecar-katiane"
-excerpt: ""
+excerpt: "Série Rostos do Recomeçar: a história de Katiane."
 category: "Blog"
 cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-02-22T13:06:57+00:00
 status: "published"
-metaTitle: "Rostos do Recomeçar - Katiane"
-metaDescription: ""
+metaTitle: "Rostos do Recomeçar: Katiane"
+metaDescription: "Série Rostos do Recomeçar: conheça a história de Katiane, atendida pelo Instituto Recomeçar."
 ---
 
 Katiane é uma das egressas do sistema prisional que concluiu o nosso programa de desenvolvimento e agora aguarda uma oportunidade.
