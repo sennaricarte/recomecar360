@@ -7,6 +7,7 @@ cluster: "profissoes"
 author: "Senna Ricarte"
 image: "blog/profissao-encanador-mitos-e-verdades.jpg"
 pubDate: 2025-11-15T15:05:06+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
 metaTitle: "Profissão Encanador: Mitos e Verdades sobre essa Atividade Fundamental"
 metaDescription: "Você já parou para pensar na importância do encanador em nossas vidas? Essa profissão, muitas vezes subestimada, é fundamental para o funcionamento das casas e empresas. Mas ao longo dos anos, vários mitos surgiram sobre essa atividade que vão muito além de simples consertos de canos."
@@ -79,3 +80,11 @@ metaDescription: "Você já parou para pensar na importância do encanador em no
 <h2 class="wp-block-heading">Conclusão</h2>
 
 <p>A profissão de encanador é mais do que muitos imaginam. Além de ser uma atividade fundamental para o funcionamento das edificações, ela envolve habilidades técnicas e um conhecimento profundo sobre hidráulica. Mitos como a falta de qualificação ou a ideia de que o trabalho é apenas sujo precisam ser desmistificados.<br><br>Os encanadores têm um papel crucial na sociedade, garantindo segurança e conforto em nossas casas e empresas. Para quem deseja seguir essa carreira, investir em formação e especializações pode abrir portas para oportunidades promissoras.<br><br>Se você considera se tornar um encanador, lembre-se: esta profissão oferece desafios constantes e recompensas significativas. Com dedicação e preparo, seu futuro pode ser brilhante nesse setor tão necessário!</p>
+
+<h2>Fontes</h2>
+
+<p>A descrição oficial da ocupação está na Classificação Brasileira de Ocupações (CBO). Páginas conferidas em 19 de outubro de 2026.</p>
+
+<ul>
+<li><a href="https://buscadorncm.com.br/cbo/724110" target="_blank" rel="noopener noreferrer">CBO 7241-10, Encanador (Ministério do Trabalho e Emprego, via NCM Buscador)</a></li>
+</ul>

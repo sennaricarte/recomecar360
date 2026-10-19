@@ -7,6 +7,7 @@ cluster: "profissoes"
 author: "Joel Novaes"
 image: "blog/o-que-um-auxiliar-de-cozinha-faz.jpg"
 pubDate: 2025-11-04T15:29:39+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
 metaTitle: "Auxiliar de Cozinha: o Que Faz e Diferença para Ajudante"
 metaDescription: "Veja o que faz um auxiliar de cozinha, o que ele não pode fazer, a diferença para o ajudante e como se qualificar para conseguir a vaga."
@@ -63,3 +64,11 @@ metaDescription: "Veja o que faz um auxiliar de cozinha, o que ele não pode faz
 <h2 class="wp-block-heading">Conclusão</h2>
 
 <p>Ser um auxiliar de cozinha é uma função essencial no <a href="https://www.gastronomia.com.br/" target="_blank" rel="noreferrer noopener">mundo da gastronomia</a>. Esses profissionais desempenham um papel fundamental, garantindo que tudo funcione perfeitamente na cozinha. Desde a preparação dos ingredientes até o suporte ao chef, suas atividades são variadas e dinâmicas.<br><br>Além disso, as oportunidades de aprendizado e crescimento nesta área são amplas. Com dedicação e a formação adequada, é possível construir uma carreira sólida nesse setor tão vibrante. Se você tem interesse em culinária ou deseja ingressar nesse campo, ser um auxiliar de cozinha pode ser o primeiro passo para algo grandioso.<br><br>Trabalhar nessa posição não só proporciona experiências valiosas como também permite desenvolver habilidades que servirão por toda a vida. Portanto, considere essa profissão com carinho; ela pode abrir portas inesperadas para seu futuro!</p>
+
+<h2>Fontes</h2>
+
+<p>A descrição oficial da ocupação está na Classificação Brasileira de Ocupações (CBO). Páginas conferidas em 19 de outubro de 2026.</p>
+
+<ul>
+<li><a href="https://buscadorncm.com.br/cbo/513505" target="_blank" rel="noopener noreferrer">CBO 5135-05, Auxiliar nos serviços de alimentação (Ministério do Trabalho e Emprego, via NCM Buscador)</a></li>
+</ul>

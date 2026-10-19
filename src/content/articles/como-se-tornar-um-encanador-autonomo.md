@@ -76,3 +76,11 @@ metaDescription: "Você já parou para pensar que quase nada funciona em uma cas
 <p>A profissão de encanador oferece a chance de você ser seu próprio chefe, ter uma renda digna e prestar um serviço essencial para a comunidade. Se você busca um recomeço, o conhecimento técnico é a ferramenta que ninguém pode te tirar.</p>
 
 <p><strong>Gostou deste guia?</strong> Se você é egresso do sistema prisional ou conhece alguém que está em busca de uma nova oportunidade através da qualificação, <strong>entre em contato com o Instituto Recomeçar</strong>. Juntos, somos mais fortes na construção de um novo caminho.</p>
+
+<h2>Fontes</h2>
+
+<p>A descrição oficial da ocupação está na Classificação Brasileira de Ocupações (CBO). Páginas conferidas em 19 de outubro de 2026.</p>
+
+<ul>
+<li><a href="https://buscadorncm.com.br/cbo/724110" target="_blank" rel="noopener noreferrer">CBO 7241-10, Encanador (Ministério do Trabalho e Emprego, via NCM Buscador)</a></li>
+</ul>

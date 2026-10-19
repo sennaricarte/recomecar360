@@ -72,3 +72,11 @@ metaDescription: "Veja o que faz um auxiliar ou ajudante de pizzaiolo, a faixa s
 <h2 class="wp-block-heading">Conclusão</h2>
 
 <p>O cargo de ajudante de pizzaiolo é uma porta de entrada para o <a href="https://guiaculinaria.com.br/" target="_blank" rel="noreferrer noopener">mundo da culinária</a>, especialmente para quem ama a arte das pizzas. As funções e responsabilidades desse profissional são essenciais para o funcionamento eficiente da cozinha. Além disso, com um mercado em constante crescimento, as oportunidades se ampliam.<br><br>Os salários variam conforme a região e há demanda crescente por esses profissionais em diversas empresas do setor alimentício. Para quem busca desenvolver sua carreira nessa área, investir nas habilidades certas pode fazer toda a diferença.<br><br>Se você deseja seguir essa jornada saborosa, mantenha-se sempre atualizado sobre as tendências do mercado e busque aprimorar suas técnicas na cozinha. O trabalho como ajudante de pizzaiolo pode ser muito gratificante e cheio de possibilidades!</p>
+
+<h2>Fontes</h2>
+
+<p>A descrição oficial da ocupação está na Classificação Brasileira de Ocupações (CBO). Páginas conferidas em 19 de outubro de 2026.</p>
+
+<ul>
+<li><a href="https://buscadorncm.com.br/cbo/513505" target="_blank" rel="noopener noreferrer">CBO 5135-05, Auxiliar nos serviços de alimentação (Ministério do Trabalho e Emprego, via NCM Buscador)</a></li>
+</ul>

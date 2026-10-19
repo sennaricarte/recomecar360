@@ -39,7 +39,7 @@ metaDescription: "Veja o que faz um auxiliar de limpeza (faxineiro): funções, 
 
 <h2 class="wp-block-heading">Pré-Requisitos para Esta Profissão</h2>
 
-<p>Para se tornar um auxiliar de limpeza, não são exigidos muitos pré-requisitos formais. No entanto, ter o segundo grau completo pode ser um diferencial no mercado de trabalho. Essa formação ajuda na compreensão das instruções e manuais que podem estar envolvidos nas tarefas diárias.<br><br>Além da educação formal, é importante ter disposição física e resistência, já que as atividades podem ser cansativas. Um bom relacionamento interpessoal também é fundamental para lidar com colegas e clientes.<br><br>Por fim, a experiência anterior em serviços similares pode agregar valor ao currículo. Muitas vezes, a prática supera a teoria nesse campo!</p>
+<p>Para se tornar um auxiliar de limpeza, não são exigidos muitos pré-requisitos formais. A CBO cita ensino fundamental completo ou prática profissional no posto de trabalho. Ter o ensino médio completo pode ser um diferencial no mercado de trabalho. Essa formação ajuda na compreensão das instruções e manuais que podem estar envolvidos nas tarefas diárias.<br><br>Além da educação formal, é importante ter disposição física e resistência, já que as atividades podem ser cansativas. Um bom relacionamento interpessoal também é fundamental para lidar com colegas e clientes.<br><br>Por fim, a experiência anterior em serviços similares pode agregar valor ao currículo. Muitas vezes, a prática supera a teoria nesse campo!</p>
 
 <h3 class="wp-block-heading">Formação Desejada</h3>
 
@@ -82,3 +82,11 @@ metaDescription: "Veja o que faz um auxiliar de limpeza (faxineiro): funções, 
 <h2 class="wp-block-heading">Conclusão</h2>
 
 <p>Ser auxiliar de limpeza é uma profissão essencial que contribui para a manutenção da higiene e organização dos ambientes. Com diversas funções e responsabilidades, esse profissional desempenha um papel fundamental em setores variados, desde empresas até residências.<br><br>Além das habilidades práticas, o conhecimento sobre produtos e <a href="https://www.guiatrabalhista.com.br/tematicas/epi.htm" target="_blank" rel="noreferrer noopener">EPIs</a> adequados torna-se crucial para garantir segurança no trabalho. Apesar de ser uma função muitas vezes subestimada, o auxiliar de limpeza merece reconhecimento pelo seu esforço diário.<br><br>Se você está considerando essa carreira ou já atua na área, lembre-se: cada tarefa realizada impacta diretamente na qualidade do espaço onde vivemos e trabalhamos. Valorize sua importância!</p>
+
+<h2>Fontes</h2>
+
+<p>A descrição oficial da ocupação está na Classificação Brasileira de Ocupações (CBO). Páginas conferidas em 19 de outubro de 2026.</p>
+
+<ul>
+<li><a href="https://buscadorncm.com.br/cbo/514320" target="_blank" rel="noopener noreferrer">CBO 5143-20, Faxineiro (Ministério do Trabalho e Emprego, via NCM Buscador)</a></li>
+</ul>
