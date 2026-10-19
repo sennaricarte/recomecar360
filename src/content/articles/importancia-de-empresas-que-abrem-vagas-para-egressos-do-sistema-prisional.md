@@ -8,8 +8,8 @@ author: "Senna Ricarte"
 image: "blog/importancia-de-empresas-que-abrem-vagas-para-egressos-do-sistema-prisional.jpg"
 pubDate: 2025-02-27T14:07:42+00:00
 status: "published"
-metaTitle: "A Importância de Empresas que Abrem Vagas para Egressos do Sistema Prisional"
-metaDescription: "A reinserção social de pessoas egressas do sistema prisional é um tema que merece nossa atenção. Muitas vezes, essas pessoas são vistas apenas por seus erros passados, mas a realidade é que todos nós temos o direito de recomeçar.&nbsp;"
+metaTitle: "Empresas que Abrem Vagas para Egressos: Por Que Importa"
+metaDescription: "Veja por que contratar egressos do sistema prisional gera inclusão, reduz a reincidência e contribui para uma sociedade mais justa."
 ---
 
 <p>A reinserção social de pessoas egressas do sistema prisional é um tema que merece nossa atenção. Muitas vezes, essas pessoas são vistas apenas por seus erros passados, mas a realidade é que todos nós temos o direito de recomeçar.&nbsp;</p>

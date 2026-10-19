@@ -8,8 +8,8 @@ author: "Senna Ricarte"
 image: "blog/entendendo-o-bolsa-familia.jpg"
 pubDate: 2025-11-06T19:37:54+00:00
 status: "published"
-metaTitle: "Entendendo o Bolsa Família: Como Funciona e Quem Pode Participar?"
-metaDescription: "Você já ouviu falar do Bolsa Família? Esse programa social tem sido um verdadeiro apoio para milhões de brasileiros, ajudando a combater a pobreza e proporcionando melhores condições de vida."
+metaTitle: "Bolsa Família: Como Funciona e Quem Pode Receber"
+metaDescription: "Entenda como funciona o Bolsa Família, seus objetivos e as etapas para participar. Confirme regras atuais no site oficial do governo."
 ---
 
 <p>Você já ouviu falar do Bolsa Família? Esse programa social tem sido um verdadeiro apoio para milhões de brasileiros, ajudando a combater a pobreza e proporcionando melhores condições de vida. </p>

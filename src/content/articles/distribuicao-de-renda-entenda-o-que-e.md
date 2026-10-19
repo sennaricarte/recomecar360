@@ -8,8 +8,8 @@ author: "Joel Novaes"
 image: "blog/distribuicao-de-renda-entenda-o-que-e.jpg"
 pubDate: 2025-11-24T18:35:19+00:00
 status: "published"
-metaTitle: "Distribuição de Renda: Entenda o Que É, Como é Medida e Por Que Ela é a Chave para um Brasil Mais Justo"
-metaDescription: "A distribuição de renda é um tema central em qualquer debate sobre economia e justiça social. Em poucas palavras, ela reflete como a riqueza e os recursos gerados por um país (como salários, lucros e dividendos) são repartidos entre seus habitantes. O ideal, claro, é que essa distribuição seja a mai"
+metaTitle: "Distribuição de Renda: O Que É e Como É Medida"
+metaDescription: "Entenda o que é distribuição de renda, como ela é medida (Índice de Gini, renda per capita) e por que a desigualdade importa para o Brasil."
 ---
 
 <p>A <strong>distribuição de renda</strong> é um tema central em qualquer debate sobre economia e justiça social. Em poucas palavras, ela reflete como a riqueza e os recursos gerados por um país (como salários, lucros e dividendos) são repartidos entre seus habitantes. O ideal, claro, é que essa distribuição seja a mais equilibrada possível, garantindo que todas as pessoas tenham acesso a condições de vida dignas e a oportunidades.</p>

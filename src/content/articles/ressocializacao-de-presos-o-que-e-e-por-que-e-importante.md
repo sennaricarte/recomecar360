@@ -1,15 +1,15 @@
 ---
 title: "Ressocialização de presos: o que é e por que é importante?"
 slug: "ressocializacao-de-presos-o-que-e-e-por-que-e-importante"
-excerpt: ""
+excerpt: "Entenda o que é ressocialização de presos, quais assistências a execução penal prevê e como o processo reduz a reincidência."
 category: "Blog"
 cluster: "egressos"
 author: "Senna Ricarte"
 image: "blog/ressocializacao-de-presos-o-que-e-e-por-que-e-importante.png"
 pubDate: 2023-03-21T18:56:31+00:00
 status: "published"
-metaTitle: "Ressocialização de presos: o que é e por que é importante?"
-metaDescription: ""
+metaTitle: "Ressocialização de Presos: O Que É e Por Que Importa"
+metaDescription: "Entenda o que é ressocialização de presos, quais assistências a execução penal prevê e como o processo reduz a reincidência."
 ---
 
 A ressocialização de presos é um processo que visa recuperar e reintegrar os indivíduos que cometeram crimes e foram condenados à pena privativa de liberdade ou a penas alternativas à prisão.

@@ -1,15 +1,15 @@
 ---
 title: "População carcerária nas Américas cresce, mas dados sobre egressos são escassos"
 slug: "populacao-carceraria-nas-americas-cresce-mas-dados-sobre-egressos-sao-escassos"
-excerpt: ""
+excerpt: "A população carcerária nas Américas mais que dobrou desde 2000, segundo o World Prison Brief, mas faltam dados sobre egressos."
 category: "Blog"
 cluster: "egressos"
 author: "Senna Ricarte"
 image: "blog/populacao-carceraria-nas-americas-cresce-mas-dados-sobre-egressos-sao-escassos.jpg"
 pubDate: 2023-12-15T20:29:22+00:00
 status: "published"
-metaTitle: "População carcerária nas Américas cresce, mas dados sobre egressos são escassos"
-metaDescription: ""
+metaTitle: "Presos nas Américas Dobram, mas Faltam Dados de Egressos"
+metaDescription: "A população carcerária nas Américas mais que dobrou desde 2000, segundo o World Prison Brief, mas faltam dados sobre egressos."
 ---
 
 A população carcerária nas Américas, excluindo os Estados Unidos, mais do que dobrou desde 2000. No Brasil, a população carcerária multiplicou por 3,5 no mesmo período.

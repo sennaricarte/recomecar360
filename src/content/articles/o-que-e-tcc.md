@@ -8,8 +8,8 @@ author: "Joel Novaes"
 image: "blog/o-que-e-tcc.jpg"
 pubDate: 2025-10-13T16:49:00+00:00
 status: "published"
-metaTitle: "O que é TCC: Entenda o Trabalho de Conclusão de Curso"
-metaDescription: "Se você está prestes a concluir a graduação, com certeza já ouviu falar do TCC. Mas o que é TCC exatamente? O Trabalho de Conclusão de Curso pode parecer um desafio assustador, mas na verdade é uma oportunidade incrível para mostrar todo o conhecimento adquirido ao longo da sua jornada acadêmica."
+metaTitle: "O Que É TCC: Trabalho de Conclusão de Curso"
+metaDescription: "Entenda o que é o TCC, para que serve, como é feito e quais as principais dúvidas de quem está concluindo a graduação."
 ---
 
 <p>Se você está prestes a concluir a graduação, com certeza já ouviu falar do TCC. Mas o que é TCC exatamente? O Trabalho de Conclusão de Curso pode parecer um desafio assustador, mas na verdade é uma oportunidade incrível para mostrar todo o conhecimento adquirido ao longo da sua jornada acadêmica. </p>

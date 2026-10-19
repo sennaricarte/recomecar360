@@ -9,8 +9,8 @@ image: "blog/controle-de-pragas-urbanas-reintegracao-social.jpg"
 pubDate: 2026-01-09T20:07:24+00:00
 updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Controle de Pragas Urbanas: Tudo o que você precisa saber sobre a profissão e o setor"
-metaDescription: "Manter cidades limpas e seguras vai muito além da estética; é uma questão de saúde pública. O controle de pragas urbanas desempenha um papel vital no equilíbrio dos centros urbanos, evitando a proliferação de doenças e protegendo o bem-estar da população. Mas, para o Instituto Recomeçar, esse setor"
+metaTitle: "Controle de Pragas Urbanas: Profissão e Oportunidades"
+metaDescription: "Conheça o setor de controle de pragas urbanas, a profissão e como ele pode ser caminho de reintegração profissional para egressos."
 ---
 
 <p>Manter cidades limpas e seguras vai muito além da estética; é uma questão de saúde pública. O <strong>controle de pragas urbanas</strong> desempenha um papel vital no equilíbrio dos centros urbanos, evitando a proliferação de doenças e protegendo o bem-estar da população. Mas, para o <strong>Instituto Recomeçar</strong>, esse setor representa algo a mais: uma oportunidade concreta de transformação de vida e reintegração profissional.</p>

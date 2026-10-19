@@ -1,15 +1,15 @@
 ---
 title: "O que é o Pop Rua e como ele ajuda a população em situação de rua em São Paulo"
 slug: "o-que-e-o-pop-rua-e-como-ele-ajuda-a-populacao-em-situacao-de-rua-em-sao-paulo"
-excerpt: ""
+excerpt: "Entenda o Pop Rua, programa da Prefeitura de São Paulo para inclusão social e cidadania da população em situação de rua."
 category: "Blog"
 cluster: "beneficios"
 author: "Joel Novaes"
 image: "blog/o-que-e-o-pop-rua-e-como-ele-ajuda-a-populacao-em-situacao-de-rua-em-sao-paulo.jpg"
 pubDate: 2024-01-24T12:53:13+00:00
 status: "published"
-metaTitle: "O que é o Pop Rua e como ele ajuda a população em situação de rua em São Paulo"
-metaDescription: ""
+metaTitle: "O Que É o Pop Rua e Como Ajuda em São Paulo"
+metaDescription: "Entenda o Pop Rua, programa da Prefeitura de São Paulo para inclusão social e cidadania da população em situação de rua."
 ---
 
 <div class="content">

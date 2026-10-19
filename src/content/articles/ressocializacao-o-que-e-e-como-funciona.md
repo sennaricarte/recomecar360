@@ -1,15 +1,15 @@
 ---
 title: "Ressocialização: O que é e como funciona"
 slug: "ressocializacao-o-que-e-e-como-funciona"
-excerpt: ""
+excerpt: "Entenda o que é ressocialização, como funciona o processo de reintegração à sociedade e por que ele reduz a reincidência."
 category: "Blog"
 cluster: "egressos"
 author: "Joel Novaes"
 image: "blog/ressocializacao-o-que-e-e-como-funciona.jpg"
 pubDate: 2024-02-14T15:28:56+00:00
 status: "published"
-metaTitle: "Ressocialização: O que é e como funciona"
-metaDescription: ""
+metaTitle: "Ressocialização: O Que É e Como Funciona"
+metaDescription: "Entenda o que é ressocialização, como funciona o processo de reintegração à sociedade e por que ele reduz a reincidência."
 ---
 
 <div class="content">

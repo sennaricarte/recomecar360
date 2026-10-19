@@ -1,15 +1,15 @@
 ---
 title: "Vida pós cárcere"
 slug: "vida-pos-carcere"
-excerpt: ""
+excerpt: "Claudinei Ribeiro da Silva, 49 anos, conta como recomeçou após o cárcere e prega persistência aos egressos atendidos pelo Recomeçar."
 category: "Blog"
 cluster: "egressos"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2020-10-05T12:44:54+00:00
 status: "published"
-metaTitle: "Vida pós cárcere"
-metaDescription: ""
+metaTitle: "Vida Pós-Cárcere: a História de Claudinei Ribeiro"
+metaDescription: "Claudinei Ribeiro da Silva, 49 anos, conta como recomeçou após o cárcere e prega persistência aos egressos atendidos pelo Recomeçar."
 ---
 
 <h2 style="text-align: center">Recomeçar a vida após um longo período dentro cárcere não é uma missão simples.</h2>

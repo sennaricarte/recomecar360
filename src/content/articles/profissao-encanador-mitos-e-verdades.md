@@ -9,8 +9,8 @@ image: "blog/profissao-encanador-mitos-e-verdades.jpg"
 pubDate: 2025-11-15T15:05:06+00:00
 updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Profissão Encanador: Mitos e Verdades sobre essa Atividade Fundamental"
-metaDescription: "Você já parou para pensar na importância do encanador em nossas vidas? Essa profissão, muitas vezes subestimada, é fundamental para o funcionamento das casas e empresas. Mas ao longo dos anos, vários mitos surgiram sobre essa atividade que vão muito além de simples consertos de canos."
+metaTitle: "Profissão Encanador: Mitos e Verdades"
+metaDescription: "Descubra os mitos e as verdades sobre a profissão de encanador, uma atividade essencial para casas e empresas, com oportunidades de trabalho."
 ---
 
 <p>Você já parou para pensar na importância do encanador em nossas vidas? Essa profissão, muitas vezes subestimada, é fundamental para o funcionamento das casas e empresas. Mas ao longo dos anos, vários mitos surgiram sobre essa atividade que vão muito além de simples consertos de canos. </p>

@@ -1,15 +1,15 @@
 ---
 title: "ONGs que ajudam ex-presidiários"
 slug: "ongs-que-ajudam-ex-presidiarios"
-excerpt: ""
+excerpt: "Conheça ONGs que apoiam egressos do sistema prisional com educação, qualificação e assistência jurídica, além do Instituto Recomeçar."
 category: "Blog"
 cluster: "egressos"
 author: "Senna Ricarte"
 image: "blog/ongs-que-ajudam-ex-presidiarios.jpg"
 pubDate: 2023-12-08T13:22:48+00:00
 status: "published"
-metaTitle: "ONGs que ajudam ex-presidiários"
-metaDescription: ""
+metaTitle: "ONGs que Ajudam Ex-Presidiários no Brasil"
+metaDescription: "Conheça ONGs que apoiam egressos do sistema prisional com educação, qualificação e assistência jurídica, além do Instituto Recomeçar."
 ---
 
 Você sabia que além do <a href="/quem-somos/">Instituto Recomeçar</a> existem diversas ONGs que ajudam ex-presidiários a se reposicionar na sociedade?

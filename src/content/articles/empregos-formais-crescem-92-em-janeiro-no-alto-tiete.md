@@ -1,7 +1,7 @@
 ---
 title: "Empregos formais crescem 92% em janeiro no Alto Tietê"
 slug: "empregos-formais-crescem-92-em-janeiro-no-alto-tiete"
-excerpt: ""
+excerpt: "Notícia de 2021: o Alto Tietê gerou 1.446 vagas formais em janeiro, contra 752 no ano anterior, segundo o Caged. Poá ficou em 3º."
 category: "Blog"
 cluster: "emprego-e-cursos"
 author: "Joel Novaes"
@@ -9,8 +9,8 @@ image: "blog/_placeholder.svg"
 pubDate: 2021-07-06T13:22:04+00:00
 noindex: true
 status: "published"
-metaTitle: "Empregos formais crescem 92% em janeiro no Alto Tietê"
-metaDescription: ""
+metaTitle: "Empregos Formais Crescem 92% no Alto Tietê (2021)"
+metaDescription: "Notícia de 2021: o Alto Tietê gerou 1.446 vagas formais em janeiro, contra 752 no ano anterior, segundo o Caged. Poá ficou em 3º."
 ---
 
 <h2>Em comparação ao mesmo período de 2020, empregos formais crescem 92% em janeiro no Alto Tietê.</h2>

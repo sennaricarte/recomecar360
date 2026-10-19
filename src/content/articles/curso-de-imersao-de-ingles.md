@@ -8,8 +8,8 @@ author: "Joel Novaes"
 image: "blog/curso-de-imersao-de-ingles.jpg"
 pubDate: 2025-08-27T13:21:33+00:00
 status: "published"
-metaTitle: "Curso de Imersão em Inglês: Como Funciona e Vale a Pena"
-metaDescription: "Imaginar-se assistindo a um filme sem legendas ou tendo uma conversa casual com estrangeiros sem suar frio pode parecer um sonho distante para muitos. Mas e se eu te disser que mergulhar de cabeça em um ambiente onde tudo acontece em inglês pode transformar esse desejo em realidade mais rapidamente"
+metaTitle: "Curso de Imersão de Inglês: Como Funciona"
+metaDescription: "Veja como funciona a imersão em inglês, quais os benefícios do método e o que considerar antes de escolher um curso."
 ---
 
 <h2>Você já pensou em viver uma experiência de imersão em inglês?</h2>

@@ -1,15 +1,15 @@
 ---
 title: "Maternidade digna - Marco Legal da Primeira Infância"
 slug: "maternidade-digna-marco-legal-da-primeira-infancia"
-excerpt: ""
+excerpt: "Entenda o Marco Legal da Primeira Infância (2016) e as novas hipóteses de prisão domiciliar para mães de crianças pequenas."
 category: "Blog"
 cluster: "beneficios"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-05-05T13:13:54+00:00
 status: "published"
-metaTitle: "Maternidade digna - Marco Legal da Primeira Infância"
-metaDescription: ""
+metaTitle: "Maternidade Digna: Marco Legal da Primeira Infância"
+metaDescription: "Entenda o Marco Legal da Primeira Infância (2016) e as novas hipóteses de prisão domiciliar para mães de crianças pequenas."
 ---
 
 Em 2016, o Brasil aprovou o <a href="https://crianca.mppr.mp.br/pagina-2189.html#:~:text=Lei%20n%C2%BA%2013.257%2F2016%3A%20Uma,p%C3%BAblicas%20para%20a%20primeira%20inf%C3%A2ncia." target="_blank" rel="noopener"><strong>Marco Legal da Primeira Infância</strong></a>, que entre outras proteções a crianças de até 6 anos, modificou o artigo 318 do Código de Processo Penal para incluir novas hipóteses de prisão domiciliar.

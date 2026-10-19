@@ -1,7 +1,7 @@
 ---
 title: "Senado proíbe despejo e desocupação até o fim de 2021"
 slug: "senado-proibe-despejo-e-desocupacao-ate-o-fim-de-2021"
-excerpt: ""
+excerpt: "Notícia de 2021: o Senado aprovou o PL 827/2020, que proibia despejo e desocupação de imóveis até o fim de 2021. Conteúdo histórico."
 category: "Blog"
 cluster: "beneficios"
 author: "Senna Ricarte"
@@ -9,8 +9,8 @@ image: "blog/_placeholder.svg"
 pubDate: 2021-06-29T13:21:16+00:00
 noindex: true
 status: "published"
-metaTitle: "Senado proíbe despejo e desocupação até o fim de 2021"
-metaDescription: ""
+metaTitle: "Senado Proíbe Despejo até o Fim de 2021 (Notícia)"
+metaDescription: "Notícia de 2021: o Senado aprovou o PL 827/2020, que proibia despejo e desocupação de imóveis até o fim de 2021. Conteúdo histórico."
 ---
 
 <h2 style="text-align: center">Senado aprovado projeto que proíbe despejo e desocupação até o fim de 2021.</h2>

@@ -8,8 +8,8 @@ author: "Joel Novaes"
 image: "blog/guia-curriculo-perfeito-pat.jpg"
 pubDate: 2026-02-02T19:38:33+00:00
 status: "published"
-metaTitle: "Guia do Currículo Perfeito para o PAT: Conquiste sua Vaga no Recomeço"
-metaDescription: "Conseguir uma vaga de emprego é o primeiro grande passo para quem deseja dar um novo rumo à vida. Aqui no Instituto Recomeçar, sabemos que o caminho pode parecer difícil, especialmente para quem está saindo do sistema prisional ou enfrentando um longo tempo fora do mercado."
+metaTitle: "Currículo Perfeito para o PAT: Guia para Conseguir Vaga"
+metaDescription: "Aprenda a montar um currículo claro para o Posto de Atendimento ao Trabalhador (PAT) e aumentar suas chances de conseguir uma vaga."
 ---
 
 <p>Conseguir uma vaga de emprego é o primeiro grande passo para quem deseja dar um novo rumo à vida. Aqui no <strong>Instituto Recomeçar</strong>, sabemos que o caminho pode parecer difícil, especialmente para quem está saindo do sistema prisional ou enfrentando um longo tempo fora do mercado.</p>

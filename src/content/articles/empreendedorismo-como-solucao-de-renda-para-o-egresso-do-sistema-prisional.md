@@ -1,15 +1,15 @@
 ---
 title: "Empreendedorismo como Solução de renda para o Egresso do Sistema Prisional"
 slug: "empreendedorismo-como-solucao-de-renda-para-o-egresso-do-sistema-prisional"
-excerpt: ""
+excerpt: "Veja como o empreendedorismo pode ser uma alternativa de renda para egressos do sistema prisional e quais passos dar para começar."
 category: "Blog"
 cluster: "egressos"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2020-11-03T12:54:45+00:00
 status: "published"
-metaTitle: "Empreendedorismo como Solução de renda para o Egresso do Sistema Prisional"
-metaDescription: ""
+metaTitle: "Empreendedorismo como Renda para Egressos"
+metaDescription: "Veja como o empreendedorismo pode ser uma alternativa de renda para egressos do sistema prisional e quais passos dar para começar."
 ---
 
 <h2 style="text-align: center">O Brasil tem a alma empreendedora, mas tem cultura CLT.</h2>

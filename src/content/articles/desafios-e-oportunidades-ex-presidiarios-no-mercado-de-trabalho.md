@@ -1,15 +1,15 @@
 ---
 title: "Desafios e Oportunidades: Ex-Presidiários no Mercado de Trabalho"
 slug: "desafios-e-oportunidades-ex-presidiarios-no-mercado-de-trabalho"
-excerpt: ""
+excerpt: "Veja os desafios de egressos ao buscar emprego, como o preconceito, e as oportunidades que existem para recomeçar no mercado de trabalho."
 category: "Blog"
 cluster: "egressos"
 author: "Joel Novaes"
 image: "blog/desafios-e-oportunidades-ex-presidiarios-no-mercado-de-trabalho.png"
 pubDate: 2024-01-15T18:47:56+00:00
 status: "published"
-metaTitle: "Desafios e Oportunidades: Ex-Presidiários no Mercado de Trabalho"
-metaDescription: ""
+metaTitle: "Ex-Presidiários no Mercado de Trabalho: Desafios"
+metaDescription: "Veja os desafios de egressos ao buscar emprego, como o preconceito, e as oportunidades que existem para recomeçar no mercado de trabalho."
 ---
 
 <h2>Você já se perguntou se ex-presidiários têm a chance de encontrar emprego após cumprir sua pena?</h2>

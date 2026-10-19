@@ -1,7 +1,7 @@
 ---
 title: "O que é o ENCCEJA e por que ele é importante?"
 slug: "o-que-e-o-encceja-e-por-que-ele-e-importante"
-excerpt: ""
+excerpt: "Entenda o que é o Encceja, exame do Inep que certifica o ensino fundamental e médio de jovens e adultos, e para quem ele serve."
 category: "Blog"
 cluster: "emprego-e-cursos"
 author: "Senna Ricarte"
@@ -9,8 +9,8 @@ image: "blog/o-que-e-o-encceja-e-por-que-ele-e-importante.jpg"
 pubDate: 2024-03-13T17:29:28+00:00
 updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "O que é o ENCCEJA e por que ele é importante?"
-metaDescription: ""
+metaTitle: "O Que É o Encceja e Por Que Ele Importa"
+metaDescription: "Entenda o que é o Encceja, exame do Inep que certifica o ensino fundamental e médio de jovens e adultos, e para quem ele serve."
 ---
 
 <div class="content">

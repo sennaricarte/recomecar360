@@ -1,7 +1,7 @@
 ---
 title: "Estamos na era da Carteira de Trabalho Digital"
 slug: "estamos-na-era-da-carteira-de-trabalho-digital"
-excerpt: ""
+excerpt: "Entenda o que é a Carteira de Trabalho Digital (CTPS), como ela substitui a versão em papel e o que o trabalhador precisa saber."
 category: "Blog"
 cluster: "emprego-e-cursos"
 author: "Senna Ricarte"
@@ -9,8 +9,8 @@ image: "blog/estamos-na-era-da-carteira-de-trabalho-digital.jpg"
 pubDate: 2024-02-02T18:26:13+00:00
 updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Estamos na era da Carteira de Trabalho Digital"
-metaDescription: ""
+metaTitle: "Carteira de Trabalho Digital: Como Funciona"
+metaDescription: "Entenda o que é a Carteira de Trabalho Digital (CTPS), como ela substitui a versão em papel e o que o trabalhador precisa saber."
 ---
 
 No universo profissional brasileiro, a Carteira de Trabalho e Previdência Social (CTPS) sempre foi, inegavelmente, um fiel companheiro, um registro tangível das jornadas laborais, das conquistas e dos desafios enfrentados por cada trabalhador.

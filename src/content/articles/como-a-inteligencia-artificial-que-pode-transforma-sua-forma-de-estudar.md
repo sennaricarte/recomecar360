@@ -8,8 +8,8 @@ author: "Joel Novaes"
 image: "blog/como-a-inteligencia-artificial-que-pode-transforma-sua-forma-de-estudar.jpg"
 pubDate: 2025-02-24T12:10:57+00:00
 status: "published"
-metaTitle: "Como a Inteligência Artificial Que Pode Transforma Sua Forma de Estudar"
-metaDescription: "Você já parou para pensar em como a inteligência artificial pode transformar sua forma de estudar? Nos dias de hoje, a tecnologia está ao nosso redor e, com ela, surgem ferramentas incríveis que podem potencializar o aprendizado."
+metaTitle: "Inteligência Artificial para Estudar: 5 Ferramentas"
+metaDescription: "Conheça 5 ferramentas de inteligência artificial que ajudam a organizar o estudo, otimizar o tempo e aprender com mais eficiência."
 ---
 
 <p>Você já parou para pensar em como a inteligência artificial pode transformar sua forma de estudar? Nos dias de hoje, a tecnologia está ao nosso redor e, com ela, surgem ferramentas incríveis que podem potencializar o aprendizado.</p>
