@@ -123,6 +123,9 @@ const articleJsonLd = {
     jsonLd={[articleJsonLd]}
     breadcrumbs={breadcrumbItems}
     noindex={article.data.noindex}
+    ogType="article"
+    publishedTime={article.data.pubDate.toISOString()}
+    modifiedTime={article.data.updatedDate?.toISOString()}
   />
   <JoinAdsScript slot="head" />
 

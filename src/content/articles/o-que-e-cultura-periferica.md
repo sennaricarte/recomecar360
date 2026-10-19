@@ -9,7 +9,7 @@ image: "blog/o-que-e-cultura-periferica.jpg"
 pubDate: 2025-10-27T14:42:42+00:00
 updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "O Que É Cultura Periférica: Origens e Exemplos"
+metaTitle: "Cultura Periférica: O Que É, Origens e Exemplos"
 metaDescription: "Entenda o que é cultura periférica, como surgiu e seus exemplos: sarau, slam, hip hop, funk e literatura marginal. Com fontes e projetos reais."
 ---
 

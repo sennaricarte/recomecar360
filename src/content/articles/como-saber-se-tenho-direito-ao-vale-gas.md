@@ -9,7 +9,7 @@ image: "blog/como-saber-se-tenho-direito-ao-vale-gas.jpg"
 pubDate: 2025-11-06T19:59:47+00:00
 updatedDate: 2026-10-15T12:00:00+00:00
 status: "published"
-metaTitle: "Gás do Povo (Vale Gás): Como Saber se Tenho Direito"
+metaTitle: "Vale Gás 2026: Como Consultar se Tenho Direito (Gás do Povo)"
 metaDescription: "Veja se você tem direito ao Gás do Povo, o novo vale gás: regras do CadÚnico, renda, recargas por ano e como consultar pelo app Meu Social."
 ---
 
