@@ -15,6 +15,9 @@ metaDescription: ""
 <h2>Em comparação ao mesmo período de 2020, empregos formais crescem 92% em janeiro no Alto Tietê.</h2>
 Em janeiro do ano passado, foram criados 752 postos de trabalho. Já neste ano foram gerados 1.446. Poá ficou na terceira colocação no ranking dos municípios que mais empregou neste período.
 
+
+
+<p><strong>Atenção:</strong> esta é uma notícia de 2021. Os dados são do Caged de janeiro de 2021, e "este ano" e "ano passado" se referem a 2021 e 2020.</p>
 O número de empregos formais cresceu 92,29% em janeiro deste ano no Alto Tietê em comparação ao mesmo período do ano passado.
 
 No primeiro mês do ano passado, foram criados 752 postos de trabalho. Já neste ano foram gerados 1.446 vagas com carteira assinada.

@@ -1,5 +1,5 @@
 ---
-title: "Como Consultar o PIS/PASEP: Guia Completo para Saber se Você Tem Direito ao Abono Salarial e Cotas"
+title: "Como Consultar o PIS/PASEP: Abono Salarial 2026 e Cotas"
 slug: "como-consultar-o-pis-pasep"
 excerpt: "Você já se perguntou como saber se tenho PIS/PASEP para receber? Se sim, você está no lugar certo! O abono salarial pode ser uma ajuda extra muito bem-vinda para o seu orçamento."
 category: "Blog"
@@ -7,9 +7,10 @@ cluster: "emprego-e-cursos"
 author: "Joel Novaes"
 image: "blog/como-consultar-o-pis-pasep.jpg"
 pubDate: 2025-11-06T19:18:17+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Como Consultar o PIS/PASEP: Guia Completo para Saber se Você Tem Direito ao Abono Salarial e Cotas"
-metaDescription: "Você já se perguntou como saber se tenho PIS/PASEP para receber? Se sim, você está no lugar certo! O abono salarial pode ser uma ajuda extra muito bem-vinda para o seu orçamento."
+metaTitle: "Como Consultar o PIS/PASEP e o Abono Salarial 2026"
+metaDescription: "Veja como consultar o PIS/PASEP pelo CPF, quem tem direito ao abono salarial em 2026, o valor, o prazo até 30/12 e o que fazer se não caiu."
 ---
 
 <p>Você já se perguntou como saber se tenho PIS/PASEP para receber? Se sim, você está no lugar certo! O abono salarial pode ser uma ajuda extra muito bem-vinda para o seu orçamento. </p>
@@ -34,69 +35,31 @@ metaDescription: "Você já se perguntou como saber se tenho PIS/PASEP para rece
 
 <p>O abono salarial anual é um benefício destinado a trabalhadores que atendem aos critérios do PIS/PASEP. Ele proporciona um valor extra, pago uma vez por ano, e pode ser crucial para ajudar nas despesas do dia a dia.<br><br>Por outro lado, as cotas antigas referem-se ao saldo acumulado em contas de trabalhadores que atuaram entre 1971 e 1988. Essas cotas são diferentes do abono e requerem consulta específica para verificação dos valores disponíveis a receber.</p>
 
-<h2 class="wp-block-heading">Abono Salarial: Quem Tem Direito ao PIS/PASEP em 2025</h2>
+<h2 class="wp-block-heading">Abono Salarial: quem tem direito em 2026</h2>
 
 <figure class="wp-block-image aligncenter size-full"><img src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/774c04d6-1b8f-490a-891e-4bbff1f1a40b/como-consultar-o-pis-pasep-02.jpg" alt="Como Consultar o PIS/PASEP" class="wp-image-7375"/></figure>
 
-<p>O abono salarial é um direito de muitos trabalhadores, mas nem todos têm acesso. Para receber o PIS/PASEP em 2025, você precisa atender a alguns critérios. Ser registrado sob o regime CLT ou ser servidor público são os primeiros passos.<br><br>Além disso, é necessário ter trabalhado por pelo menos 30 dias no ano-base e recebido até dois salários mínimos mensais. Fique atento para garantir seu benefício!</p>
+<p>Segundo o gov.br, o pagamento de 2026 usa o ano-base 2024. Em 2026, o critério de renda é a <strong>média mensal de até R$ 2.766,00</strong> no ano-base. As regras podem mudar a cada ano, então confirme na página oficial.</p>
 
-<h3 class="wp-block-heading">Os 4 Requisitos Obrigatórios para Receber o Abono</h3>
+<h3 class="wp-block-heading">Requisitos para receber</h3>
 
-<p>Para ter direito ao abono salarial do PIS/PASEP, é preciso atender a quatro requisitos principais. Primeiro, o trabalhador deve estar cadastrado no programa há pelo menos cinco anos. Além disso, é necessário ter recebido até dois salários mínimos mensais durante o ano-base.<br><br>Outro ponto importante é que ele precisa ter trabalhado oficialmente por pelo menos 30 dias nesse período. Por fim, a informação sobre os dados deve estar correta na RAIS ou eSocial para garantir o pagamento.</p>
+<ul>
+<li>ter trabalhado para empregador que contribui para o PIS ou para o Pasep;</li>
+<li>ter exercido atividade remunerada por pelo menos <strong>30 dias</strong>, seguidos ou não, no ano-base;</li>
+<li>estar cadastrado no PIS-Pasep há pelo menos <strong>5 anos</strong>;</li>
+<li>ter remuneração dentro do limite de renda do ano;</li>
+<li>ter os dados informados corretamente pelo empregador no eSocial dentro do prazo.</li>
+</ul>
 
-<h3 class="wp-block-heading">Como o Valor do Abono Salarial é Calculado</h3>
+<h3 class="wp-block-heading">Como o valor é calculado</h3>
 
-<p>O valor do abono salarial é calculado com base no tempo de serviço e no salário mínimo vigente. Para o PIS, trabalhadores da iniciativa privada recebem um pagamento proporcional aos meses trabalhados durante o ano-base.<br><br>Já para o PASEP, servidores públicos têm um cálculo semelhante. Em geral, quanto mais tempo você trabalhou registrado, maior será o valor a ser recebido. Essa fórmula garante que todos tenham acesso justo ao benefício.</p>
+<p>O valor é o salário mínimo dividido por 12 e multiplicado pelos meses trabalhados no ano-base. Com o salário mínimo de R$ 1.621,00 em 2026, 1 mês rende R$ 136,00, 6 meses rendem R$ 811,00 e 12 meses rendem R$ 1.621,00.</p>
 
-<h3 class="wp-block-heading">Calendário de Pagamento do PIS/PASEP 2025</h3>
+<h3 class="wp-block-heading">Calendário de 2026</h3>
 
-<p>O calendário de pagamento do PIS/PASEP é fundamental para os trabalhadores que desejam receber o abono salarial. A data de recebimento varia conforme o mês de nascimento no caso do PIS e a inscrição final para o PASEP. É importante ficar atento ao cronograma oficial para não perder nenhum prazo.<br><br>Para consultar as datas exatas, você pode acessar o site da Caixa Econômica Federal ou do Banco do Brasil. Assim, você garante que está sempre informado!</p>
+<p>O pagamento é unificado pelo mês de nascimento. As datas de 2026 vão de fevereiro a agosto, e os valores ficam disponíveis até <strong>30 de dezembro de 2026</strong>. O PIS é pago pela Caixa e o Pasep, pelo Banco do Brasil.</p>
 
-<div style="overflow-x: auto;">
-    <table style="width: 100%; min-width: 500px; border-collapse: collapse; text-align: center; font-size: 14px;">
-        <thead>
-            <tr style="background-color: #007bff; color: white;">
-                <th style="border: 1px solid #0056b3; padding: 12px; font-weight: bold;">Mês de Nascimento (PIS) / Final da Inscrição (PASEP)</th>
-                <th style="border: 1px solid #0056b3; padding: 12px; font-weight: bold;">Recebem a Partir de</th>
-                <th style="border: 1px solid #0056b3; padding: 12px; font-weight: bold;">Prazo Final para Saque</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e9f5ff;">Janeiro</td>
-                <td style="border: 1px solid #ddd; padding: 10px;">17 de Fevereiro de 2025</td>
-                <td style="border: 1px solid #ddd; padding: 10px; background-color: #fff8e1;" rowspan="6">29 de Dezembro de 2025</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e9f5ff;">Fevereiro</td>
-                <td style="border: 1px solid #ddd; padding: 10px;">17 de Março de 2025</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e9f5ff;">Março e Abril</td>
-                <td style="border: 1px solid #ddd; padding: 10px;">15 de Abril de 2025</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e9f5ff;">Maio e Junho</td>
-                <td style="border: 1px solid #ddd; padding: 10px;">15 de Maio de 2025</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e9f5ff;">Julho e Agosto</td>
-                <td style="border: 1px solid #ddd; padding: 10px;">16 de Junho de 2025</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e9f5ff;">Setembro e Outubro</td>
-                <td style="border: 1px solid #ddd; padding: 10px;">15 de Julho de 2025</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold; background-color: #e9f5ff;">Novembro e Dezembro</td>
-                <td style="border: 1px solid #ddd; padding: 10px;">15 de Agosto de 2025</td>
-                <td style="border: 1px solid #ddd; padding: 10px; background-color: #fff8e1;">29 de Dezembro de 2025</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-<p style="margin-top: 15px; font-size: 0.9em; color: #555;"><strong>Lembrete:</strong> A data limite para o saque é a mesma para todos os grupos. A partir de 2024, o calendário foi unificado para PIS (Caixa) e PASEP (BB).</p>
+<p>Veja a tabela completa na página <a href="https://www.gov.br/pt-br/servicos/receber-o-abono-salarial" target="_blank" rel="noopener noreferrer">Receber o Abono Salarial, no gov.br</a>. Você também consulta na Carteira de Trabalho Digital.</p>
 
 <h2 class="wp-block-heading">Guia de Consulta: Como Consultar o PIS/PASEP pelo CPF (Passo a Passo)</h2>
 
@@ -126,17 +89,17 @@ metaDescription: "Você já se perguntou como saber se tenho PIS/PASEP para rece
 
 <p>Se você trabalhou entre 1971 e 1988, pode ter direito a cotas do PIS/PASEP. Muitas pessoas não sabem que esses valores ainda estão disponíveis para saque. É importante ficar atento, pois essas cotas podem representar um dinheiro esquecido.<br><br>Para verificar se você tem algum valor a receber, é possível consultar pelo sistema Repis Cidadão ou diretamente na CAIXA. Não deixe de conferir!</p>
 
-<h3 class="wp-block-heading">Entenda a Extinção do Fundo e a Transferência para o FGTS</h3>
+<h3 class="wp-block-heading">As cotas seguem regras próprias</h3>
 
-<p>A extinção do Fundo PIS/PASEP ocorreu em 2019, quando o governo decidiu transferir os valores para o FGTS. Essa mudança visou facilitar a gestão dos recursos e garantir mais segurança aos trabalhadores.<br><br>Agora, as cotas antigas de quem trabalhou entre 1971 e 1988 estão vinculadas ao FGTS. Isso significa que você pode ter direito a um valor adicional, dependendo da sua situação trabalhista. É essencial ficar atento!</p>
+<p>As cotas de quem trabalhou entre 1971 e 1988 não são o abono anual. Elas têm regras e canais próprios. Neste artigo não confirmamos prazos nem valores dessas cotas. Consulte a Caixa, para o PIS, ou o Banco do Brasil, para o Pasep.</p>
 
 <h3 class="wp-block-heading">Como Consultar as Cotas Remanescentes (Sistema Repis Cidadão e CAIXA)</h3>
 
 <p>Consultar as cotas remanescentes é simples. Acesse o Sistema Repis Cidadão, disponível no site da Caixa Econômica Federal. Nele, você encontrará informações sobre suas cotas antigas e como proceder para recebê-las.<br><br>Outra opção é ir diretamente à <a href="https://www.caixa.gov.br/Paginas/home-caixa.aspx" target="_blank" rel="noreferrer noopener">agência da CAIXA</a> mais próxima. Os atendentes poderão ajudá-lo com qualquer dúvida e fornecer orientações específicas sobre o seu caso. Não deixe de verificar se tem valores a receber!</p>
 
-<h3 class="wp-block-heading">Procedimento de Saque das Cotas e Prazo Limite</h3>
+<h3 class="wp-block-heading">Como sacar as cotas</h3>
 
-<p>Para sacar as cotas do PIS/PASEP, é necessário apresentar documentos como RG e CPF. Além disso, o trabalhador deve estar atento ao local de atendimento, que pode ser na Caixa Econômica Federal ou no Banco do Brasil.<br><br>O prazo limite para realizar o saque varia conforme a data de nascimento ou inscrição. Por isso, fique sempre informado! Não deixe passar essa oportunidade de acessar seus valores acumulados.</p>
+<p>Leve documento com foto e CPF ao banco responsável e pergunte quais outros documentos são exigidos no seu caso. Prazos e condições mudam, então confirme antes de ir.</p>
 
 <h2 class="wp-block-heading">O Que Fazer se o PIS/PASEP Não Caiu na Conta?</h2>
 
@@ -150,13 +113,13 @@ metaDescription: "Você já se perguntou como saber se tenho PIS/PASEP para rece
 
 <p>Se você não recebeu o pagamento do PIS/PASEP, a primeira coisa a fazer é verificar se seus dados cadastrais estão corretos. Acesse o eSocial ou consulte sua RAIS para garantir que todas as informações estão atualizadas.<br><br>Caso tudo esteja certo e ainda assim o pagamento não tenha caído na conta, entre em contato com os canais oficiais da Caixa Econômica Federal ou do Banco do Brasil. Eles podem orientar sobre como recorrer dessa situação.</p>
 
-<h3 class="wp-block-heading">Quem Não Tem Direito ao Abono Salarial? (Ex: Empregado Doméstico)</h3>
+<h3 class="wp-block-heading">Quem não recebe o abono?</h3>
 
-<p>Nem todos têm direito ao abono salarial. Os empregados domésticos, por exemplo, estão fora dessa lista. Embora desempenhem um papel fundamental em muitas famílias, eles não podem acessar esse benefício.<br><br>Outro grupo que não tem direito inclui trabalhadores autônomos e aqueles com jornada inferior a 30 horas semanais. É importante conhecer as regras para evitar confusões na hora de buscar o abono.</p>
+<p>Não recebe quem não cumpre algum requisito acima. Por exemplo: não ter trabalhado para empregador contribuinte do PIS/Pasep, ter menos de 30 dias de trabalho no ano-base, ter menos de 5 anos de cadastro, ou ter média de remuneração acima do limite do ano. Em dúvida, ligue para o Alô Trabalho, no 158.</p>
 
-<h3 class="wp-block-heading">Qual o prazo para sacar o PIS/PASEP?</h3>
+<h3 class="wp-block-heading">Qual o prazo para sacar o abono?</h3>
 
-<p>O prazo para sacar o PIS/PASEP varia conforme o calendário definido pelo governo. Geralmente, os valores ficam disponíveis durante um ano após a liberação. Por isso, é fundamental ficar atento às datas e não deixar para a última hora.<br><br>Caso você perca esse período, poderá ter dificuldades em acessar os recursos. Portanto, sempre verifique quando seu benefício estará disponível e programe-se para efetuar o saque assim que possível.</p>
+<p>Em 2026, os valores ficam disponíveis até 30 de dezembro, segundo o gov.br. Quem não sacar dentro do prazo pode perder o direito daquele ano. Confira a data na página oficial.</p>
 
 <h3 class="wp-block-heading">O número do PIS é o mesmo que o número do NIT?</h3>
 
@@ -165,3 +128,11 @@ metaDescription: "Você já se perguntou como saber se tenho PIS/PASEP para rece
 <h2 class="wp-block-heading">Conclusão</h2>
 
 <p>A consulta ao PIS/PASEP é um passo importante para garantir seus direitos trabalhistas. Com as informações corretas e os passos adequados, você pode verificar se tem direito ao abono salarial e às cotas remanescentes. Lembre-se de ficar atento aos prazos e requisitos necessários. Se surgirem dúvidas ou dificuldades, não hesite em buscar ajuda nos canais oficiais ou consultar especialistas na área. Manter-se informado é essencial para que você receba tudo o que merece!</p>
+
+<h2>Fontes</h2>
+
+<p>Conferidas em 19 de outubro de 2026. Regras, valores e datas mudam a cada ano.</p>
+
+<ul>
+<li><a href="https://www.gov.br/pt-br/servicos/receber-o-abono-salarial" target="_blank" rel="noopener noreferrer">Receber o Abono Salarial — gov.br</a></li>
+</ul>

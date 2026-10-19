@@ -14,9 +14,12 @@ metaDescription: ""
 
 Você morador da capital pernambucana, já ouviu falar sobre o Qualifica Recife? Se ainda não, prepare-se para descobrir uma porta de entrada para o mercado de trabalho e uma chance incrível de aprimorar suas habilidades profissionais.
 
+
+
+<p><strong>Atenção:</strong> este texto foi escrito em janeiro de 2024 com base no regulamento da época. cursos, vagas, prazos e a emissão de certificado (que pode ser paga) mudam sem aviso. Confirme no site oficial antes de se inscrever.</p>
 Este é um programa inovador da <a href="https://www2.recife.pe.gov.br/" target="_blank" rel="noopener">Prefeitura da Cidade do Recife</a>, focado em proporcionar cursos de qualificação profissional que acontecem nas renomadas Escolas de Educação Profissional da Secretaria de Trabalho, Qualificação e Empreendedorismo.
 <h2><strong>Qualifica Recife em Detalhes:</strong></h2>
-Mas afinal, o que é o Qualifica Recife? Trata-se de cursos básicos, com aproximadamente cinco meses de duração, desenhados para capacitar a população recifense para as exigências do mercado de trabalho.
+Mas afinal, o que é o Qualifica Recife? Trata-se de cursos de qualificação profissional das Escolas de Educação Profissional da Prefeitura do Recife. Em editais anteriores, os cursos básicos duravam cerca de cinco meses. A duração e as vagas mudam a cada edital.
 
 Estes cursos oferecem formação inicial e continuada, possibilitando assim, a aquisição e/ou complementação de conhecimentos em diversas áreas.
 
@@ -34,7 +37,7 @@ Ah, os critérios de seleção são fundamentais, certo? Para garantir sua vaga,
 
 Certifique-se de cumprir os requisitos detalhados para cada curso disponibilizado pelas Escolas de Educação Profissional.
 
-Importante ressaltar que não é possível estar cursando outro programa nas escolas ou ter abandonado algum curso nos últimos seis meses. A classificação segue a ordem de inscrição.
+Importante: segundo o regulamento consultado quando este texto foi escrito, não era possível estar cursando outro programa nas escolas nem ter abandonado algum curso nos últimos seis meses. A classificação seguia a ordem de inscrição. Leia o regulamento do edital atual.
 
 <strong>Descubra sua Classificação:</strong>
 
@@ -44,11 +47,11 @@ Se a turma não for preenchida com as matrículas dos primeiros classificados, a
 
 <strong>Oportunidades Contínuas:</strong>
 
-E se você já realizou um curso de qualificação nas Escolas, tem mais boas notícias. É possível fazer outro curso, desde que não tenha abandonado nenhum nos últimos seis meses. Isso significa que as oportunidades de aprendizado não se limitam a uma única experiência.
+E se você já fez um curso nas Escolas? O regulamento consultado permitia fazer outro, desde que não tivesse abandonado nenhum nos últimos seis meses. Confirme no edital atual.
 
 <strong>Compromisso com o Curso:</strong>
 
-Agora, uma dúvida crucial: e se o estudante se inscrever, mas não comparecer às aulas? O abandono do curso é considerado evasão, e o candidato só poderá se matricular em outro curso após um período de seis meses. Comprometimento é a chave para o sucesso!
+Agora, uma dúvida crucial: e se o estudante se inscrever, mas não comparecer às aulas? Segundo o regulamento consultado, o abandono era considerado evasão, e o candidato só podia se matricular em outro curso após seis meses.
 
 <strong>Exclusividade Recifense:</strong>
 

@@ -7,6 +7,7 @@ cluster: "emprego-e-cursos"
 author: "Senna Ricarte"
 image: "blog/o-que-e-o-encceja-e-por-que-ele-e-importante.jpg"
 pubDate: 2024-03-13T17:29:28+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
 metaTitle: "O que é o ENCCEJA e por que ele é importante?"
 metaDescription: ""
@@ -44,6 +45,12 @@ Além disso, é necessário ter um registro no Cadastro de Pessoas Físicas (CPF
 </ol>
 <h4><strong>Redação</strong></h4>
 A parte da redação é uma oportunidade para o participante demonstrar sua capacidade de argumentação e uso correto da língua portuguesa. O tema geralmente está relacionado a questões sociais, científicas ou culturais relevantes para a sociedade.
+<h2><strong>Datas, inscrição e edições</strong></h2>
+
+<p>O Inep define datas e regras em editais próprios para cada aplicação: Encceja Nacional, Encceja Nacional PPL (para pessoas privadas de liberdade), Encceja Exterior e Encceja Exterior PPL. Acompanhe os editais no site do Inep. Em caso de dúvida, o Fale Conosco do Inep atende no 0800 616161.</p>
+
+<p>A idade mínima vale na data de realização do exame: 15 anos completos para o ensino fundamental e 18 anos completos para o ensino médio.</p>
+
 <h2><strong>Como se Preparar</strong></h2>
 <img class="aligncenter size-full wp-image-5929" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/fdc684dd-53b2-4682-861e-69ef736eea21/O-que-e-o-ENCCEJA-02.jpg" alt="Estudando para o ENCCEJA " width="600" height="300" />
 
@@ -86,4 +93,12 @@ Portanto, se você ou alguém que você conhece se enquadra no perfil de candida
 </div>
 </div>
 <div class="ad-container"></div>
-</div>;
+</div>
+
+<h2>Fontes</h2>
+
+<p>Conferidas em 19 de outubro de 2026.</p>
+
+<ul>
+<li><a href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/encceja" target="_blank" rel="noopener noreferrer">Encceja — Inep</a></li>
+</ul>

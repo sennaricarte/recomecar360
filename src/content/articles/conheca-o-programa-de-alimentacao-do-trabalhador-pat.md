@@ -14,6 +14,9 @@ metaDescription: ""
 
 O Programa de Alimentação do Trabalhador (PAT) é uma iniciativa, sem dúvida, essencial que busca atender prioritariamente os trabalhadores de baixa renda no Brasil.
 
+
+
+<p><strong>Atenção:</strong> este artigo trata do Programa de Alimentação do Trabalhador, voltado a empregadores e trabalhadores com vale-refeição. Se você procura vaga de emprego ou seguro-desemprego, veja os <a href="/blog/explorando-os-servicos-dos-postos-de-atendimento-ao-trabalhador-em-sao-paulo/">serviços dos Postos de Atendimento ao Trabalhador</a>.</p>
 Instituído pela <a href="https://www.planalto.gov.br/ccivil_03/leis/l6321.htm#:~:text=LEI%20No%206.321%2C%20DE%2014%20DE%20ABRIL%20DE%201976.&amp;text=Disp%C3%B5e%20sobre%20a%20dedu%C3%A7%C3%A3o%2C%20do,programas%20de%20alimenta%C3%A7%C3%A3o%20do%20trabalhador." target="_blank" rel="noopener">Lei nº 6.321, de 14 de abril de 1976</a>, e regulamentado pelo <strong>Decreto nº 10.854</strong>, de 10 de novembro de 2021, o PAT desempenha portanto, um papel crucial na promoção da saúde por meio da segurança alimentar e nutricional dos trabalhadores brasileiros.
 <blockquote><a href="/blog/explorando-os-servicos-dos-postos-de-atendimento-ao-trabalhador-em-sao-paulo/">Lembrando que o programa, apesar de ter a mesma sigla, não é o mesmo que Postos de Atendimento ao Trabalhador (PAT) do Governo do Estado de São Paulo.</a></blockquote>
 <h2><strong>Adesão ao Programa: Facilidade e Compromisso</strong></h2>
