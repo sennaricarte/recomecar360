@@ -116,3 +116,12 @@ metaDescription: "Você já ouviu falar em \"marido de aluguel\"? Esse termo pod
 <h2 class="wp-block-heading">Conclusão</h2>
 
 <p>Encontrar um marido de aluguel pode ser a solução perfeita para quem precisa de pequenas reformas ou consertos em casa. Esses profissionais são versáteis e estão prontos para atender diversas demandas.<br><br>Se você deseja se tornar um, é hora de investir nas habilidades certas e ter as ferramentas adequadas à mão. Formalizar o negócio e planejar sua atuação no mercado também são passos fundamentais.<br><br>Com dedicação ao atendimento e uma boa dose de marketing pessoal, seu sucesso está logo ali na esquina! Agora que você já sabe o que é marido de aluguel, que tal colocar a mão na massa?</p>
+
+<h2>Fontes</h2>
+
+<p>Os valores vêm de plataformas que vendem o serviço e não explicam como calculam os números. Consulta feita em 19 de outubro de 2026. Para saber se a sua atividade pode ser MEI, consulte a lista de ocupações no Portal do Empreendedor.</p>
+
+<ul>
+<li><a href="https://www.cronoshare.com.br/quanto-custa/marido-aluguel" target="_blank" rel="noopener noreferrer">Quanto custa um marido de aluguel? — Cronoshare (janeiro de 2026)</a></li>
+<li><a href="https://www.getninjas.com.br/reformas-e-reparos/marido-de-aluguel/preco/marido-de-aluguel" target="_blank" rel="noopener noreferrer">Quanto custa um marido de aluguel? — GetNinjas (página sem data)</a></li>
+</ul>

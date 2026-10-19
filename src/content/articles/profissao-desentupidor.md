@@ -86,3 +86,7 @@ metaDescription: "Muitas pessoas, ao buscarem uma nova trajetória profissional,
 <p>A profissão de desentupidor é uma oportunidade real para quem tem disposição para o trabalho braçal aliado à inteligência técnica. É um ofício que permite sustentar a família com dignidade e até mesmo construir o próprio negócio.</p>
 
 <p>Se você está buscando uma nova chance, lembre-se: o seu passado não define o seu destino, mas as suas escolhas de hoje sim.</p>
+
+<h2>Sobre as informações deste guia</h2>
+
+<p>Este texto traz orientações gerais sobre a profissão. Não encontramos uma ocupação própria para o desentupidor na CBO, por isso não citamos fontes oficiais. Antes de investir em curso ou equipamento, consulte o sindicato da categoria, peça orçamentos reais e confirme as normas de segurança aplicáveis ao serviço. Conferido em 19 de outubro de 2026.</p>

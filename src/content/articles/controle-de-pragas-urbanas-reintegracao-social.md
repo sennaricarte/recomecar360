@@ -74,3 +74,11 @@ metaDescription: "Manter cidades limpas e seguras vai muito além da estética; 
 <p><strong>Gostou de saber mais sobre como o controle de pragas e a responsabilidade social caminham juntos?</strong></p>
 
 <p>Se você representa uma empresa do setor ou quer saber como apoiar nossa causa, <strong>entre em contato com o Instituto Recomeçar</strong>. Juntos, somos mais fortes na construção de um futuro com mais oportunidades e menos preconceito.</p>
+
+<h2>Fontes</h2>
+
+<p>A descrição oficial da ocupação está na Classificação Brasileira de Ocupações (CBO). Páginas conferidas em 19 de outubro de 2026.</p>
+
+<ul>
+<li><a href="https://buscadorncm.com.br/cbo/519910" target="_blank" rel="noopener noreferrer">CBO 5199-10, Controlador de pragas (Ministério do Trabalho e Emprego, via NCM Buscador)</a></li>
+</ul>

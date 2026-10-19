@@ -72,3 +72,11 @@ metaDescription: "Veja o que faz um ajudante de pedreiro: funções na obra, hab
 <h2 class="wp-block-heading">Conclusão</h2>
 
 <p>Ao considerar a função de um ajudante de pedreiro, fica evidente que esse profissional desempenha um papel fundamental na <a href="https://www.bauenconstrutorasp.com.br/o-que-e-a-construcao-civil-quais-as-etapas-de-uma-construcao" target="_blank" rel="noreferrer noopener">construção civil</a>. Suas atividades vão além do auxílio direto ao pedreiro; envolvem uma série de tarefas essenciais para o andamento das obras.<br><br>Investir em conhecimento e habilidades é essencial para quem deseja se destacar nesse campo. As oportunidades são vastas, especialmente com a crescente demanda por mão de obra qualificada. E sim, cada vez mais as mulheres estão conquistando espaço nessa área tradicionalmente masculina.<br><br>Se você está pensando em seguir essa carreira, saiba que vale a pena estudar e se preparar para os desafios do mercado. A profissão oferece não só crescimento pessoal como também chance de ascensão profissional.<br><br>Portanto, estar bem preparado pode abrir portas e trazer novas oportunidades no futuro da construção civil. Essa jornada pode ser gratificante e cheia de aprendizados!</p>
+
+<h2>Fontes</h2>
+
+<p>A descrição oficial da ocupação está na Classificação Brasileira de Ocupações (CBO). Páginas conferidas em 19 de outubro de 2026.</p>
+
+<ul>
+<li><a href="https://buscadorncm.com.br/cbo/717020" target="_blank" rel="noopener noreferrer">CBO 7170-20, Servente de obras (Ministério do Trabalho e Emprego, via NCM Buscador)</a></li>
+</ul>
