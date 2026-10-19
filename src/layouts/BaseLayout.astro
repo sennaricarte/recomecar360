@@ -2,6 +2,14 @@
 import '../styles/global.css';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
+import WhatsAppChannelCard from '../components/sections/WhatsAppChannelCard.astro';
+
+interface Props {
+  /** Card do canal do WhatsApp no fim da página. Desligue em páginas utilitárias (404, obrigado). */
+  showChannelCard?: boolean;
+}
+
+const { showChannelCard = true } = Astro.props;
 ---
 
 <!doctype html>
@@ -28,6 +36,7 @@ import Footer from '../components/layout/Footer.astro';
       <main id="main-content" class="layout-main">
         <slot />
       </main>
+      {showChannelCard && <WhatsAppChannelCard />}
       <Footer />
     </div>
   </body>
