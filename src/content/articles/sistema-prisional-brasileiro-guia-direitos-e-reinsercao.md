@@ -5,7 +5,9 @@ excerpt: "Entenda como funciona a execução da pena no Brasil: Lei de Execuçã
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Equipe de Comunicação Recomeçar"
-image: "blog/_placeholder.svg"
+image: "blog/sistema-prisional-brasileiro-guia-direitos-e-reinsercao.jpg"
+imageCredit: "Mark Stebnicki / Pexels"
+imageCreditUrl: "https://www.pexels.com/pt-br/foto/preto-e-branco-p-b-ponto-de-referencia-ponto-historico-17765353/"
 pubDate: 2026-10-19T16:00:00+00:00
 status: "published"
 metaTitle: "Sistema Prisional Brasileiro: Direitos e Reinserção"
