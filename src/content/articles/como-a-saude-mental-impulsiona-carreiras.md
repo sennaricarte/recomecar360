@@ -3,13 +3,13 @@ title: "Além da Vaga de Emprego: Como a Saúde Mental Impulsiona a Carreira a L
 slug: "como-a-saude-mental-impulsiona-carreiras"
 excerpt: "Você já teve a sensação de estar sobrecarregado mesmo sem fazer tantas coisas ao mesmo tempo? A saúde mental é um tema que tem ganhado cada vez mais visibilidade nos últimos tempos, mas ainda há um longo caminho a percorrer em termos de conscientização. Mundo afora, transtornos mentais afetam milhõe"
 category: "Blog"
-cluster: "emprego-e-cursos"
+cluster: "saude-mental"
 author: "Senna Ricarte"
 image: "blog/como-a-saude-mental-impulsiona-carreiras.jpg"
 pubDate: 2025-08-24T15:46:06+00:00
 status: "published"
-metaTitle: "Além da Vaga de Emprego: Como a Saúde Mental Impulsiona a Carreira a Longo Prazo"
-metaDescription: "Você já teve a sensação de estar sobrecarregado mesmo sem fazer tantas coisas ao mesmo tempo? A saúde mental é um tema que tem ganhado cada vez mais visibilidade nos últimos tempos, mas ainda há um longo caminho a percorrer em termos de conscientização. Mundo afora, transtornos mentais afetam milhõe"
+metaTitle: "Saúde Mental e Carreira: Por Que Importa no Trabalho"
+metaDescription: "Entenda como a saúde mental influencia desempenho, permanência no emprego e crescimento na carreira, e o que fazer para cuidar dela."
 ---
 
 <p>Você já teve a sensação de estar sobrecarregado mesmo sem fazer tantas coisas ao mesmo tempo? A saúde mental é um tema que tem ganhado cada vez mais visibilidade nos últimos tempos, mas ainda há um longo caminho a percorrer em termos de conscientização. Mundo afora, transtornos mentais afetam milhões de pessoas de todas as idades, sexos e status social. </p>

@@ -3,6 +3,7 @@ title: "Setembro Amarelo: Guia de Saúde Mental, Sinais de Alerta e Onde Pedir A
 slug: "setembro-amarelo-prevencao-do-suicidio"
 excerpt: "Em crise ou preocupado com alguém? Veja sinais de alerta, como ajudar e onde buscar apoio gratuito, como o CVV (188), CAPS, UBS e SAMU (192)."
 category: "Blog"
+cluster: "saude-mental"
 author: "Equipe de Comunicação Recomeçar"
 image: "blog/_placeholder.svg"
 pubDate: 2021-09-08T13:34:53+00:00

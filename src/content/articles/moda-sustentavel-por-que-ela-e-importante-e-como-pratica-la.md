@@ -1,14 +1,15 @@
 ---
 title: "Moda sustentável: por que ela é importante e como praticá-la"
 slug: "moda-sustentavel-por-que-ela-e-importante-e-como-pratica-la"
-excerpt: ""
+excerpt: "Moda sustentável reduz o impacto ambiental e social da moda. Veja o conceito, os benefícios e como praticar no dia a dia."
 category: "Blog"
+cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/moda-sustentavel-por-que-ela-e-importante-e-como-pratica-la.jpg"
 pubDate: 2023-03-23T17:16:31+00:00
 status: "published"
-metaTitle: "Moda sustentável: por que ela é importante e como praticá-la"
-metaDescription: ""
+metaTitle: "Moda Sustentável: Por Que Importa e Como Praticar"
+metaDescription: "Entenda o que é moda sustentável, seus benefícios ambientais e sociais e como adotá-la no dia a dia, com dicas e o Bazar Recomeçar."
 ---
 
 <h2>Saiba o que é moda sustentável, quais são seus benefícios e como você pode adotá-la no seu dia a dia.</h2>
@@ -25,7 +26,7 @@ metaDescription: ""
  	<li style="font-weight: 400"><span style="font-weight: 400">Ela também estimula a criatividade e a inovação, promovendo e incentivando o design circular, a customização, a reutilização criativa e o compartilhamento de roupas;</span></li>
  	<li style="font-weight: 400"><span style="font-weight: 400">Fortalece a identidade e a autoestima dos consumidores, já que ela oferece produtos que refletem os seus valores, preferências e personalidades.</span></li>
 </ol>
-<h3>Todos estamos convidados.</h3>
+<h3>Todos estamos convidados. Conheça o <a href="/blog/chegou-o-bazar-recomecar-abuse-e-reuse/">Bazar Recomeçar</a>, negócio de impacto social que estimula o reúso de roupas. Conheça o <a href="/blog/chegou-o-bazar-recomecar-abuse-e-reuse/">Bazar Recomeçar</a>, negócio de impacto social que estimula o reúso de roupas.</h3>
 <span style="font-weight: 400">A moda sustentável é uma das ótimas formas de expressar o nosso cuidado com o planeta e com todos que aqui habitam.</span>
 
 <span style="font-weight: 400">Ela é um convite para uma mudança de paradigma da nossa forma de produzir, consumir e principalmente, de descartar nossas roupas.</span>

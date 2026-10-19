@@ -31,6 +31,10 @@ export const CLUSTERS = {
     label: 'Terceiro setor e impacto social',
     pillar: 'estrategias-para-captacao-de-recursos-para-o-terceiro-setor',
   },
+  'saude-mental': {
+    label: 'Saúde mental',
+    pillar: 'como-cuidar-da-saude-mental-no-mundo-moderno',
+  },
   institucional: {
     label: 'Notícias e histórias do Recomeçar',
     pillar: 'resultados-do-instituto-recomecar-relatorio-de-atividades',

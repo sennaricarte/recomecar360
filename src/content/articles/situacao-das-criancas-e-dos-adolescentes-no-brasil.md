@@ -1,19 +1,28 @@
 ---
 title: "Situação das crianças e dos adolescentes no Brasil"
 slug: "situacao-das-criancas-e-dos-adolescentes-no-brasil"
-excerpt: ""
+excerpt: "Panorama de 2019 sobre saúde, educação e proteção de crianças e adolescentes no Brasil, com base em dados do UNICEF e do IBGE."
 category: "Blog"
+cluster: "terceiro-setor"
 author: "Senna Ricarte"
 image: "blog/situacao-das-criancas-e-dos-adolescentes-no-brasil.jpg"
 pubDate: 2021-10-11T15:16:31+00:00
+noindex: true
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Situação das crianças e dos adolescentes no Brasil"
-metaDescription: ""
+metaTitle: "Situação das Crianças e Adolescentes no Brasil (2019)"
+metaDescription: "Panorama com dados de 2019 sobre nutrição, mortalidade infantil, vacinação e educação de crianças e adolescentes no Brasil. Fonte: UNICEF."
 ---
 
 <h2>O Brasil possui uma população de 210,1 milhões de pessoas, dos quais 53.759.457 têm menos de 18 anos de idade (Estimativa IBGE para 2019).</h2>
 Mais da metade de todas as crianças e adolescentes brasileiros são afrodescendentes e um terço dos cerca de 820 mil indígenas do País é criança. São dezenas de milhões de pessoas que possuem direitos e deveres e necessitam de condições para desenvolver com plenitude todo o seu potencial.
 
+
+
+<p><strong>Atenção:</strong> texto de 2021 baseado na página &ldquo;Situação das crianças e dos adolescentes no Brasil&rdquo;, do UNICEF Brasil, com dados de 2019 e anteriores. Consulte a fonte original e o IBGE para números atuais.</p>
+
+
+<p><strong>Atenção:</strong> texto de 2021 baseado na página &ldquo;Situação das crianças e dos adolescentes no Brasil&rdquo;, do UNICEF Brasil, com dados de 2019 e anteriores. Consulte a fonte original e o IBGE para números atuais.</p>
 Nas últimas décadas, o Brasil reduziu significativamente a taxa de desnutrição crônica entre menores de 5 anos (de 19,6% em 1990 para 7% em 2006), atingindo, antes do prazo, a meta dos Objetivos de Desenvolvimento do Milênio (ODM).
 
 Entretanto, a desnutrição crônica ainda é um problema em grupos mais vulneráveis, como indígenas, quilombolas e ribeirinhos.
@@ -42,4 +51,20 @@ Muitos meninos e meninas são deixados para trás. Ao ser reprovados diversas ve
 
 Para o UNICEF, a face mais trágica das violações de direitos que afetam meninos e meninas no Brasil são os homicídios de adolescentes: a cada hora, alguém entre 10 e 19 anos de idade é assassinado no País [estimativa do UNICEF baseada em dados do Datasus (2018)] — quase todos meninos, negros, moradores de favelas.
 
-O Brasil tem uma das legislações mais avançadas do mundo no que diz respeito à proteção da infância e da adolescência. No entanto, é necessário adotar políticas públicas capazes de combater e superar as desigualdades geográficas, sociais e étnicas do País e celebrar a riqueza de sua diversidade.;
+O Brasil tem uma das legislações mais avançadas do mundo no que diz respeito à proteção da infância e da adolescência. No entanto, é necessário adotar políticas públicas capazes de combater e superar as desigualdades geográficas, sociais e étnicas do País e celebrar a riqueza de sua diversidade.
+
+<h2>Fontes</h2>
+
+<p>Texto baseado na fonte abaixo. Conferido em 19 de outubro de 2026.</p>
+
+<ul>
+<li><a href="https://www.unicef.org/brazil/situacao-das-criancas-e-dos-adolescentes-no-brasil" target="_blank" rel="noopener noreferrer">UNICEF Brasil – Situação das crianças e dos adolescentes no Brasil</a></li>
+</ul>
+
+<h2>Fontes</h2>
+
+<p>Texto baseado na fonte abaixo. Conferido em 19 de outubro de 2026.</p>
+
+<ul>
+<li><a href="https://www.unicef.org/brazil/situacao-das-criancas-e-dos-adolescentes-no-brasil" target="_blank" rel="noopener noreferrer">UNICEF Brasil – Situação das crianças e dos adolescentes no Brasil</a></li>
+</ul>

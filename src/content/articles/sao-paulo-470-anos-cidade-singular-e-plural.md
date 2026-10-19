@@ -1,19 +1,27 @@
 ---
 title: "São Paulo 470 anos - Cidade singular e plural"
 slug: "sao-paulo-470-anos-cidade-singular-e-plural"
-excerpt: ""
+excerpt: "São Paulo completou 470 anos em 2024. Veja a história da migração nordestina e das periferias que formam a cidade."
 category: "Blog"
+cluster: "cultura-periferica"
 author: "Senna Ricarte"
 image: "blog/sao-paulo-470-anos-cidade-singular-e-plural.jpg"
 pubDate: 2024-01-25T08:27:13+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "São Paulo 470 anos - Cidade singular e plural"
-metaDescription: ""
+metaTitle: "São Paulo 470 Anos: História, Migração e Periferias"
+metaDescription: "São Paulo fez 470 anos em 2024. Entenda a migração nordestina, a formação das periferias e os dados do Censo 2022 sobre a cidade."
 ---
 
 A cidade de São Paulo está comemorando 470 anos de existência. Fundada em 1554 por padres Jesuítas, a cidade tem, inegavelmente, a fama mundial por sua grande influência nas atividades relacionadas à cultura, à economia e à política, entre outros setores.
 
-Além de ser o município mais populoso de todo o<a href="https://pt.wikipedia.org/wiki/Hemisf%C3%A9rio_sul" target="_blank" rel="noopener"> hemisfério Sul</a>, São Paulo é considerada a 14ª cidade mais globalizada do planeta.
+
+
+<p><strong>Atenção:</strong> texto de janeiro de 2024. Consulte o Censo 2022 do IBGE para os dados populacionais atuais.</p>
+
+
+<p><strong>Atenção:</strong> texto de janeiro de 2024. Consulte o Censo 2022 do IBGE para os dados populacionais atuais.</p>
+Além de ser o município mais populoso de todo o<a href="https://pt.wikipedia.org/wiki/Hemisf%C3%A9rio_sul" target="_blank" rel="noopener"> hemisfério Sul</a>.
 
 Também havia fama de emprego. A cidade estava se industrializando, e as ofertas de vagas pipocavam por todo lado. Mas com a fuga das indústrias, hoje, as vagas são cada vez mais disputadas.
 
