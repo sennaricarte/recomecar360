@@ -61,4 +61,4 @@ Em resumo, o Qualifica Recife é mais do que um programa de cursos; é uma chanc
 
 <strong>Dica de Leitura Recomeçar!</strong>
 
-<a href="https://amzn.to/48WKNan" target="_blank" rel="noopener"><img class="aligncenter size-full wp-image-5850" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/e1990b28-1bbc-42f4-bb4d-af3a47f395a0/livro-decife-seu-talento02.jpg" alt="Livro Decifre Seu Talento" width="400" height="400" /></a>;
+<a href="https://amzn.to/48WKNan" target="_blank" rel="sponsored nofollow noopener noreferrer"><img class="aligncenter size-full wp-image-5850" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/e1990b28-1bbc-42f4-bb4d-af3a47f395a0/livro-decife-seu-talento02.jpg" alt="Livro Decifre Seu Talento" width="400" height="400" /></a>;

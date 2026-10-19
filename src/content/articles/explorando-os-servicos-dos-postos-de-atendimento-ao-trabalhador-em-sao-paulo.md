@@ -44,4 +44,4 @@ Se você está em busca de emprego ou precisa de suporte em momentos de transiç
 
 Dica de Leitura Recomeçar!
 
-<a href="https://amzn.to/42iagbP" target="_blank" rel="noopener"><img class="aligncenter size-full wp-image-5852" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/0d626156-dd86-4e13-9c95-2b83452f847e/livro-manual-das-entrevistas.jpg" alt="Livro Manual de Entrevistar" width="400" height="400" /></a>;
+<a href="https://amzn.to/42iagbP" target="_blank" rel="sponsored nofollow noopener noreferrer"><img class="aligncenter size-full wp-image-5852" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/0d626156-dd86-4e13-9c95-2b83452f847e/livro-manual-das-entrevistas.jpg" alt="Livro Manual de Entrevistar" width="400" height="400" /></a>;

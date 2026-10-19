@@ -84,7 +84,7 @@ Alguns desses benefícios são a melhoria da qualidade de vida, são por exemplo
 <h3><strong>Segue abaixo uma dica de leitura sobre o tema:</strong></h3>
 O livro <span class="a-size-extra-large celwidget" data-csa-c-id="fox91g-xifrd4-ll9ome-c0n6ta" data-cel-widget="productTitle">Educação Encarcerada - </span><span id="productTitle" class="a-size-extra-large celwidget" data-csa-c-id="fox91g-xifrd4-ll9ome-c0n6ta" data-cel-widget="productTitle">estudos sobre mulheres reclusas e estudantes.</span>
 
-<a href="https://amzn.to/3OHXEoC" target="_blank" rel="noopener"><img class="aligncenter size-full wp-image-5887" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/31a6f6cc-1d5f-47f1-9909-7bb84bdc1e18/livro-Educacao-Encarcerada.jpg" alt="Educação Encarcerada" width="400" height="400" /></a>
+<a href="https://amzn.to/3OHXEoC" target="_blank" rel="sponsored nofollow noopener noreferrer"><img class="aligncenter size-full wp-image-5887" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/31a6f6cc-1d5f-47f1-9909-7bb84bdc1e18/livro-Educacao-Encarcerada.jpg" alt="Educação Encarcerada" width="400" height="400" /></a>
 
 </div>
 </div>
