@@ -5,7 +5,9 @@ excerpt: "Já tem o vale do Gás do Povo? Veja como trocar o botijão de 13 kg n
 category: "Blog"
 cluster: "beneficios"
 author: "Equipe de Comunicação Recomeçar"
-image: "blog/_placeholder.svg"
+image: "blog/como-retirar-o-botijao-do-gas-do-povo.jpg"
+imageCredit: "Mateusz Feliksik / Pexels"
+imageCreditUrl: "https://www.pexels.com/pt-br/foto/close-up-de-um-fogao-13422435/"
 pubDate: 2026-10-19T14:00:00+00:00
 status: "published"
 metaTitle: "Como Retirar o Botijão do Gás do Povo: Passo a Passo"
