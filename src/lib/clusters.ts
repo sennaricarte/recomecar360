@@ -8,7 +8,10 @@ export const CLUSTERS = {
     pillar: 'egressos-do-sistema-prisional-entenda-quem-sao',
   },
   'sistema-prisional': { label: 'Sistema prisional' },
-  profissoes: { label: 'Profissões e primeiro emprego' },
+  profissoes: {
+    label: 'Profissões e primeiro emprego',
+    pillar: 'profissoes-para-comecar-sem-experiencia',
+  },
   'emprego-e-cursos': { label: 'Emprego, cursos e qualificação' },
   beneficios: {
     label: 'Benefícios e direitos',
