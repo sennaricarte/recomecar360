@@ -7,7 +7,7 @@ cluster: "beneficios"
 author: "Joel Novaes"
 image: "blog/auxilio-reclusao-quem-tem-direito.jpg"
 pubDate: 2026-01-16T16:06:54+00:00
-updatedDate: 2026-10-19T12:00:00+00:00
+updatedDate: 2026-10-19T15:30:00+00:00
 status: "published"
 metaTitle: "Auxílio-Reclusão 2026: Quem Tem Direito e Como Pedir"
 metaDescription: "Veja quem tem direito ao auxílio-reclusão, os dependentes, o pedido pelo Meu INSS, a declaração de cárcere e quando o benefício termina."
@@ -16,6 +16,8 @@ metaDescription: "Veja quem tem direito ao auxílio-reclusão, os dependentes, o
 <p>Existe muita desinformação circulando sobre o <strong>Auxílio-Reclusão</strong>. No Instituto Recomeçar, acreditamos que a transparência e a educação são os primeiros passos para a reintegração social. Por isso, preparamos este guia completo para explicar, sem termos complicados, o que é este benefício e como ele ajuda a manter a estrutura familiar durante o cumprimento da pena.</p>
 
 <p><strong>Leia também: </strong><a href="/blog/o-que-sao-beneficios-sociais/">O que são benefícios sociais e como eles ajudam na sua retomada de vida?</a></p>
+
+<div style="border:2px solid #0f766e;border-radius:8px;padding:1rem;margin:1.5rem 0"><p><strong>Resposta rápida:</strong> o auxílio-reclusão é um benefício do INSS pago aos dependentes do segurado preso, não ao preso. O segurado precisa ter baixa renda e 24 meses de contribuição antes da prisão. O pedido é feito pelo Meu INSS ou pelo telefone 135. A declaração de cárcere precisa ser apresentada a cada 3 meses, ou o pagamento é suspenso.</p></div>
 
 <h2 class="wp-block-heading"><strong>O que é o Auxílio-Reclusão e qual o seu objetivo social?</strong></h2>
 
@@ -96,6 +98,26 @@ metaDescription: "Veja quem tem direito ao auxílio-reclusão, os dependentes, o
 <p>No <strong>Instituto Recomeçar</strong>, nosso compromisso vai além da informação. Trabalhamos diariamente para que o egresso e sua família não sejam definidos pelo passado, mas pelas possibilidades do futuro. Através da educação profissional e do apoio cidadão, transformamos o tempo de reclusão e a liberdade em uma jornada de mais oportunidades e de menos risco de reincidência.</p>
 
 <p>Acreditamos que, com transparência e as ferramentas certas, todos podem dar um novo rumo à vida. Se você ou sua família estão passando por esse processo, lembre-se: o conhecimento é o primeiro passo para o seu novo caminho.</p>
+
+<h2>Perguntas frequentes</h2>
+
+<h3>O preso recebe o auxílio-reclusão?</h3>
+<p>Não. O benefício é pago somente aos dependentes do segurado, como cônjuge, filhos, pais e irmãos que cumpram as regras do INSS.</p>
+
+<h3>Quem tem direito ao auxílio-reclusão?</h3>
+<p>Os dependentes de quem trabalhava e contribuía ao INSS antes da prisão. O segurado precisa ter baixa renda e 24 meses de carência.</p>
+
+<h3>Como pedir o auxílio-reclusão?</h3>
+<p>Pelo Meu INSS ou pelo telefone 135. Tenha em mãos os documentos do segurado e dos dependentes, a certidão judicial e a declaração de cárcere.</p>
+
+<h3>Qual o prazo para pedir sem perder parcelas?</h3>
+<p>Se o pedido for feito em até 90 dias da prisão, o benefício vale desde a data da prisão. Depois disso, vale a partir da data do pedido.</p>
+
+<h3>Por que o pagamento pode ser suspenso?</h3>
+<p>Porque a declaração de cárcere, feita pela unidade prisional, precisa ser apresentada a cada 3 meses. Sem ela, o pagamento é suspenso.</p>
+
+<h3>Quando o auxílio-reclusão termina?</h3>
+<p>Segundo o INSS, termina se o segurado for solto, fugir, receber livramento condicional ou passar a regime aberto ou semiaberto. Apresente o alvará de soltura imediatamente.</p>
 
 <h2>Fontes</h2>
 
