@@ -1,20 +1,24 @@
 ---
 title: "Medalhas de prata e ouro impulsionam a moda streetwear"
 slug: "medalhas-de-prata-e-ouro-impulsionam-a-moda-streetwear"
-excerpt: ""
+excerpt: "Instituto Recomeçar e ROWL lançam camisetas streetwear. Entenda a relação entre esporte de rua, moda e geração de renda."
 category: "Blog"
 cluster: "cultura-periferica"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-07-28T13:28:09+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Medalhas de prata e ouro impulsionam a moda streetwear"
-metaDescription: ""
+metaTitle: "Medalhas e Moda Streetwear: Recomeçar e ROWL"
+metaDescription: "Após as medalhas do skate nas Olimpíadas, Recomeçar e ROWL lançam camisetas streetwear. Veja a parceria e o mercado de moda de rua."
 ---
 
 <h2>Recomeçar e Rowl lançam camisetas streetwear.</h2>
 As conquistas das medalhas de prata no ‘skate’ pela “fadinha” <a href="https://hugogloss.uol.com.br/esportes/rayssa-leal-faz-historia-nas-olimpiadas-e-leva-reporter-da-globo-as-lagrimas-sensacao-de-taquicardia-selecoes-de-volei-e-futebol-feminino-tambem-se-emocionam-confira-as-reacoes/" target="_blank" rel="noopener">Raissa Alves</a> e <a href="https://www.instagram.com/kelvinhoefler/?hl=pt-br" target="_blank" rel="noopener">Kelvin Hoefler</a>; e no ‘surfe’ pelo potiguar Ítalo Ferreira, colocaram o Brasil no pódio e na história dos jogos olímpicos.
 
+
+
+<p><strong>Atenção:</strong> texto publicado em 2021. Os dados de mercado citados são de 2016–2017 (Iemi) e a disponibilidade das peças deve ser confirmada com o Instituto Recomeçar e a ROWL.</p>
 As conquistas se tornaram históricas por se tratarem de práticas esportivas que, nas cidades litorâneas e nas zonas urbanas ditam um estilo de moda muito próprio.
 
 A moda streetwear movimenta uma parte significativa da economia no Brasil. Segundo dados da consultoria Iemi Inteligência de Mercado, o vestuário casual, categoria em que o streetwear, cresceu 10,3% de 2016 para 2017, uma taxa acima da média do varejo de vestuário em geral (de 8,1%), alcançado 2,8 bilhões de peças vendidas e um faturamento de R$ 116,5 bilhões.

