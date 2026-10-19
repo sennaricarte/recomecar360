@@ -7,6 +7,7 @@ cluster: "profissoes"
 author: "Joel Novaes"
 image: "blog/como-se-tornar-um-encanador-autonomo.jpg"
 pubDate: 2026-01-11T13:58:24+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
 metaTitle: "Como se tornar um encanador autônomo e conquistar sua independência"
 metaDescription: "Você já parou para pensar que quase nada funciona em uma casa ou empresa sem um bom sistema de hidráulica? O encanador é o profissional essencial que garante o acesso à água potável e o escoamento correto de esgoto, sendo peça-chave para a saúde pública e o conforto das famílias."
@@ -39,7 +40,7 @@ metaDescription: "Você já parou para pensar que quase nada funciona em uma cas
 
 <h3 class="wp-block-heading"><strong>Média salarial e o potencial do trabalho autônomo</strong></h3>
 
-<p>No regime CLT, um encanador no Brasil ganha, em média, entre <strong>R$ 2.000,00 e R$ 3.500,00</strong>. No entanto, o grande trunfo está no <strong>empreendedorismo</strong>. Um encanador autônomo que realiza atendimentos residenciais ("marido de aluguel" ou especialista em caça-vazamentos) pode faturar significativamente mais, dependendo da sua agilidade e carteira de clientes.</p>
+<p>O salário de um encanador com carteira assinada muda com a região, a empresa e a convenção coletiva da categoria. Consulte a convenção do seu sindicato e os anúncios atuais. Já o <strong>trabalho por conta própria</strong> depende da sua agilidade, da qualidade do serviço e da sua carteira de clientes, e a renda varia muito de mês a mês.</p>
 
 <h2 class="wp-block-heading"><strong>O passo a passo para se tornar um encanador profissional</strong></h2>
 

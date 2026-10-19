@@ -53,7 +53,7 @@ metaDescription: "Veja o que faz um ajudante de pedreiro: funções na obra, hab
 
 <h2 class="wp-block-heading">Salário e Habilidades do Ajudante de Pedreiro</h2>
 
-<p>O salário de um ajudante de pedreiro pode variar bastante dependendo da região e da experiência do profissional. Em média, a remuneração gira em torno de R$ 1.500,00 a R$ 2.500,00 por mês. No entanto, com o aumento da demanda na construção civil, esses valores podem ser ainda mais atrativos.<br><br>As habilidades necessárias para essa função vão além do conhecimento técnico. É fundamental que o ajudante tenha boa comunicação e saiba trabalhar em equipe. A disposição física é essencial devido à natureza pesada das atividades.<br><br>Além disso, ter uma atitude proativa faz toda a diferença no dia a dia do trabalho. Um bom ajudante está sempre disposto a aprender e se adaptar às necessidades do canteiro de obras, contribuindo para um ambiente mais produtivo e harmonioso.</p>
+<p>O salário de um ajudante de pedreiro pode variar bastante dependendo da região e da experiência do profissional. O valor muda com a região, a obra e a convenção coletiva da categoria. Consulte a convenção do seu sindicato e os anúncios atuais antes de negociar.<br><br>As habilidades necessárias para essa função vão além do conhecimento técnico. É fundamental que o ajudante tenha boa comunicação e saiba trabalhar em equipe. A disposição física é essencial devido à natureza pesada das atividades.<br><br>Além disso, ter uma atitude proativa faz toda a diferença no dia a dia do trabalho. Um bom ajudante está sempre disposto a aprender e se adaptar às necessidades do canteiro de obras, contribuindo para um ambiente mais produtivo e harmonioso.</p>
 
 <h2 class="wp-block-heading">Mulheres na construção civil</h2>
 
