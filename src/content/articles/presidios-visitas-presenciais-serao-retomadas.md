@@ -1,20 +1,23 @@
 ---
 title: "Presídios: Visitas presenciais serão retomadas"
 slug: "presidios-visitas-presenciais-serao-retomadas"
-excerpt: ""
+excerpt: "Notícia de 2021: a SAP retomou as visitas presenciais nos presídios paulistas na 3ª fase do projeto Conexão Familiar."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-08-03T13:29:11+00:00
 status: "published"
-metaTitle: "Presídios: Visitas presenciais serão retomadas"
-metaDescription: ""
+metaTitle: "Visitas Presenciais nos Presídios de SP Retornam"
+metaDescription: "Notícia de 2021: a SAP retomou as visitas presenciais nos presídios paulistas na 3ª fase do projeto Conexão Familiar."
 ---
 
 <h2>Visitas presenciais serão retomadas no próximo final de semana. A retomada seguirá normas rígidas e faz parte da 3ª fase do projeto Conexão Familiar.</h2>
 A Secretaria da Administração Penitenciária (SAP) retoma, a partir dos dias 10 e 11 de julho (sábado e domingo), as visitas presenciais nos 178 presídios que administra no Estado de São Paulo.
 
+
+
+<p><strong>Atenção:</strong> esta notícia foi publicada em agosto de 2021 e reproduz as informações da época. Números, regras e programas podem ter mudado.</p>
 Serão seguidas as mesmas regras vigentes anteriormente para a retomada gradual e controlada das visitas presenciais, com visitação restrita a apenas 01 pessoa por reeducando, devidamente cadastrada no rol de visitas.
 
 A visitação está limitada a maiores de 18 anos, sendo que pessoas com 60 ou mais ou integrantes de grupo de risco poderão entrar somente se apresentarem comprovante de esquema vacinal completo para Covid-19 e após o período de, ao menos, 20 dias da aplicação da segunda dose, ou quando for caso, da dose única.

@@ -1,19 +1,22 @@
 ---
 title: "O Direito ao voto do preso"
 slug: "o-direito-ao-voto-do-preso"
-excerpt: ""
+excerpt: "Entenda quando o preso pode votar, o que diz o art. 15 da Constituição sobre suspensão dos direitos políticos e o debate sobre o tema."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2020-11-10T12:57:05+00:00
 status: "published"
-metaTitle: "O Direito ao voto do preso"
-metaDescription: ""
+metaTitle: "Direito ao Voto do Preso: O Que Diz a Constituição"
+metaDescription: "Entenda quando o preso pode votar, o que diz o art. 15 da Constituição sobre suspensão dos direitos políticos e o debate sobre o tema."
 ---
 
 O art. 1º da <strong>Constituição Federal</strong> diz que a República Federativa do Brasil se constitui em um Estado Democrático de Direito. Seu parágrafo único dispõe que “todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição”.
 
+
+
+<p><strong>Atenção:</strong> artigo de opinião publicado em novembro de 2020. As leis citadas podem ter sido alteradas desde então.</p>
 De acordo com <strong>Kildare Gonçalves</strong>, “as bases do <strong>Estado Democrático de Direito</strong> são a soberania do povo, expressa na manifestação da vontade popular, e a dignidade humana, consagrada na enunciação dos direitos fundamentais”.
 O mesmo art. 1º, enuncia em seu inciso II um dos fundamentos da República Federativa do Brasil, o da cidadania, que consiste na capacidade do indivíduo de exercer seus direitos políticos e de participar da vida estatal.
 <h2>Conforme art. 14 da Constituição, a soberania popular será exercida por meio de:</h2>

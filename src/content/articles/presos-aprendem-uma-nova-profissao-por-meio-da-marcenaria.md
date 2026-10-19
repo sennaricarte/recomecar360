@@ -1,20 +1,23 @@
 ---
 title: "Presos aprendem uma nova profissão por meio da marcenaria"
 slug: "presos-aprendem-uma-nova-profissao-por-meio-da-marcenaria"
-excerpt: ""
+excerpt: "Notícia de 2021: presos aprendem marcenaria em unidade prisional e produzem móveis e itens de decoração."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/presos-aprendem-uma-nova-profissao-por-meio-da-marcenaria.jpg"
 pubDate: 2021-08-24T13:33:06+00:00
 status: "published"
-metaTitle: "Presos aprendem uma nova profissão por meio da marcenaria"
-metaDescription: ""
+metaTitle: "Presos Aprendem Marcenaria: Capacitação Profissional"
+metaDescription: "Notícia de 2021: presos aprendem marcenaria em unidade prisional e produzem móveis e itens de decoração."
 ---
 
 <h2>Capacitação: Presos aprendem uma nova profissão.</h2>
 &nbsp;
 
+
+
+<p><strong>Atenção:</strong> esta notícia foi publicada em agosto de 2021 e reproduz as informações da época. Números, regras e programas podem ter mudado.</p>
 Peças confeccionadas na marcenaria da unidade prisional servem como móveis e itens de decoração.
 Há seis meses, reeducandos do Centro de Detenção Provisória (CDP) “ASP Willians Nogueira Benjamin” de Pinheiros II, na capital paulista, estão realizando atividades laborterápicas por meio da oficina de marcenaria.
 

@@ -1,15 +1,15 @@
 ---
 title: "Lei de Execuções Penais: Entre Desafios e Objetivos"
 slug: "lei-de-execucoes-penais-entre-desafios-e-objetivos"
-excerpt: ""
+excerpt: "Entenda o que é a Lei de Execução Penal (1984), seus princípios e os desafios de aplicá-la, como superlotação e falta de recursos."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/lei-de-execucoes-penais-entre-desafios-e-objetivos.jpg"
 pubDate: 2024-01-12T14:15:12+00:00
 status: "published"
-metaTitle: "Lei de Execuções Penais: Entre Desafios e Objetivos"
-metaDescription: ""
+metaTitle: "Lei de Execução Penal: Objetivos e Desafios"
+metaDescription: "Entenda o que é a Lei de Execução Penal (1984), seus princípios e os desafios de aplicá-la, como superlotação e falta de recursos."
 ---
 
 Neste artigo vamos explorar um tema crucial no sistema jurídico brasileiro: a <strong>Lei de Execuções Penais (<a href="https://www.planalto.gov.br/ccivil_03/leis/l7210compilado.htm" target="_blank" rel="noopener">LEP</a>)</strong>.

@@ -1,19 +1,22 @@
 ---
 title: "Desdobramentos da Lei de Execução Penal"
 slug: "desdobramentos-da-lei-de-execucao-penal"
-excerpt: ""
+excerpt: "Texto de 2020 sobre a Lei de Execução Penal, as assistências previstas ao preso e os desafios para aplicá-la na prática."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2020-10-28T12:53:00+00:00
 status: "published"
-metaTitle: "Desdobramentos da Lei de Execução Penal"
-metaDescription: ""
+metaTitle: "Lei de Execução Penal: Desdobramentos e Desafios"
+metaDescription: "Texto de 2020 sobre a Lei de Execução Penal, as assistências previstas ao preso e os desafios para aplicá-la na prática."
 ---
 
 Para uma convivência harmoniosa em sociedade, uma comunidade politicamente organizada estabelece regras definidoras de direitos e deveres, que regulamentam diversos setores da vida em comunidade.
 
+
+
+<p><strong>Atenção:</strong> artigo de opinião publicado em outubro de 2020. As leis citadas podem ter sido alteradas desde então.</p>
 Uma das áreas disciplinadoras do nosso ordenamento jurídico é o Direito Penal, definido por <strong>Cezar Bitencourt</strong> como “conjunto de normas jurídicas que tem por objeto a determinação de infrações de natureza penal e suas sanções correspondentes”.
 <h2>A pena aplicada em razão do cometimento de um crime tem os seguintes objetivos:</h2>
 <ul>

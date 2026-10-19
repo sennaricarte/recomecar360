@@ -7,7 +7,10 @@ export const CLUSTERS = {
     label: 'Egressos e reinserção social',
     pillar: 'egressos-do-sistema-prisional-entenda-quem-sao',
   },
-  'sistema-prisional': { label: 'Sistema prisional' },
+  'sistema-prisional': {
+    label: 'Sistema prisional',
+    pillar: 'sistema-prisional-brasileiro-guia-direitos-e-reinsercao',
+  },
   profissoes: {
     label: 'Profissões e primeiro emprego',
     pillar: 'profissoes-para-comecar-sem-experiencia',

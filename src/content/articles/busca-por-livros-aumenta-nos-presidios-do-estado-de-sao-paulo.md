@@ -1,20 +1,23 @@
 ---
 title: "Busca por livros aumenta nos presídios do estado de São Paulo"
 slug: "busca-por-livros-aumenta-nos-presidios-do-estado-de-sao-paulo"
-excerpt: ""
+excerpt: "Notícia de 2020: durante a pandemia, cresceu o empréstimo de livros nos presídios paulistas, ligado ao interesse em estudar e à remição."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2020-12-01T13:02:00+00:00
 status: "published"
-metaTitle: "Busca por livros aumenta nos presídios do estado de São Paulo"
-metaDescription: ""
+metaTitle: "Busca por Livros Aumenta nos Presídios de São Paulo"
+metaDescription: "Notícia de 2020: durante a pandemia, cresceu o empréstimo de livros nos presídios paulistas, ligado ao interesse em estudar e à remição."
 ---
 
 <h2>Crescimento no empréstimo de livros demonstra interesse de reeducandos por conhecimento e remição de pena durante pandemia.</h2>
 Durante a pandemia de COVID-19, diversos <strong>reeducandos</strong> da <a href="http://www.sap.sp.gov.br/" target="_blank" rel="noopener noreferrer">Secretaria da Administração Penitenciária (SAP)</a> têm apostado na leitura. Com um acervo de mais de 120 mil livros disponíveis nos estabelecimentos penais da Coordenadoria de Unidades Prisionais da Região Metropolitana de São Paulo (Coremetro), a procura por obras literárias apresentou aumento nos últimos meses.
 
+
+
+<p><strong>Atenção:</strong> esta notícia foi publicada em dezembro de 2020 e reproduz as informações da época. Números, regras e programas podem ter mudado.</p>
 O crescimento ocorreu após a interrupção de atividades rotineiras nas unidades penais, visando evitar a disseminação da enfermidade no sistema prisional paulista. Na Penitenciária Feminina Sant’Ana (PFS), entre os meses de março e setembro deste ano, houve aumento na média de empréstimos de obras de 419 para 2.011 exemplares.
 
 [caption id="attachment_1387" align="aligncenter" width="1160"]<img src="/images/instituto-recomecar-placeholder.svg" alt="Instituto Recomeçar" loading="lazy" width="1200" height="630" style="border-radius:0.75rem" /> <em>Livros do acervo da Biblioteca da Casa do Egresso em Poá - SP</em>[/caption]

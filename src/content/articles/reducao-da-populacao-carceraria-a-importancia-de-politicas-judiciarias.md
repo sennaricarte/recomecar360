@@ -1,20 +1,23 @@
 ---
 title: "Redução da população carcerária - A importância de políticas judiciárias"
 slug: "reducao-da-populacao-carceraria-a-importancia-de-politicas-judiciarias"
-excerpt: ""
+excerpt: "Notícia de 2021 sobre a redução da superlotação no sistema prisional em 2020 e a importância de políticas judiciárias coordenadas."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-06-01T13:17:13+00:00
 status: "published"
-metaTitle: "Redução da população carcerária - A importância de políticas judiciárias"
-metaDescription: ""
+metaTitle: "Redução da População Carcerária e Políticas Judiciárias"
+metaDescription: "Notícia de 2021 sobre a redução da superlotação no sistema prisional em 2020 e a importância de políticas judiciárias coordenadas."
 ---
 
 <h2 style="text-align: center">Redução da população carcerária reforça importância de políticas judiciárias.</h2>
 A divulgação da redução inédita na superlotação do sistema prisional brasileiro em 2020 após altas históricas evidenciou a importância de políticas estruturantes e coordenadas para transformações permanentes.
 
+
+
+<p><strong>Atenção:</strong> esta notícia foi publicada em junho de 2021 e reproduz as informações da época. Números, regras e programas podem ter mudado.</p>
 Desde 2019, o <a href="https://www.br.undp.org/" target="_blank" rel="noopener">Programa das Nações Unidas para o Desenvolvimento</a> (PNUD) vem mobilizando atores-chave de diferentes instituições e níveis federativos por meio do programa Fazendo Justiça, com o apoio do Conselho Nacional de Justiça (CNJ) e do Departamento Penitenciário Nacional (Depen).
 
 Os dados divulgados nesta semana pelo Monitor da Violência, coletados junto aos governos locais via Lei de Acesso à Informação, são os mais recentes sobre o sistema prisional em escala nacional. A análise se deu mediante parceria entre o site G1, o Fórum Brasileiro de Segurança Pública e o Núcleo de Estudos da Violência da Universidade de São Paulo.

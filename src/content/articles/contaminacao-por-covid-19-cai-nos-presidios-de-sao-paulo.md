@@ -1,20 +1,23 @@
 ---
 title: "Contaminação por Covid-19 cai nos presídios de São Paulo"
 slug: "contaminacao-por-covid-19-cai-nos-presidios-de-sao-paulo"
-excerpt: ""
+excerpt: "Notícia de 2021 sobre a queda da contaminação por Covid-19 nos presídios de São Paulo e as medidas adotadas pelo governo estadual."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-09-22T13:36:04+00:00
 status: "published"
-metaTitle: "Contaminação por Covid-19 cai nos presídios de São Paulo"
-metaDescription: ""
+metaTitle: "Covid-19 nos Presídios de São Paulo: Queda de Casos"
+metaDescription: "Notícia de 2021 sobre a queda da contaminação por Covid-19 nos presídios de São Paulo e as medidas adotadas pelo governo estadual."
 ---
 
 <h2>Taxa de contaminação por Covid-19 cai nos presídios do Estado de São Paulo</h2>
 &nbsp;
 
+
+
+<p><strong>Atenção:</strong> esta notícia foi publicada em setembro de 2021 e reproduz as informações da época. Números, regras e programas podem ter mudado.</p>
 Números comprovam que medidas adotadas pelo Governo do Estado de São Paulo se mostraram efetivas.
 Assim como em todo o estado de São Paulo, o número de casos de Covid-19 tem caído significativamente nos presídios.
 

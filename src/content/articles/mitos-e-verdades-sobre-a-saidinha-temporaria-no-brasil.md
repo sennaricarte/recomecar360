@@ -1,52 +1,69 @@
 ---
-title: "Mitos e verdades sobre a saidinha temporária no Brasil"
+title: "Saidinha Temporária: O Que Mudou com a Lei 14.843/2024"
 slug: "mitos-e-verdades-sobre-a-saidinha-temporaria-no-brasil"
-excerpt: ""
+excerpt: "A Lei 14.843/2024 acabou com a saída temporária para visitar a família. Veja o que mudou, o que restou e quais são os mitos mais comuns sobre a saidinha."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/mitos-e-verdades-sobre-a-saidinha-temporaria-no-brasil.jpg"
 pubDate: 2024-02-14T13:51:58+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Mitos e verdades sobre a saidinha temporária no Brasil"
-metaDescription: ""
+metaTitle: "Saidinha Temporária: O Que Mudou com a Lei 14.843/2024"
+metaDescription: "A Lei 14.843/2024 acabou com a saída para visita à família. Veja o que mudou, o que restou (cursos) e os mitos mais comuns sobre a saidinha."
 ---
 
-A saidinha temporária, também conhecida como indulto natalino ou remição da pena, é um tema que desperta diversas opiniões e questionamentos na sociedade brasileira.
+<p>A saidinha temporária mudou muito desde 2024. Muita gente ainda acredita que ela continua como antes, e isso gera dúvida entre presos, egressos e famílias.</p>
 
-Este benefício, concedido a detentos que cumprem pena em regime semiaberto ou aberto, permite que saiam temporariamente da prisão em datas comemorativas como Natal, Dia das Mães, Dia dos Pais e Finados.
+<p>Este artigo explica o que mudou, com base na Lei nº 14.843/2024, e desfaz os mitos mais comuns. É um texto informativo. Ele não substitui a orientação de um advogado ou da Defensoria Pública.</p>
 
-No entanto, muitos mitos e equívocos cercam esse assunto, levando a uma compreensão distorcida por parte do público.
+<h2>Resposta rápida</h2>
 
-Neste artigo, iremos esclarecer alguns dos principais mitos e verdades sobre a saidinha temporária, com base em informações confiáveis e relevantes.
-<h2>Mito 1: A saidinha temporária é um "presente" do governo.</h2>
-<strong>Verdade:</strong> Contrariando a crença popular, a saidinha não é um presente concedido pelo governo, mas sim um direito previsto na <a href="https://www.planalto.gov.br/ccivil_03/leis/l7210compilado.htm" target="_blank" rel="noopener">Lei de Execução Penal (LEP)</a>, Lei nº 7.210/1984.
-
-Seu propósito é <a href="/blog/lacos-familiares-o-papel-crucial-na-reinsercao-de-presos/">promover a ressocialização do detento</a>, proporcionando a oportunidade de restabelecer laços familiares e comunitários.
-<h2>Mito 2: Todos os presos têm direito à saidinha temporária.</h2>
-<strong>Verdade:</strong> Nem todos os detentos têm direito à saidinha. Para ser elegível a esse benefício, o preso deve atender a uma série de requisitos, como por exemplo:
 <ul>
- 	<li>ter cumprido uma fração específica de sua pena;</li>
- 	<li>demonstrar bom comportamento carcerário;</li>
- 	<li>não ter cometido faltas graves durante o cumprimento da pena;</li>
- 	<li>apresentar um plano de reintegração social;</li>
- 	<li>obter autorização judicial.</li>
+<li>A Lei 14.843/2024 foi sancionada em 11 de abril de 2024, e o Congresso derrubou o veto a parte dela em 28 de maio de 2024.</li>
+<li>Acabou a saída temporária para visitar a família e para atividades de convívio social.</li>
+<li>Restou a saída para frequentar curso profissionalizante, de ensino médio ou superior.</li>
+<li>Condenados por crime hediondo ou por crime com violência ou grave ameaça contra a pessoa não têm direito à saída temporária.</li>
 </ul>
-<h2>Mito 3: A maioria dos presos que recebe a saidinha temporária não retorna à prisão.</h2>
-<strong>Verdade:</strong> Este é um equívoco comum. De acordo com dados do <a href="https://www.gov.br/senappen/pt-br" target="_blank" rel="noopener">Departamento Penitenciário Nacional (Depen)</a>, a taxa de retorno dos detentos que saem em saidinha temporária é superior a 95%. Em 2022, por exemplo, 96,5% dos presos retornaram à prisão dentro do prazo estabelecido.
-<h2>Mito 4: A saidinha temporária aumenta a criminalidade.</h2>
-<strong>Verdade:</strong> Não há evidências que sustentem a afirmação de que a saidinha temporária contribui para o aumento da criminalidade.
 
-Estudos realizados pelo Depen indicam que não existe uma relação direta entre esse benefício e o aumento dos índices criminais.
-<h2>Mito 5: A saidinha temporária é uma forma de punir os familiares dos presos.</h2>
-<strong>Verdade:</strong> Ao contrário do que se possa pensar, a saidinha temporária não é uma punição aos familiares dos detentos.
+<h2>O que era a saidinha antes da lei</h2>
 
-Pelo contrário, é vista como uma oportunidade para fortalecer os laços familiares e contribuir para a ressocialização do preso.
+<p>A Lei de Execução Penal (Lei nº 7.210/1984) permitia que presos do regime semiaberto saíssem por prazo determinado, sem vigilância direta, em hipóteses como visitar a família. O art. 124 previa saídas de até sete dias, renováveis quatro vezes por ano. Esse artigo foi revogado.</p>
 
-<strong>Conclusão:</strong>
+<h2>Mitos e verdades</h2>
 
-Em resumo, a saidinha é um direito garantido pela legislação brasileira com o objetivo de promover a ressocialização dos detentos.
+<h3>Mito 1: saidinha, indulto natalino e remição são a mesma coisa</h3>
 
-Apesar dos mitos e das críticas que cercam esse benefício, ele tem se mostrado eficaz na redução da reincidência criminal e na reintegração<span style="font-family: var(--global-body-font-family)"> </span><a href="https://lidersocial.com.br/" target="_blank" rel="noopener"><span style="font-family: var(--global-body-font-family)">social</span></a><span style="font-family: var(--global-body-font-family)"> dos egressos do sistema prisional.</span>
+<p><strong>Falso.</strong> São institutos diferentes. A saída temporária permitia sair da unidade por um período. O indulto é um perdão de pena concedido por decreto do presidente da República. A remição reduz o tempo de pena por trabalho ou estudo.</p>
 
-No entanto, é fundamental ressaltar que a concessão da saidinha está condicionada ao cumprimento de requisitos específicos e que os detentos são monitorados durante esse período, podendo ser recapturados caso não retornem à prisão dentro do prazo estabelecido.;
+<h3>Mito 2: a saidinha de Natal continua como antes</h3>
+
+<p><strong>Falso.</strong> Desde a Lei 14.843/2024, as hipóteses de visita à família e de atividades que concorram para o retorno ao convívio social foram revogadas, segundo análise publicada no Consultor Jurídico.</p>
+
+<h3>Mito 3: não existe mais nenhuma saída temporária</h3>
+
+<p><strong>Falso.</strong> Continua prevista a saída para frequentar curso profissionalizante, de ensino médio ou superior. Nesse caso, a saída dura o tempo necessário para as atividades do curso.</p>
+
+<h3>Mito 4: todo preso do semiaberto pode sair</h3>
+
+<p><strong>Falso.</strong> A lei diz que o condenado por crime hediondo ou cometido com violência ou grave ameaça contra a pessoa não tem direito à saída temporária nem ao trabalho externo sem vigilância direta. Mesmo nos demais casos, o juiz analisa cada pedido.</p>
+
+<h3>Mito 5: a regra nova vale igual para quem já cumpria pena</h3>
+
+<p><strong>Depende, e o tema é discutido na Justiça.</strong> Por ser uma regra mais dura, há decisões e autores que defendem que ela não alcança quem já cumpria pena antes da lei. O Consultor Jurídico cita uma decisão do ministro André Mendonça, do STF, nesse sentido. Não há resposta única. Quem tem dúvida deve procurar o advogado ou a Defensoria Pública.</p>
+
+<h2>E depois da prisão? Egressos e família</h2>
+
+<p>A saída temporária é uma fase da pena. Para quem já cumpriu a pena, o foco passa a ser documentos, trabalho e apoio. Veja <a href="/blog/egressos-do-sistema-prisional-entenda-quem-sao/">egresso do sistema prisional: quem é e quais são os direitos</a> e <a href="/blog/como-conseguir-emprego-sendo-egresso/">como conseguir emprego sendo egresso</a>.</p>
+
+<h2>Conclusão</h2>
+
+<p>A saidinha deixou de ser a regra para visitas à família. Hoje, a saída temporária ficou restrita ao estudo, com limites para crimes graves. Procure sempre orientação jurídica sobre o seu caso.</p>
+
+<h2>Fontes</h2>
+
+<p>Conferidas em 19 de outubro de 2026. Não conseguimos abrir o texto da lei no site do Planalto nesta revisão. Confirme os artigos lá.</p>
+
+<ul>
+<li><a href="https://conjur.com.br/2024-jun-18/acabou-a-saida-temporaria-na-execucao-da-pena-privativa-de-liberdade-no-brasil/" target="_blank" rel="noopener noreferrer">Acabou a "saída temporária" na execução da pena privativa de liberdade? — Consultor Jurídico (18/06/2024)</a></li>
+</ul>

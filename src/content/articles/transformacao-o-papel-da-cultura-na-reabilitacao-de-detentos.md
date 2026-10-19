@@ -1,15 +1,15 @@
 ---
 title: "Transformação: O papel da cultura na reabilitação de detentos"
 slug: "transformacao-o-papel-da-cultura-na-reabilitacao-de-detentos"
-excerpt: ""
+excerpt: "Veja como programas culturais podem ajudar na reintegração social de pessoas que estiveram em situação de encarceramento."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/transformacao-o-papel-da-cultura-na-reabilitacao-de-detentos.jpg"
 pubDate: 2024-02-27T13:28:33+00:00
 status: "published"
-metaTitle: "Transformação: O papel da cultura na reabilitação de detentos"
-metaDescription: ""
+metaTitle: "Cultura na Reabilitação de Pessoas Presas"
+metaDescription: "Veja como programas culturais podem ajudar na reintegração social de pessoas que estiveram em situação de encarceramento."
 ---
 
 <div class="content">

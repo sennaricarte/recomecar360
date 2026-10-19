@@ -1,15 +1,15 @@
 ---
 title: "A importância da educação dentro dos presídios brasileiros"
 slug: "a-importancia-da-educacao-dentro-dos-presidios-brasileiros"
-excerpt: ""
+excerpt: "Entenda por que a educação dentro dos presídios é importante para a ressocialização e como ela ajuda na volta ao convívio social."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/a-importancia-da-educacao-dentro-dos-presidios-brasileiros.jpg"
 pubDate: 2023-03-13T13:53:02+00:00
 status: "published"
-metaTitle: "A importância da educação dentro dos presídios brasileiros"
-metaDescription: ""
+metaTitle: "Educação nos Presídios Brasileiros: Por Que Importa"
+metaDescription: "Entenda por que a educação dentro dos presídios é importante para a ressocialização e como ela ajuda na volta ao convívio social."
 ---
 
 Olá, tudo bem? Hoje vamos falar sobre um tema muito importante, mas pouco discutido em nosso país: <strong>a educação dentro dos presídios brasileiros</strong>.

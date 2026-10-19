@@ -1,18 +1,19 @@
 ---
 title: "A Invisibilidade das Crianças que Nascem nos Presídios Femininos Brasileiros"
 slug: "a-invisibilidade-das-criancas-que-nascem-nos-presidios-femininos-brasileiros"
-excerpt: "O Brasil possui a quarta maior população carcerária feminina do mundo. Por trás desse número, existe uma realidade ainda mais delicada e, muitas vezes, invisível: a das crianças que nascem e passam seus primeiros meses de vida dentro das celas."
+excerpt: "O Brasil está entre os países com maior população carcerária feminina do mundo. Por trás desse número, existe uma realidade ainda mais delicada e, muitas vezes, invisível: a das crianças que nascem e passam seus primeiros meses de vida dentro das celas."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/a-invisibilidade-das-criancas-que-nascem-nos-presidios-femininos-brasileiros.jpg"
 pubDate: 2025-11-24T18:58:01+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "A Invisibilidade das Crianças que Nascem nos Presídios Femininos Brasileiros"
-metaDescription: "O Brasil possui a quarta maior população carcerária feminina do mundo. Por trás desse número, existe uma realidade ainda mais delicada e, muitas vezes, invisível: a das crianças que nascem e passam seus primeiros meses de vida dentro das celas."
+metaTitle: "Crianças que Nascem em Presídios Femininos: Direitos"
+metaDescription: "Como vivem os bebês que nascem em presídios femininos, o que a Lei de Execução Penal prevê e quais os impactos para mães e crianças."
 ---
 
-<p>O Brasil possui a quarta maior população carcerária feminina do mundo. Por trás desse número, existe uma realidade ainda mais delicada e, muitas vezes, invisível: a das <strong>crianças que nascem e passam seus primeiros meses de vida dentro das celas</strong>.</p>
+<p>O Brasil está entre os países com maior população carcerária feminina do mundo. Por trás desse número, existe uma realidade ainda mais delicada e, muitas vezes, invisível: a das <strong>crianças que nascem e passam seus primeiros meses de vida dentro das celas</strong>.</p>
 
 <p>Esses bebês e crianças pequenas, que não cometeram crime algum, vivem em um ambiente hostil, sem os estímulos adequados e com seus direitos fundamentais cerceados. No Instituto Recomeçar, lutamos diariamente pela reintegração de homens e mulheres egressos, e entendemos que a invisibilidade dessa questão é um obstáculo para a construção de uma sociedade mais justa e segura para todos.</p>
 
@@ -24,7 +25,7 @@ metaDescription: "O Brasil possui a quarta maior população carcerária feminin
 
 <h4 class="wp-block-heading"><strong>Os Números por Trás das Grades</strong></h4>
 
-<p>Embora os dados exatos variem e sejam difíceis de rastrear, centenas de crianças nascem anualmente no sistema prisional brasileiro. Elas chegam ao mundo em um ambiente que deveria ser de exceção, mas que, na prática, é a única realidade que conhecem por um período crítico de seu desenvolvimento.</p>
+<p>Embora os dados exatos variem e sejam difíceis de rastrear, crianças nascem todos os anos no sistema prisional brasileiro. Elas chegam ao mundo em um ambiente que deveria ser de exceção, mas que, na prática, é a única realidade que conhecem por um período crítico de seu desenvolvimento.</p>
 
 <p>A falta de estruturas adequadas, como creches e berçários, e o contato limitado com o mundo externo, marcam a primeira fase da vida desses pequenos, tornando o combate à reincidência carcerária ainda mais urgente, pois a desestruturação familiar é um fator de risco.</p>
 
@@ -51,13 +52,13 @@ metaDescription: "O Brasil possui a quarta maior população carcerária feminin
 
 <h4 class="wp-block-heading"><strong>O Período de Aleitamento e Convivência</strong></h4>
 
-<p>A <strong>Lei de Execução Penal (LEP)</strong>, no seu Artigo 83, estabelece que as penitenciárias femininas devem ter setor de creche para abrigar crianças de 0 a 6 meses de idade, garantindo o aleitamento materno.</p>
+<p>A <strong>Lei de Execução Penal (LEP)</strong> trata da maternidade em mais de um artigo. O art. 89 diz que a penitenciária de mulheres será dotada de seção para gestante e parturiente e de creche para abrigar crianças maiores de 6 meses e menores de 7 anos, com a finalidade de assistir a criança desamparada cuja responsável estiver presa. A lei também prevê que as unidades femininas tenham berçário para que as presas possam amamentar.</p>
 
-<p>Na maioria dos casos, a criança pode permanecer com a mãe por, no máximo, <strong>seis meses</strong>. Após esse período, a lei prioriza a saída da criança, que deve ser entregue à família extensa (pai, avós, tios) ou, na ausência de responsáveis, encaminhada para abrigos e adoção. O objetivo é evitar que o ambiente prisional comprometa seu desenvolvimento.</p>
+<p>Na prática, o tempo que o bebê fica com a mãe depende da unidade, das normas do estado e de decisão da Justiça. Muitas unidades adotam a regra de convivência durante o aleitamento, seguida da saída da criança para a família ou, na falta dela, para acolhimento. Neste artigo, não afirmamos um prazo único, porque não o confirmamos em fonte oficial. Procure a Defensoria Pública ou o juízo da execução para saber a regra do seu caso.</p>
 
 <h4 class="wp-block-heading"><strong>A Importância do Marco Legal da Primeira Infância</strong></h4>
 
-<p>A legislação brasileira, especialmente após o <strong>Marco Legal da Primeira Infância</strong>, reforça o direito à convivência familiar e comunitária para a criança, o que muitas vezes justifica a separação após os seis meses. O desafio é garantir que essa separação seja acompanhada de políticas de apoio para a mãe e para o recém-nascido no mundo externo.</p>
+<p>O <strong>Marco Legal da Primeira Infância</strong> reforça o direito da criança à convivência familiar e comunitária. O desafio é garantir que qualquer separação venha acompanhada de apoio à mãe e ao bebê.</p>
 
 <h4 class="wp-block-heading"><strong>O Dilema da Separação</strong></h4>
 
@@ -103,3 +104,16 @@ metaDescription: "O Brasil possui a quarta maior população carcerária feminin
 <p>Olhar para as crianças que nascem nos presídios brasileiros é mais do que um ato de empatia: é um investimento na segurança pública e na justiça social. O <a href="https://www.tjsc.jus.br/web/imprensa/-/magistrada-da-a-receita-trabalho-e-estudo-para-evitar-ciclo-vicioso-da-reincidencia" target="_blank" rel="noreferrer noopener">ciclo da reincidência</a> só será quebrado quando oferecermos oportunidades reais de recomeço para as mães, garantindo que seus filhos tenham um futuro longe das grades.</p>
 
 <p><strong>Apoie o Instituto Recomeçar! Juntos, podemos transformar a invisibilidade em esperança e recomeço.</strong></p>
+
+<h3 class="wp-block-heading"><strong>Prisão domiciliar para gestantes e mães</strong></h3>
+
+<p>Segundo a imprensa jurídica, o Supremo Tribunal Federal (STF) autorizou, em decisão coletiva, a prisão domiciliar para gestantes e mães de crianças de até 12 anos, salvo exceções. Quem se enquadra deve pedir ao advogado ou à Defensoria Pública a análise do caso.</p>
+
+<h2>Fontes</h2>
+
+<p>Conferidas em 19 de outubro de 2026. Leis podem ser alteradas.</p>
+
+<ul>
+<li><a href="https://www.legjur.com/legislacao/nivel/lei_00072101984/-capitulo-ii-da-penitenciaria" target="_blank" rel="noopener noreferrer">Lei de Execução Penal, arts. 87 a 90 (art. 89, creche) — Legjur</a></li>
+<li><a href="https://jus.com.br/artigos/69977/prisao-domiciliar-decisao-do-stf-autoriza-o-recolhimento-domiciliar-de-mulheres-gestantes-ou-com-filhos-menores" target="_blank" rel="noopener noreferrer">Prisão domiciliar para gestante ou mãe de filho menor de 12 anos — Jus.com.br</a></li>
+</ul>
