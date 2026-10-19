@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-06-09T13:18:13+00:00
+noindex: true
 status: "published"
 metaTitle: "Reclusas e Egressas Lançam Livro de Poesias"
 metaDescription: "Notícia de 2021: reclusas e egressas da Penitenciária Feminina da Capital lançam a segunda obra de poesias do Sarau Asas Abertas."

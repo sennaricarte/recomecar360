@@ -7,6 +7,7 @@ cluster: "emprego-e-cursos"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-07-06T13:22:04+00:00
+noindex: true
 status: "published"
 metaTitle: "Empregos formais crescem 92% em janeiro no Alto Tietê"
 metaDescription: ""

@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-04-22T13:09:28+00:00
+noindex: true
 status: "published"
 metaTitle: "Curso Educação para a Paz em Presídios de São Paulo"
 metaDescription: "Notícia de 2021: sentenciados de São Paulo iniciam o projeto piloto Educação para a Paz, adaptado ao formato remoto na pandemia."

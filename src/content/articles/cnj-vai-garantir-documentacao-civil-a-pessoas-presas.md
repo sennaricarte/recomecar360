@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-08-11T13:30:12+00:00
+noindex: true
 status: "published"
 metaTitle: "CNJ e Documentação Civil para Pessoas Presas"
 metaDescription: "Notícia de 2021: o CNJ lançou estrutura nacional para garantir documentos civis a pessoas presas e facilitar o acesso a políticas públicas."

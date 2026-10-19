@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-09-22T13:36:04+00:00
+noindex: true
 status: "published"
 metaTitle: "Covid-19 nos Presídios de São Paulo: Queda de Casos"
 metaDescription: "Notícia de 2021 sobre a queda da contaminação por Covid-19 nos presídios de São Paulo e as medidas adotadas pelo governo estadual."

@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-01-06T13:04:53+00:00
+noindex: true
 status: "published"
 metaTitle: "Livro Incentiva Autoconhecimento de Mulheres Presas"
 metaDescription: "Notícia de 2021: livro com mais de 1.500 exemplares foi entregue a reeducandas da Região Metropolitana de São Paulo durante a pandemia."

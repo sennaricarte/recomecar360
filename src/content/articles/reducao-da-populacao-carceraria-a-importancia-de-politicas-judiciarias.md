@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-06-01T13:17:13+00:00
+noindex: true
 status: "published"
 metaTitle: "Redução da População Carcerária e Políticas Judiciárias"
 metaDescription: "Notícia de 2021 sobre a redução da superlotação no sistema prisional em 2020 e a importância de políticas judiciárias coordenadas."

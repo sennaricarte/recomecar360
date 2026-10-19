@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/presos-aprendem-uma-nova-profissao-por-meio-da-marcenaria.jpg"
 pubDate: 2021-08-24T13:33:06+00:00
+noindex: true
 status: "published"
 metaTitle: "Presos Aprendem Marcenaria: Capacitação Profissional"
 metaDescription: "Notícia de 2021: presos aprendem marcenaria em unidade prisional e produzem móveis e itens de decoração."

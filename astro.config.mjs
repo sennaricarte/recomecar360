@@ -2,6 +2,18 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
+import { readdirSync, readFileSync } from 'node:fs';
+
+// Artigos com `noindex: true` no frontmatter ficam fora do sitemap.
+const noindexPaths = new Set(
+  readdirSync('./src/content/articles')
+    .filter((file) => file.endsWith('.md'))
+    .map((file) => readFileSync(`./src/content/articles/${file}`, 'utf8'))
+    .filter((text) => /^noindex:\s*true\s*$/m.test(text.split(/\r?\n---\r?\n/)[0]))
+    .map((text) => text.match(/^slug:\s*"?([^"\n]+)"?\s*$/m)?.[1])
+    .filter(Boolean)
+    .map((slug) => `/blog/${slug}`),
+);
 
 // https://astro.build/config
 export default defineConfig({
@@ -19,6 +31,10 @@ export default defineConfig({
         const path = new URL(page).pathname.replace(/\/$/, '') || '/';
 
         if (path === '/obrigado' || path === '/faca-a-diferenca') {
+          return false;
+        }
+
+        if (noindexPaths.has(path)) {
           return false;
         }
 

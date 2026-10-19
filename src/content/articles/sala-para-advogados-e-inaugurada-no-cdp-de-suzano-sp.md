@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/sala-para-advogados-e-inaugurada-no-cdp-de-suzano-sp.jpg"
 pubDate: 2021-08-18T13:32:12+00:00
+noindex: true
 status: "published"
 metaTitle: "Sala para Advogados é Inaugurada no CDP de Suzano"
 metaDescription: "Notícia de 2021: o CDP de Suzano (SP) inaugurou sala de apoio para advogados dentro da unidade prisional."

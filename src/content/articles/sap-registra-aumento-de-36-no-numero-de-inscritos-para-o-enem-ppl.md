@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/sap-registra-aumento-de-36-no-numero-de-inscritos-para-o-enem-ppl.jpeg"
 pubDate: 2021-11-09T16:12:05+00:00
+noindex: true
 status: "published"
 metaTitle: "Enem PPL em SP: Inscritos Sobem 36% em 2021"
 metaDescription: "Notícia de 2021: inscritos no Enem PPL nos presídios de São Paulo saltaram de 12.778 em 2020 para 17.380."

@@ -10,6 +10,8 @@ interface Props {
   jsonLd?: Record<string, unknown>[];
   /** Trilha de navegação; gera o BreadcrumbList. Use os mesmos itens do breadcrumb visual. */
   breadcrumbs?: BreadcrumbInput[];
+  /** Pede ao Google para não indexar a página, mantendo o rastreio dos links. */
+  noindex?: boolean;
 }
 
 const {
@@ -19,6 +21,7 @@ const {
   ogImage = '/images/og-default.png',
   jsonLd: extraJsonLd = [],
   breadcrumbs,
+  noindex = false,
 } = Astro.props;
 
 const jsonLd = breadcrumbs?.length
@@ -39,6 +42,7 @@ function serializeJsonLd(data: Record<string, unknown>): string {
 
 <title>{title}</title>
 <meta name="description" content={description} />
+{noindex && <meta name="robots" content="noindex, follow" />}
 <link rel="canonical" href={canonicalUrl} />
 
 <meta property="og:type" content="website" />

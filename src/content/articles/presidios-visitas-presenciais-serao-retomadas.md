@@ -7,6 +7,7 @@ cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-08-03T13:29:11+00:00
+noindex: true
 status: "published"
 metaTitle: "Visitas Presenciais nos Presídios de SP Retornam"
 metaDescription: "Notícia de 2021: a SAP retomou as visitas presenciais nos presídios paulistas na 3ª fase do projeto Conexão Familiar."
