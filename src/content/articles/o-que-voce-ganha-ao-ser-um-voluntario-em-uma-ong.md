@@ -1,15 +1,15 @@
 ---
 title: "O que você ganha ao ser um voluntário em uma ONG"
 slug: "o-que-voce-ganha-ao-ser-um-voluntario-em-uma-ong"
-excerpt: ""
+excerpt: "Voluntariado em ONG: benefícios, como escolher uma organização e como se candidatar, inclusive ao Instituto Recomeçar."
 category: "Blog"
 cluster: "terceiro-setor"
 author: "Senna Ricarte"
 image: "blog/o-que-voce-ganha-ao-ser-um-voluntario-em-uma-ong.jpg"
 pubDate: 2023-04-11T14:31:49+00:00
 status: "published"
-metaTitle: "O que você ganha ao ser um voluntário em uma ONG"
-metaDescription: ""
+metaTitle: "Voluntariado em ONG: Benefícios e Como Começar"
+metaDescription: "Veja o que você ganha ao ser voluntário em uma ONG, como encontrar vagas e quais cuidados ter. Inclui como apoiar o Instituto Recomeçar."
 ---
 
 <span style="font-weight: 400">Você já pensou em ser um voluntário em uma organização não governamental (ONG)? </span>

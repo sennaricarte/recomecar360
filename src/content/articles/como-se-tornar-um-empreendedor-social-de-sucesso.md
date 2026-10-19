@@ -1,15 +1,15 @@
 ---
 title: "Como se tornar um empreendedor social de sucesso"
 slug: "como-se-tornar-um-empreendedor-social-de-sucesso"
-excerpt: ""
+excerpt: "Dicas para se tornar empreendedor social, com exemplos de quem une impacto e sustentabilidade financeira."
 category: "Blog"
 cluster: "terceiro-setor"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2024-01-01T00:00:00+00:00
 status: "draft"
-metaTitle: "Como se tornar um empreendedor social de sucesso"
-metaDescription: ""
+metaTitle: "Como Se Tornar um Empreendedor Social de Sucesso"
+metaDescription: "Dicas práticas para quem quer empreender com impacto social: propósito, capacitação, inovação, parcerias e comunicação."
 ---
 
 <div class="content">
