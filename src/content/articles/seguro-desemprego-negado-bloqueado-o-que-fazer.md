@@ -7,7 +7,7 @@ cluster: "beneficios"
 author: "Senna Ricarte"
 image: "blog/seguro-desemprego-negado-bloqueado-o-que-fazer.jpg"
 pubDate: 2026-02-02T19:45:57+00:00
-updatedDate: 2026-10-19T12:00:00+00:00
+updatedDate: 2026-10-19T15:00:00+00:00
 status: "published"
 metaTitle: "Seguro-Desemprego Negado ou Bloqueado? O Que Fazer em 2026"
 metaDescription: "Seguro-desemprego negado, bloqueado ou não liberado? Veja os motivos, como fazer o recurso pelo celular e o prazo de 2 anos para pedir revisão."
@@ -20,6 +20,8 @@ metaDescription: "Seguro-desemprego negado, bloqueado ou não liberado? Veja os 
 
 <div class="wp-block-buttons"><div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/blog/guia-curriculo-perfeito-pat/">Leia também: Guia do Currículo Perfeito para o PAT: Conquiste sua Vaga no Recomeço</a></div>
 </div>
+
+<div style="border:2px solid #0f766e;border-radius:8px;padding:1rem;margin:1.5rem 0"><p><strong>Resposta rápida:</strong> se o seguro-desemprego foi negado ou bloqueado, abra a função “Notificações” no aplicativo para ver o motivo. Depois cadastre um recurso administrativo, online, pelo gov.br ou pelo aplicativo SINE-Fácil. O prazo para pedir a revisão é de dois anos, contados da data da demissão. Se o erro for complexo, procure o PAT, o Posto de Atendimento ao Trabalhador.</p></div>
 
 <h2 class="wp-block-heading"><strong>Por que meu Seguro-Desemprego foi negado ou bloqueado?</strong></h2>
 
@@ -102,6 +104,23 @@ metaDescription: "Seguro-desemprego negado, bloqueado ou não liberado? Veja os 
 <p>O <strong>Instituto Recomeçar</strong> acredita que, com informação e disciplina, qualquer barreira pode ser superada.</p>
 
 <p><strong>Precisa de ajuda para se recolocar no mercado de trabalho ou quer saber mais sobre seus direitos como egresso?</strong><a href="/de-quebrada-em-quebrada/">Clique aqui e conheça os programas do Instituto Recomeçar.</a></p>
+
+<h2>Perguntas frequentes</h2>
+
+<h3>Por que meu seguro-desemprego foi bloqueado?</h3>
+<p>Os motivos comuns são divergência de dados, MEI ativo lido como renda própria, outras rendas e erro no PIS/PASEP. Veja o motivo exato em “Notificações” no aplicativo.</p>
+
+<h3>Qual o prazo para entrar com recurso?</h3>
+<p>O prazo para pedir a revisão é de dois anos contados da data da demissão, segundo o gov.br. Os 120 dias são outro prazo: o limite para pedir o benefício.</p>
+
+<h3>Dá para fazer o recurso pelo celular?</h3>
+<p>Sim. Entre no SINE-Fácil com a conta gov.br, vá em “Recurso” e “Cadastrar Recurso”. Anexe os documentos em JPG, PNG ou PDF, com até 1 MB cada.</p>
+
+<h3>Ter MEI impede de receber o seguro-desemprego?</h3>
+<p>Pode impedir, porque o sistema pode ler o MEI aberto como renda própria. O gov.br não detalha essa regra. Confirme seu caso no recurso ou no atendimento do PAT.</p>
+
+<h3>E se o recurso for negado?</h3>
+<p>Ainda é possível pedir nova revisão dentro dos dois anos. Você também pode procurar a Defensoria Pública da União (DPU).</p>
 
 <h2>Fontes</h2>
 
