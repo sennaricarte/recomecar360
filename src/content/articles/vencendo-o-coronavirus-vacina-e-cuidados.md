@@ -1,15 +1,16 @@
 ---
 title: "Vencendo o Coronavírus - Vacina e Cuidados"
 slug: "vencendo-o-coronavirus-vacina-e-cuidados"
-excerpt: ""
+excerpt: "Live de 2021 do Instituto Butantan e da SAP-SP sobre vacina, Coronavac e cuidados contra a covid-19."
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-05-19T13:16:02+00:00
 noindex: true
 status: "published"
-metaTitle: "Vencendo o Coronavírus - Vacina e Cuidados"
-metaDescription: ""
+metaTitle: "Vencendo o Coronavírus: Vacina e Cuidados (2021)"
+metaDescription: "Registro de live de 2021 da SAP-SP com o Instituto Butantan sobre vacina, Coronavac e cuidados contra a covid-19. Conteúdo histórico."
 ---
 
 Palestra com Dr. Luis Guilherme Virgílio, do <a href="https://butantan.gov.br/" target="_blank" rel="noopener">Instituto Butantan</a> - Vencendo o Coronavírus - Vacina e Cuidados.

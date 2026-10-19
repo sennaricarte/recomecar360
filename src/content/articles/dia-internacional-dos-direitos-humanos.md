@@ -1,14 +1,16 @@
 ---
 title: "Dia Internacional dos Direitos Humanos"
 slug: "dia-internacional-dos-direitos-humanos"
-excerpt: ""
+excerpt: "O Dia Internacional dos Direitos Humanos lembra a Declaração Universal de 1948. Veja a história da data e por que ela importa."
 category: "Blog"
+cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/dia-internacional-dos-direitos-humanos.jpg"
 pubDate: 2023-12-10T11:00:07+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Dia Internacional dos Direitos Humanos"
-metaDescription: ""
+metaTitle: "Dia Internacional dos Direitos Humanos: Origem e Sentido"
+metaDescription: "Entenda a origem do Dia Internacional dos Direitos Humanos, comemorado em 10 de dezembro, e a importância da Declaração Universal de 1948."
 ---
 
 Hoje vamos falar sobre um tema muito importante: o <strong>Dia Internacional dos Direitos Humanos.</strong> Você sabe o que é essa data e por que ela é celebrada em 10 de dezembro?
@@ -47,4 +49,8 @@ O Dia Internacional dos Direitos Humanos é principalmente, uma oportunidade par
 <p data-sourcepos="7:1-7:218">Portanto, Criar oportunidades para pessoas egressas é contribuir para uma sociedade justa e inclusiva.</p>
 Gostou desse post? Compartilha!
 
-Se é sua primeira vez por aqui, te convido a conhecer mais de perto o trabalho que realizamos aqui no <a href="/quem-somos/">Instituto Recomeçar</a>.;
+Se é sua primeira vez por aqui, te convido a conhecer mais de perto o trabalho que realizamos aqui no <a href="/quem-somos/">Instituto Recomeçar</a>.
+
+<p>Os direitos humanos também valem para pessoas privadas de liberdade e para egressos. Leia o <a href="/blog/sistema-prisional-brasileiro-guia-direitos-e-reinsercao/">guia sobre direitos e reinserção no sistema prisional brasileiro</a>.</p>
+
+<p>Os direitos humanos também valem para pessoas privadas de liberdade e para egressos. Leia o <a href="/blog/sistema-prisional-brasileiro-guia-direitos-e-reinsercao/">guia sobre direitos e reinserção no sistema prisional brasileiro</a>.</p>
