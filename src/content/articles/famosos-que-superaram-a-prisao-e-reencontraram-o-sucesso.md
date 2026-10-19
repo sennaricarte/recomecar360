@@ -1,15 +1,15 @@
 ---
 title: "Famosos que superaram a prisão e reencontraram o sucesso"
 slug: "famosos-que-superaram-a-prisao-e-reencontraram-o-sucesso"
-excerpt: ""
+excerpt: "Conheça histórias de cinco famosos que passaram pela prisão e reconstruíram a vida, e o que elas mostram sobre recomeçar."
 category: "Blog"
 cluster: "egressos"
 author: "Joel Novaes"
 image: "blog/famosos-que-superaram-a-prisao-e-reencontraram-o-sucesso.jpg"
 pubDate: 2024-02-01T10:47:16+00:00
 status: "published"
-metaTitle: "Famosos que superaram a prisão e reencontraram o sucesso"
-metaDescription: ""
+metaTitle: "Famosos que Superaram a Prisão e Reencontraram o Sucesso"
+metaDescription: "Conheça histórias de cinco famosos que passaram pela prisão e reconstruíram a vida, e o que elas mostram sobre recomeçar."
 ---
 
 <p data-sourcepos="3:1-3:295">A vida sem dúvida, é feita de altos e baixos, momentos de glória e de tropeços. Para alguns, esses tropeços podem levar a caminhos inesperados, como a prisão.</p>

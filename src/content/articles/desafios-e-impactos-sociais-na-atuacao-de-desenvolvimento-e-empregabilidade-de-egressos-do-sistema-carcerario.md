@@ -1,15 +1,15 @@
 ---
 title: "Desafios e impactos sociais na atuação de desenvolvimento e empregabilidade de egressos do sistema carcerário"
 slug: "desafios-e-impactos-sociais-na-atuacao-de-desenvolvimento-e-empregabilidade-de-egressos-do-sistema-carcerario"
-excerpt: ""
+excerpt: "Artigo descreve a metodologia do Instituto Recomeçar, da rede Gerando Falcões, para qualificar e recolocar egressos no mercado."
 category: "Blog"
 cluster: "egressos"
 author: "Senna Ricarte"
 image: "blog/desafios-e-impactos-sociais-na-atuacao-de-desenvolvimento-e-empregabilidade-de-egressos-do-sistema-carcerario.jpg"
 pubDate: 2024-02-27T14:52:09+00:00
 status: "published"
-metaTitle: "Desafios e impactos sociais na atuação de desenvolvimento e empregabilidade de egressos do sistema carcerário"
-metaDescription: ""
+metaTitle: "Empregabilidade de Egressos: Metodologia do Recomeçar"
+metaDescription: "Artigo descreve a metodologia do Instituto Recomeçar, da rede Gerando Falcões, para qualificar e recolocar egressos no mercado."
 ---
 
 <strong>Contribuição: Leedyan Costa Oliveira Ortiz

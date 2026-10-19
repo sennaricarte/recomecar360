@@ -1,15 +1,15 @@
 ---
 title: "Conheça o Qualifica Recife e transforme sua carreira!"
 slug: "conheca-o-qualifica-recife-e-transforme-sua-carreira"
-excerpt: ""
+excerpt: "Conheça o Qualifica Recife, programa de qualificação profissional da capital pernambucana. Confirme editais e regras atuais no site oficial."
 category: "Blog"
 cluster: "emprego-e-cursos"
 author: "Joel Novaes"
 image: "blog/conheca-o-qualifica-recife-e-transforme-sua-carreira.jpg"
 pubDate: 2024-01-16T18:15:13+00:00
 status: "published"
-metaTitle: "Conheça o Qualifica Recife e transforme sua carreira!"
-metaDescription: ""
+metaTitle: "Qualifica Recife: Cursos de Qualificação na Capital"
+metaDescription: "Conheça o Qualifica Recife, programa de qualificação profissional da capital pernambucana. Confirme editais e regras atuais no site oficial."
 ---
 
 Você morador da capital pernambucana, já ouviu falar sobre o Qualifica Recife? Se ainda não, prepare-se para descobrir uma porta de entrada para o mercado de trabalho e uma chance incrível de aprimorar suas habilidades profissionais.

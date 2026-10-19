@@ -1,15 +1,15 @@
 ---
 title: "CNJ lança aplicativo para egressos do sistema prisional"
 slug: "cnj-lanca-aplicativo-para-egressos-do-sistema-prisional"
-excerpt: ""
+excerpt: "O CNJ lançou o Escritório Social Virtual, aplicativo com serviços e informações para egressos do sistema prisional em todo o país."
 category: "Blog"
 cluster: "egressos"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-04-27T13:11:43+00:00
 status: "published"
-metaTitle: "CNJ lança aplicativo para egressos do sistema prisional"
-metaDescription: ""
+metaTitle: "CNJ Lança Aplicativo Escritório Social Virtual"
+metaDescription: "O CNJ lançou o Escritório Social Virtual, aplicativo com serviços e informações para egressos do sistema prisional em todo o país."
 ---
 
 O <a href="https://www.cnj.jus.br/" target="_blank" rel="noopener">Conselho Nacional de Justiça</a> (CNJ) lançou na terça-feira (20) um aplicativo para egressos do sistema prisional que tem como objetivo oferecer serviços e informações para auxiliar essas pessoas na retomada da vida após o período detido.

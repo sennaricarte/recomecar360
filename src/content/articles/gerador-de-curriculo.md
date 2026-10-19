@@ -8,8 +8,8 @@ author: "Senna Ricarte"
 image: "blog/gerador-de-curriculo.jpg"
 pubDate: 2025-07-21T14:47:35+00:00
 status: "published"
-metaTitle: "Gerador de Currículo"
-metaDescription: "Criamos essa ferramenta com o objetivo de auxiliar você na criação de seu curriculum vitae, um documento essencial para quem está a procura de um novo emprego."
+metaTitle: "Gerador de Currículo Grátis: Crie o Seu Online"
+metaDescription: "Crie seu currículo profissional grátis, em poucos minutos, com nosso gerador online baseado em dicas de profissionais de recrutamento."
 ---
 
 <div class="wp-block-cover has-theme-palette-9-color has-text-color has-link-color"><img class="wp-block-cover__image-background wp-image-6879 size-large" alt="laptop, business, office, desk, job, work, laptop, laptop, laptop, laptop, business, job, job, work, work, work, work, work" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/1d771e30-5755-4e90-8a63-87f33dd2315d/ga954367475c614a2951bcf1d4c6d565d4b364d3b4fb735f6e6fae405f0a36e72bc2c1ff0b97a500b5617b24d13e6e95d8a520dc25cd4cd9fd8ccd8cfdc337cb1_1280-8236497-682x1024.jpg" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-60 has-background-dim" style="background-color:#837b76"></span><div class="wp-block-cover__inner-container">

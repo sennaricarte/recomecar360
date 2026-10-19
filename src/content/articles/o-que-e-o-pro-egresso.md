@@ -1,15 +1,15 @@
 ---
 title: "O que é o Pró-Egresso"
 slug: "o-que-e-o-pro-egresso"
-excerpt: ""
+excerpt: "Entenda o Pró-Egresso, programa do Estado de São Paulo de apoio a egressos do sistema penitenciário, e quais órgãos atuam em parceria."
 category: "Blog"
 cluster: "egressos"
 author: "Senna Ricarte"
 image: "blog/o-que-e-o-pro-egresso.jpg"
 pubDate: 2024-01-15T17:02:02+00:00
 status: "published"
-metaTitle: "O que é o Pró-Egresso"
-metaDescription: ""
+metaTitle: "O Que É o Pró-Egresso: Programa Estadual de SP"
+metaDescription: "Entenda o Pró-Egresso, programa do Estado de São Paulo de apoio a egressos do sistema penitenciário, e quais órgãos atuam em parceria."
 ---
 
 Na busca por oportunidades de mudança e inclusão, o <strong>Programa Estadual de Apoio ao Egresso do Sistema Penitenciário – PRÓ-EGRESSO</strong> destaca-se como uma iniciativa pioneira e colaborativa.

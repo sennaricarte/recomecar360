@@ -9,8 +9,8 @@ image: "blog/cursos-gratuitos-do-governo-conheca-a-escola-virtual.jpg"
 pubDate: 2024-04-22T13:20:57+00:00
 updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Cursos gratuitos do governo, conheça a Escola Virtual"
-metaDescription: "Olá, tudo bem? Já parou para pensar que nunca paramos de aprender? Pois é, o aprendizado é uma viagem que não tem fim. E nessa jornada, se manter atualizado é super importante, ainda mais com o tanto de coisa nova que aparece todo dia."
+metaTitle: "Escola Virtual: Cursos Gratuitos do Governo"
+metaDescription: "Conheça a Escola Virtual, plataforma de cursos gratuitos do governo, e veja como se inscrever e estudar no seu ritmo."
 ---
 
 <p>Olá, tudo bem? Já parou para pensar que nunca paramos de aprender? Pois é, o aprendizado é uma viagem que não tem fim. E nessa jornada, <strong>se manter atualizado</strong> é super importante, ainda mais com o tanto de coisa nova que aparece todo dia.</p>

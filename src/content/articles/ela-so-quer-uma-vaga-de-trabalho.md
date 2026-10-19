@@ -1,15 +1,15 @@
 ---
 title: "Ela só quer uma vaga de trabalho"
 slug: "ela-so-quer-uma-vaga-de-trabalho"
-excerpt: ""
+excerpt: "Aline Fernandes de Souza, 34 anos, quer deixar para trás as idas e voltas ao cárcere e conseguir uma vaga de trabalho."
 category: "Blog"
 cluster: "egressos"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2020-12-11T13:03:32+00:00
 status: "published"
-metaTitle: "Ela só quer uma vaga de trabalho"
-metaDescription: ""
+metaTitle: "Ela Só Quer uma Vaga de Trabalho: História de Aline"
+metaDescription: "Aline Fernandes de Souza, 34 anos, quer deixar para trás as idas e voltas ao cárcere e conseguir uma vaga de trabalho."
 ---
 
 <h2>Aline Fernandes de Souza só quer uma vaga de trabalho.</h2>

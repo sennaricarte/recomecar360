@@ -1,15 +1,15 @@
 ---
 title: "Conheça o Programa de Alimentação do Trabalhador (PAT)"
 slug: "conheca-o-programa-de-alimentacao-do-trabalhador-pat"
-excerpt: ""
+excerpt: "Entenda o que é o PAT, a quem se destina e como funciona o benefício de alimentação para trabalhadores, incluindo vale-refeição."
 category: "Blog"
 cluster: "emprego-e-cursos"
 author: "Joel Novaes"
 image: "blog/conheca-o-programa-de-alimentacao-do-trabalhador-pat.jpg"
 pubDate: 2024-01-30T12:36:36+00:00
 status: "published"
-metaTitle: "Conheça o Programa de Alimentação do Trabalhador (PAT)"
-metaDescription: ""
+metaTitle: "Programa de Alimentação do Trabalhador (PAT): Guia"
+metaDescription: "Entenda o que é o PAT, a quem se destina e como funciona o benefício de alimentação para trabalhadores, incluindo vale-refeição."
 ---
 
 O Programa de Alimentação do Trabalhador (PAT) é uma iniciativa, sem dúvida, essencial que busca atender prioritariamente os trabalhadores de baixa renda no Brasil.

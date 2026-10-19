@@ -1,15 +1,15 @@
 ---
 title: "QualificaSP: Descubra novas oportunidades de qualificação profissional"
 slug: "qualificasp-descubra-novas-oportunidades-de-qualificacao-profissional"
-excerpt: ""
+excerpt: "Conheça o QualificaSP, programa de qualificação profissional de São Paulo. Edital e regras mudam, então confirme no site oficial."
 category: "Blog"
 cluster: "emprego-e-cursos"
 author: "Senna Ricarte"
 image: "blog/qualificasp-descubra-novas-oportunidades-de-qualificacao-profissional.jpg"
 pubDate: 2024-01-16T12:45:56+00:00
 status: "published"
-metaTitle: "QualificaSP: Cursos Gratuitos em São Paulo (Como Funciona)"
-metaDescription: ""
+metaTitle: "QualificaSP: Cursos de Qualificação Profissional"
+metaDescription: "Conheça o QualificaSP, programa de qualificação profissional de São Paulo. Edital e regras mudam, então confirme no site oficial."
 ---
 
 Em um cenário em constante evolução, a busca por qualificação profissional torna-se, sem dúvida, uma peça fundamental no quebra-cabeça do sucesso.

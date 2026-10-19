@@ -9,8 +9,8 @@ image: "blog/como-se-tornar-um-encanador-autonomo.jpg"
 pubDate: 2026-01-11T13:58:24+00:00
 updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Como se tornar um encanador autônomo e conquistar sua independência"
-metaDescription: "Você já parou para pensar que quase nada funciona em uma casa ou empresa sem um bom sistema de hidráulica? O encanador é o profissional essencial que garante o acesso à água potável e o escoamento correto de esgoto, sendo peça-chave para a saúde pública e o conforto das famílias."
+metaTitle: "Como Se Tornar um Encanador Autônomo"
+metaDescription: "Passo a passo para virar encanador autônomo: aprender o ofício, conseguir clientes e conquistar independência financeira."
 ---
 
 <p>Você já parou para pensar que quase nada funciona em uma casa ou empresa sem um bom sistema de hidráulica? O <strong>encanador</strong> é o profissional essencial que garante o acesso à água potável e o escoamento correto de esgoto, sendo peça-chave para a saúde pública e o conforto das famílias.</p>

@@ -1,15 +1,15 @@
 ---
 title: "Fomento ao empreendedorismo para egressos do sistema carcerário"
 slug: "fomento-ao-empreendedorismo-para-egressos-do-sistema-carcerario"
-excerpt: ""
+excerpt: "Recomeçar e parceiros realizaram curso de empreendedorismo para sete egressos do sistema penitenciário. Veja como foi o encontro."
 category: "Blog"
 cluster: "egressos"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-04-26T13:10:30+00:00
 status: "published"
-metaTitle: "Fomento ao empreendedorismo para egressos do sistema carcerário"
-metaDescription: ""
+metaTitle: "Fomento ao Empreendedorismo para Egressos do Sistema"
+metaDescription: "Recomeçar e parceiros realizaram curso de empreendedorismo para sete egressos do sistema penitenciário. Veja como foi o encontro."
 ---
 
 <h2>Recomeçar e parceiros se uniram para fomentar empreendedorismo para egressos do sistema carcerário.</h2>

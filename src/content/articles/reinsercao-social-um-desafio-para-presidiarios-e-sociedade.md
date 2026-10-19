@@ -1,15 +1,15 @@
 ---
 title: "Reinserção social: um desafio para presidiários e sociedade"
 slug: "reinsercao-social-um-desafio-para-presidiarios-e-sociedade"
-excerpt: ""
+excerpt: "Entenda os desafios da reinserção social de presos no Brasil, como a falta de oportunidades, a discriminação e o estigma."
 category: "Blog"
 cluster: "egressos"
 author: "Joel Novaes"
 image: "blog/reinsercao-social-um-desafio-para-presidiarios-e-sociedade.jpg"
 pubDate: 2024-01-08T18:41:19+00:00
 status: "published"
-metaTitle: "Reinserção social: um desafio para presidiários e sociedade"
-metaDescription: ""
+metaTitle: "Reinserção Social: Desafio para Presos e Sociedade"
+metaDescription: "Entenda os desafios da reinserção social de presos no Brasil, como a falta de oportunidades, a discriminação e o estigma."
 ---
 
 A reinserção social de presidiários é um desafio complexo que envolve diversos fatores, como por exemplo, a falta de oportunidades, a discriminação e a estigmatização.

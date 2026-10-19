@@ -1,15 +1,15 @@
 ---
 title: "O que as mulheres ex-presidiárias enfrentam após ganharem a liberdade?"
 slug: "o-que-as-mulheres-ex-presidiarias-enfrentam-apos-ganharem-a-liberdade"
-excerpt: ""
+excerpt: "Veja os desafios das mulheres egressas do sistema prisional, com base no Infopen Mulheres: baixa escolaridade, vulnerabilidade e sustento da família."
 category: "Blog"
 cluster: "egressos"
 author: "Senna Ricarte"
 image: "blog/o-que-as-mulheres-ex-presidiarias-enfrentam-apos-ganharem-a-liberdade.jpg"
 pubDate: 2023-02-23T18:44:43+00:00
 status: "published"
-metaTitle: "O que as mulheres ex-presidiárias enfrentam após ganharem a liberdade?"
-metaDescription: ""
+metaTitle: "Mulheres Egressas: Desafios Após Deixar o Cárcere"
+metaDescription: "Veja os desafios das mulheres egressas do sistema prisional, com base no Infopen Mulheres: baixa escolaridade, vulnerabilidade e sustento da família."
 ---
 
 <h2><span style="font-weight: 400">São muitos os desafios que as mulheres ex-presidiárias enfrentam após ganharem a liberdade.</span></h2>

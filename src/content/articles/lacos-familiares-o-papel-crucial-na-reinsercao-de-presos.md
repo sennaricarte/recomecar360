@@ -1,15 +1,15 @@
 ---
 title: "Laços Familiares: O Papel Crucial na Reinserção de Presos"
 slug: "lacos-familiares-o-papel-crucial-na-reinsercao-de-presos"
-excerpt: ""
+excerpt: "Veja por que a família é essencial na reabilitação de presos e na reinserção social de egressos do sistema prisional."
 category: "Blog"
 cluster: "egressos"
 author: "Senna Ricarte"
 image: "blog/lacos-familiares-o-papel-crucial-na-reinsercao-de-presos.jpg"
 pubDate: 2024-01-03T12:56:20+00:00
 status: "published"
-metaTitle: "Laços Familiares: O Papel Crucial na Reinserção de Presos"
-metaDescription: ""
+metaTitle: "Laços Familiares e a Reinserção Social de Presos"
+metaDescription: "Veja por que a família é essencial na reabilitação de presos e na reinserção social de egressos do sistema prisional."
 ---
 
 A questão da reintegração de indivíduos ao convívio social após o período de encarceramento é um tema, sem dúvida complexo e desafiador. Dentre os diversos fatores que impactam nesse processo, a conexão familiar emerge como um componente crucial.

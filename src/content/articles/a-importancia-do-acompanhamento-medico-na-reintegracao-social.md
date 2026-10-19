@@ -8,8 +8,8 @@ author: "Joel Novaes"
 image: "blog/a-importancia-do-acompanhamento-medico-na-reintegracao-social.jpg"
 pubDate: 2025-07-10T08:50:45+00:00
 status: "published"
-metaTitle: "A importância do acompanhamento médico na reintegração social"
-metaDescription: "Você já parou para pensar no quão desafiador pode ser para alguém, após passar por uma experiência complicada na vida, retornar à sociedade e tentar recomeçar?"
+metaTitle: "Acompanhamento Médico na Reintegração Social"
+metaDescription: "Veja por que o acompanhamento médico é importante para quem recomeça após prisão, dependência química ou outra adversidade social."
 ---
 
 <h2 class="wp-block-heading">É Possível Recomeçar com Saúde?</h2>
