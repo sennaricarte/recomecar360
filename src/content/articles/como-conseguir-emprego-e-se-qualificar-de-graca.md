@@ -5,7 +5,9 @@ excerpt: "Procurando trabalho ou curso gratuito? Veja o caminho em ordem: docume
 category: "Blog"
 cluster: "emprego-e-cursos"
 author: "Equipe de Comunicação Recomeçar"
-image: "blog/_placeholder.svg"
+image: "blog/como-conseguir-emprego-e-se-qualificar-de-graca.jpg"
+imageCredit: "Sergey Sergeev / Pexels"
+imageCreditUrl: "https://www.pexels.com/pt-br/foto/trabalhador-industrial-em-fabrica-de-aco-32845680/"
 pubDate: 2026-10-19T15:00:00+00:00
 status: "published"
 metaTitle: "Como Conseguir Emprego e Fazer Cursos Grátis: Guia"
