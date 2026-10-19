@@ -63,6 +63,15 @@ const steps = [
   <JoinAdsScript slot="head" />
 
   <div class="enroll-page">
+    <aside class="enroll-ad enroll-ad--top" aria-label="Publicidade">
+      <div class="container">
+        <p class="enroll-ad__label">Publicidade</p>
+        <div class="enroll-ad__box">
+          <AdSlot code="Content3" lazyload={false} />
+        </div>
+      </div>
+    </aside>
+
     <section class="hero" aria-label="Matricule-se na Escola da Pizza">
       <div class="container hero__content">
         <nav class="breadcrumb" aria-label="Você está em">
@@ -269,6 +278,14 @@ const steps = [
     text-align: center;
     text-transform: uppercase;
     color: var(--color-muted-text);
+  }
+
+  .enroll-ad--top {
+    padding: 1rem 0;
+  }
+
+  .enroll-ad__box {
+    min-height: 6.25rem;
   }
 
   @media (min-width: 48rem) {
