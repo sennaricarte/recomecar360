@@ -1,20 +1,23 @@
 ---
 title: "Espaços educacionais de presídios paulistas passam por melhorias"
 slug: "espacos-educacionais-de-presidios-paulistas-passam-por-melhorias"
-excerpt: ""
+excerpt: "Notícia de 2021: verba do PDDE-SP financia melhorias nos espaços de estudo dos presídios da Região Metropolitana de São Paulo."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-07-15T13:23:20+00:00
 status: "published"
-metaTitle: "Espaços educacionais de presídios paulistas passam por melhorias"
-metaDescription: ""
+metaTitle: "Escolas em Presídios Paulistas Recebem Melhorias"
+metaDescription: "Notícia de 2021: verba do PDDE-SP financia melhorias nos espaços de estudo dos presídios da Região Metropolitana de São Paulo."
 ---
 
 <h2>Verba do Programa Dinheiro Direto na Escola (PDDE-SP) foi disponibilizada pelas escolas vinculadoras.</h2>
 Desde 2020, estabelecimentos penais da Coordenadoria de Unidades Prisionais da Região Metropolitana de São Paulo (Coremetro), da <a href="http://www.sap.sp.gov.br/" target="_blank" rel="noopener">Secretaria da Administração Penitenciária</a> (SAP), trabalham com a oferta de estudo pelo Programa Educação nas Prisões (PEP) e contam com apoio financeiro para o investimento em infraestrutura e em material pedagógico a partir do <a href="http://www.fnde.gov.br/programas/pdde" target="_blank" rel="noopener">Programa Dinheiro Direto na Escola</a> (PDDE-SP).
 
+
+
+<p><strong>Atenção:</strong> esta notícia foi publicada em julho de 2021 e reproduz as informações da época. Números, regras e programas podem ter mudado.</p>
 O programa instituído em 2019, disponibiliza às escolas estaduais recursos financeiros de forma facilitada e menos burocrática. Os repasses são feitos diretamente às Associações de Pais e Mestres (APM) das unidades escolares para que realizem pequenas reformas, manutenções emergenciais e adquiram equipamentos de forma mais ágil, contribuindo para a melhoria do ambiente escolar e do ensino.
 
 Entre os estabelecimentos penais da Capital e da Grande São Paulo, 16 deles fizeram uso do benefício que, em comum acordo com as escolas vinculadoras, decidiram o destino de aplicação da verba.

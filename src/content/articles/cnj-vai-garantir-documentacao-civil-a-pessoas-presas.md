@@ -1,20 +1,23 @@
 ---
 title: "CNJ vai garantir documentação civil a pessoas presas"
 slug: "cnj-vai-garantir-documentacao-civil-a-pessoas-presas"
-excerpt: ""
+excerpt: "Notícia de 2021: o CNJ lançou estrutura nacional para garantir documentos civis a pessoas presas e facilitar o acesso a políticas públicas."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-08-11T13:30:12+00:00
 status: "published"
-metaTitle: "CNJ vai garantir documentação civil a pessoas presas"
-metaDescription: ""
+metaTitle: "CNJ e Documentação Civil para Pessoas Presas"
+metaDescription: "Notícia de 2021: o CNJ lançou estrutura nacional para garantir documentos civis a pessoas presas e facilitar o acesso a políticas públicas."
 ---
 
 <h2>CNJ lança estrutura nacional para garantir documentação civil a pessoas presas.</h2>
 Cerca de 80% das pessoas privadas de liberdade no Brasil – quase 600 mil – não têm documentos em seus prontuários, dificultando o acesso a políticas públicas e a retomada da vida em sociedade.
 
+
+
+<p><strong>Atenção:</strong> esta notícia foi publicada em agosto de 2021 e reproduz as informações da época. Números, regras e programas podem ter mudado.</p>
 Para transformar essa realidade, o <a href="https://www.cnj.jus.br/" target="_blank" rel="noopener">Conselho Nacional de Justiça</a> (CNJ) lançou, na terça-feira (3/8), ação nacional que marca a criação de estrutura permanente de identificação civil e emissão de documentos para esse público.
 
 A estimativa é de que a população prisional do país já esteja identificada civilmente até agosto de 2022.

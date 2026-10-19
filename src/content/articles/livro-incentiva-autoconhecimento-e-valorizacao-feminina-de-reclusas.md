@@ -1,20 +1,23 @@
 ---
 title: "Livro incentiva autoconhecimento e valorização feminina de reclusas"
 slug: "livro-incentiva-autoconhecimento-e-valorizacao-feminina-de-reclusas"
-excerpt: ""
+excerpt: "Notícia de 2021: livro com mais de 1.500 exemplares foi entregue a reeducandas da Região Metropolitana de São Paulo durante a pandemia."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-01-06T13:04:53+00:00
 status: "published"
-metaTitle: "Livro incentiva autoconhecimento e valorização feminina de reclusas"
-metaDescription: ""
+metaTitle: "Livro Incentiva Autoconhecimento de Mulheres Presas"
+metaDescription: "Notícia de 2021: livro com mais de 1.500 exemplares foi entregue a reeducandas da Região Metropolitana de São Paulo durante a pandemia."
 ---
 
 <h2 style="text-align: center">Mais de 1.500 exemplares foram entregues em estabelecimentos penais da Coremetro.</h2>
 Para enfrentar o período de pandemia de <strong>Covid-19</strong> e manter o equilíbrio físico e mental, as reeducandas dos estabelecimentos penais da Coordenadoria de Unidades Prisionais da Região Metropolitana de São Paulo <strong>(Coremetro)</strong> contaram com o apoio de um livro desenvolvido pelo <strong>Projeto Mulheres Possíveis</strong>. A iniciativa, que funciona desde 2016 na <strong>Penitenciária Feminina da Capital</strong> (PFC), foi expandida para outros presídios da <strong>Secretaria da Administração Penitenciária</strong> (SAP).
 
+
+
+<p><strong>Atenção:</strong> esta notícia foi publicada em janeiro de 2021 e reproduz as informações da época. Números, regras e programas podem ter mudado.</p>
 Durante o segundo semestre deste ano, as idealizadoras e executoras do projeto, <strong>Beatriz Cruz, Letícia Olivares, Sandra Ximenez</strong> e <strong>Vânia Medeiro</strong>s, entregaram às reeducandas da PFC, do <strong>Centro de Detenção Provisória (CDP) Feminino de Franco da Roch</strong>a e do<strong> Centro de Progressão Penitenciária</strong> (CPP) de São Miguel Paulista o “livro de atividades – mulheres possíveis”.
 
 Com a intenção de não interromper as práticas de autoconhecimento e desenvolvimento pessoal promovidas pelo grupo mesmo com o isolamento social, foram propostas reflexões estimulando a criação, o cuidado e o “fazer arte”, como descrito nas primeiras páginas do caderno.

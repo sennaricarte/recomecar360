@@ -1,15 +1,15 @@
 ---
 title: "5 livros sobre o sistema prisional brasileiro"
 slug: "5-livros-sobre-o-sistema-prisional-brasileiro"
-excerpt: ""
+excerpt: "Conheça 5 livros para entender a origem, os problemas e as propostas para o sistema prisional brasileiro, de Foucault a autores nacionais."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/5-livros-sobre-o-sistema-prisional-brasileiro.jpg"
 pubDate: 2024-01-10T13:49:35+00:00
 status: "published"
-metaTitle: "5 livros sobre o sistema prisional brasileiro"
-metaDescription: ""
+metaTitle: "5 Livros sobre o Sistema Prisional Brasileiro"
+metaDescription: "Conheça 5 livros para entender a origem, os problemas e as propostas para o sistema prisional brasileiro, de Foucault a autores nacionais."
 ---
 
 A questão do sistema prisional brasileiro tem sido tema de discussões intensas ao longo dos anos, e vários autores têm se dedicado a analisar suas nuances.

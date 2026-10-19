@@ -1,19 +1,22 @@
 ---
 title: "Problemáticas da Segurança na Gestão Pública"
 slug: "problematicas-da-seguranca-na-gestao-publica"
-excerpt: ""
+excerpt: "Texto de 2020 sobre os desafios da segurança pública no Brasil e o papel dos governos municipal, estadual e federal."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2020-11-24T13:00:19+00:00
 status: "published"
-metaTitle: "Problemáticas da Segurança na Gestão Pública"
-metaDescription: ""
+metaTitle: "Segurança Pública: Problemas na Gestão Pública"
+metaDescription: "Texto de 2020 sobre os desafios da segurança pública no Brasil e o papel dos governos municipal, estadual e federal."
 ---
 
 O tema da <strong>segurança</strong> carrega uma característica altamente popular. Sobretudo após a democratização no Brasil, além de ser um tema prioritário para todas as camadas da sociedade, os atores políticos tornaram-se centrais.
 
+
+
+<p><strong>Atenção:</strong> artigo de opinião publicado em novembro de 2020. As leis citadas podem ter sido alteradas desde então.</p>
 Em contextos eleitorais ou não, a questão é uma das problemáticas nacionais nas três esferas: municipal, estadual e federal.
 
 A omissão de políticas voltadas para a polícia, nos anos que sucederam a ascensão da democracia, contribuiu para que imperasse o modelo de dominação social defendido por setores mais conservadores e, de certa forma, classes mais altas.

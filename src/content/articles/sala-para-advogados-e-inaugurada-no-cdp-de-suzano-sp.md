@@ -1,20 +1,23 @@
 ---
 title: "Sala para advogados é inaugurada no CDP de Suzano-SP"
 slug: "sala-para-advogados-e-inaugurada-no-cdp-de-suzano-sp"
-excerpt: ""
+excerpt: "Notícia de 2021: o CDP de Suzano (SP) inaugurou sala de apoio para advogados dentro da unidade prisional."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/sala-para-advogados-e-inaugurada-no-cdp-de-suzano-sp.jpg"
 pubDate: 2021-08-18T13:32:12+00:00
 status: "published"
-metaTitle: "Sala para advogados é inaugurada no CDP de Suzano-SP"
-metaDescription: ""
+metaTitle: "Sala para Advogados é Inaugurada no CDP de Suzano"
+metaDescription: "Notícia de 2021: o CDP de Suzano (SP) inaugurou sala de apoio para advogados dentro da unidade prisional."
 ---
 
 <h2>Unidade prisional, CDP de Suzano-SP, agora conta com espaço específico para o trabalho jurídico.</h2>
 &nbsp;
 
+
+
+<p><strong>Atenção:</strong> esta notícia foi publicada em agosto de 2021 e reproduz as informações da época. Números, regras e programas podem ter mudado.</p>
 O <a href="http://www.sap.sp.gov.br/uni-prisionais/cdp.html" target="_blank" rel="noopener">Centro de Detenção Provisória</a> (CDP) de Suzano, na região do Alto Tietê, celebrou, no dia 2 de agosto, a inauguração de uma sala de apoio especial para advogados, instalada dentro da própria unidade prisional.
 Localizado no Setor de Portaria, o espaço proporciona um lugar mais adequado aos profissionais de advocacia que comparecerem ao CDP para o exercício de suas funções, enquanto aguardam os procedimentos internos para o atendimento aos custodiados.
 

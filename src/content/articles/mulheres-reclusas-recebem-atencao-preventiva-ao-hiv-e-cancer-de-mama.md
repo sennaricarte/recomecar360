@@ -1,20 +1,23 @@
 ---
 title: "Mulheres reclusas recebem atenção preventiva ao HIV e câncer de mama"
 slug: "mulheres-reclusas-recebem-atencao-preventiva-ao-hiv-e-cancer-de-mama"
-excerpt: ""
+excerpt: "Notícia de 2021: ações de testes rápidos e exames preventivos para mulheres presas em unidades da Região Metropolitana de São Paulo."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Joel Novaes"
 image: "blog/mulheres-reclusas-recebem-atencao-preventiva-ao-hiv-e-cancer-de-mama.jpeg"
 pubDate: 2021-10-20T16:47:22+00:00
 status: "published"
-metaTitle: "Mulheres reclusas recebem atenção preventiva ao HIV e câncer de mama"
-metaDescription: ""
+metaTitle: "Saúde de Mulheres Presas: Prevenção ao HIV e Câncer"
+metaDescription: "Notícia de 2021: ações de testes rápidos e exames preventivos para mulheres presas em unidades da Região Metropolitana de São Paulo."
 ---
 
 <h2>Ações foram oferecidas na Penitenciária Feminina Sant’Ana e no Centro de Progressão Penitenciária de São Miguel Paulista.</h2>
 &nbsp;
 
+
+
+<p><strong>Atenção:</strong> esta notícia foi publicada em outubro de 2021 e reproduz as informações da época. Números, regras e programas podem ter mudado.</p>
 A saúde de reeducandas custodiadas em estabelecimentos penais da Coordenadoria de Unidades Prisionais da Região Metropolitana de São Paulo (Coremetro) tem sido foco de ações. Com a realização de testes rápidos e outros exames, em parceria com órgãos da área, a Secretaria da Administração Penitenciária (SAP) tem visado o atendimento preventivo.
 
 No Centro de Progressão Penitenciária (CPP) de São Miguel Paulista, com apoio da Unidade Básica de Saúde (UBS) local, custodiadas realizaram testes rápidos de HIV. De acordo com a direção geral do CPP, os exames são sempre disponibilizados à população prisional e, em época de campanha, ganham uma abordagem intensificada.

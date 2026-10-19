@@ -1,18 +1,18 @@
 ---
 title: "Ideias para melhorar o sistema prisional brasileiro"
 slug: "ideias-para-melhorar-o-sistema-prisional-brasileiro"
-excerpt: ""
+excerpt: "Veja propostas para melhorar o sistema prisional: reduzir a superlotação, melhorar as condições, combater a corrupção e investir em reinserção."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/ideias-para-melhorar-o-sistema-prisional-brasileiro.jpg"
 pubDate: 2024-01-09T13:28:11+00:00
 status: "published"
-metaTitle: "Ideias para melhorar o sistema prisional brasileiro"
-metaDescription: ""
+metaTitle: "Ideias para Melhorar o Sistema Prisional Brasileiro"
+metaDescription: "Veja propostas para melhorar o sistema prisional: reduzir a superlotação, melhorar as condições, combater a corrupção e investir em reinserção."
 ---
 
-O sistema prisional brasileiro figura entre os mais problemáticos do mundo, com uma população carcerária que ultrapassa os 800 mil indivíduos, portanto, conferindo ao país a terceira maior <a href="https://www.unodc.org/lpo-brazil/pt/frontpage/2021/07/uma-em-cada-tres-pessoas-estao-presas-globalmente-sem-julgamento--enquanto-a-superlotacao-coloca-os-presos-em-risco-de-contrair-a-covid-19--diz-a-primeira-pesquisa-global-do-unodc-sobre-prisoes.html#:~:text=Viena%2C%20%C3%81ustria%2C%2016%20de%20julho,Na%C3%A7%C3%B5es%20Unidas%20sobre%20Drogas%20e" target="_blank" rel="noopener">taxa de encarceramento global</a>.
+O sistema prisional brasileiro figura entre os mais problemáticos do mundo, com uma das maiores populações carcerárias do mundo.
 
 Diante desse cenário complexo, é extremamente essencial discutir estratégias e propostas que visem aprimorar esse sistema, enfrentando assim os desafios que o permeiam.
 

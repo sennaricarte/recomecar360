@@ -1,19 +1,22 @@
 ---
 title: "Mais de 2.400 presos de SP são classificados no Enem"
 slug: "mais-de-2-400-presos-de-sp-sao-classificados-no-enem"
-excerpt: ""
+excerpt: "Notícia de 2021: mais de 2.400 presos de São Paulo foram classificados no Enem para Pessoas Privadas de Liberdade (Enem PPL)."
 category: "Blog"
 cluster: "sistema-prisional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-05-11T13:14:58+00:00
 status: "published"
-metaTitle: "Mais de 2.400 presos de SP são classificados no Enem"
-metaDescription: ""
+metaTitle: "Presos de SP Classificados no Enem PPL"
+metaDescription: "Notícia de 2021: mais de 2.400 presos de São Paulo foram classificados no Enem para Pessoas Privadas de Liberdade (Enem PPL)."
 ---
 
 Mais de 2.400 presos de SP são classificados no Enem,  entre os critérios de aprovação, reeducandos não podiam zerar em redação.
 
+
+
+<p><strong>Atenção:</strong> esta notícia foi publicada em maio de 2021 e reproduz as informações da época. Números, regras e programas podem ter mudado.</p>
 Presos custodiados pela <a href="http://www.sap.sp.gov.br/" target="_blank" rel="noopener">Secretaria da Administração Penitenciária</a> (SAP) receberam os resultados das provas do Exame Nacional do Ensino Médio para Pessoas Privadas de Liberdade (Enem PPL). Com a pandemia de Covid-19, a aplicação do exame foi realizada em fevereiro deste ano.
 
 Entre os presos de São Paulo, 2.444 pessoas tiveram média em matemática igual ou superior a 450 pontos e não zeraram em redação, estando assim aptos a concorrerem a uma vaga no Ensino Superior no segundo semestre deste ano, a partir do Sistema de Seleção Unificada (Sisu), do Programa Universidade para Todos (ProUni) ou do Fundo de Financiamento Estudantil (Fies).
