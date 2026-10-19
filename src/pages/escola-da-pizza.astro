@@ -50,12 +50,8 @@ const pillars = [
   },
 ];
 
-const stats = [
-  { value: '500+', label: 'Alunos formados' },
-  { value: '85%', label: 'Empregabilidade' },
-  { value: '50+', label: 'Empresas parceiras' },
-  { value: '12', label: 'Turmas por ano' },
-];
+const stats = [{ value: '52', label: 'Alunos formados em 2026, até agora' }];
+const statsUpdatedAt = 'outubro de 2026';
 
 const steps = [
   {
@@ -161,8 +157,8 @@ const steps = [
     <section class="section section--cream" aria-label="Nosso impacto">
       <div class="container">
         <p class="eyebrow">Nosso Impacto</p>
-        <h2 class="section__title">Números que transformam</h2>
-        <ul class="stats">
+        <h2 class="section__title">Formados em 2026</h2>
+        <ul class="stats stats--single">
           {
             stats.map((stat) => (
               <li class="stat-card">
@@ -172,6 +168,7 @@ const steps = [
             ))
           }
         </ul>
+        <p class="stats-note">Dado do Instituto Recomeçar, atualizado em {statsUpdatedAt}.</p>
       </div>
     </section>
 
@@ -452,6 +449,19 @@ const steps = [
     font-weight: 800;
     line-height: 1;
     color: var(--pizza-orange);
+  }
+
+  .stats.stats--single {
+    grid-template-columns: 1fr;
+    max-width: 22rem;
+    margin-inline: auto;
+  }
+
+  .stats-note {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    text-align: center;
+    color: #5c524c;
   }
 
   .stat-card__label {
