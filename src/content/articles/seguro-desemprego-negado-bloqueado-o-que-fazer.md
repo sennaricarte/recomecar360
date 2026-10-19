@@ -7,9 +7,10 @@ cluster: "beneficios"
 author: "Senna Ricarte"
 image: "blog/seguro-desemprego-negado-bloqueado-o-que-fazer.jpg"
 pubDate: 2026-02-02T19:45:57+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Seguro-Desemprego Negado ou Bloqueado? Saiba como resolver no PAT (Guia 2026)"
-metaDescription: "Você fez o pedido, contou com aquele dinheiro para organizar as contas, mas o sistema deu o aviso: Seguro-Desemprego Negado ou Bloqueado. A frustração é grande, mas calma. No Instituto Recomeçar, sabemos que pedras no caminho fazem parte da jornada de quem está buscando uma nova oportunidade."
+metaTitle: "Seguro-Desemprego Negado ou Bloqueado? O Que Fazer"
+metaDescription: "Seguro-desemprego negado, bloqueado ou não liberado? Veja os motivos, como fazer o recurso pelo celular e o prazo de 2 anos para pedir revisão."
 ---
 
 <p>Você fez o pedido, contou com aquele dinheiro para organizar as contas, mas o sistema deu o aviso: <strong>Seguro-Desemprego Negado ou Bloqueado</strong>. A frustração é grande, mas calma. No <strong>Instituto Recomeçar</strong>, sabemos que pedras no caminho fazem parte da jornada de quem está buscando uma nova oportunidade.</p>
@@ -24,11 +25,11 @@ metaDescription: "Você fez o pedido, contou com aquele dinheiro para organizar 
 
 <p>O bloqueio não acontece por acaso. O sistema do governo cruza dados em tempo real e, se algo não bate, o benefício para na "malha fina" do Ministério do Trabalho.</p>
 
-<h3 class="wp-block-heading"><strong>Principais motivos de bloqueio em 2026:</strong></h3>
+<h3 class="wp-block-heading"><strong>Principais motivos de bloqueio:</strong></h3>
 
 <ul class="wp-block-list"><li><strong>Divergência de Dados:</strong> Seu nome, nome da mãe ou data de nascimento estão diferentes no sistema do governo em relação ao que a empresa informou.</li>
 
-<li><strong>CNPJ Ativo (MEI):</strong> Se você tem um MEI aberto, o governo entende que você tem renda, mesmo que a empresa esteja parada.</li>
+<li><strong>CNPJ ativo (MEI):</strong> um MEI aberto pode ser lido como renda própria, mesmo com a empresa parada. O gov.br não detalha essa regra, então confirme o seu caso no recurso ou no atendimento.</li>
 
 <li><strong>Renda Própria:</strong> Recebimento de outros valores ou bônus que o sistema interpreta como novo emprego.</li>
 
@@ -37,7 +38,9 @@ metaDescription: "Você fez o pedido, contou com aquele dinheiro para organizar 
 
 <h2 class="wp-block-heading"><strong>O que fazer quando o benefício aparece como "Notificado"?</strong></h2>
 
-<p>Se no seu aplicativo aparece o status <strong>"Notificado"</strong>, significa que o governo encontrou um impedimento e você precisa apresentar uma defesa — o chamado <strong>Recurso Administrativo</strong>. Você tem até <strong>120 dias</strong> para fazer isso. Não deixe para a última hora!</p>
+<p>Se o seu pedido aparece com notificação ou com parcelas não liberadas, abra a função <strong>"Notificações"</strong> no aplicativo. Segundo o gov.br, ela mostra o motivo da não liberação. Para contestar, você cadastra um <strong>recurso administrativo</strong>, online, pelo portal gov.br ou pelo aplicativo.</p>
+
+<p><strong>Atenção ao prazo:</strong> o prazo para pedir a revisão é de <strong>dois anos contados da data da demissão</strong>. Os 120 dias são outro prazo: é o limite para pedir o benefício, a partir do 7º dia depois da demissão. Se o recurso for indeferido, ainda é possível pedir nova revisão dentro dos dois anos. Mesmo assim, não deixe para a última hora.</p>
 
 <h2 class="wp-block-heading"><strong>Como resolver no PAT (Posto de Atendimento ao Trabalhador)</strong></h2>
 
@@ -64,17 +67,19 @@ metaDescription: "Você fez o pedido, contou com aquele dinheiro para organizar 
 
 <h2 class="wp-block-heading"><strong>Passo a passo para entrar com recurso pelo celular</strong></h2>
 
-<p>Se você prefere tentar resolver de casa antes de ir ao posto físico, siga estes passos:</p>
+<p>Se você prefere tentar resolver de casa antes de ir ao posto físico, siga estes passos, conforme o gov.br. Você também pode fazer o recurso pelo portal, com sua conta gov.br:</p>
 
-<ol class="wp-block-list"><li>Abra o app <strong>Carteira de Trabalho Digital</strong>.</li>
+<ol class="wp-block-list"><li>Abra o app <strong>SINE-Fácil</strong> e entre com sua conta gov.br.</li>
 
-<li>Vá na aba <strong>"Benefícios"</strong> e depois em <strong>"Seguro-Desemprego"</strong>.</li>
+<li>Escolha <strong>"Seguro-Desemprego"</strong> e depois <strong>"Consultar"</strong>, e selecione o seu requerimento.</li>
 
-<li>Clique em <strong>"Consultar"</strong> e selecione o requerimento bloqueado.</li>
+<li>Veja em <strong>"Notificações"</strong> o motivo de as parcelas não terem sido liberadas.</li>
 
-<li>Procure a opção <strong>"Recurso"</strong>.</li>
+<li>Vá em <strong>"Recurso"</strong> e depois em <strong>"Cadastrar Recurso"</strong>.</li>
 
-<li>Aqui você deverá escrever uma breve justificativa (ex: "Solicito revisão, pois o MEI vinculado ao meu CPF está inativo e não gera renda") e anexar fotos dos documentos.</li>
+<li>Escreva uma justificativa curta (ex: "Solicito revisão, pois o MEI vinculado ao meu CPF está inativo e não gera renda") e anexe os documentos em JPG, PNG ou PDF, com até 1 MB cada e 10 MB no total.</li>
+
+<li>Confirme o envio e acompanhe a decisão no gov.br ou no aplicativo. Se o app não permitir enviar, atualize a versão do SINE-Fácil.</li>
 </ol>
 
 <h2 class="wp-block-heading"><strong>Dicas do Instituto Recomeçar para não perder o prazo</strong></h2>
@@ -83,9 +88,9 @@ metaDescription: "Você fez o pedido, contou com aquele dinheiro para organizar 
 
 <p>Nossa missão é fortalecer sua caminhada. Por isso, deixamos aqui o <strong>"Papo Reto"</strong>:</p>
 
-<ul class="wp-block-list"><li><strong>Atenção ao MEI:</strong> Se você tem um MEI, mas não lucra com ele, você tem direito ao seguro, mas precisará provar isso com a Declaração Anual (<a href="https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao" target="_blank" rel="noreferrer noopener">DASN-SIMEI</a>) mostrando faturamento zero.</li>
+<ul class="wp-block-list"><li><strong>Atenção ao MEI:</strong> Se você tem um MEI, mas ele não gera renda, pode ser preciso comprovar isso. A Declaração Anual (<a href="https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/dasnsimei.app/Identificacao" target="_blank" rel="noreferrer noopener">DASN-SIMEI</a>), com faturamento zero, é um dos documentos que podem ajudar.</li>
 
-<li><strong>Não desista:</strong> O sistema falha, mas o direito é seu. Se o recurso for negado no PAT, ainda é possível buscar a Defensoria Pública da União (DPU).</li>
+<li><strong>Não desista:</strong> Se o recurso for negado no PAT, ainda é possível buscar a Defensoria Pública da União (DPU).</li>
 
 <li><strong>Mantenha os dados atualizados:</strong> Sempre verifique se seu nome está correto no Cadastro Único e no Gov.br.</li>
 </ul>
@@ -97,3 +102,12 @@ metaDescription: "Você fez o pedido, contou com aquele dinheiro para organizar 
 <p>O <strong>Instituto Recomeçar</strong> acredita que, com informação e disciplina, qualquer barreira pode ser superada.</p>
 
 <p><strong>Precisa de ajuda para se recolocar no mercado de trabalho ou quer saber mais sobre seus direitos como egresso?</strong><a href="/de-quebrada-em-quebrada/">Clique aqui e conheça os programas do Instituto Recomeçar.</a></p>
+
+<h2>Fontes</h2>
+
+<p>Conferidas em 19 de outubro de 2026.</p>
+
+<ul>
+<li><a href="https://www.gov.br/pt-br/temas/perguntas-frequentes-seguro-desemprego" target="_blank" rel="noopener noreferrer">Perguntas frequentes sobre o Seguro-Desemprego — gov.br</a></li>
+<li><a href="https://www.gov.br/pt-br/servicos/cadastrar-recurso-relativo-ao-seguro-desemprego" target="_blank" rel="noopener noreferrer">Cadastrar recurso relativo ao seguro-desemprego — gov.br</a></li>
+</ul>
