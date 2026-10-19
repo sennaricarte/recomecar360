@@ -17,6 +17,8 @@ metaDescription: "Descubra os mitos e as verdades sobre a profissão de encanado
 
 <p>Neste artigo, vamos desvendar os principais equívocos e revelar as verdades incontestáveis sobre a profissão encanador. Prepare-se para explorar esse universo fascinante e entender por que ser um encanador pode ser uma escolha profissional promissora!</p>
 
+<div style="border:2px solid #0f766e;border-radius:8px;padding:1rem;margin:1.5rem 0"><p><strong>Resposta rápida:</strong> encanador não é “quebra-galho”. A profissão pede conhecimento de hidráulica, de normas e de segurança, além de uso correto de EPIs. A demanda por manutenção e instalação é constante, o que dá oportunidades em obras residenciais e industriais.</p></div>
+
 <h2 class="wp-block-heading">O Que Não é Ser Encanador: Desvendando 4 Mitos Comuns</h2>
 
 <p>Ser encanador vai muito além do que muitos pensam. Muitas pessoas acreditam que a profissão é apenas um "quebra-galho" sem qualificação, mas isso não poderia estar mais longe da verdade. O encanador precisa de habilidades técnicas e conhecimento sobre sistemas hidráulicos.<br><br>Além disso, há o mito de que esse trabalho é sempre sujo e desagradável. Embora possa envolver desafios, os profissionais encontram satisfação em resolver problemas complexos e garantir o conforto das pessoas em seus lares.</p>
@@ -80,6 +82,17 @@ metaDescription: "Descubra os mitos e as verdades sobre a profissão de encanado
 <h2 class="wp-block-heading">Conclusão</h2>
 
 <p>A profissão de encanador é mais do que muitos imaginam. Além de ser uma atividade fundamental para o funcionamento das edificações, ela envolve habilidades técnicas e um conhecimento profundo sobre hidráulica. Mitos como a falta de qualificação ou a ideia de que o trabalho é apenas sujo precisam ser desmistificados.<br><br>Os encanadores têm um papel crucial na sociedade, garantindo segurança e conforto em nossas casas e empresas. Para quem deseja seguir essa carreira, investir em formação e especializações pode abrir portas para oportunidades promissoras.<br><br>Se você considera se tornar um encanador, lembre-se: esta profissão oferece desafios constantes e recompensas significativas. Com dedicação e preparo, seu futuro pode ser brilhante nesse setor tão necessário!</p>
+
+<h2>Perguntas frequentes</h2>
+
+<h3>Encanador precisa estudar?</h3>
+<p>Sim. O trabalho exige conhecimento técnico de sistemas hidráulicos, além de noções de legislação e segurança.</p>
+
+<h3>Quais EPIs o encanador usa?</h3>
+<p>Luvas, óculos e botas, entre outros equipamentos de proteção individual.</p>
+
+<h3>Encanador só é chamado em emergência?</h3>
+<p>Não. Há trabalho constante de instalação, manutenção e prevenção em residências e empresas.</p>
 
 <h2>Fontes</h2>
 
