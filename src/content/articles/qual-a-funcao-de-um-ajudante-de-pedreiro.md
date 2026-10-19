@@ -7,9 +7,10 @@ cluster: "profissoes"
 author: "Joel Novaes"
 image: "blog/qual-a-funcao-de-um-ajudante-de-pedreiro.jpg"
 pubDate: 2025-11-04T15:52:13+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Qual a Função de um Ajudante de Pedreiro? Entenda Seu Papel na Construção"
-metaDescription: "Se você já se perguntou qual a função de um ajudante de pedreiro, está no lugar certo! Esse profissional desempenha um papel fundamental nas obras, garantindo que tudo aconteça da melhor maneira possível. Enquanto os pedreiros estão focados em tarefas específicas e técnicas, o ajudante é o suporte e"
+metaTitle: "O Que Faz um Ajudante de Pedreiro? Funções e Como Começar"
+metaDescription: "Veja o que faz um ajudante de pedreiro: funções na obra, habilidades, como começar e crescer na profissão. Também chamado de servente de obras."
 ---
 
 <p>Se você já se perguntou qual a função de um ajudante de pedreiro, está no lugar certo! Esse profissional desempenha um papel fundamental nas obras, garantindo que tudo aconteça da melhor maneira possível. Enquanto os pedreiros estão focados em tarefas específicas e técnicas, o ajudante é o suporte essencial que mantém a equipe funcionando como uma máquina bem lubrificada. </p>
@@ -19,6 +20,14 @@ metaDescription: "Se você já se perguntou qual a função de um ajudante de pe
 <h2 class="wp-block-heading">O que faz um Ajudante de Pedreiro</h2>
 
 <p>O ajudante de pedreiro é uma figura chave em qualquer obra. Ele auxilia o pedreiro nas atividades diárias, garantindo que os materiais e ferramentas estejam sempre à mão. Isso significa carregar tijolos, cimento e outros insumos essenciais para a construção.<br><br>Além disso, esse profissional prepara as misturas de argamassa e concretos conforme orientações do pedreiro. Essa etapa é crucial para a execução correta dos trabalhos. O ajudante também pode ser responsável pela limpeza da área de trabalho, mantendo tudo organizado.<br><br>Outra função importante é observar e aprender com o pedreiro mais experiente. Esse aprendizado prático ajuda a desenvolver habilidades técnicas fundamentais para quem deseja crescer na carreira dentro da construção civil.</p>
+
+<h2 class="wp-block-heading">Ajudante de pedreiro, ajudante de obras e servente: é a mesma coisa?</h2>
+
+<p>Na prática, sim. A Classificação Brasileira de Ocupações (CBO) reúne esses nomes sob o código 7170-20, chamado "servente de obras". Entre os títulos equivalentes estão ajudante de obras, auxiliar de pedreiro, servente de pedreiro e meia-colher. Cada região e cada empresa escolhe o nome do cargo.</p>
+
+<p>Segundo a CBO, a ocupação pede ensino fundamental entre a 4ª e a 7ª série e qualificação básica de até 200 horas. A competência plena costuma vir em menos de um ano de trabalho. Os requisitos reais são os do anúncio da vaga.</p>
+
+<p>Quer comparar com outras portas de entrada? Leia o guia <a href="/blog/profissoes-para-comecar-sem-experiencia/">profissões para começar sem experiência</a>.</p>
 
 <p><strong>Leia também: </strong><a href="/blog/o-que-um-auxiliar-de-cozinha-faz/">O que um Auxiliar de Cozinha Faz: Funções e Responsabilidades</a></p>
 
