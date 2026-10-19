@@ -7,9 +7,10 @@ cluster: "profissoes"
 author: "Senna Ricarte"
 image: "blog/o-que-faz-um-auxiliar-de-limpeza.jpg"
 pubDate: 2025-11-04T15:41:13+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "O que Faz um Auxiliar de Limpeza: Funções e Responsabilidades"
-metaDescription: "Você já parou para pensar no papel fundamental que um auxiliar de limpeza desempenha em nosso dia a dia? Embora muitas vezes sua função passe despercebida, esses profissionais são essenciais para manter ambientes limpos e organizados."
+metaTitle: "O Que Faz um Auxiliar de Limpeza? Funções e Requisitos"
+metaDescription: "Veja o que faz um auxiliar de limpeza (faxineiro): funções, requisitos, EPIs, onde trabalhar e como conseguir a primeira vaga."
 ---
 
 <p>Você já parou para pensar no papel fundamental que um auxiliar de limpeza desempenha em nosso dia a dia? Embora muitas vezes sua função passe despercebida, esses profissionais são essenciais para manter ambientes limpos e organizados. </p>
@@ -25,6 +26,12 @@ metaDescription: "Você já parou para pensar no papel fundamental que um auxili
 <p>O trabalho de auxiliar de limpeza pode ser conhecido por diferentes nomes. Muitas pessoas se referem a essa função como “faxineiro” ou “faxineira”. Esses termos são bastante populares e retratam bem a atividade de manter ambientes limpos e organizados.<br><br>Além disso, em algumas empresas, o profissional pode ser chamado de “zelador” ou “profissional de higienização”. Esses títulos podem variar dependendo do setor em que atuam.<br><br>Outro termo utilizado é "serviço geral", que abrange uma gama mais ampla de atividades além da limpeza. Isso mostra como a profissão é versátil e essencial em diversas áreas.</p>
 
 <p><strong>Leia também: </strong><a href="/blog/o-que-um-auxiliar-de-cozinha-faz/">O que um Auxiliar de Cozinha Faz: Funções e Responsabilidades</a></p>
+
+<h3 class="wp-block-heading">O que diz a CBO</h3>
+
+<p>A Classificação Brasileira de Ocupações (CBO) registra a função com o nome "faxineiro", código 5143-20. Os títulos equivalentes são auxiliar de limpeza e servente de limpeza. Para a família ocupacional, a CBO pede ensino fundamental completo ou prática profissional no posto de trabalho. Os requisitos reais são os da vaga.</p>
+
+<p>Quer ver outras ocupações que aceitam quem está começando? Leia o guia <a href="/blog/profissoes-para-comecar-sem-experiencia/">profissões para começar sem experiência</a>.</p>
 
 <h2 class="wp-block-heading">Áreas de Atuação</h2>
 
@@ -52,7 +59,7 @@ metaDescription: "Você já parou para pensar no papel fundamental que um auxili
 
 <h2 class="wp-block-heading">Salário de um Auxiliar de Limpeza</h2>
 
-<p>O salário de um auxiliar de limpeza pode variar bastante, dependendo da região e do tipo de empregador. Em média, esses profissionais recebem entre R$ 1.200 e R$ 1.800 por mês. No entanto, em grandes cidades ou empresas renomadas, esse valor pode ser ainda maior.<br><br>Além do salário fixo, muitas vezes os auxiliares têm direito a benefícios como vale-transporte e vale-alimentação. Isso ajuda a aumentar sua renda mensal.<br><br>Vale lembrar que a experiência também influencia na remuneração. Profissionais mais experientes tendem a receber salários melhores devido à sua expertise no setor de limpeza.</p>
+<p>O salário de um auxiliar de limpeza pode variar bastante, dependendo da região e do tipo de empregador. O valor muda com o ano, o piso da categoria e a convenção coletiva do sindicato. Consulte a convenção da sua região e os anúncios atuais antes de negociar.<br><br>Além do salário fixo, muitas vezes os auxiliares têm direito a benefícios como vale-transporte e vale-alimentação. Isso ajuda a aumentar sua renda mensal.<br><br>Vale lembrar que a experiência também influencia na remuneração. Profissionais mais experientes tendem a receber salários melhores devido à sua expertise no setor de limpeza.</p>
 
 <h2 class="wp-block-heading">Ocupações Semelhantes à de Auxiliares de Limpeza</h2>
 
