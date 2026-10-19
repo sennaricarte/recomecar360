@@ -5,7 +5,9 @@ excerpt: "Veja o que o Marco Legal da Primeira Infância (2016) mudou na prisão
 category: "Blog"
 cluster: "beneficios"
 author: "Joel Novaes"
-image: "blog/_placeholder.svg"
+image: "blog/maternidade-digna-marco-legal-da-primeira-infancia.jpg"
+imageCredit: "Andrea Piacquadio / Pexels"
+imageCreditUrl: "https://www.pexels.com/pt-br/foto/mulher-menina-garota-moca-4867644/"
 pubDate: 2021-05-05T13:13:54+00:00
 updatedDate: 2026-10-19T16:00:00+00:00
 status: "published"
