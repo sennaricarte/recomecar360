@@ -5,7 +5,7 @@ excerpt: "O CadÚnico é a porta de entrada para programas como o Bolsa Família
 category: "Blog"
 cluster: "beneficios"
 author: "Equipe de Comunicação Recomeçar"
-image: "blog/_placeholder.svg"
+image: "blog/como-fazer-o-cadunico-passo-a-passo.jpg"
 pubDate: 2026-10-19T13:00:00+00:00
 status: "published"
 metaTitle: "Como Fazer o CadÚnico: Documentos e Passo a Passo"
