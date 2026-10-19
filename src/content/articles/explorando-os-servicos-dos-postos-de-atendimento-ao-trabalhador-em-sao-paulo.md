@@ -1,15 +1,15 @@
 ---
 title: "Explorando os Serviços dos Postos de Atendimento ao Trabalhador em São Paulo"
 slug: "explorando-os-servicos-dos-postos-de-atendimento-ao-trabalhador-em-sao-paulo"
-excerpt: ""
+excerpt: "Conheça os serviços dos Postos de Atendimento ao Trabalhador (PAT) de São Paulo: intermediação de vagas, seguro-desemprego, emissão da Carteira de Trabalho e vagas on-line."
 category: "Blog"
 cluster: "emprego-e-cursos"
 author: "Joel Novaes"
 image: "blog/explorando-os-servicos-dos-postos-de-atendimento-ao-trabalhador-em-sao-paulo.jpg"
 pubDate: 2024-01-03T13:28:08+00:00
 status: "published"
-metaTitle: "Explorando os Serviços dos Postos de Atendimento ao Trabalhador em São Paulo"
-metaDescription: ""
+metaTitle: "Serviços do PAT em São Paulo: Vagas, CTPS e Seguro"
+metaDescription: "Veja o que os Postos de Atendimento ao Trabalhador de São Paulo oferecem: vagas, seguro-desemprego, Carteira de Trabalho e como agendar."
 ---
 
 Você já ouviu falar nos <strong>Postos de Atendimento ao Trabalhador</strong> <a href="https://www.desenvolvimentoeconomico.sp.gov.br/programas/postos-de-atendimento-ao-trabalhador-pats/" target="_blank" rel="noopener">(PAT)</a>? Essa rede de atendimento do Governo do Estado de São Paulo é sem dúvida, uma verdadeira fonte de suporte para a população em busca de emprego e oportunidades de renda.
