@@ -19,6 +19,8 @@ metaDescription: "Veja como é a profissão de desentupidor, a qualificação ne
 
 <p><strong>Leia também: </strong><a href="/blog/o-que-e-marido-de-alugel/">Saiba o Que é Marido de Alugel e Como Se Tornar Um</a></p>
 
+<div style="border:2px solid #0f766e;border-radius:8px;padding:1rem;margin:1.5rem 0"><p><strong>Resposta rápida:</strong> o desentupidor trata entupimentos em redes hidráulicas e de esgoto, e a profissão exige conhecimento técnico. Não é preciso curso superior. Cursos livres de curta duração ajudam, de preferência com segurança do trabalho (NR-33 e NR-35, conforme o serviço). Não há ocupação própria na CBO para o desentupidor.</p></div>
+
 <h2 class="wp-block-heading"><strong>O Cenário Atual: Por que a demanda por desentupidores não para de crescer?</strong></h2>
 
 <p>O Brasil possui um déficit histórico em infraestrutura de saneamento básico em diversas regiões, além de um crescimento vertical (prédios) constante nas metrópoles. Onde há encanamento, há a necessidade de manutenção.</p>
@@ -90,3 +92,15 @@ metaDescription: "Veja como é a profissão de desentupidor, a qualificação ne
 <h2>Sobre as informações deste guia</h2>
 
 <p>Este texto traz orientações gerais sobre a profissão. Não encontramos uma ocupação própria para o desentupidor na CBO, por isso não citamos fontes oficiais. Antes de investir em curso ou equipamento, consulte o sindicato da categoria, peça orçamentos reais e confirme as normas de segurança aplicáveis ao serviço. Conferido em 19 de outubro de 2026.</p>
+
+<h2>Perguntas frequentes</h2>
+
+<h3>Precisa de curso para ser desentupidor?</h3>
+<p>Não é exigido curso superior. Cursos livres de curta duração são recomendados, com atenção às normas de segurança do trabalho.</p>
+
+<h3>Dá para trabalhar por conta própria?</h3>
+<p>Sim. O mercado tem duas vias: emprego com carteira assinada em empresas de saneamento e desentupidoras, e trabalho autônomo.</p>
+
+<h3>Quais normas de segurança importam?</h3>
+<p>Pergunte se o curso inclui a NR-33, para espaços confinados, e a NR-35, para trabalho em altura, conforme o serviço que pretende fazer.</p>
+

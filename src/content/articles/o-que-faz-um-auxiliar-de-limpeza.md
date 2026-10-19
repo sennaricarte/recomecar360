@@ -17,6 +17,8 @@ metaDescription: "Veja o que faz um auxiliar de limpeza (faxineiro): funções, 
 
 <p>Seja em casas, escritórios ou estabelecimentos comerciais, eles garantem que tudo esteja sempre impecável. Vamos explorar juntos o que faz um auxiliar de limpeza e descobrir as diversas facetas dessa profissão tão importante!</p>
 
+<div style="border:2px solid #0f766e;border-radius:8px;padding:1rem;margin:1.5rem 0"><p><strong>Resposta rápida:</strong> o auxiliar de limpeza cuida da limpeza e da higiene de ambientes como escritórios, hospitais e escolas. Na CBO, a ocupação se chama <em>faxineiro</em> (5143-20), com auxiliar de limpeza e servente de limpeza como nomes equivalentes. A CBO cita ensino fundamental completo ou prática profissional no posto de trabalho.</p></div>
+
 <h2 class="wp-block-heading">O que Faz um Auxiliar de Limpeza</h2>
 
 <p>Um auxiliar de limpeza é responsável por manter a higiene e a organização de diversos ambientes. Suas atividades incluem varrer, passar pano, aspirar e lavar pisos. Além disso, ele cuida da limpeza de móveis e superfícies.<br><br>Esse profissional também pode ser encarregado da reposição de materiais, como papel toalha e sabonete em banheiros. Em alguns casos, ele realiza a coleta do lixo.<br><br>A atenção aos detalhes é fundamental nesse trabalho. Um ambiente limpo não só melhora a aparência dos espaços, mas também contribui para o bem-estar das pessoas que o utilizam diariamente.</p>
@@ -82,6 +84,17 @@ metaDescription: "Veja o que faz um auxiliar de limpeza (faxineiro): funções, 
 <h2 class="wp-block-heading">Conclusão</h2>
 
 <p>Ser auxiliar de limpeza é uma profissão essencial que contribui para a manutenção da higiene e organização dos ambientes. Com diversas funções e responsabilidades, esse profissional desempenha um papel fundamental em setores variados, desde empresas até residências.<br><br>Além das habilidades práticas, o conhecimento sobre produtos e <a href="https://www.guiatrabalhista.com.br/tematicas/epi.htm" target="_blank" rel="noreferrer noopener">EPIs</a> adequados torna-se crucial para garantir segurança no trabalho. Apesar de ser uma função muitas vezes subestimada, o auxiliar de limpeza merece reconhecimento pelo seu esforço diário.<br><br>Se você está considerando essa carreira ou já atua na área, lembre-se: cada tarefa realizada impacta diretamente na qualidade do espaço onde vivemos e trabalhamos. Valorize sua importância!</p>
+
+<h2>Perguntas frequentes</h2>
+
+<h3>Precisa de ensino médio para ser auxiliar de limpeza?</h3>
+<p>Não. A CBO cita ensino fundamental completo ou prática profissional. O ensino médio é um diferencial.</p>
+
+<h3>Quais são os outros nomes da função?</h3>
+<p>Faxineiro, auxiliar de limpeza e servente de limpeza.</p>
+
+<h3>Quanto ganha um auxiliar de limpeza?</h3>
+<p>O valor muda com o ano, o piso da categoria e a convenção coletiva do sindicato. Consulte a convenção da sua região e os anúncios atuais.</p>
 
 <h2>Fontes</h2>
 
