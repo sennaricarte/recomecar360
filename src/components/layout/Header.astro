@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import logoImage from '../../assets/logo-recomecar.png';
+import { storeUrl } from '../../lib/store';
 
 const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
 
@@ -120,6 +121,9 @@ const isProjectsActive = projectLinks.some((link) => isCurrentPage(link.href));
           <a href="/para-estudantes" aria-current={isCurrentPage('/para-estudantes') ? 'page' : undefined}>
             Para Estudantes
           </a>
+        </li>
+        <li>
+          <a href={storeUrl('menu')} target="_blank" rel="noopener noreferrer">Loja</a>
         </li>
         <li>
           <a href="/contato" aria-current={isCurrentPage('/contato') ? 'page' : undefined}>Contato</a>
