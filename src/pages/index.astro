@@ -17,6 +17,7 @@ import { getPublishedArticles } from '../lib/blog';
 import relatorioData from '../data/relatorio-atividades.json';
 import heroImage from '../assets/hero-home.webp';
 import appImage from '../assets/app-recomecar.png';
+import storeImage from '../assets/loja-opportunita-camiseta.jpg';
 
 const pageTitle = 'Instituto Recomeçar | ONG de Ressocialização e Emprego';
 const pageDescription =
@@ -212,22 +213,16 @@ const recentArticles = publishedArticles.slice(0, 3);
 
   <section class="store" aria-label="Opportunità Store, a loja online">
     <div class="container store__inner">
-      <span class="store__icon" aria-hidden="true">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-          <path
-            d="M6 8h12l1 12H5L6 8Z"
-            stroke="currentColor"
-            stroke-width="1.8"
-            stroke-linejoin="round"
-          />
-          <path
-            d="M9 8V7a3 3 0 0 1 6 0v1"
-            stroke="currentColor"
-            stroke-width="1.8"
-            stroke-linecap="round"
-          />
-        </svg>
-      </span>
+      <Image
+        src={storeImage}
+        alt="Camiseta azul da Opportunità Store com a frase Nova chance, novo caminho, nova vida e a coruja do Recomeçar"
+        class="store__image"
+        width={400}
+        height={600}
+        loading="lazy"
+        format="webp"
+        quality="mid"
+      />
       <div class="store__copy">
         <p class="store__eyebrow">Loja online</p>
         <h2 class="store__title">Opportunità Store</h2>
@@ -669,15 +664,15 @@ const recentArticles = publishedArticles.slice(0, 3);
     justify-items: start;
   }
 
-  .store__icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 4rem;
-    height: 4rem;
-    color: var(--color-primary);
-    background-color: #ffffff;
-    border-radius: 9999px;
+  .store__image {
+    width: 100%;
+    max-width: 14rem;
+    height: auto;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 12%);
   }
 
   .store__eyebrow {
@@ -705,7 +700,11 @@ const recentArticles = publishedArticles.slice(0, 3);
   @media (min-width: 48rem) {
     .store__inner {
       grid-template-columns: auto 1fr auto;
-      gap: 1.75rem;
+      gap: 2rem;
+    }
+
+    .store__image {
+      width: 11rem;
     }
   }
 
