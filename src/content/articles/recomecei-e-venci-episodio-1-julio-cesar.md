@@ -1,15 +1,15 @@
 ---
 title: "Recomecei e Venci - Episódio 1 (Júlio César)"
 slug: "recomecei-e-venci-episodio-1-julio-cesar"
-excerpt: ""
+excerpt: "Recomecei e Venci, episódio 1: a história de Júlio César."
 category: "Blog"
 cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/recomecei-e-venci-episodio-1-julio-cesar.jpg"
 pubDate: 2021-07-24T13:27:11+00:00
 status: "published"
-metaTitle: "Recomecei e Venci - Episódio 1 (Júlio César)"
-metaDescription: ""
+metaTitle: "Recomecei e Venci: Episódio 1, Júlio César"
+metaDescription: "Série Recomecei e Venci, episódio 1: a história de Júlio César e sua trajetória após o sistema prisional."
 ---
 
 <h2>O Instituto Recomeçar começa a publicar em suas redes sociais a série de mini documentários Recomecei e Venci.</h2>

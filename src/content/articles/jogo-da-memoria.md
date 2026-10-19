@@ -1,20 +1,21 @@
 ---
 title: "Jogo da Memória"
 slug: "jogo-da-memoria"
-excerpt: "(Imagem de destaque: Pessoas de diferentes idades (crianças, adultos, idosos) jogando Jogo da Memória e se divertindo)"
+excerpt: "Jogo da memória online."
 category: "Blog"
 cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/jogo-da-memoria.jpg"
 pubDate: 2025-07-29T14:41:31+00:00
+noindex: true
 status: "published"
-metaTitle: "Jogo da Memória"
-metaDescription: "(Imagem de destaque: Pessoas de diferentes idades (crianças, adultos, idosos) jogando Jogo da Memória e se divertindo)"
+metaTitle: "Jogo da Memória Online"
+metaDescription: "Jogo da memória online para diferentes idades."
 ---
 
 <h2 class="wp-block-heading"><strong>Desafie Sua Mente: O Poder do Jogo da Memória para Todas as Idades!</strong></h2>
 
-<p><strong>(Imagem de destaque: Pessoas de diferentes idades (crianças, adultos, idosos) jogando Jogo da Memória e se divertindo)</strong></p>
+<p><strong></strong></p>
 
 <p>Você se lembra da última vez que virou duas cartas e sentiu aquela satisfação de encontrar um par? O clássico Jogo da Memória é muito mais do que um passatempo divertido. É uma poderosa ferramenta para exercitar o cérebro, capaz de trazer benefícios surpreendentes para pessoas de todas as idades, desde a infância até a terceira idade.</p>
 

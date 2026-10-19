@@ -1,15 +1,15 @@
 ---
 title: "Empreendedor Alex Sandro da Conceição"
 slug: "empreendedor-alex-sandro-da-conceicao"
-excerpt: ""
+excerpt: "Egresso do sistema prisional, Alex Sandro da Conceição vende bijuterias artesanais no Alto Tietê e em São Paulo."
 category: "Blog"
 cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-01-22T13:06:03+00:00
 status: "published"
-metaTitle: "Empreendedor Alex Sandro da Conceição"
-metaDescription: ""
+metaTitle: "Alex Sandro da Conceição: Egresso e Empreendedor"
+metaDescription: "Egresso do sistema prisional, Alex Sandro da Conceição criou seu negócio de bijuterias artesanais no Alto Tietê. Conheça a história."
 ---
 
 A crise econômica aliada a necessidade de gerar renda fez o egresso <strong>Alex Sandro da Conceição</strong>, montar o seu próprio negócio.

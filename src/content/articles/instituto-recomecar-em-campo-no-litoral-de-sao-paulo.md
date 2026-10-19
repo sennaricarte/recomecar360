@@ -1,15 +1,15 @@
 ---
 title: "Instituto Recomeçar em campo no litoral de São Paulo"
 slug: "instituto-recomecar-em-campo-no-litoral-de-sao-paulo"
-excerpt: ""
+excerpt: "O Instituto Recomeçar ajudou famílias atingidas pelas chuvas no litoral de São Paulo, com cestas básicas e suprimentos."
 category: "Blog"
 cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/instituto-recomecar-em-campo-no-litoral-de-sao-paulo.jpg"
 pubDate: 2023-02-20T20:21:47+00:00
 status: "published"
-metaTitle: "Instituto Recomeçar em campo no litoral de São Paulo"
-metaDescription: ""
+metaTitle: "Recomeçar em Campo no Litoral de São Paulo: Ajuda"
+metaDescription: "Veja como o Instituto Recomeçar apoiou famílias atingidas pelas chuvas no litoral de São Paulo em 2023, com cestas e suprimentos."
 ---
 
 <h2>Instituto Recomeçar se une a outras ongs da Rede Gerando Falcões no apoio às vítimas das fortes chuvas no litoral de São Paulo.</h2>

@@ -1,15 +1,15 @@
 ---
 title: "Francisco Pereira - Por que você apoia o Recomeçar?"
 slug: "francisco-pereira-por-que-voce-apoia-o-recomecar"
-excerpt: ""
+excerpt: "Francisco Pereira conta por que apoia o Instituto Recomeçar."
 category: "Blog"
 cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2022-10-25T14:40:47+00:00
 status: "published"
-metaTitle: "Francisco Pereira - Por que você apoia o Recomeçar?"
-metaDescription: ""
+metaTitle: "Francisco Pereira: Por que Apoia o Recomeçar?"
+metaDescription: "Francisco Pereira conta por que apoia o Instituto Recomeçar e a reintegração de egressos do sistema prisional."
 ---
 
 <h2>Por que você apoia o Recomeçar Chico (Francisco Pereira)?</h2>

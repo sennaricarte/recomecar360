@@ -1,15 +1,16 @@
 ---
 title: "Cícero Lima: Entrevista na Rádio Olinda"
 slug: "cicero-lima-entrevista-na-radio-olinda"
-excerpt: ""
+excerpt: "Cícero Lima falou à Rádio Olinda sobre a unidade do Recomeçar no centro de Recife e o desemprego entre egressos no Nordeste."
 category: "Blog"
 cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2020-10-07T12:46:47+00:00
+noindex: true
 status: "published"
-metaTitle: "Cícero Lima: Entrevista na Rádio Olinda"
-metaDescription: ""
+metaTitle: "Cícero Lima na Rádio Olinda: Recomeçar em Recife"
+metaDescription: "Cícero Lima falou à Rádio Olinda sobre a unidade do Recomeçar em Recife e as dificuldades de egressos para conseguir emprego."
 ---
 
 <h2>Programa Tarde Especial - Rádio Olinda AM 1030 e FM 105,3.</h2>

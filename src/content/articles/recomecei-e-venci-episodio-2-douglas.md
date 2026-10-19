@@ -1,15 +1,15 @@
 ---
 title: "Recomecei e Venci: Episódio 2 (Douglas)"
 slug: "recomecei-e-venci-episodio-2-douglas"
-excerpt: ""
+excerpt: "Douglas Oliveira, de Carapicuíba, trabalha na Renova Ecopeças após passar pelo Recomeçar."
 category: "Blog"
 cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/recomecei-e-venci-episodio-2-douglas.jpg"
 pubDate: 2021-08-24T13:34:01+00:00
 status: "published"
-metaTitle: "Recomecei e Venci: Episódio 2 (Douglas)"
-metaDescription: ""
+metaTitle: "Recomecei e Venci: Episódio 2, Douglas Oliveira"
+metaDescription: "Douglas Oliveira, 49 anos, saiu do cárcere e hoje trabalha na Renova Ecopeças, parceira do Recomeçar. Veja o episódio 2."
 ---
 
 <h2>O segundo episódio da série “Recomecei e Venci” está no ar.</h2>

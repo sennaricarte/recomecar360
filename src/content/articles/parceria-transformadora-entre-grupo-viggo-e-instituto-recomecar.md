@@ -8,8 +8,8 @@ author: "Senna Ricarte"
 image: "blog/parceria-transformadora-entre-grupo-viggo-e-instituto-recomecar.jpg"
 pubDate: 2024-07-16T14:01:01+00:00
 status: "published"
-metaTitle: "Parceria Transformadora entre Grupo Viggo e Instituto Recomeçar"
-metaDescription: "A parceria entre o Grupo Viggo e o Instituto Recomeçar é um exemplo inspirador de como empresas podem colaborar para transformar vidas. Desde o início dessa jornada, ambas as organizações têm trabalhado juntas para oferecer oportunidades reais a pessoas que buscam um novo começo."
+metaTitle: "Parceria entre Grupo Viggo e Instituto Recomeçar"
+metaDescription: "A parceria entre o Grupo Viggo e o Instituto Recomeçar oferece oportunidades reais de trabalho a egressos do sistema prisional."
 ---
 
 <p>A <strong>parceria entre o Grupo Viggo e o Instituto Recomeçar</strong> é um exemplo inspirador de como empresas podem colaborar para transformar vidas. Desde o início dessa jornada, ambas as organizações têm trabalhado juntas para oferecer <strong>oportunidades reais</strong> a pessoas que buscam um novo começo.</p>

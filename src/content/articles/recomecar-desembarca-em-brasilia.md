@@ -1,19 +1,23 @@
 ---
 title: "Recomeçar desembarca em Brasília"
 slug: "recomecar-desembarca-em-brasilia"
-excerpt: ""
+excerpt: "O Instituto Recomeçar abriu unidade em Ceilândia (DF), após Recife, para atender egressos do sistema prisional."
 category: "Blog"
 cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-06-22T13:20:17+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Recomeçar desembarca em Brasília"
-metaDescription: ""
+metaTitle: "Recomeçar Chega a Brasília: Unidade em Ceilândia"
+metaDescription: "O Instituto Recomeçar inaugurou unidade em Ceilândia, Brasília, após Recife, para atender egressos do sistema prisional no Centro-Oeste."
 ---
 
 Depois de Recife, agora é a vez de Brasília-DF receber uma unidade de atendimento do Instituto Recomeçar. Ceilândia foi a cidade escolhida para abrigar o escritório da ONG paulista, nosso escritório esta instalado dentro a sede da <a href="https://fehsolna.negocio.site/?utm_source=gmb&amp;utm_medium=referral" target="_blank" rel="noopener">Fehslona</a> que atua a mais de 20 anos na região da Ceilândia.
 
+
+
+<p><strong>Atenção:</strong> os dados do bairro e da população de Ceilândia são de 2021 e podem estar desatualizados.</p>
 A oficialização do serviço no centro oeste teve a presença do fundador Leonardo Precioso e autoridades locais que trabalham com a ressocialização do ex-detento.
 
 Baseado na metodologia aplicada em São Paulo, a unidade brasiliense atender Egressos do sistema penitenciário. As vagas de emprego serão disponibilizadas através de parcerias firmadas com a FUNAP/DF Fundação de Amparo ao Trabalhador Preso e ONGs que prestam serviço social que na região.

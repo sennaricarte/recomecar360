@@ -1,15 +1,16 @@
 ---
 title: "Parceria Movimento Happiness e Instituto Recomeçar"
 slug: "parceria-movimento-happiness-e-instituto-recomecar"
-excerpt: ""
+excerpt: "O Movimento Happiness definiu que sua próxima unidade terá 100% de funcionários egressos do sistema prisional."
 category: "Blog"
 cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2020-11-17T12:59:41+00:00
+noindex: true
 status: "published"
-metaTitle: "Parceria Movimento Happiness e Instituto Recomeçar"
-metaDescription: ""
+metaTitle: "Movimento Happiness e Instituto Recomeçar: Parceria"
+metaDescription: "Parceria do Movimento Happiness com o Instituto Recomeçar: a próxima unidade terá funcionários egressos do sistema prisional."
 ---
 
 <h2 style="text-align: center">Movimento Happiness e Instituto Recomeçar dando exemplo de transformação social.</h2>

@@ -7,9 +7,10 @@ cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/o-cone-do-recomeco.jpg"
 pubDate: 2025-10-25T11:45:01+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "O Cone do Recomeço: Geometria Sólida para Construir um Futuro Sólido"
-metaDescription: "A jornada de reintegração social é, em essência, um exercício de reconstrução. Assim como um arquiteto planeja uma estrutura do zero, o egresso do sistema prisional precisa de fundamentos sólidos, planejamento e uma visão clara para o futuro."
+metaTitle: "O Cone do Recomeço: Metodologia do Instituto Recomeçar"
+metaDescription: "Entenda o Cone do Recomeço, metáfora do Instituto Recomeçar para a reintegração: base, volume e geratriz na vida do egresso."
 ---
 
 <p>A jornada de <strong>reintegração social</strong> é, em essência, um exercício de reconstrução. Assim como um arquiteto planeja uma estrutura do zero, o <strong>egresso do sistema prisional</strong> precisa de fundamentos sólidos, planejamento e uma visão clara para o futuro.</p>
@@ -67,7 +68,7 @@ metaDescription: "A jornada de reintegração social é, em essência, um exerc�
 
 <p><strong>O Raio e a Altura:</strong> A Geratriz depende do Raio (a extensão do seu apoio) e da Altura (a meta que você estabelece). Quanto maior a altura almejada, maior o esforço representado pela Geratriz.</p>
 
-<p><strong>Reincidência Carcerária Zero:</strong> O maior indicador do sucesso da nossa Geratriz é a estatística: enquanto o índice nacional de reincidência é de 42,5%, entre os egressos que concluíram nosso programa, ele cai para apenas <strong>1%</strong>. A Geratriz deles foi forte o suficiente para levar ao sucesso.</p>
+<p><strong>Reincidência de 1% entre quem concluiu o programa:</strong> O maior indicador do sucesso da nossa Geratriz é a estatística: enquanto o índice nacional de reincidência é de 42,5%, entre os egressos pesquisados que concluíram o curso de Desenvolvimento Pessoal em 2021 e 2022, ele foi de <strong>1%</strong>, segundo checagem de uma juíza parceira. <a href="/blog/99-dos-atendidos-pelo-recomecar-permanecem-em-sociedade/">Entenda a pesquisa e seus limites</a>. A Geratriz deles foi forte o suficiente para levar ao sucesso.</p>
 
 <h2 class="wp-block-heading">A Área Total (A T): O Sucesso Sólido e Completo</h2>
 
@@ -85,6 +86,6 @@ metaDescription: "A jornada de reintegração social é, em essência, um exerc�
 
 <p>Ninguém espera que nossos egressos carreguem calculadoras no dia a dia. Contudo, o que realmente importa é que eles dominem os "cálculos" da vida: o <strong>Volume</strong> de conhecimento que precisam absorver, a força da <strong>Geratriz</strong> que devem demonstrar em sua determinação e o investimento constante na <strong>Área da Base</strong> (sua formação e rede de apoio).</p>
 
-<p>Aqui no Instituto Recomeçar, nós fornecemos a régua e o compasso, mas é o egresso que desenha sua nova vida. E a prova de que essa geometria funciona está em nosso índice de reincidência de apenas 1%.</p>
+<p>Aqui no Instituto Recomeçar, nós fornecemos a régua e o compasso, mas é o egresso que desenha sua nova vida. E a prova de que essa geometria funciona está no índice de 1% medido na pesquisa de 2022.</p>
 
 <p></p>

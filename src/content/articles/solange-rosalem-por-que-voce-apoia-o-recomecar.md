@@ -1,15 +1,15 @@
 ---
 title: "Solange Rosalem: Por que você apoia o Recomeçar?"
 slug: "solange-rosalem-por-que-voce-apoia-o-recomecar"
-excerpt: ""
+excerpt: "Solange Rosalem, do Instituto Ação Pela Paz, explica por que apoia o Instituto Recomeçar."
 category: "Blog"
 cluster: "institucional"
 author: "Joel Novaes"
 image: "blog/solange-rosalem-por-que-voce-apoia-o-recomecar.jpg"
 pubDate: 2022-11-07T14:28:15+00:00
 status: "published"
-metaTitle: "Solange Rosalem: Por que você apoia o Recomeçar?"
-metaDescription: ""
+metaTitle: "Solange Rosalem: Por que Apoia o Recomeçar?"
+metaDescription: "Solange Rosalem, cofundadora do Instituto Ação Pela Paz, explica por que apoia o Recomeçar e traça um panorama da questão carcerária."
 ---
 
 Por que você apoia o Recomeçar Solange Rosalem?

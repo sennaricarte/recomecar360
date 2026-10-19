@@ -1,19 +1,23 @@
 ---
 title: "Instituto Recomeçar no Litoral Norte"
 slug: "instituto-recomecar-no-litoral-norte"
-excerpt: ""
+excerpt: "Caraguatatuba, o CDP local e por que o Instituto Recomeçar olha para o Litoral Norte de São Paulo e o emprego de egressos."
 category: "Blog"
 cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/instituto-recomecar-no-litoral-norte.jpg"
 pubDate: 2024-01-10T15:15:02+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Instituto Recomeçar no Litoral Norte"
-metaDescription: ""
+metaTitle: "Recomeçar no Litoral Norte: Caraguatatuba e Emprego"
+metaDescription: "Dados de Caraguatatuba, o CDP local e a importância do Litoral Norte paulista para o emprego de egressos atendidos pelo Instituto Recomeçar."
 ---
 
 <div data-ogsb="rgb(255, 255, 255)">
 
+
+
+<p><strong>Atenção:</strong> os dados do IBGE e do CDP de Caraguatatuba são de 2021 a 2023 e podem estar desatualizados.</p>
 <span data-ogsc="rgb(0, 0, 0)">Quando chega o verão <a href="https://www.caraguatatuba.sp.gov.br/pmc/" target="_blank" rel="noopener">Caraguatatuba</a> é sem dúvida, um dos destinos mais procurados pelos turistas. A cidade de 134.873 habitantes 16 praias em sua faixa de areia que atraem pessoas de todas as regiões do Brasil. </span>
 
 <span data-ogsc="rgb(0, 0, 0)">Este ano são esperadas um fluxo</span><span data-ogsc="rgb(32, 33, 36)"> de </span><span data-ogsc="rgb(4, 12, 40)">600 mil visitantes, segundo estimativas da</span><span data-ogsc="rgb(32, 33, 36)"> <strong>Secretaria de Turismo de Caraguatatuba</strong>. </span>

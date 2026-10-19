@@ -1,15 +1,15 @@
 ---
 title: "Rostos do Recomeçar - Nayara Tatiane"
 slug: "rostos-do-recomecar-nayara-tatiane"
-excerpt: ""
+excerpt: "Série Rostos do Recomeçar: a história de Nayara Tatiane."
 category: "Blog"
 cluster: "institucional"
 author: "Senna Ricarte"
 image: "blog/_placeholder.svg"
 pubDate: 2021-02-26T13:08:20+00:00
 status: "published"
-metaTitle: "Rostos do Recomeçar - Nayara Tatiane"
-metaDescription: ""
+metaTitle: "Rostos do Recomeçar: Nayara Tatiane"
+metaDescription: "Série Rostos do Recomeçar: conheça a história de Nayara Tatiane, atendida pelo Instituto Recomeçar."
 ---
 
 Nayara Tatiane tem o sonho de ter seu próprio negócio.
