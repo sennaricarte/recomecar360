@@ -210,6 +210,42 @@ const recentArticles = publishedArticles.slice(0, 3);
     </div>
   </aside>
 
+  <section class="store" aria-label="Opportunità Store, a loja online">
+    <div class="container store__inner">
+      <span class="store__icon" aria-hidden="true">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+          <path
+            d="M6 8h12l1 12H5L6 8Z"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M9 8V7a3 3 0 0 1 6 0v1"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+          />
+        </svg>
+      </span>
+      <div class="store__copy">
+        <p class="store__eyebrow">Loja online</p>
+        <h2 class="store__title">Opportunità Store</h2>
+        <p class="store__text">
+          Conheça os produtos da nossa loja online. Pague em até 3x no cartão de crédito ou no Pix.
+        </p>
+      </div>
+      <a
+        href="https://umapenca.com/opportunitastore/"
+        class="btn btn--primary store__cta"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Visitar a loja
+      </a>
+    </div>
+  </section>
+
   <section id="dados" class="impact" aria-label="Dados de impacto">
     <div class="container">
       <h2 class="section-title">Dados de Impacto</h2>
@@ -617,6 +653,60 @@ const recentArticles = publishedArticles.slice(0, 3);
   .home-ad {
     padding: 1.5rem 0;
     background-color: var(--color-bg);
+  }
+
+  .store {
+    padding: 2rem 0;
+    background-color: color-mix(in srgb, var(--color-accent) 22%, #ffffff);
+    border-block: 1px solid color-mix(in srgb, var(--color-accent) 55%, #ffffff);
+  }
+
+  .store__inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    align-items: center;
+    justify-items: start;
+  }
+
+  .store__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    color: var(--color-primary);
+    background-color: #ffffff;
+    border-radius: 9999px;
+  }
+
+  .store__eyebrow {
+    margin-bottom: 0.25rem;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+  }
+
+  .store__title {
+    margin-bottom: 0.5rem;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 800;
+    color: var(--color-primary);
+  }
+
+  .store__text {
+    max-width: 38rem;
+    line-height: 1.65;
+    color: #3d3a3b;
+  }
+
+  @media (min-width: 48rem) {
+    .store__inner {
+      grid-template-columns: auto 1fr auto;
+      gap: 1.75rem;
+    }
   }
 
   .impact__grid {
