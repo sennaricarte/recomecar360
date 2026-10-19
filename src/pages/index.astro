@@ -18,6 +18,7 @@ import relatorioData from '../data/relatorio-atividades.json';
 import heroImage from '../assets/hero-home.webp';
 import appImage from '../assets/app-recomecar.png';
 import storeImage from '../assets/loja-opportunita-camiseta.jpg';
+import { storeUrl } from '../lib/store';
 
 const pageTitle = 'Instituto Recomeçar | ONG de Ressocialização e Emprego';
 const pageDescription =
@@ -231,7 +232,7 @@ const recentArticles = publishedArticles.slice(0, 3);
         </p>
       </div>
       <a
-        href="https://umapenca.com/opportunitastore/"
+        href={storeUrl('home-card')}
         class="btn btn--primary store__cta"
         target="_blank"
         rel="noopener noreferrer"
