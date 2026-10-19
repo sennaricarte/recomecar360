@@ -45,7 +45,7 @@ metaDescription: "Veja se você tem direito ao Gás do Povo, o novo vale gás: r
 
 <p>O CadÚnico é a base de todos os programas sociais do governo federal. Se a última atualização passou de dois anos, a família perde o direito ao vale e não entra no programa.</p>
 
-<p>Para atualizar ou fazer o cadastro, procure o posto de atendimento do CadÚnico do seu município, geralmente no CRAS. Leve:</p>
+<p>Para atualizar ou fazer o cadastro, procure o posto de atendimento do CadÚnico do seu município, geralmente no CRAS. Veja o <a href="/blog/como-fazer-o-cadunico-passo-a-passo/">passo a passo do CadÚnico</a>. Leve:</p>
 
 <ul>
 <li>documento com foto e CPF do responsável familiar;</li>
@@ -104,6 +104,8 @@ metaDescription: "Veja se você tem direito ao Gás do Povo, o novo vale gás: r
 <li><strong>Leve o botijão vazio.</strong> O vale cobre só a troca do vazio pelo cheio.</li>
 <li><strong>Pague com o vale</strong> usando o cartão do Bolsa Família com chip ou o cartão de débito da CAIXA. Outra opção é informar o CPF do responsável familiar na maquininha Azulzinha ou no app Azulzinha Aproxima, com um código enviado por SMS.</li>
 </ol>
+
+<p>Veja o passo a passo completo, com o que fazer se algo der errado, em <a href="/blog/como-retirar-o-botijao-do-gas-do-povo/">como retirar o botijão do Gás do Povo</a>.</p>
 
 <p>Para receber o código por SMS, mantenha o celular atualizado no aplicativo CAIXA Tem. Nem toda maquininha de cartão aceita o vale. Taxa de entrega, compra do vasilhame e instalação não são cobertas pelo programa. O aplicativo serve para consultar e encontrar revendas, mas não faz a recarga.</p>
 
