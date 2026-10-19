@@ -8,8 +8,8 @@ author: "Joel Novaes"
 image: "blog/teste-de-perfil-empreendedor.jpg"
 pubDate: 2025-07-29T15:07:02+00:00
 status: "published"
-metaTitle: "Teste de Perfil Empreendedor"
-metaDescription: "Você sabia que existem diferentes perfis de empreendedores? Cada um tem uma forma única de liderar, inovar e tomar decisões. Mas qual é o seu perfil? 🤔"
+metaTitle: "Teste de Perfil Empreendedor: Descubra o Seu Estilo"
+metaDescription: "Faça o teste de perfil empreendedor e descubra seu estilo de liderança, como lida com riscos e quais habilidades pode desenvolver para empreender."
 ---
 
 <p>Você sabia que existem diferentes perfis de empreendedores? Cada um tem uma forma única de liderar, inovar e tomar decisões. Mas qual é o seu perfil? 🤔</p>

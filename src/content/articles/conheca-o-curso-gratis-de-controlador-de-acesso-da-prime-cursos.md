@@ -8,8 +8,8 @@ author: "Joel Novaes"
 image: "blog/conheca-o-curso-gratis-de-controlador-de-acesso-da-prime-cursos.jpg"
 pubDate: 2024-05-09T11:13:31+00:00
 status: "published"
-metaTitle: "Conheça o curso grátis de Controlador de Acesso da Prime Cursos"
-metaDescription: "Segurança é a base de qualquer lugar que a gente chama de lar ou trabalho. Profissionais de portaria são super importantes, porque eles são a primeira impressão e a linha de frente da segurança. Com a demanda por segurança aumentando, o Curso Grátis de Controlador de Acesso da Prime Cursos é a chanc"
+metaTitle: "Curso Grátis de Controlador de Acesso: Prime Cursos"
+metaDescription: "Veja o que o curso grátis de Controlador de Acesso da Prime Cursos ensina: atendimento, segurança, comunicação por código Q e certificado."
 ---
 
 <p>Segurança é a base de qualquer lugar que a gente chama de lar ou trabalho. <strong>Profissionais de portaria</strong> são super importantes, porque eles são a primeira impressão e a linha de frente da segurança. Com a demanda por segurança aumentando, o <strong>Curso Grátis de Controlador de Acesso</strong> da <a href="https://www.primecursos.com.br/curso-de-controlador-de-acesso/?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=%5BMAC4%5D+%5BSearch%5D+Isolada-kw-Porteiro&amp;utm_content=461359650907&amp;utm_term=controlador%20de%20acesso%20curso&amp;gad_source=1&amp;gclid=Cj0KCQjw6PGxBhCVARIsAIumnWbPWr2wU9BmKmZgfEUKsoSbaWi8zDtWA4H0Ozcl6ags_MS4PVPjNQwaAs3EEALw_wcB" target="_blank" rel="noreferrer noopener">Prime Cursos</a> é a chance perfeita pra quem quer brilhar nessa área tão essencial.</p>

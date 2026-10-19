@@ -12,7 +12,10 @@ export const CLUSTERS = {
     label: 'Profissões e primeiro emprego',
     pillar: 'profissoes-para-comecar-sem-experiencia',
   },
-  'emprego-e-cursos': { label: 'Emprego, cursos e qualificação' },
+  'emprego-e-cursos': {
+    label: 'Emprego, cursos e qualificação',
+    pillar: 'como-conseguir-emprego-e-se-qualificar-de-graca',
+  },
   beneficios: {
     label: 'Benefícios e direitos',
     pillar: 'o-que-sao-beneficios-sociais',

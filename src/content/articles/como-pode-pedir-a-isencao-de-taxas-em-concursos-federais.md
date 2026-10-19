@@ -8,8 +8,8 @@ author: "Joel Novaes"
 image: "blog/como-pode-pedir-a-isencao-de-taxas-em-concursos-federais.jpg"
 pubDate: 2025-03-07T17:29:37+00:00
 status: "published"
-metaTitle: "Como pode pedir a isenção de taxas em concursos federais"
-metaDescription: "Nos dias de hoje, muitos brasileiros sonham em ingressar no serviço público. Os concursos federais são uma ótima oportunidade para garantir estabilidade e bons salários. No entanto, as taxas de inscrição podem ser um obstáculo para aqueles que estão enfrentando dificuldades financeiras."
+metaTitle: "Isenção de Taxa em Concurso Federal: Como Pedir"
+metaDescription: "Veja quem pode pedir isenção da taxa de inscrição em concursos federais, como fazer o pedido, quem analisa e como saber se foi aceito."
 ---
 
 <p>Nos dias de hoje, muitos brasileiros sonham em ingressar no serviço público. Os concursos federais são uma ótima oportunidade para garantir estabilidade e bons salários. No entanto, as taxas de inscrição podem ser um obstáculo para aqueles que estão enfrentando dificuldades financeiras. </p>

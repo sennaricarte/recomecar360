@@ -8,8 +8,8 @@ author: "Senna Ricarte"
 image: "blog/ginead-democratizando-a-educacao-com-cursos-online-gratuitos.jpg"
 pubDate: 2024-05-16T19:20:45+00:00
 status: "published"
-metaTitle: "GINEAD: Democratizando a Educação com Cursos Online Gratuitos"
-metaDescription: "A&nbsp;educação&nbsp;é a espinha dorsal de uma sociedade próspera e, em um mundo cada vez mais conectado, o acesso ao conhecimento não deve ser um privilégio, mas um direito universal. Com a ascensão da&nbsp;tecnologia digital, surge uma oportunidade sem precedentes para democratizar o aprendizado."
+metaTitle: "GINEAD: Cursos Online Gratuitos, Como Funcionam"
+metaDescription: "Conheça a GINEAD, plataforma de cursos online gratuitos: áreas de estudo, como funciona, acessibilidade e o que considerar antes de se inscrever."
 ---
 
 <p>A&nbsp;<strong>educação</strong>&nbsp;é a espinha dorsal de uma sociedade próspera e, em um mundo cada vez mais conectado, o acesso ao conhecimento não deve ser um privilégio, mas um direito universal. Com a ascensão da&nbsp;<strong>tecnologia digital</strong>, surge uma oportunidade sem precedentes para democratizar o aprendizado. Neste contexto, plataformas de&nbsp;<strong>educação online</strong>&nbsp;desempenham um papel crucial, eliminando barreiras geográficas e financeiras que muitas vezes impedem indivíduos de expandir seus horizontes.</p>
