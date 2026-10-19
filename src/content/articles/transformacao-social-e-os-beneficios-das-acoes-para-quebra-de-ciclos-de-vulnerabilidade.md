@@ -1,15 +1,15 @@
 ---
 title: "Transformação Social e os benefícios das ações para quebra de ciclos de vulnerabilidade"
 slug: "transformacao-social-e-os-beneficios-das-acoes-para-quebra-de-ciclos-de-vulnerabilidade"
-excerpt: ""
+excerpt: "Educação, saúde e geração de renda ajudam a quebrar ciclos de vulnerabilidade social. Entenda como as ações de transformação social funcionam."
 category: "Blog"
 cluster: "terceiro-setor"
 author: "Senna Ricarte"
 image: "blog/transformacao-social-e-os-beneficios-das-acoes-para-quebra-de-ciclos-de-vulnerabilidade.jpg"
 pubDate: 2024-02-20T16:40:53+00:00
 status: "published"
-metaTitle: "Transformação Social e os benefícios das ações para quebra de ciclos de vulnerabilidade"
-metaDescription: ""
+metaTitle: "Transformação Social e Vulnerabilidade: Como Agir"
+metaDescription: "Entenda como educação, saúde e geração de renda ajudam a quebrar ciclos de vulnerabilidade social e promovem transformação social duradoura."
 ---
 
 A <strong>transformação social</strong> é um processo complexo e contínuo que busca melhorar as condições de vida de comunidades e indivíduos, especialmente aqueles que enfrentam vulnerabilidades socioeconômicas.

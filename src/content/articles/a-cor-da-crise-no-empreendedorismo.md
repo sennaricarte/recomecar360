@@ -1,20 +1,24 @@
 ---
 title: "A cor da crise no empreendedorismo"
 slug: "a-cor-da-crise-no-empreendedorismo"
-excerpt: ""
+excerpt: "Artigo de opinião de Kelly Baptista sobre mulheres negras, violência e empreendedorismo por necessidade durante a pandemia."
 category: "Blog"
 cluster: "terceiro-setor"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2020-10-20T12:51:04+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "A cor da crise no empreendedorismo"
-metaDescription: ""
+metaTitle: "A Cor da Crise no Empreendedorismo: Mulheres Negras"
+metaDescription: "Artigo de opinião de Kelly Baptista: como a pandemia e o racismo empurram mulheres negras ao empreendedorismo por necessidade."
 ---
 
 Eu não sei se você é uma pessoa branca ou negra, mas o que eu sei é que esse fato definiu a sua vida e define a minha vida também.
 
-Quando falamos de violência contra mulheres, nós precisamos aumentar o recorte para falarmos de mulheres negras. A cada 23 minutos um jovem negro é assinado e aí entramos no <strong>enlutamento</strong>, na dor e na violência que diversas mães negras sofrem.
+
+
+<p><strong>Atenção:</strong> este é um artigo de opinião de 2020, escrito no contexto da pandemia. Os números citados pela autora não trazem fonte. Consulte dados atualizados do IBGE, do Ipea e do Atlas da Violência antes de reutilizá-los.</p>
+Quando falamos de violência contra mulheres, nós precisamos aumentar o recorte para falarmos de mulheres negras. A cada 23 minutos um jovem negro é assassinado e aí entramos no <strong>enlutamento</strong>, na dor e na violência que diversas mães negras sofrem.
 
 Essa mulher perde seu filho na mão do Estado e depois ela precisa continuar sem nenhum acompanhamento psicológico.
 

@@ -1,95 +1,133 @@
 ---
 title: "Estratégias para captação de recursos para o Terceiro Setor"
 slug: "estrategias-para-captacao-de-recursos-para-o-terceiro-setor"
-excerpt: ""
+excerpt: "Veja como captar recursos para uma ONG: doações, incentivos fiscais, parcerias com o poder público, fundos patrimoniais, eventos, produtos e financiamento coletivo."
 category: "Blog"
 cluster: "terceiro-setor"
 author: "Joel Novaes"
 image: "blog/estrategias-para-captacao-de-recursos-para-o-terceiro-setor.jpg"
 pubDate: 2024-02-08T12:46:32+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Estratégias para captação de recursos para o Terceiro Setor"
-metaDescription: ""
+metaTitle: "Captação de Recursos para o Terceiro Setor: Guia"
+metaDescription: "Guia de captação de recursos para ONGs: doações, incentivos fiscais, parcerias com o governo, fundos patrimoniais, eventos e financiamento coletivo."
 ---
 
-<h2>Captação de Recursos para o Terceiro Setor: Estratégias Eficientes para Impulsionar sua Causa</h2>
-Se você faz parte de uma organização do terceiro setor, certamente, sabe o quão desafiador pode ser captar recursos para sustentar as atividades e projetos.
+<p>Captar recursos é o maior desafio de quase toda ONG. A saída é <strong>diversificar as fontes</strong> e prestar contas com transparência.</p>
 
-No entanto, com as estratégias certas e uma abordagem bem planejada, é possível alcançar resultados significativos e impulsionar sua causa de forma eficaz.
+<p>No Instituto Recomeçar, enfrentamos preconceito e receio da sociedade em relação à nossa causa. Por isso, testamos várias formas de captação. Este guia reúne as principais.</p>
 
-No Instituto Recomeçar, enfrentamos desafios contínuos devido ao preconceito e ao receio da sociedade em relação à nossa causa. Por isso, estamos em constante busca por inovação e por ampliação de nossas fontes de captação de recursos.
+<h2>Principais fontes de captação</h2>
 
-Neste artigo, vamos explorar algumas das melhores formas de captação de recursos, desde doações até eventos e venda de produtos, para ajudar você a alcançar seus objetivos.
-<h2>Doações: A Força da Generosidade</h2>
-Quando se trata de doações, há várias maneiras de engajar tanto pessoas físicas quanto empresas em sua causa.
-<h3>Pessoas Físicas</h3>
-As campanhas online são sem dúvida, uma excelente maneira de alcançar um grande número de doadores potenciais. Plataformas como Vakinha, Benfeitoria e Kickstarter oferecem uma infraestrutura sólida para lançar campanhas de sucesso.
+<table>
+<thead><tr><th>Fonte</th><th>Exemplo</th><th>Esforço</th></tr></thead>
+<tbody>
+<tr><td>Pessoas físicas</td><td>Doação recorrente, campanhas online</td><td>Médio</td></tr>
+<tr><td>Empresas</td><td>Patrocínio, incentivos fiscais</td><td>Alto</td></tr>
+<tr><td>Poder público</td><td>Termo de fomento (Lei 13.019/2014)</td><td>Alto</td></tr>
+<tr><td>Fundos patrimoniais</td><td>Doações a fundos (Lei 13.800/2019)</td><td>Alto</td></tr>
+<tr><td>Eventos</td><td>Jantar, corrida, show</td><td>Médio</td></tr>
+<tr><td>Venda de produtos</td><td>Camisetas, produtos sociais</td><td>Baixo a médio</td></tr>
+</tbody>
+</table>
 
-Ao criar sua campanha, lembre-se de definir metas claras e prazos específicos, além de contar histórias inspiradoras dos beneficiados. Oferecer recompensas para os doadores também pode incentivar a participação e aumentar o engajamento.
+<h2>Doações de pessoas físicas</h2>
 
-Além das campanhas online, ter um <a href="https://eu.ajudei.org/recomecar/os550/site" target="_blank" rel="noopener">botão de doação</a> em seu site é fundamental. Isso facilita o processo para quem deseja contribuir e oferece diferentes opções de valores e periodicidade. Certifique-se então, de utilizar plataformas de pagamento seguras para garantir a confiança dos doadores.
+<p>Doadores individuais são a base mais estável de uma ONG. Priorize a <strong>doação recorrente</strong>, que dá previsibilidade ao caixa.</p>
 
-Investir em marketing de relacionamento também pode ser muito eficaz. Construir uma <a href="https://vaikida.online/email-marketing-de-sucesso-principios-basicos-para-criar-campanhas/" target="_blank" rel="noopener">mailing list</a> para enviar newsletters e utilizar as redes sociais para divulgar sua causa são maneiras poderosas de manter os doadores engajados e principalmente, informados sobre o impacto de suas doações.
+<ul>
+<li><strong>Botão de doação no site:</strong> ofereça valores e periodicidade variados. Veja o <a href="https://eu.ajudei.org/recomecar/os550/site" target="_blank" rel="noopener noreferrer">botão de doação do Recomeçar</a>.</li>
+<li><strong>Campanhas online:</strong> plataformas de financiamento coletivo, como Vakinha e Benfeitoria, ajudam a lançar campanhas com meta e prazo definidos.</li>
+<li><strong>Relacionamento:</strong> mantenha lista de e-mails e redes sociais para mostrar o impacto de cada doação.</li>
+<li><strong>Nota fiscal solidária:</strong> alguns estados e municípios têm programas que devolvem parte do imposto a entidades indicadas pelo consumidor. Confirme se há programa na sua cidade.</li>
+</ul>
 
-Além disso, organizar eventos de captação de recursos pode ser uma ótima maneira de criar conexões pessoais e fortalecer o relacionamento com os doadores.
-<h3>Empresas</h3>
-As empresas também podem desempenhar um papel importante na captação de recursos para o terceiro setor. Leis de incentivo, como a Lei Rouanet, a Lei do Incentivo ao Esporte e o Pronasci, oferecem oportunidades para as empresas investirem em projetos culturais, esportivos e sociais, respectivamente.
+<h2>Empresas e incentivos fiscais</h2>
 
-Além disso, buscar patrocínios pode ser uma estratégia eficaz. Oferecer às empresas a oportunidade de associar sua marca à sua causa e criar ações de marketing que beneficiem tanto a empresa quanto a instituição pode ser uma forma poderosa de garantir apoio financeiro.
-<h2>Eventos: Conectando Pessoas e Causas</h2>
-Eventos beneficentes são certamente, uma maneira fantástica de envolver a comunidade e arrecadar fundos para sua organização.
-<h3>Jantar beneficente</h3>
-A organização de um jantar beneficente, com música ao vivo e leilão, pode ser uma maneira divertida e também elegante de arrecadar fundos.
+<p>Empresas podem apoiar por patrocínio, doação direta ou incentivo fiscal. Cada incentivo tem regras e limites próprios.</p>
 
-Vender convites e convidar empresas para patrocinar o evento são etapas importantes para garantir o sucesso. Além disso, não se esqueça de utilizar as redes sociais e a mídia local para divulgar o evento e atrair participantes.
-<h3>Corrida beneficente:</h3>
-Uma corrida beneficente é uma excelente forma de unir as pessoas em torno de uma causa comum. Criar um percurso interessante e cobrar uma taxa de inscrição pode sem dúvida, gerar uma boa receita.
+<ul>
+<li><strong>Fundos da Criança e do Adolescente e da Pessoa Idosa:</strong> doações a esses fundos podem ser deduzidas do Imposto de Renda. Para pessoas físicas, o limite costuma ser de 3% do imposto devido para cada fundo, dentro de um teto conjunto de 6%. Para empresas, só quem apura pelo lucro real pode deduzir, em geral até 1% por fundo.</li>
+<li><strong>Leis de incentivo à cultura e ao esporte:</strong> a Lei Rouanet (Lei 8.313/1991) apoia projetos culturais aprovados. Há também a lei de incentivo ao esporte. Em ambos, o projeto precisa ser aprovado antes.</li>
+<li><strong>Patrocínio:</strong> ofereça associação de marca à causa, com contrapartidas claras e relatório de resultados.</li>
+</ul>
 
-Novamente, contar com o apoio de empresas para patrocinar o evento e investir na divulgação são aspectos essenciais para o êxito da iniciativa.
-<h3>Show beneficente</h3>
-Um show beneficente, com artistas locais ou nacionais, pode atrair um grande público e arrecadar fundos significativos.
+<p>As regras mudam. Confirme limites e prazos na Receita Federal e com seu contador antes de divulgar o benefício a doadores.</p>
 
-Vender ingressos para o evento e buscar patrocínios empresariais são estratégias-chave para maximizar o impacto financeiro.
+<h2>Parcerias com o poder público</h2>
 
-A divulgação adequada também desempenha um papel crucial na promoção do evento e na mobilização da comunidade.
-<h2>Venda de Produtos: Transformando Solidariedade em Produtos</h2>
-A venda de produtos é com toda a certeza uma maneira criativa e sustentável de captar recursos para sua organização.
-<h3>Camisetas, canecas e outros produtos personalizados</h3>
-Criar produtos personalizados com a <a href="/quem-somos/">marca da instituição</a> é uma forma eficaz de angariar fundos e promover a conscientização sobre a causa.
+<p>A Lei 13.019/2014 (Marco Regulatório das Organizações da Sociedade Civil) regula as parcerias entre governo e ONGs. Ela prevê dois instrumentos:</p>
 
-Vender esses produtos online e em eventos pode gerar uma fonte estável de receita.
+<ul>
+<li><strong>Termo de colaboração:</strong> a proposta parte da administração pública.</li>
+<li><strong>Termo de fomento:</strong> a proposta parte da organização da sociedade civil.</li>
+</ul>
 
-<a href="https://umapenca.com/opportunitastore/" target="_blank" rel="noopener">Veja um exemplo e visite nossa loja clicando aqui!</a>
+<p>Em regra, a parceria é precedida de <strong>chamamento público</strong>. Acompanhe os editais do seu município, estado e do governo federal. Organize a documentação da entidade antes de o edital sair.</p>
+
+<h2>Fundos patrimoniais (endowments)</h2>
+
+<p>A Lei 13.800/2019 criou regras para fundos patrimoniais. Eles reúnem doações privadas, preservam o valor principal e usam os rendimentos para financiar projetos de interesse público a longo prazo.</p>
+
+<p>O fundo é gerido por uma organização gestora, sem fins lucrativos, e apoia instituições como as ONGs. É uma estratégia de longo prazo, indicada para organizações já estruturadas.</p>
+
+<h2>Eventos beneficentes</h2>
+
+<ul>
+<li><strong>Jantar beneficente:</strong> venda de convites, leilão e patrocínio.</li>
+<li><strong>Corrida beneficente:</strong> taxa de inscrição e patrocínio de empresas.</li>
+<li><strong>Show beneficente:</strong> ingressos e apoio de artistas locais.</li>
+</ul>
+
+<p>Calcule o custo antes. Um evento só vale a pena se a receita líquida superar o esforço da equipe.</p>
+
+<h2>Venda de produtos</h2>
+
+<p>Camisetas, canecas e itens com a marca da instituição geram receita e divulgam a causa. Também é possível vender <strong>produtos feitos pelos atendidos</strong>, o que une renda e capacitação.</p>
+
+<p><a href="https://umapenca.com/opportunitastore/" target="_blank" rel="noopener noreferrer">Veja um exemplo na loja do Recomeçar.</a></p>
 
 <a href="https://umapenca.com/opportunitastore/" target="_blank" rel="noopener"><img class="aligncenter size-full wp-image-5859" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/db1153b5-6641-4f30-89dd-02423993daf6/camiseta-ecomecar-01.jpg" alt="Camiseta Recomeçar Recife" width="500" height="500" /></a>
-<h3>Produtos sociais</h3>
-Além de criar produtos próprios, você também pode considerar a venda de produtos feitos por pessoas beneficiadas pela sua instituição.
 
-Isso não apenas ajuda a arrecadar fundos, mas também proporciona oportunidades de emprego e capacitação para aqueles que mais precisam.
-<h2>Crowdfunding: Unindo Forças para Alcançar Objetivos</h2>
-O crowdfunding é uma maneira poderosa de mobilizar um grande número de pessoas em torno de um objetivo comum.
-<h3>Nota Fiscal: Transformando Compras em Solidariedade</h3>
-Incentivar seus doadores a solicitar a nota fiscal com o CPF da sua instituição é uma forma simples e eficaz de captar recursos sem nenhum custo adicional para eles.
-<h3>Filiação: Transformando Apoio em Compromisso</h3>
-Oferecer a oportunidade de filiação é uma maneira de envolver os apoiadores de forma mais profunda e sustentável.
+<h2>Filiação e associados</h2>
 
-Os membros podem contribuir com uma quantia mensal ou anual, garantindo uma fonte regular de financiamento para a organização.
-<h3>Dicas Importantes: O Caminho para o Sucesso</h3>
-Para garantir o sucesso de suas iniciativas de captação de recursos, é fundamental seguir algumas diretrizes importantes:
+<p>Programas de associados permitem contribuição mensal ou anual. Dão previsibilidade e aprofundam o vínculo com apoiadores.</p>
+
+<h2>Boas práticas</h2>
+
 <ul>
- 	<li>Tenha um planejamento estratégico claro e bem definido.</li>
- 	<li>Comunique-se de forma clara e transparente sobre a sua causa e o uso dos recursos doados.</li>
- 	<li>Invista em marketing e comunicação para ampliar o alcance de sua instituição e de seus projetos.</li>
- 	<li>Construa relacionamentos sólidos com potenciais doadores e parceiros.</li>
- 	<li>Monitore e avalie constantemente os resultados de suas ações, fazendo ajustes sempre que necessário.</li>
+<li>Tenha um plano de captação com metas por fonte.</li>
+<li>Preste contas com clareza: publique relatórios e o uso dos recursos.</li>
+<li>Não dependa de uma única fonte.</li>
+<li>Meça resultados e ajuste. Veja <a href="/blog/o-que-e-impacto-social/">como medir impacto social</a>.</li>
+<li>Envolva voluntários. Leia <a href="/blog/o-que-voce-ganha-ao-ser-um-voluntario-em-uma-ong/">o que se ganha ao ser voluntário em uma ONG</a>.</li>
 </ul>
-<h3>Recursos Úteis: O Apoio que Você Precisa</h3>
-Para obter mais orientações e suporte na sua jornada de captação de recursos, você pode contar com recursos úteis como a <a href="https://captadores.org.br/" target="_blank" rel="noopener">ABCR</a>, o <a href="https://www.phomenta.com.br/" target="_blank" rel="noopener">Instituto Phomenta</a> e o <a href="https://gife.org.br/" target="_blank" rel="noopener">GIFE</a>.
 
-Lembre-se sempre de que a captação de recursos é um processo contínuo que requer dedicação, esforço e criatividade.
+<h2>Onde buscar apoio</h2>
 
-Com as estratégias certas e uma abordagem centrada na causa, você pode aumentar significativamente as chances de sucesso de sua instituição e fazer uma diferença real na comunidade que você serve.
+<p>Três referências para quem capta recursos: a <a href="https://captadores.org.br/" target="_blank" rel="noopener noreferrer">ABCR</a> (Associação Brasileira de Captadores de Recursos), o <a href="https://www.phomenta.com.br/" target="_blank" rel="noopener noreferrer">Instituto Phomenta</a> e o <a href="https://gife.org.br/" target="_blank" rel="noopener noreferrer">GIFE</a>.</p>
 
-<span style="color: #ff0000"><strong>Dica de leitura sobre o tema abordado no artigo:</strong></span>
-<p id="title" class="a-spacing-none a-text-normal"><strong><span id="productTitle" class="a-size-extra-large celwidget" data-csa-c-id="pdfpxq-tmpocx-6czmfk-afdob2" data-cel-widget="productTitle">ONG Sustentável: O guia para organizações do terceiro setor economicamente prósperas</span></strong></p>
-<a href="https://amzn.to/49bHrjN" target="_blank" rel="noopener"><img class="aligncenter size-full wp-image-5871" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/db1153b5-6641-4f30-89dd-02423993daf6/livro-ONG-Sustentavel.jpg" alt="ONG Sustentável: O guia para organizações do terceiro setor economicamente prósperas" width="400" height="400" /></a>;
+<h2>Perguntas frequentes</h2>
+
+<h3>Qual a melhor forma de captar recursos para uma ONG?</h3>
+<p>Não existe uma só. As ONGs mais estáveis combinam doadores recorrentes, empresas, editais e eventos.</p>
+
+<h3>Toda ONG pode receber doações dedutíveis do Imposto de Renda?</h3>
+<p>Não. A dedução vale para doações a fundos e projetos previstos em lei. Doações diretas a uma ONG, em geral, não são dedutíveis para pessoas físicas.</p>
+
+<h3>O que é termo de fomento?</h3>
+<p>É o instrumento da Lei 13.019/2014 para parcerias com o governo propostas pela própria ONG, com repasse de recursos.</p>
+
+<p><strong>Dica de leitura:</strong> <em>ONG Sustentável: o guia para organizações do terceiro setor economicamente prósperas</em>. Link de afiliado.</p>
+
+<a href="https://amzn.to/49bHrjN" target="_blank" rel="sponsored noopener noreferrer"><img class="aligncenter size-full wp-image-5871" src="https://wrxixyyppfddfxnsnwnt.supabase.co/storage/v1/object/public/article-images/articles/db1153b5-6641-4f30-89dd-02423993daf6/livro-ONG-Sustentavel.jpg" alt="ONG Sustentável: O guia para organizações do terceiro setor economicamente prósperas" width="400" height="400" /></a>
+
+<h2>Fontes</h2>
+
+<p>Conferidas em 19 de outubro de 2026. Os percentuais de dedução vêm de material de apoio contábil e jurídico. Confirme na Receita Federal.</p>
+
+<ul>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13019.htm" target="_blank" rel="noopener noreferrer">Planalto – Lei 13.019/2014 (Marco Regulatório das OSCs)</a></li>
+<li><a href="https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/L13800.htm" target="_blank" rel="noopener noreferrer">Planalto – Lei 13.800/2019 (Fundos patrimoniais)</a></li>
+<li><a href="https://www.gov.br/receitafederal/pt-br" target="_blank" rel="noopener noreferrer">Receita Federal – regras de Imposto de Renda e doações incentivadas</a></li>
+</ul>

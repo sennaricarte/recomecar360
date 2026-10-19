@@ -1,15 +1,16 @@
 ---
 title: "Inclusão Produtiva: Transformando Vidas e Fortalecendo Comunidades"
 slug: "inclusao-produtiva"
-excerpt: "A inclusão produtiva é um tema que ganha cada vez mais destaque no Brasil. Em tempos de desafios econômicos, entender como transformar vidas e fortalecer comunidades se torna essencial. Mas o que realmente significa incluir pessoas no mercado de trabalho de forma eficaz?"
+excerpt: "Inclusão produtiva integra pessoas em vulnerabilidade ao trabalho e à renda. Veja conceito, estratégias e exemplos."
 category: "Blog"
 cluster: "terceiro-setor"
 author: "Senna Ricarte"
 image: "blog/inclusao-produtiva.jpg"
 pubDate: 2025-10-23T17:57:40+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Inclusão Produtiva: Transformando Vidas e Fortalecendo Comunidades"
-metaDescription: "A inclusão produtiva é um tema que ganha cada vez mais destaque no Brasil. Em tempos de desafios econômicos, entender como transformar vidas e fortalecer comunidades se torna essencial. Mas o que realmente significa incluir pessoas no mercado de trabalho de forma eficaz?"
+metaTitle: "Inclusão Produtiva: O Que É e Como Gera Renda"
+metaDescription: "Entenda o que é inclusão produtiva, como ela gera trabalho e renda para pessoas em vulnerabilidade e exemplos de estratégias."
 ---
 
 <p>A inclusão produtiva é um tema que ganha cada vez mais destaque no Brasil. Em tempos de desafios econômicos, entender como transformar vidas e fortalecer comunidades se torna essencial. Mas o que realmente significa incluir pessoas no mercado de trabalho de forma eficaz? </p>
@@ -86,7 +87,7 @@ metaDescription: "A inclusão produtiva é um tema que ganha cada vez mais desta
 
 <h2 class="wp-block-heading">Dados sobre inclusão produtiva no Brasil</h2>
 
-<p>A inclusão produtiva no Brasil é um tema crescente, com diversas iniciativas surgindo nas últimas décadas. Segundo dados do IBGE, cerca de 25% da população brasileira vive em situação de vulnerabilidade econômica, destacando a urgência dessas ações.<br><br>Além disso, o Brasil tem avançado na criação de programas que promovem oportunidades para grupos marginalizados. Esses esforços buscam não apenas reduzir a pobreza, mas também fortalecer o tecido social e econômico das comunidades.</p>
+<p>A inclusão produtiva no Brasil é um tema crescente, com diversas iniciativas surgindo nas últimas décadas.<br><br>Além disso, o Brasil tem avançado na criação de programas que promovem oportunidades para grupos marginalizados. Esses esforços buscam não apenas reduzir a pobreza, mas também fortalecer o tecido social e econômico das comunidades.</p>
 
 <h2 class="wp-block-heading">Benefícios da inclusão produtiva</h2>
 

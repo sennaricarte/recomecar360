@@ -1,20 +1,24 @@
 ---
 title: "Educação Para Todos"
 slug: "educacao-para-todos"
-excerpt: ""
+excerpt: "Em 2021, mais de 25 mil presos de São Paulo se inscreveram no Encceja PPL. Veja como funciona a prova para pessoas privadas de liberdade."
 category: "Blog"
 cluster: "terceiro-setor"
 author: "Joel Novaes"
 image: "blog/_placeholder.svg"
 pubDate: 2021-07-21T13:26:13+00:00
+noindex: true
 status: "published"
-metaTitle: "Educação Para Todos"
-metaDescription: ""
+metaTitle: "Encceja PPL: Educação para Presos em São Paulo (2021)"
+metaDescription: "Notícia de 2021: 25.811 presos de São Paulo se inscreveram no Encceja PPL. Entenda como a prova certifica o ensino fundamental e médio."
 ---
 
 <h2 style="text-align: center">Presos de São Paulo participam de exame para conclusão dos estudos.</h2>
 Avaliação do <a href="http://enccejanacional.inep.gov.br/encceja/#!/inicial" target="_blank" rel="noopener">Encceja</a> para os privados de liberdade ocorrerá em outubro e serve para certificar jovens e adultos nos ensinos fundamental e médio.
 
+
+
+<p><strong>Atenção:</strong> notícia de outubro de 2021, mantida como registro. Para datas e regras atuais do Encceja, consulte o edital do Inep e leia o guia <a href="/blog/o-que-e-o-encceja-e-por-que-ele-e-importante/">do Encceja</a>.</p>
 Mais de 25 mil reclusos da <a href="http://www.sap.sp.gov.br/" target="_blank" rel="noopener">Secretaria da Administração Penitenciária</a> (SAP) do Estado de São Paulo terão a chance de concluir os estudos nos ensinos fundamental e médio por meio do Exame Nacional para Certificação de Competências de Jovens e Adultos (Encceja) para Pessoas Privadas de Liberdade (PPL).
 
 Ao todo, 25.811 presos estão inscritos para a prova. Realizado pelo Instituto Nacional de Ensino e Pesquisas Educacionais Anísio Teixeira (Inep), o Encceja PPL serve para certificar, de uma forma mais ágil, participantes que não puderam ou tiveram dificuldades em finalizar o ensino regular na idade apropriada para cada nível.
