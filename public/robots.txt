@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /obrigado/
 Sitemap: https://recomecar360.org/sitemap-index.xml

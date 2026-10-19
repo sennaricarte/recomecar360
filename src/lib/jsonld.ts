@@ -107,7 +107,7 @@ export function nonprofitJsonLd(siteUrl: string = SITE_URL) {
     name: 'Instituto Recomeçar',
     url: siteUrl,
     description:
-      'O Instituto Recomeçar reduz a reincidência criminal e gera segurança pública com ROI comprovado: R$16 para cada R$1 investido.',
+      'ONG que apoia egressos do sistema prisional com qualificação, emprego e acolhimento desde 2015.',
     logo: `${siteUrl}/logo-recomecar.png`,
     foundingDate: '2015',
     sameAs: [...SOCIAL_LINKS],

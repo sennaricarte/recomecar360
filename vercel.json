@@ -21,6 +21,16 @@
       "statusCode": 301
     },
     {
+      "source": "/cadastro-unico",
+      "destination": "/blog/como-fazer-o-cadunico-passo-a-passo/",
+      "statusCode": 301
+    },
+    {
+      "source": "/leo-precioso",
+      "destination": "/quem-somos/",
+      "statusCode": 301
+    },
+    {
       "source": "/projeto-integrado",
       "destination": "/",
       "statusCode": 301

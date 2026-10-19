@@ -9,7 +9,7 @@ image: "blog/seguro-desemprego-negado-bloqueado-o-que-fazer.jpg"
 pubDate: 2026-02-02T19:45:57+00:00
 updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
-metaTitle: "Seguro-Desemprego Negado ou Bloqueado? O Que Fazer"
+metaTitle: "Seguro-Desemprego Negado ou Bloqueado? O Que Fazer em 2026"
 metaDescription: "Seguro-desemprego negado, bloqueado ou não liberado? Veja os motivos, como fazer o recurso pelo celular e o prazo de 2 anos para pedir revisão."
 ---
 
