@@ -14,6 +14,9 @@ metaDescription: "No cenário corporativo atual, a&nbsp;proficiência em Excel&n
 
 <p>No cenário corporativo atual, a&nbsp;<strong>proficiência em Excel</strong>&nbsp;é mais do que uma habilidade desejável; é uma necessidade. Este poderoso software de planilhas se tornou um&nbsp;<strong>pilar fundamental</strong>&nbsp;na análise de dados, gestão financeira e planejamento estratégico. Além disso, o domínio do Excel pode ser um&nbsp;<strong>diferencial competitivo</strong>&nbsp;no mercado de trabalho, abrindo portas para oportunidades de carreira e avanço profissional.</p>
 
+<p><strong>Atenção:</strong> cursos, vagas, prazos e a emissão de certificado (que pode ser paga) mudam sem aviso. Confirme no site oficial antes de se inscrever.</p>
+
+
 <p>Contudo, muitos profissionais e estudantes se deparam com a realidade de que cursos de qualidade podem ser um investimento significativo. Felizmente, a&nbsp;<strong>disponibilidade de cursos gratuitos</strong>&nbsp;surge como uma luz no fim do túnel, oferecendo a chance de aprimorar habilidades sem impactar o orçamento. Esses cursos são uma&nbsp;<strong>oportunidade de ouro</strong>&nbsp;para quem busca excelência sem custos.</p>
 
 <p>Neste contexto, os cursos grátis de Excel se destacam como uma&nbsp;<strong>ferramenta de capacitação acessível</strong>&nbsp;a todos. Eles permitem que indivíduos de diversas áreas aprofundem seu conhecimento, desde funções básicas até recursos avançados. Além disso, a flexibilidade de aprender no seu próprio ritmo é um&nbsp;<strong>benefício inestimável</strong>, especialmente para aqueles com agendas apertadas.</p>

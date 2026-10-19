@@ -14,6 +14,9 @@ metaDescription: "Veja como o PAT pode ajudar você a fazer cursos gratuitos, qu
 
 <p>Você já sentiu que, para alcançar aquela vaga dos sonhos ou ser promovido no trabalho, faltava "algo a mais" no seu currículo? No mercado atual, a vontade de trabalhar é o ponto de partida, mas a <strong>qualificação profissional</strong> é o combustível que faz a carreira decolar.</p>
 
+<p><strong>Atenção:</strong> cursos, vagas, prazos e a emissão de certificado (que pode ser paga) mudam sem aviso. Confirme no site oficial antes de se inscrever.</p>
+
+
 <p>Aqui no <strong>Instituto Recomeçar</strong>, acreditamos que a educação profissional e cidadã é a ferramenta mais poderosa para diminuir a reincidência e abrir portas que antes pareciam trancadas. E uma das melhores formas de começar essa jornada é através de parceiros públicos, como o <strong>PAT (Posto de Atendimento ao Trabalhador)</strong>.</p>
 
 <p>Neste artigo, vamos te mostrar como os cursos gratuitos podem ser o atalho para a sua promoção e como você pode acessar essas oportunidades hoje mesmo.</p>

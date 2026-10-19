@@ -14,6 +14,9 @@ metaDescription: "Veja o que o curso grátis de Controlador de Acesso da Prime C
 
 <p>Segurança é a base de qualquer lugar que a gente chama de lar ou trabalho. <strong>Profissionais de portaria</strong> são super importantes, porque eles são a primeira impressão e a linha de frente da segurança. Com a demanda por segurança aumentando, o <strong>Curso Grátis de Controlador de Acesso</strong> da <a href="https://www.primecursos.com.br/curso-de-controlador-de-acesso/?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=%5BMAC4%5D+%5BSearch%5D+Isolada-kw-Porteiro&amp;utm_content=461359650907&amp;utm_term=controlador%20de%20acesso%20curso&amp;gad_source=1&amp;gclid=Cj0KCQjw6PGxBhCVARIsAIumnWbPWr2wU9BmKmZgfEUKsoSbaWi8zDtWA4H0Ozcl6ags_MS4PVPjNQwaAs3EEALw_wcB" target="_blank" rel="noreferrer noopener">Prime Cursos</a> é a chance perfeita pra quem quer brilhar nessa área tão essencial.</p>
 
+<p><strong>Atenção:</strong> cursos, vagas, prazos e a emissão de certificado (que pode ser paga) mudam sem aviso. Confirme no site oficial antes de se inscrever.</p>
+
+
 <p>Além do mais, o curso é super completo, ensinando desde o <strong>bom atendimento</strong> até como lidar com situações mais complicadas. Ele prepara o aluno pra ser muito mais que um guardião de portas; ele vira um expert em segurança patrimonial. Então, o curso é a ferramenta que faltava para quem não quer só um trampo, mas uma carreira de sucesso.</p>
 
 <p>E o melhor de tudo, a Prime Cursos oferece esse curso de graça. Isso mesmo, sem gastar nada, todo mundo pode aprender e se qualificar. Isso atrai um monte de gente, todos querendo melhorar e ter sucesso na profissão.</p>
