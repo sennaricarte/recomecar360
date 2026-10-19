@@ -7,6 +7,7 @@ cluster: "profissoes"
 author: "Senna Ricarte"
 image: "blog/profissao-desentupidor.jpg"
 pubDate: 2026-01-20T14:19:23+00:00
+updatedDate: 2026-10-19T12:00:00+00:00
 status: "published"
 metaTitle: "Profissão Desentupidor: Qualificação e Oportunidades no Mercado de Trabalho"
 metaDescription: "Muitas pessoas, ao buscarem uma nova trajetória profissional, procuram áreas que ofereçam estabilidade, demanda constante e a possibilidade de trabalhar de forma autônoma ou em grandes empresas. Nesse cenário, a profissão de desentupidor se destaca como uma das portas mais acessíveis e rentáveis do"
@@ -56,7 +57,7 @@ metaDescription: "Muitas pessoas, ao buscarem uma nova trajetória profissional,
 
 <p>Busque capacitação que aborde:</p>
 
-<ol class="wp-block-list"><li><strong>Segurança do Trabalho (NR-33 e NR-35):</strong> Crucial para quem trabalha em espaços confinados ou alturas.</li>
+<ol class="wp-block-list"><li><strong>Segurança do Trabalho:</strong> pergunte se o curso inclui as normas aplicáveis a espaços confinados (NR-33) e a trabalho em altura (NR-35), conforme o tipo de serviço que você pretende fazer.</li>
 
 <li><strong>Manuseio de Equipamentos:</strong> Aprender a operar as máquinas evita acidentes e danos à rede do cliente.</li>
 
@@ -69,9 +70,9 @@ metaDescription: "Muitas pessoas, ao buscarem uma nova trajetória profissional,
 
 <p>O mercado oferece duas vias principais:</p>
 
-<ol class="wp-block-list"><li><strong>CLT (Carteira Assinada):</strong> Empresas de saneamento e <a href="https://desentupidoraemcampinas.eco.br/desentupidora-em-campinas/" target="_blank" rel="noreferrer noopener">desentupidoras particulares</a> oferecem salários que variam entre <strong>R$ 1.800,00 e R$ 3.500,00</strong>, além de comissões e adicionais de insalubridade.</li>
+<ol class="wp-block-list"><li><strong>CLT (Carteira Assinada):</strong> Empresas de saneamento e <a href="https://desentupidoraemcampinas.eco.br/desentupidora-em-campinas/" target="_blank" rel="noreferrer noopener">desentupidoras particulares</a> pagam salário conforme a região e a convenção coletiva da categoria. Alguns oferecem comissões. Consulte a convenção do seu sindicato e os anúncios atuais.</li>
 
-<li><strong>Empreendedorismo (MEI):</strong> O profissional autônomo pode faturar significativamente mais. Um único serviço de desentupimento residencial pode custar entre R$ 200,00 e R$ 800,00, dependendo da complexidade.</li>
+<li><strong>Trabalho por conta própria:</strong> o profissional autônomo define seus preços e depende da sua carteira de clientes. Peça ao menos três orçamentos de desentupidoras da sua região para ter uma referência atual. Para abrir um MEI, consulte no Portal do Empreendedor se a atividade tem enquadramento.</li>
 </ol>
 
 <h2 class="wp-block-heading"><strong>O Papel do Instituto Recomeçar na sua Jornada Profissional</strong></h2>
