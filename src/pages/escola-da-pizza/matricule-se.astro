@@ -1,0 +1,279 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SEO from '../../components/seo/SEO.astro';
+import AdSlot from '../../components/ads/AdSlot.astro';
+import JoinAdsScript from '../../components/ads/JoinAdsScript.astro';
+import { SITE_URL } from '../../lib/jsonld';
+
+const ENROLL_URL = 'https://wkf.ms/4ec71GV';
+
+const pageTitle = 'Matricule-se na Escola da Pizza | Instituto Recomeçar';
+const pageDescription =
+  'Faça sua inscrição na Escola da Pizza do Instituto Recomeçar: formação profissional gratuita em pizza artesanal. Clique em "Inscreva-se agora".';
+const canonicalPath = '/escola-da-pizza/matricule-se/';
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Início', item: SITE_URL },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: 'Escola da Pizza',
+      item: new URL('/escola-da-pizza/', SITE_URL).href,
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: 'Matricule-se',
+      item: new URL(canonicalPath, SITE_URL).href,
+    },
+  ],
+};
+
+const steps = [
+  {
+    number: '01',
+    title: 'Inscrição',
+    description: 'Preencha o formulário de inscrição. É gratuito.',
+  },
+  {
+    number: '02',
+    title: 'Acolhimento',
+    description: 'O candidato passa por uma entrevista de acolhimento com a equipe.',
+  },
+  {
+    number: '03',
+    title: 'Formação',
+    description:
+      'Curso com aulas práticas e teóricas, incluindo higiene alimentar e técnicas de massa.',
+  },
+];
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+    jsonLd={[breadcrumbJsonLd]}
+  />
+  <JoinAdsScript slot="head" />
+
+  <div class="enroll-page">
+    <section class="hero" aria-label="Matricule-se na Escola da Pizza">
+      <div class="container hero__content">
+        <nav class="breadcrumb" aria-label="Você está em">
+          <a href="/">Início</a>
+          <span aria-hidden="true">/</span>
+          <a href="/escola-da-pizza/">Escola da Pizza</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Matricule-se</span>
+        </nav>
+        <h1 class="hero__title">Matricule-se na Escola da Pizza</h1>
+        <p class="hero__text">
+          A Escola da Pizza do Instituto Recomeçar oferece formação profissional gratuita em pizza
+          artesanal para pessoas em busca de um novo começo. Clique no botão abaixo e faça sua
+          inscrição.
+        </p>
+        <a
+          href={ENROLL_URL}
+          class="btn btn--light"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Inscreva-se agora
+        </a>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Como funciona a matrícula">
+      <div class="container">
+        <h2 class="section__title">Como funciona</h2>
+        <ol class="steps">
+          {
+            steps.map((step) => (
+              <li class="step-card">
+                <span class="step-card__number" aria-hidden="true">
+                  {step.number}
+                </span>
+                <h3 class="step-card__title">{step.title}</h3>
+                <p class="step-card__text">{step.description}</p>
+              </li>
+            ))
+          }
+        </ol>
+        <p class="note">
+          Quer conhecer o projeto antes? Veja a página da <a href="/escola-da-pizza/"
+            >Escola da Pizza</a
+          >. Dúvidas? <a href="/contato">Fale conosco</a>.
+        </p>
+      </div>
+    </section>
+
+    <aside class="enroll-ad" aria-label="Publicidade">
+      <div class="container">
+        <p class="enroll-ad__label">Publicidade</p>
+        <AdSlot code="Content1" lazyload={true} />
+      </div>
+    </aside>
+  </div>
+</BaseLayout>
+
+<style>
+  .enroll-page {
+    --pizza-orange: #e85d26;
+    --pizza-orange-dark: #b8411a;
+    --pizza-cream: #faf5f0;
+  }
+
+  .container {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+  }
+
+  .hero {
+    padding: 4rem 0 4.5rem;
+    color: #ffffff;
+    background: linear-gradient(135deg, var(--pizza-orange) 0%, var(--pizza-orange-dark) 100%);
+  }
+
+  .hero__title,
+  .hero__text {
+    max-width: 44rem;
+  }
+
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+    color: rgb(255 255 255 / 85%);
+  }
+
+  .breadcrumb a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+
+  .hero__title {
+    margin-bottom: 1rem;
+    font-size: clamp(2rem, 6vw, 3.25rem);
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  .hero__text {
+    margin-bottom: 2rem;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: rgb(255 255 255 / 94%);
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.9rem 2rem;
+    font-size: 1.0625rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    transition: filter 0.15s ease;
+  }
+
+  .btn--light {
+    color: var(--pizza-orange-dark);
+    background-color: #ffffff;
+  }
+
+  .btn:hover {
+    filter: brightness(0.97);
+  }
+
+  .btn:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 3px;
+  }
+
+  .section {
+    padding: 4rem 0;
+    background-color: #ffffff;
+  }
+
+  .section__title {
+    margin-bottom: 2rem;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 700;
+    color: var(--pizza-orange-dark);
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .step-card {
+    padding: 1.5rem;
+    background-color: var(--pizza-cream);
+    border-radius: 1rem;
+  }
+
+  .step-card__number {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--pizza-orange);
+  }
+
+  .step-card__title {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+  }
+
+  .step-card__text {
+    line-height: 1.65;
+    color: var(--color-muted-text);
+  }
+
+  .note {
+    margin-top: 2rem;
+    line-height: 1.7;
+    color: var(--color-muted-text);
+  }
+
+  .note a {
+    color: var(--pizza-orange-dark);
+    text-decoration: underline;
+  }
+
+  .enroll-ad {
+    padding: 2rem 0 3rem;
+    background-color: var(--color-bg);
+  }
+
+  .enroll-ad__label {
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-muted-text);
+  }
+
+  @media (min-width: 48rem) {
+    .steps {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>
