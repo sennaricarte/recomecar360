@@ -1,0 +1,209 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/seo/SEO.astro';
+import flyer from '../assets/evento-feijoada-2026.png';
+
+const CONFIRM_URL =
+  'https://astro-form-friend.lovable.app/invite/21a3bee577fb50d80be6fe5b8376a5c1eb174deee8e85ae5';
+
+const pageTitle = 'Encontro com Feijoada | Comunidade Recomeçar';
+const pageDescription =
+  'Venha para o Encontro com Feijoada da Comunidade Recomeçar, dia 28/11 às 11h. Confirme sua presença pelo formulário.';
+const canonicalPath = '/encontro-feijoada/';
+---
+
+<BaseLayout>
+  <SEO
+    slot="head"
+    title={pageTitle}
+    description={pageDescription}
+    canonicalPath={canonicalPath}
+    ogImage="/images/evento-feijoada-2026.jpg"
+    breadcrumbs={[
+      { label: 'Início', href: '/' },
+      { label: 'Encontro com Feijoada', current: true },
+    ]}
+  />
+
+  <section class="event" aria-labelledby="event-title">
+    <div class="container event__grid">
+      <div class="event__copy">
+        <nav class="breadcrumb" aria-label="Você está em">
+          <a href="/">Início</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Encontro com Feijoada</span>
+        </nav>
+        <p class="event__eyebrow">Comunidade Recomeçar</p>
+        <h1 id="event-title" class="event__title">Encontro com Feijoada</h1>
+
+        <ul class="event__facts" aria-label="Data e horário">
+          <li><strong>Data:</strong> 28/11</li>
+          <li><strong>Horário:</strong> às 11h</li>
+        </ul>
+
+        <p>
+          Estamos preparando um momento muito especial de comunhão, alegria e confraternização com
+          a nossa Comunidade Recomeçar!
+        </p>
+        <p>
+          No dia <strong>28/11, às 11h</strong>, teremos um delicioso encontro com feijoada, e
+          queremos muito contar com a sua presença!
+        </p>
+        <p>
+          Para nos ajudar na organização desse momento, pedimos que preencha este formulário e
+          confirme sua participação.
+        </p>
+        <p>Será uma alegria ter você conosco!</p>
+
+        <a href={CONFIRM_URL} class="event__cta" target="_blank" rel="noopener noreferrer">
+          Confirmar minha presença
+        </a>
+
+        <p class="event__sign">
+          <strong>Comunidade Recomeçar</strong><br />
+          Um encontro, muitas histórias e um só propósito: recomeçar juntos!
+        </p>
+      </div>
+
+      <div class="event__art">
+        <Image
+          src={flyer}
+          alt="Arte de divulgação: Encontro com Feijoada da Comunidade Recomeçar, dia 28/11 às 11 horas"
+          widths={[480, 720, 1000]}
+          sizes="(min-width: 60rem) 32rem, 100vw"
+          loading="eager"
+          fetchpriority="high"
+          format="webp"
+          class="event__img"
+        />
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .container {
+    width: min(100% - 3rem, var(--container-max));
+    margin-inline: auto;
+  }
+
+  .event {
+    padding: 3rem 0 4rem;
+    background-color: #fffaf0;
+  }
+
+  .event__grid {
+    display: grid;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  .event__art {
+    order: -1;
+  }
+
+  .event__img {
+    width: 100%;
+    height: auto;
+    border-radius: 1.25rem;
+    box-shadow: 0 12px 32px rgb(0 0 0 / 12%);
+  }
+
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.875rem;
+    color: var(--color-muted-text);
+  }
+
+  .breadcrumb a {
+    text-decoration: underline;
+  }
+
+  .event__eyebrow {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #8a6400;
+  }
+
+  .event__title {
+    margin-bottom: 1.25rem;
+    font-size: clamp(2rem, 6vw, 3rem);
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  .event__facts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    list-style: none;
+  }
+
+  .event__facts li {
+    padding: 0.5rem 1rem;
+    font-size: 1.125rem;
+    background-color: #ffc928;
+    border-radius: 9999px;
+  }
+
+  .event__copy p {
+    margin-bottom: 1rem;
+    line-height: 1.75;
+  }
+
+  .event__cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.75rem 0 2rem;
+    padding: 1rem 2.25rem;
+    font-size: 1.125rem;
+    font-weight: 800;
+    color: #1f1f1f;
+    text-decoration: none;
+    background-color: #ffc928;
+    border-radius: 9999px;
+    box-shadow: 0 4px 0 #c99a00;
+    transition: filter 0.15s ease;
+  }
+
+  .event__cta:hover {
+    filter: brightness(0.96);
+  }
+
+  .event__cta:focus-visible {
+    outline: 3px solid #1f1f1f;
+    outline-offset: 3px;
+  }
+
+  .event__sign {
+    padding-left: 1rem;
+    border-left: 4px solid #ffc928;
+    color: var(--color-muted-text);
+  }
+
+  @media (min-width: 60rem) {
+    .event__grid {
+      grid-template-columns: 1.1fr 0.9fr;
+    }
+
+    .event__art {
+      order: 0;
+    }
+  }
+
+  @media (max-width: 30rem) {
+    .event__cta {
+      width: 100%;
+    }
+  }
+</style>
