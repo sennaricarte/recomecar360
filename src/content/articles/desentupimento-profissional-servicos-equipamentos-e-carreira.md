@@ -5,7 +5,9 @@ excerpt: "Conheça o trabalho do profissional de desentupimento: serviços mais 
 category: "Blog"
 cluster: "profissoes"
 author: "Equipe de Comunicação Recomeçar"
-image: "blog/desentupimento-profissional-servicos-equipamentos-e-carreira.jpg"
+image: "blog/desentupimento-profissional-servicos-equipamentos-e-carreira.webp"
+imageCredit: "Tima Miroshnichenko / Pexels"
+imageCreditUrl: "https://www.pexels.com/pt-br/foto/pessoa-mulher-trabalhando-limpar-6196229/"
 pubDate: 2026-11-27T18:20:00+00:00
 status: "published"
 metaTitle: "Desentupimento Profissional: Serviços e Como Começar"
@@ -24,7 +26,7 @@ focusKeyword: "desentupimento profissional"
 <p>Os serviços mais frequentes são:</p>
 
 <ul>
-<li>Desentupimento de pias de cozinha e banheiro.</li>
+<li><a href="https://desentupidoraemvinhedo.eco.br/" target="_blank" rel="noopener">Desentupimento de pias de cozinha e banheiro</a>.</li>
 <li>Limpeza de ralos e grelhas.</li>
 <li>Desobstrução de vasos sanitários.</li>
 <li>Limpeza de caixas de gordura e de passagem.</li>
