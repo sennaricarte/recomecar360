@@ -5,7 +5,9 @@ excerpt: "Veja o que faz um bombeiro hidráulico, como ele se relaciona com o en
 category: "Blog"
 cluster: "profissoes"
 author: "Equipe de Comunicação Recomeçar"
-image: "blog/bombeiro-hidraulico-o-que-faz-como-comecar-e-abrir-mei.jpg"
+image: "blog/bombeiro-hidraulico-o-que-faz-como-comecar-e-abrir-mei.webp"
+imageCredit: "AR Abnoy / Pexels"
+imageCreditUrl: "https://www.pexels.com/pt-br/foto/leve-luz-light-homem-16509869/"
 pubDate: 2026-11-27T18:00:00+00:00
 status: "published"
 metaTitle: "Bombeiro Hidráulico: O Que Faz e Como Começar na Área"
